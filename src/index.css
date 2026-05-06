@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply font-body bg-white text-toro-black;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+  a {
+    @apply transition-colors;
+  }
+  ::selection {
+    background: #2B4FBF;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "site": {
+    "name": "Toromac",
+    "tagline": "Food Industry Machinery"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "company": "Company",
+    "news": "News",
+    "contact": "Contact",
+    "quote": "Quote"
+  },
+  "cta": {
+    "quote": "Request a quote",
+    "contact": "Contact us",
+    "viewMore": "View more",
+    "viewAll": "View all",
+    "readMore": "Read article"
+  },
+  "lang": {
+    "current": "EN",
+    "switchTo": "ES"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies policy"
+  },
+  "common": {
+    "loading": "Loading…",
+    "comingSoon": "Coming soon"
+  }
+}

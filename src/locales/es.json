@@ -1,0 +1,35 @@
+{
+  "site": {
+    "name": "Toromac",
+    "tagline": "Maquinaria Industria Alimentaria"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "company": "Compañía",
+    "news": "Novedades",
+    "contact": "Contacto",
+    "quote": "Presupuesto"
+  },
+  "cta": {
+    "quote": "Solicitar presupuesto",
+    "contact": "Contactar",
+    "viewMore": "Ver más",
+    "viewAll": "Ver todos",
+    "readMore": "Leer artículo"
+  },
+  "lang": {
+    "current": "ES",
+    "switchTo": "EN"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "comingSoon": "Próximamente"
+  }
+}
