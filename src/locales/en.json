@@ -19,7 +19,9 @@
     "viewMore": "View more",
     "viewAll": "View all",
     "viewProduct": "View product",
-    "readMore": "Read article"
+    "viewCatalog": "See full catalog",
+    "readMore": "Read article",
+    "talkToEngineering": "Talk to engineering"
   },
   "lang": {
     "current": "EN",
@@ -43,5 +45,149 @@
     "loading": "Loading…",
     "comingSoon": "Coming soon",
     "skipToContent": "Skip to content"
+  },
+  "home": {
+    "seo": {
+      "title": "Toromac · Industrial machinery for food, pharma & chemical plants",
+      "description": "Manufacturers of bucket elevators, belt conveyors, centrifugal sifters and process equipment. 40+ years. 304L / 316L stainless steel. ATEX options. Technical proposal in 48 h."
+    },
+    "hero": {
+      "eyebrow": "01 / Toromac · Industry",
+      "headline": "Industrial machinery for processes where the margin of error is zero.",
+      "subhead": "We design, manufacture and install bucket elevators, belt conveyors, centrifugal sifters and process equipment for food, pharma, chemical and animal nutrition plants.",
+      "ctaPrimary": "Request a quote",
+      "ctaSecondary": "See catalog"
+    },
+    "stats": {
+      "items": [
+        { "value": "40+", "label": "years building equipment" },
+        { "value": "26", "label": "products in catalog" },
+        { "value": "4", "label": "specialised industries" },
+        { "value": "304L / 316L", "label": "sanitary finishes" }
+      ]
+    },
+    "sectors": {
+      "eyebrow": "02 / Industries",
+      "headline": "Four industries, one standard.",
+      "lead": "Each sector imposes its own rules. We build equipment that meets them without technical compromise — from a snack line to hygienic powder handling in pharma.",
+      "items": [
+        {
+          "title": "Food industry",
+          "items": ["Snacks & savoury", "Cereals & nuts", "Frozen products", "Powder ingredients"]
+        },
+        {
+          "title": "Pharma & nutraceutical",
+          "items": ["Sensitive powders", "Hygienic handling", "304L / 316L finishes", "Full traceability"]
+        },
+        {
+          "title": "Chemical industry",
+          "items": ["Granules & powders", "Controlled handling", "ATEX options on demand"]
+        },
+        {
+          "title": "Animal nutrition",
+          "items": ["Efficient transport", "Minimum product breakage", "Industrial-grade capacities"]
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "03 / Equipment",
+      "headline": "Selected catalog.",
+      "lead": "Six products that represent our three lines: elevation & transport, CALYON spare buckets, and process equipment.",
+      "viewAll": "See full catalog"
+    },
+    "clients": {
+      "eyebrow": "04 / References",
+      "headline": "Building lines with Toromac equipment.",
+      "lead": "Brands running production with our installations."
+    },
+    "ctaBand": {
+      "eyebrow": "05 / Custom proposal",
+      "headline": "Need a custom-built unit?",
+      "lead": "Send us product, capacity and sector. We reply with a technical proposal and delivery date within 48 working hours.",
+      "button": "Request a quote"
+    },
+    "news": {
+      "eyebrow": "06 / Technical notes",
+      "headline": "Latest publications.",
+      "lead": "Guides, comparisons and checklists for process engineering.",
+      "viewAll": "See all notes"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Company · Toromac · Industrial machinery manufacturer",
+      "description": "40+ years building bucket elevators, belt conveyors and process equipment for food, pharma and chemical industries. In-house engineering and direct technical support."
+    },
+    "breadcrumb": "Company",
+    "hero": {
+      "eyebrow": "Toromac · Company",
+      "headline": "Forty years building equipment for industrial processes.",
+      "subhead": "European manufacturer with in-house engineering. Specialised in elevation, transport and process equipment for industries that don't tolerate machine errors.",
+      "ctaPrimary": "Talk to engineering"
+    },
+    "history": {
+      "eyebrow": "01 / History",
+      "headline": "Four decades scaling with process industry.",
+      "paragraphs": [
+        "Toromac was founded in 1985 as a workshop building equipment for the food industry. Four decades later, we still operate the same way: in-house engineering, manufacturing under our own roof, and direct technical contact between customer and plant.",
+        "What's changed is volume, sectors and regulations. Today we build for plants moving thousands of tonnes per year, with certified sanitary finishes and ATEX options for explosion-risk environments.",
+        "What hasn't changed is how we work. Every machine is designed around the product it will handle, not around a closed catalog. There's no line between sales and engineering: the person presenting the unit is the one who signs the drawing."
+      ]
+    },
+    "why": {
+      "eyebrow": "02 / Why Toromac",
+      "headline": "Technical differences that matter on the floor.",
+      "items": [
+        {
+          "number": "01",
+          "title": "In-house design and manufacturing",
+          "body": "We don't integrate third-party equipment. Every elevator, conveyor and sifter is designed and built in our facility. That means full control of tolerances, materials and lead times — no external dependencies."
+        },
+        {
+          "number": "02",
+          "title": "Process engineering, not sales",
+          "body": "Your first contact is an engineer, not a salesperson. We'll ask about product, granulometry, density, capacity and applicable standards — because that's where a correct unit begins."
+        },
+        {
+          "number": "03",
+          "title": "Certified sanitary finishes",
+          "body": "Stainless steel 304L or 316L per sector requirement. Polished welds, no-retention geometries and hygienic-handling options for food and pharma. ATEX on demand for chemical."
+        },
+        {
+          "number": "04",
+          "title": "Auditable lead times",
+          "body": "We commit to a delivery date in the quote and we hit it. If a technical issue arises, we call you before it affects your planning. No silent overruns, no excuses."
+        }
+      ]
+    },
+    "sectors": {
+      "eyebrow": "03 / Industries",
+      "headline": "Specific engineering for each industry.",
+      "lead": "The rules for an extruded cereal, a powdered active ingredient and a chemical granulate are different. We design knowing the sector — not adapting a generic."
+    },
+    "philosophy": {
+      "eyebrow": "04 / Philosophy",
+      "headline": "Three rules we don't negotiate.",
+      "items": [
+        {
+          "title": "Product overrides catalog",
+          "body": "If the product to handle requires geometry, speed or material outside the catalog, we build it. The catalog is a starting point, not a destination."
+        },
+        {
+          "title": "Traceability is not optional",
+          "body": "Every unit ships with its documentation: material certificates, as-built drawings, FAT when applicable, manuals in customer language. Validation is part of the product."
+        },
+        {
+          "title": "After-sales is engineering, not call centre",
+          "body": "If you need spare parts, modifications or technical advice, the engineer who knows your installation will reply. No queues, no scripted protocols."
+        }
+      ]
+    },
+    "ctaBand": {
+      "eyebrow": "05 / Talk to us",
+      "headline": "Project on your desk?",
+      "lead": "Engineering team available to review specs, layout or equipment replacement. Reply within 48 working hours.",
+      "button": "Request a quote"
+    }
   }
 }

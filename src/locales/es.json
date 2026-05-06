@@ -19,7 +19,9 @@
     "viewMore": "Ver más",
     "viewAll": "Ver todos",
     "viewProduct": "Ver producto",
-    "readMore": "Leer artículo"
+    "viewCatalog": "Ver catálogo completo",
+    "readMore": "Leer artículo",
+    "talkToEngineering": "Hablar con ingeniería"
   },
   "lang": {
     "current": "ES",
@@ -43,5 +45,149 @@
     "loading": "Cargando…",
     "comingSoon": "Próximamente",
     "skipToContent": "Saltar al contenido"
+  },
+  "home": {
+    "seo": {
+      "title": "Toromac · Maquinaria industrial para alimentación, farma y química",
+      "description": "Fabricantes de elevadores de cangilones, cintas transportadoras, tamizadoras y equipos de procesado. +40 años. Acabados sanitarios 304L / 316L. Opciones ATEX. Propuesta técnica en 48 h."
+    },
+    "hero": {
+      "eyebrow": "01 / Toromac · Industria",
+      "headline": "Maquinaria industrial para procesos donde el margen de error es cero.",
+      "subhead": "Diseñamos, fabricamos e instalamos elevadores de cangilones, cintas transportadoras, tamizadoras y equipos de procesado para fábricas de alimentación, farma, química y nutrición animal.",
+      "ctaPrimary": "Solicitar presupuesto",
+      "ctaSecondary": "Ver catálogo"
+    },
+    "stats": {
+      "items": [
+        { "value": "40+", "label": "años fabricando equipos" },
+        { "value": "26", "label": "referencias en catálogo" },
+        { "value": "4", "label": "sectores especializados" },
+        { "value": "304L / 316L", "label": "acabados sanitarios" }
+      ]
+    },
+    "sectors": {
+      "eyebrow": "02 / Sectores",
+      "headline": "Cuatro industrias, una sola exigencia.",
+      "lead": "Cada sector impone sus propias normas. Fabricamos equipos que las cumplen sin compromiso técnico — desde una línea de snacks hasta una manipulación higiénica en farma.",
+      "items": [
+        {
+          "title": "Industria alimentaria",
+          "items": ["Snacks y aperitivos", "Cereales y frutos secos", "Congelados", "Ingredientes en polvo"]
+        },
+        {
+          "title": "Farma y nutracéutica",
+          "items": ["Polvos sensibles", "Manipulación higiénica", "Acabados 304L / 316L", "Trazabilidad completa"]
+        },
+        {
+          "title": "Industria química",
+          "items": ["Granulados y polvos", "Manipulación controlada", "Opciones ATEX bajo demanda"]
+        },
+        {
+          "title": "Nutrición animal",
+          "items": ["Transporte eficiente", "Mínimas roturas de producto", "Capacidades de planta industrial"]
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "03 / Equipos",
+      "headline": "Catálogo seleccionado.",
+      "lead": "Seis equipos representativos de nuestras tres líneas de producto: elevación y transporte, recambios CALYON y procesado.",
+      "viewAll": "Ver catálogo completo"
+    },
+    "clients": {
+      "eyebrow": "04 / Referencias",
+      "headline": "Producen con Toromac.",
+      "lead": "Marcas que operan en planta con nuestros equipos."
+    },
+    "ctaBand": {
+      "eyebrow": "05 / Presupuesto técnico",
+      "headline": "¿Necesita un equipo a medida?",
+      "lead": "Envíenos producto a manipular, capacidad y sector. Le respondemos con propuesta técnica y plazo de entrega en 48 horas hábiles.",
+      "button": "Solicitar presupuesto"
+    },
+    "news": {
+      "eyebrow": "06 / Notas técnicas",
+      "headline": "Últimas publicaciones.",
+      "lead": "Guías, comparativas y checklists para ingeniería de proceso.",
+      "viewAll": "Ver todas las notas"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Compañía · Toromac · Fabricante de maquinaria industrial",
+      "description": "+40 años fabricando elevadores de cangilones, cintas transportadoras y equipos de procesado para alimentación, farma y química. Diseño propio y atención técnica directa con ingeniería."
+    },
+    "breadcrumb": "Compañía",
+    "hero": {
+      "eyebrow": "Toromac · Compañía",
+      "headline": "Cuarenta años fabricando equipos para procesos industriales.",
+      "subhead": "Empresa con ingeniería propia y fabricación en Europa. Especializados en elevación, transporte y procesado para industrias que no toleran errores de equipo.",
+      "ctaPrimary": "Hablar con ingeniería"
+    },
+    "history": {
+      "eyebrow": "01 / Historia",
+      "headline": "Cuatro décadas escalando con la industria de proceso.",
+      "paragraphs": [
+        "Toromac nace en 1985 como taller de fabricación de equipos para industria alimentaria. Cuatro décadas después, mantenemos el mismo modelo: ingeniería propia, fabricación bajo control y atención técnica directa entre cliente y planta.",
+        "Lo que ha cambiado son los volúmenes, los sectores y las normas. Hoy fabricamos para fábricas que mueven miles de toneladas al año, con acabados sanitarios certificados y opciones ATEX para entornos con riesgo de explosión.",
+        "Lo que no ha cambiado es la forma de trabajar. Cada equipo se diseña a partir del producto que va a manipular, no de un catálogo cerrado. La línea entre comercial e ingeniería no existe: quien le presenta el equipo es quien firma el plano."
+      ]
+    },
+    "why": {
+      "eyebrow": "02 / Por qué Toromac",
+      "headline": "Diferencias técnicas que importan en planta.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Diseño y fabricación propios",
+          "body": "No integramos equipos de terceros. Cada elevador, cinta o tamizadora se diseña y fabrica en nuestra planta. Eso permite controlar tolerancias, materiales y plazos sin depender de proveedores externos."
+        },
+        {
+          "number": "02",
+          "title": "Ingeniería de proceso, no comercial",
+          "body": "El primer interlocutor es un ingeniero, no un vendedor. Le pediremos producto a manipular, granulometría, densidad, capacidad y normativas aplicables — porque ahí empieza un equipo correcto."
+        },
+        {
+          "number": "03",
+          "title": "Acabados sanitarios certificados",
+          "body": "Acero inoxidable 304L o 316L según exigencia del sector. Soldaduras pulidas, geometrías sin retención y opciones de manipulación higiénica para alimentación y farma. ATEX bajo demanda para química."
+        },
+        {
+          "number": "04",
+          "title": "Plazos auditables",
+          "body": "Damos plazo en presupuesto y lo cumplimos. Si surge un imprevisto técnico, le llamamos antes de que afecte a su planificación. Sin sobreentregas ni excusas."
+        }
+      ]
+    },
+    "sectors": {
+      "eyebrow": "03 / Sectores",
+      "headline": "Ingeniería específica para cada industria.",
+      "lead": "Las normas de un cereal extruido, un principio activo en polvo y un granulado químico son distintas. Diseñamos cada equipo conociendo el sector — no adaptando un genérico."
+    },
+    "philosophy": {
+      "eyebrow": "04 / Filosofía",
+      "headline": "Tres reglas que no negociamos.",
+      "items": [
+        {
+          "title": "El producto manda sobre el catálogo",
+          "body": "Si el producto a manipular requiere una geometría, una velocidad o un material que no está en catálogo, lo fabricamos. El catálogo es punto de partida, no destino."
+        },
+        {
+          "title": "La trazabilidad no es opcional",
+          "body": "Cada equipo sale de planta con su documentación: certificados de material, planos as-built, FAT cuando aplica, manuales en idioma del cliente. La validación es parte del producto."
+        },
+        {
+          "title": "El servicio postventa es ingeniería, no call center",
+          "body": "Si necesita repuestos, modificación de equipo o consulta técnica, le contesta el ingeniero que conoce su instalación. Sin colas ni protocolos genéricos."
+        }
+      ]
+    },
+    "ctaBand": {
+      "eyebrow": "05 / Hablemos",
+      "headline": "¿Tiene un proyecto entre manos?",
+      "lead": "Equipo técnico disponible para revisar especificaciones, layout o sustitución de maquinaria. Respuesta en 48 horas hábiles.",
+      "button": "Solicitar presupuesto"
+    }
   }
 }

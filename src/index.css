@@ -15,7 +15,7 @@
     @apply font-body bg-white text-toro-black;
   }
   h1, h2, h3, h4 {
-    @apply font-heading;
+    @apply font-display tracking-tight;
   }
   a {
     @apply transition-colors;
@@ -23,5 +23,44 @@
   ::selection {
     background: #2B4FBF;
     color: #ffffff;
+  }
+}
+
+@layer components {
+  /* Section eyebrow tipo datasheet: numero + texto + linea decorativa */
+  .eyebrow {
+    @apply flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.18em];
+  }
+  .eyebrow-rule {
+    @apply h-px flex-1 bg-current opacity-30;
+  }
+
+  /* Blueprint grid: textura sutil para secciones oscuras */
+  .bg-blueprint {
+    background-color: #0A0A0A;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    background-size: 56px 56px;
+    background-position: -1px -1px;
+  }
+
+  /* Number callout para stats grandes */
+  .stat-number {
+    @apply font-display font-extrabold tabular-nums tracking-tight;
+  }
+}
+
+@layer utilities {
+  /* font-display colisiona con la propiedad CSS @font-face — Tailwind no la genera.
+     Definimos manualmente la utility para nuestro display font (Saira). */
+  .font-display {
+    font-family: 'Saira', 'Inter', system-ui, sans-serif;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
   }
 }

@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -6,6 +6,10 @@ import Layout from './components/layout/Layout';
 import PageStub from './pages/PageStub';
 import NotFound from './pages/NotFound';
 import DesignSystem from './pages/DesignSystem';
+import HomeEs from './pages/es/Home';
+import CompaniaEs from './pages/es/Compania';
+import HomeEn from './pages/en/Home';
+import CompanyEn from './pages/en/Company';
 import { detectLang } from './utils/seo';
 
 function LangSync() {
@@ -27,19 +31,16 @@ function ScrollToTop() {
   return null;
 }
 
-const ES_ROUTES = [
-  { path: '/', titleKey: 'nav.home' },
+// Stubs aun-no-implementados (Fases 4-6).
+const ES_STUBS = [
   { path: '/productos', titleKey: 'nav.products' },
-  { path: '/compania', titleKey: 'nav.company' },
   { path: '/novedades', titleKey: 'nav.news' },
   { path: '/contacto', titleKey: 'nav.contact' },
   { path: '/presupuesto', titleKey: 'nav.quote' },
 ];
 
-const EN_ROUTES = [
-  { path: '/en', titleKey: 'nav.home' },
+const EN_STUBS = [
   { path: '/en/products', titleKey: 'nav.products' },
-  { path: '/en/company', titleKey: 'nav.company' },
   { path: '/en/news', titleKey: 'nav.news' },
   { path: '/en/contact', titleKey: 'nav.contact' },
   { path: '/en/quote', titleKey: 'nav.quote' },
@@ -54,18 +55,20 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
-          {ES_ROUTES.map(({ path, titleKey }) => (
+          {/* Paginas reales (Fase 3) */}
+          <Route path="/" element={<HomeEs />} />
+          <Route path="/compania" element={<CompaniaEs />} />
+          <Route path="/en" element={<HomeEn />} />
+          <Route path="/en/company" element={<CompanyEn />} />
+
+          {/* Stubs hasta Fases 4-6 */}
+          {ES_STUBS.map(({ path, titleKey }) => (
             <Route key={path} path={path} element={<PageStub titleKey={titleKey} lang="es" />} />
           ))}
-          {ES_ROUTES.filter((r) => r.path !== '/').map(({ path }) => (
-            <Route key={`${path}/`} path={`${path}/`} element={<Navigate to={path} replace />} />
-          ))}
-          {EN_ROUTES.map(({ path, titleKey }) => (
+          {EN_STUBS.map(({ path, titleKey }) => (
             <Route key={path} path={path} element={<PageStub titleKey={titleKey} lang="en" />} />
           ))}
-          {EN_ROUTES.filter((r) => r.path !== '/en').map(({ path }) => (
-            <Route key={`${path}/`} path={`${path}/`} element={<Navigate to={path} replace />} />
-          ))}
+
           {isDev && <Route path="/_design-system" element={<DesignSystem />} />}
           <Route path="*" element={<NotFound />} />
         </Route>
