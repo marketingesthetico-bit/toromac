@@ -3,7 +3,6 @@ import Container from '../ui/Container';
 import Button from '../ui/Button';
 import Eyebrow from './Eyebrow';
 import Breadcrumb from '../layout/Breadcrumb';
-import BullDecoration from './BullDecoration';
 import { useLang } from '../../hooks/useLang';
 
 export default function HeroCompany() {
@@ -19,7 +18,27 @@ export default function HeroCompany() {
 
   return (
     <section className="relative overflow-hidden bg-toro-black text-white">
-      <BullDecoration className="pointer-events-none absolute -right-24 -top-12 h-[28rem] w-[28rem] text-white/[0.05] lg:-right-12 lg:h-[34rem] lg:w-[34rem]" />
+      {/* Imagen de fondo: instalacion completa Toromac */}
+      <div className="absolute inset-0">
+        <img
+          src="/images/company/instalacion-completa.jpg"
+          alt=""
+          aria-hidden
+          width="1600"
+          height="1000"
+          className="h-full w-full object-cover object-center opacity-25"
+          loading="eager"
+        />
+        <div
+          aria-hidden
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(90deg, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.78) 45%, rgba(10,10,10,0.45) 100%)',
+          }}
+        />
+      </div>
+
       <Container className="relative z-10 pt-12 pb-20 lg:pt-16 lg:pb-28">
         <div className="mb-8 text-white/60 [&_a]:text-white/60 [&_a:hover]:text-white [&_span[aria-current]]:text-white">
           <Breadcrumb items={breadcrumb} />
@@ -30,7 +49,7 @@ export default function HeroCompany() {
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.02] tracking-tight text-balance">
               {t('company.hero.headline')}
             </h1>
-            <p className="text-lg lg:text-xl text-white/70 max-w-3xl leading-relaxed text-pretty">
+            <p className="text-lg lg:text-xl text-white/75 max-w-3xl leading-relaxed text-pretty">
               {t('company.hero.subhead')}
             </p>
             <div className="pt-2">

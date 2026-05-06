@@ -113,6 +113,29 @@
       "viewAll": "See all notes"
     }
   },
+  "catalog": {
+    "seo": {
+      "title": "Product catalog · Toromac · Industrial machinery",
+      "description": "Full Toromac catalog: bucket elevators, belt conveyors, centrifugal sifters, process equipment, CALYON buckets. 26 products for food, pharma and chemical industries."
+    },
+    "eyebrow": "Toromac · Catalog",
+    "headline": "26 units for industries that don't tolerate errors.",
+    "lead": "Filter by category to find the right unit. Each product page includes technical specs, materials and hygienic options. For custom configuration, request a technical proposal.",
+    "filterLabel": "Filter by category",
+    "allCategories": "All",
+    "viewAll": "See full catalog",
+    "empty": "No products in this category."
+  },
+  "product": {
+    "backToCatalog": "Back to catalog",
+    "specsLabel": "Technical sheet",
+    "specsHeadline": "Reference specifications.",
+    "ctaEyebrow": "Custom configuration",
+    "ctaHeadline": "{{product}} for your line?",
+    "ctaLead": "Send us product, capacity and sector. We reply with a technical proposal and delivery date within 48 working hours.",
+    "relatedEyebrow": "Also in our catalog",
+    "relatedHeadline": "Related equipment."
+  },
   "company": {
     "seo": {
       "title": "Company · Toromac · Industrial machinery manufacturer",

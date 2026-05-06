@@ -1,13 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import Sitemap from 'vite-plugin-sitemap';
+import productsData from './src/data/products/products.json' with { type: 'json' };
 
 const SITE_URL = 'https://toromac.com';
 
-// Sitemap — Fase 1: rutas estaticas base. En Fases 4 y 6 se ampliara con productos y articulos.
-// Los hreflang se emiten por pagina via PageSeo.jsx, no a nivel de sitemap, porque los slugs
-// difieren entre ES y EN (productos vs products) y las URLs no se mapean por simple prefijo.
-const baseRoutes = [
+const STATIC_ROUTES = [
   '/productos',
   '/compania',
   '/novedades',
@@ -21,12 +19,17 @@ const baseRoutes = [
   '/en/quote',
 ];
 
+const PRODUCT_ROUTES_ES = productsData.map((p) => `/productos/${p.slug?.es || p.id}`);
+const PRODUCT_ROUTES_EN = productsData.map((p) => `/en/products/${p.slug?.en || p.id}`);
+
+const ALL_ROUTES = [...STATIC_ROUTES, ...PRODUCT_ROUTES_ES, ...PRODUCT_ROUTES_EN];
+
 export default defineConfig({
   plugins: [
     react(),
     Sitemap({
       hostname: SITE_URL,
-      dynamicRoutes: baseRoutes,
+      dynamicRoutes: ALL_ROUTES,
       readable: true,
     }),
   ],

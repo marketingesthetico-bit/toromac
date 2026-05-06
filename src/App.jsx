@@ -8,8 +8,12 @@ import NotFound from './pages/NotFound';
 import DesignSystem from './pages/DesignSystem';
 import HomeEs from './pages/es/Home';
 import CompaniaEs from './pages/es/Compania';
+import ProductosEs from './pages/es/Productos';
+import ProductoDetalleEs from './pages/es/ProductoDetalle';
 import HomeEn from './pages/en/Home';
 import CompanyEn from './pages/en/Company';
+import ProductsEn from './pages/en/Products';
+import ProductDetailEn from './pages/en/ProductDetail';
 import { detectLang } from './utils/seo';
 
 function LangSync() {
@@ -31,16 +35,14 @@ function ScrollToTop() {
   return null;
 }
 
-// Stubs aun-no-implementados (Fases 4-6).
+// Stubs aun-no-implementados (Fases 5-6).
 const ES_STUBS = [
-  { path: '/productos', titleKey: 'nav.products' },
   { path: '/novedades', titleKey: 'nav.news' },
   { path: '/contacto', titleKey: 'nav.contact' },
   { path: '/presupuesto', titleKey: 'nav.quote' },
 ];
 
 const EN_STUBS = [
-  { path: '/en/products', titleKey: 'nav.products' },
   { path: '/en/news', titleKey: 'nav.news' },
   { path: '/en/contact', titleKey: 'nav.contact' },
   { path: '/en/quote', titleKey: 'nav.quote' },
@@ -55,13 +57,17 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
-          {/* Paginas reales (Fase 3) */}
+          {/* Paginas reales (Fases 3 + 4) */}
           <Route path="/" element={<HomeEs />} />
           <Route path="/compania" element={<CompaniaEs />} />
+          <Route path="/productos" element={<ProductosEs />} />
+          <Route path="/productos/:slug" element={<ProductoDetalleEs />} />
           <Route path="/en" element={<HomeEn />} />
           <Route path="/en/company" element={<CompanyEn />} />
+          <Route path="/en/products" element={<ProductsEn />} />
+          <Route path="/en/products/:slug" element={<ProductDetailEn />} />
 
-          {/* Stubs hasta Fases 4-6 */}
+          {/* Stubs hasta Fases 5-6 */}
           {ES_STUBS.map(({ path, titleKey }) => (
             <Route key={path} path={path} element={<PageStub titleKey={titleKey} lang="es" />} />
           ))}

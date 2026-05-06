@@ -113,6 +113,29 @@
       "viewAll": "Ver todas las notas"
     }
   },
+  "catalog": {
+    "seo": {
+      "title": "Catálogo de productos · Toromac · Maquinaria industrial",
+      "description": "Catálogo completo Toromac: elevadores de cangilones, cintas transportadoras, tamizadoras, equipos de procesado, cangilones CALYON. 26 productos para alimentación, farma y química."
+    },
+    "eyebrow": "Toromac · Catálogo",
+    "headline": "26 equipos para industrias que no toleran errores.",
+    "lead": "Filtre por categoría para encontrar el equipo. Cada ficha incluye especificaciones técnicas, materiales y opciones higiénicas. Para configuración a medida, solicite presupuesto técnico.",
+    "filterLabel": "Filtrar por categoría",
+    "allCategories": "Todos",
+    "viewAll": "Ver catálogo completo",
+    "empty": "No hay productos en esta categoría."
+  },
+  "product": {
+    "backToCatalog": "Volver al catálogo",
+    "specsLabel": "Ficha técnica",
+    "specsHeadline": "Especificaciones de referencia.",
+    "ctaEyebrow": "Configuración a medida",
+    "ctaHeadline": "¿{{product}} para su línea?",
+    "ctaLead": "Envíenos producto a manipular, capacidad y sector. Le devolvemos propuesta técnica y plazo de entrega en 48 horas hábiles.",
+    "relatedEyebrow": "También fabricamos",
+    "relatedHeadline": "Equipos relacionados."
+  },
   "company": {
     "seo": {
       "title": "Compañía · Toromac · Fabricante de maquinaria industrial",
