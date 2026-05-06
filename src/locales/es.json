@@ -136,6 +136,97 @@
     "relatedEyebrow": "También fabricamos",
     "relatedHeadline": "Equipos relacionados."
   },
+  "contact": {
+    "seo": {
+      "title": "Contacto · Toromac · Equipo técnico industrial",
+      "description": "Contacte con el equipo técnico de Toromac. Respuesta de ingeniería en 48 horas hábiles. Email info@toromac.com."
+    },
+    "breadcrumb": "Contacto",
+    "hero": {
+      "eyebrow": "Toromac · Contacto",
+      "headline": "Habla directo con ingeniería.",
+      "lead": "Sin call center, sin formularios genéricos. Quien le contesta es el ingeniero que diseña su equipo. Respuesta media en 48 horas hábiles."
+    },
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Teléfono",
+      "phoneValue": "+34 — pendiente",
+      "addressLabel": "Dirección",
+      "addressValue": "España",
+      "hoursLabel": "Horario",
+      "hoursValue": "Lunes a viernes · 8:00–18:00 CET"
+    },
+    "form": {
+      "title": "Envíenos un mensaje",
+      "subtitle": "Le contesta una persona del equipo técnico — no un formulario."
+    }
+  },
+  "quote": {
+    "seo": {
+      "title": "Solicitar presupuesto · Toromac · Maquinaria industrial a medida",
+      "description": "Solicite presupuesto técnico para elevadores de cangilones, cintas transportadoras, tamizadoras y equipos de procesado. Respuesta en 48 horas hábiles."
+    },
+    "breadcrumb": "Presupuesto",
+    "hero": {
+      "eyebrow": "Toromac · Presupuesto técnico",
+      "headline": "Configure su equipo en tres pasos.",
+      "lead": "Cuéntenos qué producto manipula, capacidad y sector. Le devolvemos propuesta técnica con plazo de entrega en 48 horas hábiles."
+    }
+  },
+  "form": {
+    "fields": {
+      "name": "Nombre",
+      "namePh": "Nombre y apellidos",
+      "company": "Empresa",
+      "companyPh": "Razón social",
+      "email": "Email",
+      "emailPh": "tunombre@empresa.com",
+      "phone": "Teléfono",
+      "phonePh": "+34 600 000 000",
+      "country": "País",
+      "countryPh": "España",
+      "message": "Mensaje",
+      "messagePh": "Cuéntenos brevemente qué necesita…",
+      "category": "Categoría de equipo",
+      "categoryPh": "Seleccione una categoría",
+      "product": "Producto",
+      "productPh": "Seleccione el producto",
+      "sector": "Sector",
+      "sectorPh": "Seleccione su sector",
+      "productHandled": "Producto a manipular",
+      "productHandledPh": "Ej: harina, snacks, granulado plástico…",
+      "capacity": "Capacidad necesaria",
+      "capacityPh": "Ej: 5 t/h, 20 m³/h, a evaluar…"
+    },
+    "sectors": {
+      "alimentaria": "Industria alimentaria",
+      "farma": "Farma / Nutracéutica",
+      "quimica": "Industria química",
+      "nutricion-animal": "Nutrición animal",
+      "otro": "Otro"
+    },
+    "legal": "He leído y acepto la <1>política de privacidad</1>.",
+    "required": "Este campo es obligatorio.",
+    "invalidEmail": "Introduzca un email válido.",
+    "tooShort": "Demasiado corto.",
+    "submit": "Enviar mensaje",
+    "submitQuote": "Enviar solicitud",
+    "submitting": "Enviando…",
+    "successTitle": "Mensaje recibido.",
+    "successText": "Nuestro equipo técnico le responderá en 48 horas hábiles. Si necesita una respuesta urgente, escríbanos directamente a info@toromac.com.",
+    "successQuoteTitle": "Solicitud recibida.",
+    "successQuoteText": "Hemos recibido su solicitud de presupuesto. Le enviaremos propuesta técnica con plazo de entrega en 48 horas hábiles.",
+    "errorTitle": "No pudimos enviar su mensaje.",
+    "errorText": "Inténtelo de nuevo o escríbanos directamente a info@toromac.com.",
+    "step": "Paso {{current}} de {{total}}",
+    "stepBack": "Anterior",
+    "stepNext": "Siguiente",
+    "stepLabels": {
+      "step1": "Equipo",
+      "step2": "Aplicación",
+      "step3": "Datos"
+    }
+  },
   "company": {
     "seo": {
       "title": "Compañía · Toromac · Fabricante de maquinaria industrial",

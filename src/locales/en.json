@@ -136,6 +136,97 @@
     "relatedEyebrow": "Also in our catalog",
     "relatedHeadline": "Related equipment."
   },
+  "contact": {
+    "seo": {
+      "title": "Contact · Toromac · Industrial engineering team",
+      "description": "Contact Toromac's engineering team. Reply within 48 working hours. Email info@toromac.com."
+    },
+    "breadcrumb": "Contact",
+    "hero": {
+      "eyebrow": "Toromac · Contact",
+      "headline": "Talk directly to engineering.",
+      "lead": "No call centre, no generic forms. Your reply comes from the engineer who designs your unit. Average response within 48 working hours."
+    },
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "phoneValue": "+34 — pending",
+      "addressLabel": "Address",
+      "addressValue": "Spain",
+      "hoursLabel": "Hours",
+      "hoursValue": "Mon–Fri · 8:00–18:00 CET"
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "A real person from the technical team replies — not a form."
+    }
+  },
+  "quote": {
+    "seo": {
+      "title": "Request a quote · Toromac · Custom industrial machinery",
+      "description": "Request a technical quote for bucket elevators, belt conveyors, sifters and process equipment. Reply within 48 working hours."
+    },
+    "breadcrumb": "Quote",
+    "hero": {
+      "eyebrow": "Toromac · Technical quote",
+      "headline": "Configure your unit in three steps.",
+      "lead": "Tell us about the product, required capacity and sector. We reply with a technical proposal and delivery date within 48 working hours."
+    }
+  },
+  "form": {
+    "fields": {
+      "name": "Name",
+      "namePh": "Full name",
+      "company": "Company",
+      "companyPh": "Company name",
+      "email": "Email",
+      "emailPh": "yourname@company.com",
+      "phone": "Phone",
+      "phonePh": "+34 600 000 000",
+      "country": "Country",
+      "countryPh": "Spain",
+      "message": "Message",
+      "messagePh": "Briefly describe what you need…",
+      "category": "Equipment category",
+      "categoryPh": "Select a category",
+      "product": "Product",
+      "productPh": "Select a product",
+      "sector": "Sector",
+      "sectorPh": "Select your sector",
+      "productHandled": "Product to handle",
+      "productHandledPh": "e.g. flour, snacks, plastic granules…",
+      "capacity": "Required capacity",
+      "capacityPh": "e.g. 5 t/h, 20 m³/h, TBD…"
+    },
+    "sectors": {
+      "alimentaria": "Food industry",
+      "farma": "Pharma / Nutraceutical",
+      "quimica": "Chemical industry",
+      "nutricion-animal": "Animal nutrition",
+      "otro": "Other"
+    },
+    "legal": "I have read and accept the <1>privacy policy</1>.",
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email.",
+    "tooShort": "Too short.",
+    "submit": "Send message",
+    "submitQuote": "Send request",
+    "submitting": "Sending…",
+    "successTitle": "Message received.",
+    "successText": "Our technical team will reply within 48 working hours. If you need an urgent reply, email us directly at info@toromac.com.",
+    "successQuoteTitle": "Request received.",
+    "successQuoteText": "We received your quote request. We'll send a technical proposal with delivery date within 48 working hours.",
+    "errorTitle": "We couldn't send your message.",
+    "errorText": "Please try again or email us directly at info@toromac.com.",
+    "step": "Step {{current}} of {{total}}",
+    "stepBack": "Back",
+    "stepNext": "Next",
+    "stepLabels": {
+      "step1": "Equipment",
+      "step2": "Application",
+      "step3": "Details"
+    }
+  },
   "company": {
     "seo": {
       "title": "Company · Toromac · Industrial machinery manufacturer",

@@ -7,7 +7,7 @@ export const ORG = {
   legalName: 'Toro Maquinaria Industria Alimentaria',
   url: SITE_URL,
   logo: `${SITE_URL}/images/brand/logo-toromac.svg`,
-  email: 'jtoro@marobera.com',
+  email: 'info@toromac.com',
   foundingYear: 1985,
   sameAs: [],
   address: {
