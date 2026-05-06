@@ -1,0 +1,122 @@
+{
+  "elevacion-transporte": {
+    "slug": { "es": "elevacion-transporte", "en": "elevation-transport" },
+    "label": { "es": "Elevación y transporte", "en": "Elevation & Transport" },
+    "seoH2": {
+      "es": "Equipos de elevación y transporte industrial para industria alimentaria, farma y química.",
+      "en": "Industrial elevation and transport equipment for food, pharma and chemical industries."
+    },
+    "seoTitle": {
+      "es": "Elevadores de cangilones, cintas y sin-fines industriales | Toromac",
+      "en": "Bucket elevators, conveyors and screw conveyors industrial | Toromac"
+    },
+    "seoDescription": {
+      "es": "Catálogo de elevadores de cangilones tipo Z, C, O y móvil, cintas transportadoras y elevadores sin-fin. Caudal hasta 50 m³/h, acero inoxidable 304L / 316L, opciones ATEX bajo demanda.",
+      "en": "Catalog of Z, C, O and mobile bucket elevators, belt conveyors and screw conveyors. Up to 50 m³/h, 304L / 316L stainless steel, ATEX options on demand."
+    },
+    "description": {
+      "es": "Soluciones de elevación y transporte industrial para mover producto sólido, granulado o en polvo entre dos puntos de planta sin pérdidas, sin contaminación y con consumo energético mínimo. Toromac fabrica seis familias diferenciadas: elevador de cangilones tipo Z para descarga horizontal en altura, tipo C para entrada y salida en línea vertical, tipo O para combinar elevación y transporte horizontal, móvil sobre ruedas para flexibilidad de planta, elevador de banda para producto envasado y elevador sin-fin para polvos y granulados finos. Todos en acero inoxidable AISI 304L o 316L, con opciones de manipulación higiénica para alimentación o farma y opciones ATEX para entornos químicos. La cinta transportadora industrial completa la línea de transporte horizontal e inclinado con configuraciones modulares según el layout de planta.",
+      "en": "Industrial elevation and transport solutions to move solid, granulate or powder product between two plant points with no loss, no contamination and minimum energy consumption. Toromac manufactures six distinct families: Z-type bucket elevator for horizontal discharge at height, C-type for inline vertical inlet/outlet, O-type to combine elevation and horizontal transport, mobile on wheels for plant flexibility, belt elevator for packaged product and screw conveyor for fine powders and granulates. All in 304L or 316L stainless steel, with hygienic-handling options for food or pharma and ATEX options for chemical environments. The industrial belt conveyor completes the horizontal and inclined transport line with modular configurations to match plant layout."
+    },
+    "keywords": {
+      "es": ["elevador de cangilones", "cinta transportadora industrial", "tornillo sin fin elevador", "elevador tipo z", "elevador banda", "transporte industrial granulados"],
+      "en": ["bucket elevator", "industrial conveyor belt", "screw conveyor elevator", "z type bucket elevator", "industrial belt conveyor", "bulk material handling"]
+    }
+  },
+  "recambios-cangilones": {
+    "slug": { "es": "recambios-cangilones", "en": "buckets-spare-parts" },
+    "label": { "es": "Recambios y cangilones", "en": "Buckets & Spare Parts" },
+    "seoH2": {
+      "es": "Cangilones para elevadores industriales: CALYON Natural y X Metal-Detectable.",
+      "en": "Buckets for industrial elevators: CALYON Natural and X Metal-Detectable."
+    },
+    "seoTitle": {
+      "es": "Cangilones para elevadores industriales CALYON | Toromac",
+      "en": "CALYON industrial elevator buckets | Toromac"
+    },
+    "seoDescription": {
+      "es": "Cangilones de elevador CALYON en poliamida natural y metal-detectable. Capacidades 2L, 5L, 7L y 10L. Apto contacto alimentario, geometría sin retención, compatible con elevadores tipo Z, C, O y móvil.",
+      "en": "CALYON elevator buckets in natural and metal-detectable polyamide. Capacities 2L, 5L, 7L and 10L. Food-contact compliant, no-retention geometry, compatible with Z, C, O and mobile elevators."
+    },
+    "description": {
+      "es": "Línea de cangilones CALYON fabricados en poliamida PA6 alimentaria, diseñados para encajar en cualquier elevador de cangilones del catálogo Toromac y en la mayoría de elevadores estándar del mercado. Dos familias: CALYON Natural en poliamida virgen para usos generales en alimentación, y CALYON X Metal-Detectable en poliamida con aditivo metálico que permite a los detectores de metales identificar y rechazar cualquier viruta o fragmento de cangilón que pudiera caer al producto, requisito habitual en industria farmacéutica y en líneas alimentarias certificadas. Cuatro capacidades por familia (2L, 5L, 7L, 10L) cubren desde producto fino y delicado hasta granulado de alta densidad. Geometría sin ángulos de retención para vaciado total y limpieza efectiva. Stock disponible para entrega rápida.",
+      "en": "CALYON bucket line manufactured in food-grade PA6 polyamide, designed to fit any bucket elevator in the Toromac catalog and most standard market elevators. Two families: CALYON Natural in virgin polyamide for general food use, and CALYON X Metal-Detectable in polyamide with metallic additive that lets metal detectors identify and reject any chip or fragment that may fall into product — a common requirement in pharma and certified food lines. Four capacities per family (2L, 5L, 7L, 10L) cover from fine delicate product to high-density granulate. No-retention geometry for total emptying and effective cleaning. Stock available for fast shipping."
+    },
+    "keywords": {
+      "es": ["cangilones para elevadores", "cangilón metal detectable", "cangilón calyon", "recambio elevador cangilones", "cangilones poliamida"],
+      "en": ["elevator buckets", "metal detectable bucket", "calyon bucket", "bucket elevator spare", "polyamide buckets"]
+    }
+  },
+  "procesado": {
+    "slug": { "es": "procesado", "en": "process-equipment" },
+    "label": { "es": "Equipos de procesado", "en": "Process Equipment" },
+    "seoH2": {
+      "es": "Tamizadoras centrífugas, freidoras y calderas industriales para industria alimentaria.",
+      "en": "Centrifugal sifters, fryers and industrial kettles for food industry."
+    },
+    "seoTitle": {
+      "es": "Tamizadoras centrífugas, freidoras y calderas industriales | Toromac",
+      "en": "Centrifugal sifters, industrial fryers and tilting kettles | Toromac"
+    },
+    "seoDescription": {
+      "es": "Equipos de procesado a medida: tamizadoras centrífugas TC400 a TC1000 hasta 12 t/h, freidoras industriales en acero inoxidable hasta 2.000L y calderas volcables de 100 a 600L con vuelco hidráulico.",
+      "en": "Custom process equipment: TC400 to TC1000 centrifugal sifters up to 12 t/h, stainless industrial fryers up to 2,000L and 100–600L tilting kettles with hydraulic tilt."
+    },
+    "description": {
+      "es": "Equipos de procesado fabricados a medida para tamizado de seguridad, fritura industrial y cocción agitada. La gama de tamizadoras centrífugas cubre cuatro capacidades — TC400 (hasta 2 t/h), TC650 (5 t/h), TC800 (8 t/h) y TC1000 (12 t/h) — con malla intercambiable según granulometría requerida y opción de manipulación higiénica para alimentación, farma y nutracéutica. Las freidoras industriales en acero inoxidable se fabrican en circular con capacidades hasta 2.000 litros, calentamiento eléctrico, gas o aceite térmico, y son habituales en líneas de snacks, frutos secos y rebozados. Las calderas volcables (100–600L) permiten cocción y agitación con vuelco hidráulico para vaciado seguro, doble cámara para calentamiento diferenciado y agitadores combinados áncora + turbina. Todos los equipos integrables en líneas existentes de elevación, transporte y dosificación Toromac.",
+      "en": "Custom-built process equipment for safety screening, industrial frying and agitated cooking. The centrifugal sifter range covers four capacities — TC400 (up to 2 t/h), TC650 (5 t/h), TC800 (8 t/h) and TC1000 (12 t/h) — with interchangeable mesh per particle size and hygienic-handling option for food, pharma and nutraceutical. Stainless industrial fryers are built circular with capacities up to 2,000 litres, electric, gas or thermal-oil heating, common in snack, nut and battered-product lines. Tilting kettles (100–600L) allow cooking and agitation with hydraulic tilt for safe emptying, double chamber for differentiated heating and combined anchor + turbine agitators. All units integrate with existing Toromac elevation, transport and dosing lines."
+    },
+    "keywords": {
+      "es": ["tamizadora industrial", "tamiz centrífugo", "freidora industrial", "caldera volcable", "equipos procesado alimentario"],
+      "en": ["industrial sifter", "centrifugal sifter", "industrial fryer", "tilting kettle", "food process equipment"]
+    }
+  },
+  "dosificacion": {
+    "slug": { "es": "dosificacion", "en": "dosing-storage" },
+    "label": { "es": "Dosificación y almacenaje", "en": "Dosing & Storage" },
+    "seoH2": {
+      "es": "Soluciones de dosificación, descarga y almacenaje para producto a granel.",
+      "en": "Dosing, discharge and storage solutions for bulk product."
+    },
+    "seoTitle": {
+      "es": "Soporte Big Bag, alimentador de silos y depósitos industriales | Toromac",
+      "en": "Big Bag support, silo feeder and industrial tanks | Toromac"
+    },
+    "seoDescription": {
+      "es": "Estaciones de descarga de Big Bags 400–1.500L, alimentadores de silos a medida y depósitos sanitarios 316L para agua purificada. Para alimentación, farma, química y nutrición animal.",
+      "en": "Big Bag discharge stations 400–1,500L, custom silo feeders and 316L sanitary tanks for purified water. For food, pharma, chemical and animal nutrition industries."
+    },
+    "description": {
+      "es": "Equipos para gestionar el flujo de producto entre almacenaje y proceso. La estación de descarga de Big Bags soporta sacos de 400 a 1.500 litros con manga de descarga estanca, regulación de altura a medida del formato del Big Bag, vibración opcional para producto compactado y conexión a captación de polvo — disponible en acero al carbono pintado o inox AISI 304. El alimentador de silos industrial se fabrica a medida según producto, caudal requerido y configuración de línea, con dosificación por sin-fin o cinta para flujo estable y reducción de incidencias. El depósito de agua purificada en acero inoxidable AISI 316L pulido con conexiones higiénicas cierra la línea para sectores con requisitos sanitarios estrictos como farma o nutracéutica. Compatibles con elevadores, cintas y tamizadoras Toromac para integración en líneas completas.",
+      "en": "Equipment to manage product flow between storage and process. The Big Bag discharge station handles 400 to 1,500 litre bags with sealed outlet sleeve, height adjustment per Big Bag format, optional vibration for compacted product and dust extraction connection — available in painted carbon steel or 304 stainless. The industrial silo feeder is built to order per product, required flow and line configuration, with screw or belt dosing for stable flow and reduced incidents. The 316L polished stainless purified water tank with hygienic fittings closes the line for sectors with strict sanitary requirements like pharma or nutraceutical. Compatible with Toromac elevators, conveyors and sifters for integration in complete lines."
+    },
+    "keywords": {
+      "es": ["soporte big bag", "alimentador silos industrial", "depósito agua purificada", "estación descarga big bag", "dosificación granel"],
+      "en": ["big bag support", "industrial silo feeder", "purified water tank", "big bag discharge station", "bulk dosing"]
+    }
+  },
+  "otros": {
+    "slug": { "es": "otros", "en": "other" },
+    "label": { "es": "Otros equipos", "en": "Other equipment" },
+    "seoH2": {
+      "es": "Equipos auxiliares para líneas industriales: alimentación vibrada y filtrado.",
+      "en": "Auxiliary equipment for industrial lines: vibratory feeding and filtration."
+    },
+    "seoTitle": {
+      "es": "Canal de alimentación vibrada y filtro ciclónico industrial | Toromac",
+      "en": "Vibratory feeder and industrial cyclone filter | Toromac"
+    },
+    "seoDescription": {
+      "es": "Canal vibrado con tolva integrada para dosificación uniforme y filtros ciclónicos para separación de polvo en líneas de embolsado y transporte neumático.",
+      "en": "Vibrating chute with integrated hopper for uniform dosing and cyclone filters for dust separation in bagging and pneumatic transport lines."
+    },
+    "description": {
+      "es": "Equipos auxiliares que completan líneas de proceso resolviendo dos necesidades específicas: dosificación de producto a granel mediante canal vibrado con tolva integrada y vibración regulable para flujo uniforme hacia el siguiente equipo (pesadora, envasadora, mezcladora), y separación de polvo en línea mediante filtro ciclónico para entornos de embolsado o transporte neumático donde la captación de polvo es requisito sanitario y de seguridad. Ambos en construcción robusta inox y diseño a medida según las especificaciones del proyecto.",
+      "en": "Auxiliary equipment that completes process lines by solving two specific needs: bulk product dosing via vibrating chute with integrated hopper and adjustable vibration for uniform flow to the next unit (weigher, packer, blender), and inline dust separation via cyclone filter for bagging or pneumatic transport environments where dust extraction is a sanitary and safety requirement. Both in robust stainless construction and custom-designed per project specifications."
+    },
+    "keywords": {
+      "es": ["canal alimentación vibrada", "filtro ciclónico", "dosificación vibratoria", "captación polvo industrial"],
+      "en": ["vibratory feeder", "cyclone filter", "vibratory dosing", "industrial dust extraction"]
+    }
+  }
+}

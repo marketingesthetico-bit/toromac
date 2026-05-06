@@ -6,37 +6,106 @@
     "featured": true,
     "name": { "es": "Elevador de Cangilones Tipo Z", "en": "Z-Type Bucket Elevator" },
     "shortDescription": {
-      "es": "Elevador tipo Z compacto para sólidos y granulados. Bajo consumo, mínima rotura de producto y ocupación reducida en planta.",
-      "en": "Compact Z-type bucket elevator for solids and granulates. Low energy consumption, minimum product breakage and reduced footprint."
+      "es": "Elevador tipo Z compacto para sólidos y granulados. Caudal hasta 50 m³/h, mínima rotura de producto y bajo consumo energético.",
+      "en": "Compact Z-type bucket elevator for solids and granulates. Up to 50 m³/h, minimum product breakage and low energy consumption."
     },
-    "description": {
-      "es": "El elevador de cangilones tipo Z es una solución de elevación vertical con descarga horizontal en altura. Ideal para sustituir tornillos sin-fin o cintas inclinadas cuando el producto requiere cuidado extremo (frutos secos, cereales extruidos, snacks, congelados). El recorrido en Z minimiza vibraciones y reduce roturas frente a elevadores tipo C u O. Disponible con cangilones CALYON Natural o Metal-Detectable según sector y normativa.",
-      "en": "The Z-type bucket elevator delivers vertical lift with horizontal discharge at height. Ideal to replace screw conveyors or inclined belts when the product requires extreme care (nuts, extruded cereals, snacks, frozen foods). The Z path minimises vibration and reduces breakage compared to C-type or O-type elevators. Available with CALYON Natural or Metal-Detectable buckets per industry and regulation."
+    "longDescription": {
+      "es": [
+        "El elevador de cangilones tipo Z es una solución de elevación y transporte industrial diseñada para mover productos sólidos y granulados de forma continua, cuidadosa y eficiente entre dos puntos de planta separados horizontal y verticalmente.",
+        "Gracias a su recorrido en Z (vertical seguido de descarga horizontal en altura) alcanza caudales de hasta 50 m³/h ocupando un espacio reducido y minimizando vibraciones, lo que se traduce en menor rotura de producto frente a elevadores tipo C u O o frente a sin-fines inclinados.",
+        "Equipo moderno y compacto de alto rendimiento, gran fiabilidad, bajo coste de mantenimiento y mínimo consumo energético. La cadena con cangilones avanza a velocidad lenta y controlada, sin acelerar el producto, lo que permite manipular sin daños frutos secos, snacks extruidos, congelados y cereales delicados.",
+        "El elevador es compatible con la gama completa de cangilones CALYON Natural y CALYON X Metal-Detectable de fabricación propia, disponibles en 2L, 5L, 7L y 10L, lo que permite adaptar el equipo a las características específicas del producto transportado y al sector (alimentación, farma, química, nutrición animal).",
+        "Disponible con o sin carenado, en acero inoxidable AISI 304L para uso general o 316L para entornos con mayor exigencia de corrosión. Acabados básico, alimentario o sanitario, con micros de seguridad en puertas y sistemas conformes a normativa CE."
+      ],
+      "en": [
+        "The Z-type bucket elevator is an industrial elevation and transport solution designed to move solid and granulate products continuously, gently and efficiently between two plant points separated both horizontally and vertically.",
+        "Thanks to its Z path (vertical lift followed by horizontal discharge at height) it reaches throughputs up to 50 m³/h with a reduced footprint and minimised vibration, translating into less product breakage than C-type or O-type elevators or inclined screw conveyors.",
+        "Modern and compact high-performance unit with great reliability, low maintenance cost and minimal energy consumption. The bucket chain advances at slow controlled speed without accelerating the product, allowing it to handle nuts, extruded snacks, frozen foods and delicate cereals without damage.",
+        "The elevator is compatible with the full CALYON Natural and CALYON X Metal-Detectable bucket range built in-house, available in 2L, 5L, 7L and 10L, allowing the unit to be matched to the product handled and the sector (food, pharma, chemical, animal nutrition).",
+        "Available with or without cladding, in AISI 304L stainless steel for general use or 316L for environments with stricter corrosion requirements. Basic, food-grade or sanitary finishes, with safety micro-switches on doors and systems compliant with CE regulations."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria — snacks, frutos secos, cereales, congelados", "Farma y nutracéutica — polvos sensibles, manipulación higiénica", "Industria química — granulados con opciones ATEX", "Pet food y nutrición animal", "Líneas de envasado con alimentación a pesadora"],
+      "en": ["Food industry — snacks, nuts, cereals, frozen foods", "Pharma & nutraceutical — sensitive powders, hygienic handling", "Chemical industry — granulates with ATEX options", "Pet food & animal nutrition", "Packing lines feeding multihead weighers"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 50 m³/h" },
+      { "label": { "es": "Caudal", "en": "Throughput" }, "value": { "es": "Hasta 50 m³/h", "en": "Up to 50 m³/h" } },
+      { "label": { "es": "Potencia instalada", "en": "Installed power" }, "value": { "es": "1 a 4 kW (motores Energy Save)", "en": "1 to 4 kW (Energy Save motors)" } },
       { "label": { "es": "Materiales", "en": "Materials" }, "value": "AISI 304L / 316L" },
-      { "label": { "es": "Velocidad de banda", "en": "Belt speed" }, "value": "0.4 – 0.6 m/s" },
-      { "label": { "es": "Cangilones", "en": "Buckets" }, "value": "CALYON 2L / 5L / 7L / 10L" },
-      { "label": { "es": "Manipulación higiénica", "en": "Hygienic handling" }, "value": { "es": "Opcional", "en": "Optional" } },
-      { "label": { "es": "ATEX", "en": "ATEX" }, "value": { "es": "Bajo demanda", "en": "On demand" } }
+      { "label": { "es": "Acabados", "en": "Finishes" }, "value": { "es": "Básico, alimentario o sanitario", "en": "Basic, food-grade or sanitary" } },
+      { "label": { "es": "Cangilones compatibles", "en": "Compatible buckets" }, "value": "CALYON 2L / 5L / 7L / 10L" },
+      { "label": { "es": "Carenado", "en": "Cladding" }, "value": { "es": "Con o sin carenado", "en": "With or without cladding" } },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" },
+      { "label": { "es": "Seguridad", "en": "Safety" }, "value": { "es": "Micros en puertas y sistemas de seguridad", "en": "Door micro-switches and safety systems" } }
     ],
     "highlights": {
-      "es": ["Mínima rotura de producto", "Bajo consumo energético", "Recorrido en Z compacto", "Acceso fácil para limpieza"],
-      "en": ["Minimum product breakage", "Low energy consumption", "Compact Z path", "Easy access for cleaning"]
+      "es": [
+        "Transporte delicado que reduce roturas del producto",
+        "Alta capacidad con consumo energético mínimo",
+        "Diseño compacto ideal para espacios reducidos",
+        "Múltiples descargas y alimentación en varios puntos",
+        "Sistema ultra-rápido de cambio de cangilones",
+        "Bajo mantenimiento y alta fiabilidad operativa"
+      ],
+      "en": [
+        "Gentle transport that reduces product breakage",
+        "High capacity with minimum energy consumption",
+        "Compact design ideal for reduced footprint",
+        "Multiple discharges and inlets in different points",
+        "Ultra-fast bucket change system",
+        "Low maintenance and high operational reliability"
+      ]
     },
+    "faq": [
+      {
+        "question": { "es": "¿Qué ventajas tiene un elevador tipo Z frente a otros sistemas?", "en": "What advantages does a Z-type elevator offer over other systems?" },
+        "answer": {
+          "es": "Permite un transporte más delicado del producto (menor rotura), una mayor flexibilidad en descargas múltiples y ocupa menos espacio en planta que un sin-fin inclinado equivalente.",
+          "en": "It enables gentler product transport (less breakage), greater flexibility for multiple discharges, and a smaller footprint than an equivalent inclined screw conveyor."
+        }
+      },
+      {
+        "question": { "es": "¿Es apto para industria alimentaria y farma?", "en": "Is it suitable for food and pharma industries?" },
+        "answer": {
+          "es": "Sí. Se fabrica en acero inoxidable AISI 304L o 316L y se ofrecen acabados alimentario y sanitario con manipulación higiénica para alimentación, farma y nutracéutica.",
+          "en": "Yes. Built in AISI 304L or 316L stainless steel with food-grade and sanitary finishes featuring hygienic handling for food, pharma and nutraceutical."
+        }
+      },
+      {
+        "question": { "es": "¿Qué capacidad alcanza el elevador tipo Z?", "en": "What throughput does the Z-type elevator reach?" },
+        "answer": {
+          "es": "Hasta 50 m³/h en configuración estándar. La capacidad real depende del producto a manipular (densidad, granulometría) y del cangilón seleccionado entre los CALYON 2L, 5L, 7L o 10L.",
+          "en": "Up to 50 m³/h in standard configuration. Real throughput depends on the product handled (density, particle size) and the selected bucket from the CALYON 2L, 5L, 7L or 10L range."
+        }
+      },
+      {
+        "question": { "es": "¿Se puede personalizar el equipo?", "en": "Can the unit be customised?" },
+        "answer": {
+          "es": "Sí. El diseño se adapta a caudal, espacio disponible, tipo de producto, sector y requisitos del proceso productivo. Se pueden incorporar opciones ATEX bajo demanda para entornos con riesgo de explosión.",
+          "en": "Yes. The design adapts to throughput, available space, product type, sector and process requirements. ATEX options are available on demand for explosion-risk environments."
+        }
+      },
+      {
+        "question": { "es": "¿Qué tipo de cangilones son compatibles?", "en": "Which buckets are compatible?" },
+        "answer": {
+          "es": "Toda la gama CALYON: Natural en poliamida virgen para alimentación general, y X Metal-Detectable con aditivo metálico para entornos críticos en farma o líneas alimentarias certificadas. Disponibles en 2L, 5L, 7L y 10L.",
+          "en": "The entire CALYON range: Natural in virgin polyamide for general food, and X Metal-Detectable with metallic additive for critical pharma or certified food environments. Available in 2L, 5L, 7L and 10L."
+        }
+      }
+    ],
     "image": "/images/products/elevador-cangilones-tipo-z.jpg",
     "imageAlt": {
-      "es": "Elevador de cangilones tipo Z industrial Toromac instalado en planta",
-      "en": "Toromac Z-type industrial bucket elevator installed in plant"
+      "es": "Elevador de cangilones tipo Z industrial Toromac instalado en planta de producción",
+      "en": "Toromac Z-type industrial bucket elevator installed in production plant"
     },
     "seo": {
       "es": {
-        "title": "Elevador de Cangilones Tipo Z Industrial | Toromac",
+        "title": "Elevador de Cangilones Tipo Z Industrial 50 m³/h | Toromac",
         "description": "Fabricantes de elevadores de cangilones tipo Z. Hasta 50 m³/h, acero inoxidable 304L / 316L, bajo consumo. Soluciones a medida para alimentación, química y farma."
       },
       "en": {
-        "title": "Z-Type Bucket Elevator Industrial | Toromac",
+        "title": "Z-Type Bucket Elevator Industrial 50 m³/h | Toromac",
         "description": "Manufacturers of Z-type bucket elevators. Up to 50 m³/h, 304L / 316L stainless steel, low energy. Custom solutions for food, chemical and pharma industries."
       }
     }
@@ -47,35 +116,83 @@
     "category": "elevacion-transporte",
     "name": { "es": "Elevador de Cangilones Tipo C", "en": "C-Type Bucket Elevator" },
     "shortDescription": {
-      "es": "Elevador tipo C con recorrido vertical y entrada/salida en el mismo plano. Indicado para layouts donde el producto vuelve al punto de partida.",
-      "en": "C-type bucket elevator with vertical path and inlet/outlet on the same plane. Suited to layouts where the product returns to the starting point."
+      "es": "Elevador vertical continuo de alto rendimiento con cadena central. Hasta 50 m³/h en espacio reducido, ideal para grandes volúmenes de polvo, granulado y grano.",
+      "en": "High-performance continuous vertical elevator with central chain. Up to 50 m³/h in a reduced footprint, ideal for large volumes of powder, granulate and grain."
     },
-    "description": {
-      "es": "El elevador tipo C describe un recorrido cerrado vertical, con descarga sobre la misma vertical de la entrada. Permite separar dos planos sin desplazar la caída del producto, ideal para alimentar tolvas o equipos sobre la misma columna.",
-      "en": "The C-type elevator describes a closed vertical path, with discharge on the same vertical as the inlet. It separates two levels without offsetting the product drop — ideal for feeding hoppers or equipment on the same column."
+    "longDescription": {
+      "es": [
+        "El elevador de cangilones tipo C es un sistema de elevación vertical continua con cadena central, diseñado para el transporte de grandes volúmenes de polvo, granulado y grano a alta cadencia y con un consumo energético mínimo.",
+        "Su robusto accionamiento por cadena central — más resistente al desgaste que las cadenas laterales de elevadores convencionales — lo convierte en la solución ideal para procesos de producción exigentes con necesidades de alto caudal continuo, como la industria harinera, la agroalimentaria de cereales y la fabricación de pet food a gran escala.",
+        "Capacidad de transportar hasta 50 m³/h ocupando un espacio reducido en planta, con consumos energéticos mínimos gracias a motores Energy Save y diseño optimizado de la cinemática.",
+        "Toromac diseña y fabrica todos los equipamientos a medida, adaptándolos a las necesidades y aplicaciones específicas de cada cliente. Disponible en acabados básico, alimentario o sanitario según el sector, en AISI 304L o 316L."
+      ],
+      "en": [
+        "The C-type bucket elevator is a continuous vertical elevation system with central chain, designed to transport large volumes of powder, granulate and grain at high cadence with minimum energy consumption.",
+        "Its robust central chain drive — more wear-resistant than the side chains of conventional elevators — makes it the ideal solution for demanding production processes with high continuous-throughput requirements, such as flour milling, grain agro-food and large-scale pet food manufacturing.",
+        "Throughput up to 50 m³/h with a reduced plant footprint, minimal energy consumption thanks to Energy Save motors and optimised kinematic design.",
+        "Toromac designs and manufactures all units to order, adapting them to each customer's specific needs and applications. Available in basic, food-grade or sanitary finishes per sector, in AISI 304L or 316L."
+      ]
+    },
+    "applications": {
+      "es": ["Industria harinera y molienda", "Industria agroalimentaria y cerealista", "Industria química — manipulación de polvos y granulados", "Pet food y alimentación animal a gran escala", "Procesos de transporte vertical continuo"],
+      "en": ["Milling and flour industry", "Agro-food and grain industry", "Chemical industry — powder and granulate handling", "Pet food and animal nutrition at scale", "Continuous vertical transport processes"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 40 m³/h" },
+      { "label": { "es": "Caudal", "en": "Throughput" }, "value": { "es": "Hasta 50 m³/h", "en": "Up to 50 m³/h" } },
+      { "label": { "es": "Accionamiento", "en": "Drive" }, "value": { "es": "Cadena central de alta resistencia", "en": "High-resistance central chain" } },
+      { "label": { "es": "Potencia instalada", "en": "Installed power" }, "value": { "es": "1 a 4 kW (motores Energy Save)", "en": "1 to 4 kW (Energy Save motors)" } },
       { "label": { "es": "Materiales", "en": "Materials" }, "value": "AISI 304L / 316L" },
-      { "label": { "es": "Cangilones", "en": "Buckets" }, "value": "CALYON 2L – 10L" }
+      { "label": { "es": "Acabados", "en": "Finishes" }, "value": { "es": "Básico, alimentario o sanitario", "en": "Basic, food-grade or sanitary" } },
+      { "label": { "es": "Cangilones compatibles", "en": "Compatible buckets" }, "value": "CALYON 2L – 10L" },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" }
     ],
     "highlights": {
-      "es": ["Entrada y salida en línea", "Sellado higiénico", "Mantenimiento sencillo"],
-      "en": ["Inline inlet and outlet", "Hygienic sealing", "Easy maintenance"]
+      "es": [
+        "Elevación vertical continua con cadena central de gran durabilidad",
+        "Alta capacidad — hasta 50 m³/h — en espacio muy reducido",
+        "Múltiples descargas y alimentación en varios puntos con un solo elevador",
+        "Sistema ultra-rápido de cambio de cangilones",
+        "Compatible con la gama completa de cangilones CALYON",
+        "Fabricación con o sin carenado"
+      ],
+      "en": [
+        "Continuous vertical elevation with high-durability central chain",
+        "High capacity — up to 50 m³/h — in a very reduced footprint",
+        "Multiple discharges and inlets in different points with a single elevator",
+        "Ultra-fast bucket change system",
+        "Compatible with the full CALYON bucket range",
+        "Manufacturing with or without cladding"
+      ]
     },
+    "faq": [
+      {
+        "question": { "es": "¿Qué diferencia un tipo C de un tipo Z?", "en": "What's the difference between C-type and Z-type?" },
+        "answer": {
+          "es": "El tipo C tiene entrada y salida en la misma vertical (recorrido cerrado), mientras que el tipo Z descarga en horizontal a una distancia. El C es ideal para alimentar tolvas o equipos en la misma columna; el Z para distribuir en otro punto de planta.",
+          "en": "C-type has inlet and outlet on the same vertical (closed loop), while Z-type discharges horizontally at a distance. C-type is ideal for feeding hoppers or equipment on the same column; Z-type for distributing to another plant point."
+        }
+      },
+      {
+        "question": { "es": "¿Por qué cadena central y no cadenas laterales?", "en": "Why central chain and not side chains?" },
+        "answer": {
+          "es": "La cadena central distribuye mejor la carga y reduce el desgaste asimétrico, lo que se traduce en mayor vida útil y menor mantenimiento, especialmente en uso continuo de alta capacidad.",
+          "en": "The central chain distributes load more evenly and reduces asymmetric wear, translating into longer life and less maintenance — especially under continuous high-capacity use."
+        }
+      }
+    ],
     "image": "/images/products/elevador-cangilones-tipo-c.jpg",
     "imageAlt": {
-      "es": "Elevador de cangilones tipo C de acero inoxidable",
-      "en": "Stainless steel C-type bucket elevator"
+      "es": "Elevador de cangilones tipo C de acero inoxidable Toromac",
+      "en": "Toromac C-type stainless steel bucket elevator"
     },
     "seo": {
       "es": {
-        "title": "Elevador de Cangilones Tipo C | Toromac",
-        "description": "Elevador de cangilones tipo C con recorrido vertical cerrado. Acero 304L / 316L. Para alimentación, farma y química."
+        "title": "Elevador de Cangilones Tipo C 50 m³/h | Toromac",
+        "description": "Elevador de cangilones tipo C con cadena central y recorrido vertical cerrado. Hasta 50 m³/h. Acero 304L / 316L. Para industria harinera, agroalimentaria y química."
       },
       "en": {
-        "title": "C-Type Bucket Elevator | Toromac",
-        "description": "C-type bucket elevator with closed vertical path. 304L / 316L stainless. For food, pharma and chemical industries."
+        "title": "C-Type Bucket Elevator 50 m³/h | Toromac",
+        "description": "C-type bucket elevator with central chain and closed vertical path. Up to 50 m³/h. 304L / 316L stainless. For milling, agro-food and chemical industries."
       }
     }
   },
@@ -85,34 +202,75 @@
     "category": "elevacion-transporte",
     "name": { "es": "Elevador de Cangilones Tipo O", "en": "O-Type Bucket Elevator" },
     "shortDescription": {
-      "es": "Elevador tipo O con dos columnas verticales y dos tramos horizontales. Para procesos que requieren transporte y elevación combinados.",
-      "en": "O-type bucket elevator with two vertical columns and two horizontal runs. For processes that combine transport and elevation."
+      "es": "Elevador con recorrido oval cerrado para transporte continuo y delicado. Combina elevación y transporte horizontal hasta 50 m³/h.",
+      "en": "Elevator with closed oval path for continuous gentle transport. Combines elevation and horizontal transport up to 50 m³/h."
     },
-    "description": {
-      "es": "El elevador tipo O combina elevación vertical con transporte horizontal en un único equipo cerrado. Útil para distribuir producto entre dos puntos de planta separados horizontalmente y a distinta altura.",
-      "en": "The O-type elevator combines vertical lift with horizontal transport in a single enclosed unit. Useful for distributing product between two plant points separated both horizontally and vertically."
+    "longDescription": {
+      "es": [
+        "El elevador de cangilones tipo O es un sistema de elevación y transporte con recorrido oval cerrado, especialmente diseñado para mover productos frágiles o delicados de forma continua, suave y sin deterioro.",
+        "Su trayectoria cerrada — dos columnas verticales unidas por dos tramos horizontales — garantiza un transporte muy cuidadoso del producto, ideal para sectores alimentarios, químicos y farmacéuticos donde la rotura o degradación afecta directamente a la calidad final.",
+        "Combina en un único equipo cerrado la función de elevación vertical y la de transporte horizontal, lo que reduce número de equipos y puntos de transferencia frente a una solución que combine elevador + cinta horizontal.",
+        "Toromac diseña y fabrica todos los equipamientos a medida. Capacidad de hasta 50 m³/h en espacio reducido, con consumos energéticos mínimos gracias a motores Energy Save y cuidado máximo del producto."
+      ],
+      "en": [
+        "The O-type bucket elevator is an elevation and transport system with a closed oval path, specifically designed to move fragile or delicate products continuously, gently and without damage.",
+        "Its closed path — two vertical columns joined by two horizontal runs — guarantees very gentle product transport, ideal for food, chemical and pharmaceutical sectors where breakage or degradation directly affects final quality.",
+        "It combines vertical elevation and horizontal transport in a single enclosed unit, reducing the number of machines and transfer points compared to a solution combining elevator + horizontal conveyor.",
+        "Toromac designs and manufactures every unit to order. Up to 50 m³/h in a reduced footprint, with minimum energy consumption thanks to Energy Save motors and maximum product care."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria — cereales, frutos secos, snacks, productos a granel", "Industria química — granulados delicados", "Industria farmacéutica y nutracéutica", "Agroquímica", "Procesos que requieren elevación + transporte horizontal en un único equipo"],
+      "en": ["Food industry — cereals, nuts, snacks, bulk product", "Chemical industry — delicate granulates", "Pharma and nutraceutical industry", "Agrochemical", "Processes requiring lift + horizontal transport in a single unit"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 40 m³/h" },
-      { "label": { "es": "Materiales", "en": "Materials" }, "value": "AISI 304L / 316L" }
+      { "label": { "es": "Caudal", "en": "Throughput" }, "value": { "es": "Hasta 50 m³/h", "en": "Up to 50 m³/h" } },
+      { "label": { "es": "Recorrido", "en": "Path" }, "value": { "es": "Oval cerrado (vertical + horizontal)", "en": "Closed oval (vertical + horizontal)" } },
+      { "label": { "es": "Potencia instalada", "en": "Installed power" }, "value": { "es": "1 a 4 kW (motores Energy Save)", "en": "1 to 4 kW (Energy Save motors)" } },
+      { "label": { "es": "Materiales", "en": "Materials" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Acabados", "en": "Finishes" }, "value": { "es": "Básico, alimentario o sanitario", "en": "Basic, food-grade or sanitary" } },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" }
     ],
     "highlights": {
-      "es": ["Elevación + transporte en un equipo", "Diseño cerrado anti-polvo", "Acabados sanitarios opcionales"],
-      "en": ["Lift + transport in one unit", "Enclosed dust-free design", "Optional sanitary finishes"]
+      "es": [
+        "Transporte continuo con máximo cuidado del producto",
+        "Combina elevación + transporte horizontal en un único equipo",
+        "Múltiples descargas y alimentación en varios puntos",
+        "Diseño cerrado anti-polvo para entornos higiénicos",
+        "Sistema ultra-rápido de cambio de cangilones",
+        "Acabados sanitarios opcionales para farma y alimentación"
+      ],
+      "en": [
+        "Continuous transport with maximum product care",
+        "Combines lift + horizontal transport in a single unit",
+        "Multiple discharges and inlets in different points",
+        "Enclosed dust-free design for hygienic environments",
+        "Ultra-fast bucket change system",
+        "Optional sanitary finishes for pharma and food"
+      ]
     },
+    "faq": [
+      {
+        "question": { "es": "¿Cuándo elegir un tipo O frente a un tipo Z?", "en": "When should I choose O-type over Z-type?" },
+        "answer": {
+          "es": "Elija tipo O cuando necesite elevación + transporte horizontal en el mismo equipo (ahorra equipos y puntos de transferencia). Elija tipo Z cuando solo necesite elevar y descargar en horizontal a una distancia.",
+          "en": "Choose O-type when you need lift + horizontal transport in the same unit (saves units and transfer points). Choose Z-type when you only need to lift and discharge horizontally at a distance."
+        }
+      }
+    ],
     "image": "/images/products/elevador-cangilones-tipo-o.jpg",
     "imageAlt": {
-      "es": "Elevador de cangilones tipo O Toromac",
-      "en": "Toromac O-type bucket elevator"
+      "es": "Elevador de cangilones tipo O Toromac con recorrido oval cerrado",
+      "en": "Toromac O-type bucket elevator with closed oval path"
     },
     "seo": {
       "es": {
-        "title": "Elevador de Cangilones Tipo O | Toromac",
-        "description": "Elevador tipo O para elevación y transporte combinados. Acero 304L / 316L. Diseño cerrado anti-polvo."
+        "title": "Elevador de Cangilones Tipo O Oval | Toromac",
+        "description": "Elevador tipo O con recorrido oval cerrado. Combina elevación y transporte horizontal hasta 50 m³/h. Ideal para producto frágil en alimentación, farma y química."
       },
       "en": {
-        "title": "O-Type Bucket Elevator | Toromac",
-        "description": "O-type elevator for combined lift and transport. 304L / 316L stainless. Enclosed dust-free design."
+        "title": "O-Type Bucket Elevator Oval Path | Toromac",
+        "description": "O-type elevator with closed oval path. Combines lift and horizontal transport up to 50 m³/h. Ideal for fragile product in food, pharma and chemical industries."
       }
     }
   },
@@ -123,35 +281,85 @@
     "featured": true,
     "name": { "es": "Elevador de Cangilones Móvil", "en": "Mobile Bucket Elevator" },
     "shortDescription": {
-      "es": "Elevador de cangilones tipo Z sobre ruedas con motor integrado. Para descarga puntual de Big Bags, sacos o cubas en distintos puntos de planta.",
-      "en": "Z-type bucket elevator on wheels with integrated motor. For ad-hoc discharge of Big Bags, sacks or bins anywhere in the plant."
+      "es": "Elevador tipo Z sobre ruedas con motor y cuadro eléctrico integrados. Para descarga puntual de Big Bags, sacos o cubas en distintos puntos de planta sin obra civil.",
+      "en": "Z-type bucket elevator on wheels with integrated motor and control panel. For ad-hoc discharge of Big Bags, sacks or bins anywhere in the plant — no civil works."
     },
-    "description": {
-      "es": "Versión móvil del elevador tipo Z, montada sobre ruedas y con cuadro eléctrico integrado. Permite descargar producto de Big Bags, sacos o tolvas y elevarlo a otro equipo sin obra civil. Ideal para plantas con flexibilidad de layout o producción multi-receta.",
-      "en": "Mobile version of the Z-type elevator, mounted on wheels with integrated control panel. Lets you discharge product from Big Bags, sacks or hoppers and elevate it to another unit with no civil works. Ideal for flexible layouts or multi-recipe production."
+    "longDescription": {
+      "es": [
+        "Equipo móvil moderno y compacto de alto rendimiento, gran fiabilidad, bajo coste de mantenimiento y mínimo consumo energético, montado sobre ruedas industriales con freno y con cuadro eléctrico integrado a bordo.",
+        "Permite descargar producto desde Big Bags, sacos, cubas o tolvas y elevarlo a otro equipo (mezcladora, pesadora, envasadora) sin necesidad de obra civil ni instalación fija. Ideal para plantas con flexibilidad de layout, producción multi-receta o cuando se requiere abastecer puntualmente distintos puntos de carga con una sola máquina.",
+        "Posibilidad de hacer descargas en varios puntos gracias a su movilidad: el operario reposiciona el equipo en minutos según la necesidad de la receta o el lote.",
+        "Sistema ultra-rápido de cambio de cangilones compatible con la amplia gama CALYON (Natural y X Metal-Detectable) de fabricación propia.",
+        "De serie con micros de seguridad en las puertas y otros sistemas conformes a normativa CE."
+      ],
+      "en": [
+        "Modern compact mobile unit with high performance, great reliability, low maintenance cost and minimum energy consumption, mounted on industrial wheels with brake and on-board integrated control panel.",
+        "Lets you discharge product from Big Bags, sacks, bins or hoppers and elevate it to another unit (mixer, weigher, packer) with no civil works or fixed installation. Ideal for plants with flexible layout, multi-recipe production or when one machine must serve different loading points.",
+        "Ability to discharge at multiple points thanks to its mobility: the operator repositions the unit in minutes per recipe or batch need.",
+        "Ultra-fast bucket change system compatible with the full in-house CALYON range (Natural and X Metal-Detectable).",
+        "Standard safety micro-switches on doors and other systems compliant with CE regulations."
+      ]
+    },
+    "applications": {
+      "es": ["Abastecimiento puntual de varias líneas con una sola máquina", "Descarga de Big Bags y sacos sin instalación fija", "Producción multi-receta con cambios frecuentes de producto", "Plantas con layout flexible o reorganizable", "Pruebas piloto y producciones de bajo volumen"],
+      "en": ["Ad-hoc supply of several lines with a single machine", "Big Bag and sack discharge without fixed installation", "Multi-recipe production with frequent product changes", "Plants with flexible or reconfigurable layout", "Pilot trials and low-volume runs"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 20 m³/h" },
+      { "label": { "es": "Caudal", "en": "Throughput" }, "value": { "es": "Hasta 20 m³/h", "en": "Up to 20 m³/h" } },
       { "label": { "es": "Movilidad", "en": "Mobility" }, "value": { "es": "Ruedas industriales con freno", "en": "Industrial wheels with brake" } },
-      { "label": { "es": "Cuadro eléctrico", "en": "Control panel" }, "value": { "es": "Integrado", "en": "Integrated" } }
+      { "label": { "es": "Cuadro eléctrico", "en": "Control panel" }, "value": { "es": "Integrado a bordo", "en": "On-board integrated" } },
+      { "label": { "es": "Potencia instalada", "en": "Installed power" }, "value": { "es": "1 a 4 kW (motores Energy Save)", "en": "1 to 4 kW (Energy Save motors)" } },
+      { "label": { "es": "Materiales", "en": "Materials" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Cambio de cangilones", "en": "Bucket change" }, "value": { "es": "Sistema ultra-rápido", "en": "Ultra-fast system" } },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" }
     ],
     "highlights": {
-      "es": ["Sin obra civil", "Reposicionable en planta", "Cuadro eléctrico a bordo"],
-      "en": ["No civil works", "Repositionable in plant", "On-board control panel"]
+      "es": [
+        "Sin obra civil ni instalación fija",
+        "Reposicionable en planta en minutos",
+        "Cuadro eléctrico integrado a bordo",
+        "Sistema de cambio de cangilones ultra-rápido",
+        "Cumple normativa CE de seguridad",
+        "Bajo coste de mantenimiento"
+      ],
+      "en": [
+        "No civil works or fixed installation",
+        "Repositionable in plant in minutes",
+        "On-board integrated control panel",
+        "Ultra-fast bucket change system",
+        "Complies with CE safety regulations",
+        "Low maintenance cost"
+      ]
     },
+    "faq": [
+      {
+        "question": { "es": "¿Hasta qué carga puede manipular?", "en": "How much load can it handle?" },
+        "answer": {
+          "es": "Capacidad estándar hasta 20 m³/h. Para volúmenes mayores se recomienda elevador fijo tipo Z, C u O. Para descargas puntuales o multi-línea, el móvil ofrece la mejor relación coste/flexibilidad.",
+          "en": "Standard capacity up to 20 m³/h. For larger volumes a fixed Z, C or O elevator is recommended. For ad-hoc or multi-line discharges, the mobile offers the best cost/flexibility ratio."
+        }
+      },
+      {
+        "question": { "es": "¿Necesita conexión eléctrica especial?", "en": "Does it need a special electrical connection?" },
+        "answer": {
+          "es": "El cuadro eléctrico viene integrado a bordo y solo requiere una toma trifásica estándar de planta. No hay obra eléctrica fija.",
+          "en": "The control panel is on-board and only requires a standard three-phase plant outlet. No fixed electrical work needed."
+        }
+      }
+    ],
     "image": "/images/products/elevador-cangilones-movil.jpg",
     "imageAlt": {
-      "es": "Elevador de cangilones móvil Toromac con ruedas",
-      "en": "Toromac mobile bucket elevator on wheels"
+      "es": "Elevador de cangilones móvil Toromac sobre ruedas con cuadro eléctrico",
+      "en": "Toromac mobile bucket elevator on wheels with control panel"
     },
     "seo": {
       "es": {
         "title": "Elevador de Cangilones Móvil sobre Ruedas | Toromac",
-        "description": "Elevador de cangilones tipo Z móvil con cuadro eléctrico integrado. Para descarga de Big Bags y sacos sin obra civil."
+        "description": "Elevador de cangilones tipo Z móvil con cuadro eléctrico integrado. Para descarga puntual de Big Bags y sacos sin obra civil. Hasta 20 m³/h."
       },
       "en": {
         "title": "Portable Bucket Elevator on Wheels | Toromac",
-        "description": "Mobile Z-type bucket elevator with on-board control panel. For Big Bag and sack discharge without civil works."
+        "description": "Mobile Z-type bucket elevator with on-board control panel. For Big Bag and sack discharge without civil works. Up to 20 m³/h."
       }
     }
   },
@@ -161,34 +369,64 @@
     "category": "elevacion-transporte",
     "name": { "es": "Elevador de Banda Tipo Z", "en": "Z-Type Belt Elevator" },
     "shortDescription": {
-      "es": "Elevador tipo Z con banda en lugar de cangilones. Para producto enbasado o piezas que no encajan en cangilón estándar.",
-      "en": "Z-type elevator with belt instead of buckets. For packaged product or pieces that don't fit a standard bucket."
+      "es": "Elevador tipo Z con banda continua en lugar de cangilones. Para producto envasado, en formato unitario o que requiere superficie continua. Materiales aprobados FDA.",
+      "en": "Z-type elevator with continuous belt instead of buckets. For packaged product, unit format or requiring continuous surface. FDA-approved materials."
     },
-    "description": {
-      "es": "Versión con banda continua del elevador tipo Z, indicada cuando el producto va envasado, en formato unitario o requiere superficie continua para no quebrarse. Banda lisa o nervada según producto.",
-      "en": "Continuous-belt version of the Z-type elevator, indicated when product is packaged, unit-format or requires a continuous surface to avoid breakage. Smooth or cleated belt per product."
+    "longDescription": {
+      "es": [
+        "El elevador de banda tipo Z es la versión con banda continua de nuestro elevador tipo Z, indicada cuando el producto va envasado, en formato unitario, o requiere una superficie continua para evitar quebraduras o vuelcos durante la elevación.",
+        "Fabricado con materiales aprobados por la FDA para contacto alimentario, lo que lo convierte en un equipo de referencia para líneas de envasado primario, sectores que manipulan producto delicado en bandejas, o líneas de producto fresco que no admiten cangilones convencionales.",
+        "Equipo moderno y compacto de alto rendimiento, gran fiabilidad, bajo coste de mantenimiento y mínimo consumo energético. Configurable con banda lisa para piezas y formato unitario, o con banda nervada para producto a granel en pendiente pronunciada.",
+        "Toromac diseña y fabrica todos los equipamientos a medida. Estructura en acero inoxidable o pintado según sector, con o sin carenado."
+      ],
+      "en": [
+        "The Z-type belt elevator is the continuous-belt version of our Z-type elevator, indicated when product is packaged, unit-format, or requires a continuous surface to avoid breakage or tipping during elevation.",
+        "Built with FDA-approved materials for food contact, making it a reference unit for primary packing lines, sectors handling delicate product on trays, or fresh-food lines that don't accept conventional buckets.",
+        "Modern compact high-performance unit with great reliability, low maintenance cost and minimum energy consumption. Configurable with smooth belt for parts and unit format, or cleated belt for bulk product on steep inclines.",
+        "Toromac designs and manufactures every unit to order. Stainless or painted steel structure per sector, with or without cladding."
+      ]
+    },
+    "applications": {
+      "es": ["Líneas de envasado primario", "Producto envasado, en bandeja o formato unitario", "Frutos secos enbasados", "Snacks y aperitivos en bolsa", "Producto fresco refrigerado"],
+      "en": ["Primary packing lines", "Packaged, tray or unit-format product", "Bagged nuts", "Bagged snacks and savouries", "Fresh refrigerated product"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Según formato", "en": "Per format" } },
-      { "label": { "es": "Banda", "en": "Belt" }, "value": { "es": "Lisa o con nervios", "en": "Smooth or cleated" } }
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Según formato del producto", "en": "Per product format" } },
+      { "label": { "es": "Banda", "en": "Belt" }, "value": { "es": "Lisa o nervada", "en": "Smooth or cleated" } },
+      { "label": { "es": "Material banda", "en": "Belt material" }, "value": { "es": "Aprobado FDA", "en": "FDA approved" } },
+      { "label": { "es": "Estructura", "en": "Structure" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" }
     ],
     "highlights": {
-      "es": ["Para producto envasado", "Banda nervada opcional", "Recorrido en Z"],
-      "en": ["For packaged product", "Optional cleated belt", "Z path"]
+      "es": [
+        "Materiales de banda aprobados FDA",
+        "Para producto envasado o formato unitario",
+        "Banda lisa o nervada según producto",
+        "Recorrido en Z compacto",
+        "Bajo consumo y mantenimiento mínimo"
+      ],
+      "en": [
+        "FDA-approved belt materials",
+        "For packaged or unit-format product",
+        "Smooth or cleated belt per product",
+        "Compact Z path",
+        "Low consumption and minimum maintenance"
+      ]
     },
+    "faq": [],
     "image": "/images/products/elevador-banda-tipo-z.jpg",
     "imageAlt": {
-      "es": "Elevador de banda tipo Z para producto envasado",
-      "en": "Z-type belt elevator for packaged product"
+      "es": "Elevador de banda tipo Z Toromac para producto envasado",
+      "en": "Toromac Z-type belt elevator for packaged product"
     },
     "seo": {
       "es": {
-        "title": "Elevador de Banda Tipo Z | Toromac",
-        "description": "Banda elevadora tipo Z para producto envasado. Banda lisa o nervada. Acero inoxidable."
+        "title": "Banda Elevadora de Cangilones Tipo Z FDA | Toromac",
+        "description": "Elevador de banda tipo Z con banda lisa o nervada y materiales aprobados FDA. Para producto envasado, formato unitario o líneas de packaging primario."
       },
       "en": {
-        "title": "Z-Type Belt Elevator | Toromac",
-        "description": "Z-type belt elevator for packaged product. Smooth or cleated belt. Stainless steel."
+        "title": "Z-Type Belt Elevator FDA-Approved | Toromac",
+        "description": "Z-type belt elevator with smooth or cleated belt and FDA-approved materials. For packaged product, unit format or primary packing lines."
       }
     }
   },
@@ -199,35 +437,76 @@
     "featured": true,
     "name": { "es": "Elevador Sin-Fin", "en": "Screw Conveyor Elevator" },
     "shortDescription": {
-      "es": "Tornillo sin-fin con tolva para elevar polvos y granulados. Sellado higiénico y mínima generación de polvo en transferencia.",
-      "en": "Screw conveyor with hopper for lifting powders and granulates. Hygienic sealing and minimum dust generation on transfer."
+      "es": "Tornillo sin-fin con tolva para elevación continua de polvos, granulados y productos semihúmedos hasta 50% de humedad. Sellado higiénico opcional.",
+      "en": "Screw conveyor with hopper for continuous elevation of powders, granulates and semi-moist products up to 50% humidity. Optional hygienic sealing."
     },
-    "description": {
-      "es": "El elevador sin-fin es la solución óptima para producto en polvo o granulado fino que requiere transporte vertical o inclinado en circuito cerrado. Tolva de carga dimensionada según volumen de Big Bag o saco. Sellado del eje opcional para entornos farmacéuticos o ATEX.",
-      "en": "The screw conveyor elevator is optimal for fine powder or granulate that requires closed vertical or inclined transport. Loading hopper sized to Big Bag or sack volume. Optional shaft sealing for pharma or ATEX environments."
+    "longDescription": {
+      "es": [
+        "El elevador sin-fin (también denominado transportador de tornillo sin fin o transportador helicoidal) es un sistema de elevación y transporte continuo e ininterrumpido para productos en polvo, granulado o semihúmedo / graso (hasta un 50% de humedad).",
+        "Gracias a su diseño robusto y optimizado a lo largo de los años, garantiza una gran fiabilidad operativa con el mínimo mantenimiento. Solución ideal cuando otros sistemas (cangilones, banda) no encajan por la naturaleza del producto: harinas finas, polvos cohesivos, productos semihúmedos o grasos, residuos cárnicos.",
+        "Equipo de gran robustez y precisión para trabajo continuo de elevación de producto en polvo, granulado o semihúmedo / graso. Inclinación configurable de 0° (horizontal) a 90° (vertical).",
+        "Tolva de carga dimensionada según volumen de Big Bag, saco o flujo de proceso. Sellado del eje opcional para entornos farmacéuticos o ATEX donde se requiere estanqueidad total."
+      ],
+      "en": [
+        "The screw conveyor elevator (also called screw conveyor or helical conveyor) is a continuous uninterrupted elevation and transport system for powders, granulates or semi-moist / fatty products (up to 50% humidity).",
+        "Thanks to its robust design optimised over years, it guarantees great operational reliability with minimum maintenance. Ideal when other systems (buckets, belt) don't fit the product nature: fine flours, cohesive powders, semi-moist or fatty products, meat residue.",
+        "Highly robust and precise unit for continuous elevation of powder, granulate or semi-moist / fatty product. Configurable incline from 0° (horizontal) to 90° (vertical).",
+        "Loading hopper sized to Big Bag volume, sack or process flow. Optional shaft sealing for pharma or ATEX environments requiring total tightness."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria — harinas, polvos cohesivos", "Industria minera y química", "Packaging y envasado de polvos", "Industria conservera", "Pet food y alimentación animal", "Agroalimentaria y reciclado de plástico"],
+      "en": ["Food industry — flours, cohesive powders", "Mining and chemical industry", "Packaging of powders", "Cannery industry", "Pet food and animal nutrition", "Agro-food and plastic recycling"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 15 m³/h" },
+      { "label": { "es": "Caudal", "en": "Throughput" }, "value": { "es": "Hasta 15 m³/h", "en": "Up to 15 m³/h" } },
       { "label": { "es": "Inclinación", "en": "Incline" }, "value": "0° – 90°" },
-      { "label": { "es": "Tolva de carga", "en": "Loading hopper" }, "value": { "es": "Bajo demanda", "en": "On demand" } }
+      { "label": { "es": "Productos admitidos", "en": "Suitable products" }, "value": { "es": "Polvos, granulados, semihúmedos hasta 50%", "en": "Powders, granulates, semi-moist up to 50%" } },
+      { "label": { "es": "Materiales", "en": "Materials" }, "value": { "es": "Acero al carbono, AISI 304 o 316", "en": "Carbon steel, AISI 304 or 316" } },
+      { "label": { "es": "Acabados", "en": "Finishes" }, "value": { "es": "Básico, alimentario o sanitario", "en": "Basic, food-grade or sanitary" } },
+      { "label": { "es": "Tolva de carga", "en": "Loading hopper" }, "value": { "es": "Bajo demanda, dimensionada al Big Bag/saco", "en": "On demand, sized to Big Bag/sack" } },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" }
     ],
     "highlights": {
-      "es": ["Mínima generación de polvo", "Circuito cerrado", "Sellado higiénico opcional"],
-      "en": ["Minimum dust generation", "Closed circuit", "Optional hygienic sealing"]
+      "es": [
+        "Elevación continua sin interrupciones",
+        "Apto para producto semihúmedo / graso hasta 50%",
+        "Mínimo mantenimiento por sencillez mecánica",
+        "Sellado higiénico opcional para farma y ATEX",
+        "Inclinación configurable 0° – 90°",
+        "Múltiples opciones de material y acabado"
+      ],
+      "en": [
+        "Continuous uninterrupted elevation",
+        "Suitable for semi-moist / fatty product up to 50%",
+        "Minimum maintenance via mechanical simplicity",
+        "Optional hygienic sealing for pharma and ATEX",
+        "Configurable incline 0° – 90°",
+        "Multiple material and finish options"
+      ]
     },
+    "faq": [
+      {
+        "question": { "es": "¿Cuándo elegir un sin-fin frente a un elevador de cangilones?", "en": "When to choose a screw conveyor over a bucket elevator?" },
+        "answer": {
+          "es": "Elija sin-fin cuando el producto es polvo cohesivo, harina fina, semihúmedo o graso. Para productos sólidos, granulados o frágiles que toleran la rotación de cangilones, el elevador de cangilones suele ser mejor por menor degradación.",
+          "en": "Choose screw when the product is cohesive powder, fine flour, semi-moist or fatty. For solid, granulate or fragile products that tolerate bucket rotation, the bucket elevator is usually better due to less degradation."
+        }
+      }
+    ],
     "image": "/images/products/elevador-sinfin.jpg",
     "imageAlt": {
-      "es": "Elevador sin-fin con tolva Toromac",
-      "en": "Toromac screw conveyor elevator with hopper"
+      "es": "Elevador sin-fin con tolva Toromac para polvos y granulados",
+      "en": "Toromac screw conveyor elevator with hopper for powders and granulates"
     },
     "seo": {
       "es": {
-        "title": "Tornillo Sin Fin Elevador con Tolva | Toromac",
-        "description": "Elevador sin-fin para polvos y granulados. Tolva integrada, sellado higiénico opcional. Hasta 15 m³/h."
+        "title": "Tornillo Sin Fin Elevador con Tolva Industrial | Toromac",
+        "description": "Elevador sin-fin para polvos, granulados y productos semihúmedos hasta 50%. Tolva integrada, sellado higiénico opcional. Inclinación 0–90°. Hasta 15 m³/h."
       },
       "en": {
-        "title": "Screw Conveyor Elevator with Hopper | Toromac",
-        "description": "Screw conveyor for powders and granulates. Integrated hopper, optional hygienic sealing. Up to 15 m³/h."
+        "title": "Screw Conveyor Elevator with Hopper Industrial | Toromac",
+        "description": "Screw conveyor for powders, granulates and semi-moist product up to 50%. Integrated hopper, optional hygienic sealing. 0–90° incline. Up to 15 m³/h."
       }
     }
   },
@@ -238,35 +517,89 @@
     "featured": true,
     "name": { "es": "Cinta Transportadora de Banda Industrial", "en": "Industrial Belt Conveyor" },
     "shortDescription": {
-      "es": "Cinta transportadora industrial para producto a granel, envasado o piezas. Configuraciones modulares y banda alimentaria certificada.",
-      "en": "Industrial belt conveyor for bulk, packaged or unit product. Modular configurations and food-grade certified belt."
+      "es": "Cinta transportadora de banda continua para producto a granel, envasado o piezas. Materiales FDA, configuración modular según layout de planta.",
+      "en": "Continuous belt conveyor for bulk, packaged or unit product. FDA materials, modular configuration to match plant layout."
     },
-    "description": {
-      "es": "Cinta transportadora de banda en construcción robusta inox o pintada, con motorreductor, banda alimentaria o industrial según aplicación. Configurable horizontal, inclinada o con elevación gradual. Bordes de contención y sistemas de tensado de fácil mantenimiento.",
-      "en": "Belt conveyor in robust stainless or painted construction, with gear motor and food-grade or industrial belt per application. Configurable horizontal, inclined or with gradual lift. Containment edges and easy-maintenance tensioning system."
+    "longDescription": {
+      "es": [
+        "La cinta transportadora de banda industrial Toromac es un sistema de transporte continuo diseñado para mover productos sólidos de forma eficiente, segura y delicada entre dos puntos de planta, en horizontal, en pendiente o con elevación gradual.",
+        "Está fabricada con materiales aprobados por la FDA, lo que la hace especialmente adecuada para procesos alimentarios y líneas de producción donde la higiene es prioritaria. Configuración modular: el cliente define longitud, anchura, pendiente y opciones (bordes de contención, capó superior, lavado in-place).",
+        "Su diseño robusto y compacto permite transportar grandes volúmenes de producto con bajo consumo energético, mínima necesidad de mantenimiento y una alta fiabilidad operativa.",
+        "Estructura en acero inoxidable AISI 304L / 316L o pintada según sector. Tensado por sistema con compensación automática para reducir paradas. Banda alimentaria o industrial seleccionable según producto y temperatura de operación."
+      ],
+      "en": [
+        "Toromac's industrial belt conveyor is a continuous transport system designed to move solid products efficiently, safely and gently between two plant points — horizontally, on incline or with gradual elevation.",
+        "Built with FDA-approved materials, especially suited for food processes and production lines where hygiene is a priority. Modular configuration: the customer defines length, width, slope and options (containment edges, top cover, wash-in-place).",
+        "Its robust compact design transports large volumes of product with low energy consumption, minimum maintenance and high operational reliability.",
+        "Structure in AISI 304L / 316L stainless steel or painted per sector. Tensioning system with automatic compensation to reduce downtime. Food-grade or industrial belt selectable per product and operating temperature."
+      ]
+    },
+    "applications": {
+      "es": ["Líneas de producción industrial", "Sector alimentario — snacks, cereales, frutos secos", "Productos a granel y envasados", "Procesos automatizados", "Conexión entre equipos de proceso"],
+      "en": ["Industrial production lines", "Food sector — snacks, cereals, nuts", "Bulk and packaged products", "Automated processes", "Connection between process units"]
     },
     "specs": [
-      { "label": { "es": "Anchura banda", "en": "Belt width" }, "value": "300 – 1200 mm" },
-      { "label": { "es": "Longitud", "en": "Length" }, "value": { "es": "A medida", "en": "Custom" } },
-      { "label": { "es": "Banda", "en": "Belt" }, "value": { "es": "Alimentaria o industrial", "en": "Food-grade or industrial" } }
+      { "label": { "es": "Anchura banda", "en": "Belt width" }, "value": "300 – 1.200 mm" },
+      { "label": { "es": "Longitud", "en": "Length" }, "value": { "es": "A medida del proyecto", "en": "Custom per project" } },
+      { "label": { "es": "Banda", "en": "Belt" }, "value": { "es": "Alimentaria FDA o industrial", "en": "FDA food-grade or industrial" } },
+      { "label": { "es": "Estructura", "en": "Structure" }, "value": { "es": "Acero inoxidable o pintado", "en": "Stainless or painted steel" } },
+      { "label": { "es": "Configuración", "en": "Configuration" }, "value": { "es": "Horizontal, inclinada o con elevación gradual", "en": "Horizontal, inclined or gradual lift" } },
+      { "label": { "es": "Normativa", "en": "Compliance" }, "value": "CE" }
     ],
     "highlights": {
-      "es": ["Banda alimentaria opcional", "Construcción modular", "Tensado de fácil mantenimiento"],
-      "en": ["Optional food-grade belt", "Modular construction", "Easy-maintenance tensioning"]
+      "es": [
+        "Banda alimentaria FDA opcional",
+        "Construcción modular adaptable al layout",
+        "Tensado de fácil mantenimiento",
+        "Bordes de contención y capó opcionales",
+        "Bajo consumo energético",
+        "Transporte continuo y estable"
+      ],
+      "en": [
+        "Optional FDA food-grade belt",
+        "Modular construction adaptable to layout",
+        "Easy-maintenance tensioning",
+        "Optional containment edges and top cover",
+        "Low energy consumption",
+        "Continuous stable transport"
+      ]
     },
+    "faq": [
+      {
+        "question": { "es": "¿Es apta para industria alimentaria?", "en": "Is it suitable for food industry?" },
+        "answer": {
+          "es": "Sí. Se fabrica con banda alimentaria certificada FDA y estructura en acero inoxidable AISI 304L o 316L según sector y normativa.",
+          "en": "Yes. Built with FDA-certified food-grade belt and AISI 304L or 316L stainless steel structure per sector and regulation."
+        }
+      },
+      {
+        "question": { "es": "¿Qué longitud máxima admite?", "en": "What's the maximum length?" },
+        "answer": {
+          "es": "Sin limite estándar — la cinta se fabrica a medida del proyecto. Para tramos muy largos se puede dividir en módulos con caballete intermedio.",
+          "en": "No standard limit — the conveyor is built to project. For very long runs it can be split into modules with intermediate trestles."
+        }
+      },
+      {
+        "question": { "es": "¿Qué pendiente máxima admite con producto a granel?", "en": "What max incline for bulk product?" },
+        "answer": {
+          "es": "Banda lisa hasta ~18° con producto a granel; con banda nervada o tacos se pueden alcanzar pendientes de 30–45°. Para inclinaciones mayores se recomienda elevador de cangilones o sin-fin.",
+          "en": "Smooth belt up to ~18° with bulk product; cleated belt reaches 30–45°. For steeper inclines a bucket elevator or screw conveyor is recommended."
+        }
+      }
+    ],
     "image": "/images/products/cinta-transportadora-banda-industrial.jpg",
     "imageAlt": {
-      "es": "Cinta transportadora industrial Toromac con banda azul",
-      "en": "Toromac industrial belt conveyor with blue belt"
+      "es": "Cinta transportadora industrial Toromac con banda alimentaria FDA",
+      "en": "Toromac industrial belt conveyor with FDA food-grade belt"
     },
     "seo": {
       "es": {
-        "title": "Cinta Transportadora Industrial | Toromac",
-        "description": "Cintas transportadoras industriales a medida. Banda alimentaria, configuración modular, longitud y anchura según planta."
+        "title": "Cinta Transportadora Industrial FDA | Toromac",
+        "description": "Cintas transportadoras industriales a medida con banda alimentaria FDA. Anchura 300–1.200 mm, configuración modular horizontal, inclinada o con elevación."
       },
       "en": {
-        "title": "Industrial Belt Conveyor | Toromac",
-        "description": "Custom industrial belt conveyors. Food-grade belt, modular configuration, length and width to plant requirements."
+        "title": "Industrial Belt Conveyor FDA Food-Grade | Toromac",
+        "description": "Custom industrial belt conveyors with FDA food-grade belt. Width 300–1,200 mm, modular configuration horizontal, inclined or with lift."
       }
     }
   },
@@ -277,31 +610,41 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON Natural 2L", "en": "CALYON Natural Bucket 2L" },
     "shortDescription": {
-      "es": "Cangilón en polietileno alimentario natural de 2 litros. Para cargas pequeñas y producto frágil.",
-      "en": "Natural food-grade polyethylene bucket, 2 litres. For small loads and fragile product."
+      "es": "Cangilón CALYON Natural en poliamida PA6 alimentaria de 2 litros. Recambio para elevadores tipo Z, C, O y móvil — capacidad pequeña para producto delicado.",
+      "en": "CALYON Natural bucket in PA6 food-grade polyamide, 2 litres. Spare for Z, C, O and mobile elevators — small capacity for delicate product."
+    },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON Natural fabricado en poliamida PA6 alimentaria virgen, con 2 litros de capacidad nominal. Geometría sin retención y radios interiores optimizados para vaciado total y limpieza efectiva en elevadores de cangilones.",
+        "Compatible con la gama completa de elevadores Toromac (tipo Z, C, O, móvil) y con la mayoría de elevadores estándar del mercado mediante adaptadores de fijación.",
+        "La capacidad de 2 litros está pensada para producto delicado, granulometría fina o líneas de bajo caudal donde se requiere un control preciso del avance del producto."
+      ],
+      "en": [
+        "CALYON Natural bucket built in virgin PA6 food-grade polyamide, with 2 litres nominal capacity. No-retention geometry and optimised inner radii for total emptying and effective cleaning in bucket elevators.",
+        "Compatible with the full Toromac elevator range (Z, C, O, mobile) and most standard market elevators via fixing adapters.",
+        "The 2-litre capacity is designed for delicate product, fine particle size or low-throughput lines requiring precise control of product flow."
+      ]
+    },
+    "applications": {
+      "es": ["Recambio para elevadores de cangilones", "Producto delicado en alimentación", "Líneas de bajo caudal", "Granulometría fina"],
+      "en": ["Spare for bucket elevators", "Delicate food product", "Low-throughput lines", "Fine particle size"]
     },
     "specs": [
       { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "2 L" },
-      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "PE alimentario natural", "en": "Natural food-grade PE" } }
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 alimentaria virgen", "en": "Virgin PA6 food-grade polyamide" } },
+      { "label": { "es": "Tipo", "en": "Type" }, "value": "CALYON Natural" },
+      { "label": { "es": "Compatibilidad", "en": "Compatibility" }, "value": { "es": "Elevadores Z / C / O / Móvil", "en": "Z / C / O / Mobile elevators" } }
     ],
     "highlights": {
-      "es": ["Apto contacto alimentario", "Geometría sin retención", "Compatible con elevadores Z / C / O"],
-      "en": ["Food-contact compliant", "No-retention geometry", "Compatible with Z / C / O elevators"]
+      "es": ["Apto contacto alimentario", "Geometría sin retención", "Vaciado total y limpieza efectiva", "Compatible con elevadores Toromac y estándar de mercado"],
+      "en": ["Food-contact compliant", "No-retention geometry", "Total emptying and effective cleaning", "Compatible with Toromac and market-standard elevators"]
     },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-natural-2l.jpg",
-    "imageAlt": {
-      "es": "Cangilón CALYON Natural 2L de polietileno alimentario",
-      "en": "CALYON Natural 2L food-grade polyethylene bucket"
-    },
+    "imageAlt": { "es": "Cangilón CALYON Natural 2L poliamida alimentaria", "en": "CALYON Natural 2L food-grade polyamide bucket" },
     "seo": {
-      "es": {
-        "title": "Cangilón CALYON Natural 2L | Recambio Elevador",
-        "description": "Cangilón de elevador 2 litros en PE alimentario natural. Recambio para elevadores tipo Z, C, O y móvil."
-      },
-      "en": {
-        "title": "CALYON Natural Bucket 2L | Elevator Spare",
-        "description": "2-litre elevator bucket in natural food-grade PE. Spare for Z, C, O and mobile bucket elevators."
-      }
+      "es": { "title": "Cangilón CALYON Natural 2L Recambio Elevador | Toromac", "description": "Cangilón de elevador 2 litros en PA6 alimentaria natural. Recambio universal para elevadores tipo Z, C, O y móvil." },
+      "en": { "title": "CALYON Natural Bucket 2L Elevator Spare | Toromac", "description": "2-litre elevator bucket in natural food-grade PA6. Universal spare for Z, C, O and mobile bucket elevators." }
     }
   },
   {
@@ -310,19 +653,39 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON Natural 5L", "en": "CALYON Natural Bucket 5L" },
     "shortDescription": {
-      "es": "Cangilón en polietileno alimentario natural de 5 litros. Capacidad media para uso general.",
-      "en": "Natural food-grade polyethylene bucket, 5 litres. Mid-capacity for general use."
+      "es": "Cangilón CALYON Natural en PA6 alimentaria de 5 litros. Capacidad media — el formato más versátil para producción estándar.",
+      "en": "CALYON Natural bucket in food-grade PA6, 5 litres. Mid-capacity — the most versatile format for standard production."
+    },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON Natural fabricado en poliamida PA6 alimentaria virgen, con 5 litros de capacidad nominal. Es el formato más versátil de la gama y el habitual para producciones estándar de snacks, cereales, frutos secos y granulados de densidad media.",
+        "Geometría sin retención y radios interiores optimizados para vaciado total y limpieza efectiva. Compatible con la gama completa de elevadores Toromac y con la mayoría de elevadores estándar del mercado."
+      ],
+      "en": [
+        "CALYON Natural bucket built in virgin PA6 food-grade polyamide, 5 litres nominal capacity. The most versatile format in the range and the usual choice for standard production of snacks, cereals, nuts and medium-density granulates.",
+        "No-retention geometry and optimised inner radii for total emptying and effective cleaning. Compatible with the full Toromac elevator range and most standard market elevators."
+      ]
+    },
+    "applications": {
+      "es": ["Recambio para elevadores de cangilones", "Producción estándar de snacks y cereales", "Frutos secos y granulados de densidad media"],
+      "en": ["Spare for bucket elevators", "Standard production of snacks and cereals", "Nuts and medium-density granulates"]
     },
     "specs": [
       { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "5 L" },
-      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "PE alimentario natural", "en": "Natural food-grade PE" } }
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 alimentaria virgen", "en": "Virgin PA6 food-grade polyamide" } },
+      { "label": { "es": "Tipo", "en": "Type" }, "value": "CALYON Natural" },
+      { "label": { "es": "Compatibilidad", "en": "Compatibility" }, "value": { "es": "Elevadores Z / C / O / Móvil", "en": "Z / C / O / Mobile elevators" } }
     ],
-    "highlights": { "es": ["Apto contacto alimentario", "Capacidad media", "Geometría sin retención"], "en": ["Food-contact compliant", "Mid capacity", "No-retention geometry"] },
+    "highlights": {
+      "es": ["Apto contacto alimentario", "Capacidad media — formato más versátil", "Geometría sin retención", "Compatible con elevadores Toromac y estándar de mercado"],
+      "en": ["Food-contact compliant", "Mid capacity — most versatile format", "No-retention geometry", "Compatible with Toromac and market-standard elevators"]
+    },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-natural-5l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON Natural 5L", "en": "CALYON Natural 5L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON Natural 5L poliamida alimentaria", "en": "CALYON Natural 5L food-grade polyamide bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON Natural 5L | Toromac", "description": "Cangilón de elevador 5 litros en PE alimentario natural. Recambio universal." },
-      "en": { "title": "CALYON Natural Bucket 5L | Toromac", "description": "5-litre elevator bucket in natural food-grade PE. Universal spare." }
+      "es": { "title": "Cangilón CALYON Natural 5L Recambio Elevador | Toromac", "description": "Cangilón de elevador 5 litros en PA6 alimentaria natural. El formato más versátil para producción estándar de snacks, cereales y frutos secos." },
+      "en": { "title": "CALYON Natural Bucket 5L Elevator Spare | Toromac", "description": "5-litre elevator bucket in natural food-grade PA6. The most versatile format for standard snack, cereal and nut production." }
     }
   },
   {
@@ -331,16 +694,38 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON Natural 7L", "en": "CALYON Natural Bucket 7L" },
     "shortDescription": {
-      "es": "Cangilón en polietileno alimentario natural de 7 litros. Capacidad alta para producto granulado.",
-      "en": "Natural food-grade polyethylene bucket, 7 litres. High capacity for granulated product."
+      "es": "Cangilón CALYON Natural en PA6 alimentaria de 7 litros. Alta capacidad para producto granulado de densidad media-alta.",
+      "en": "CALYON Natural bucket in food-grade PA6, 7 litres. High capacity for medium-high density granulated product."
     },
-    "specs": [{ "label": { "es": "Capacidad", "en": "Capacity" }, "value": "7 L" }],
-    "highlights": { "es": ["Apto contacto alimentario", "Alta capacidad"], "en": ["Food-contact compliant", "High capacity"] },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON Natural fabricado en poliamida PA6 alimentaria virgen, con 7 litros de capacidad nominal. Alta capacidad indicada para producciones que combinan densidad media-alta del producto y un caudal por encima del estándar.",
+        "Geometría sin retención y radios interiores optimizados para vaciado total. Compatible con la gama completa de elevadores Toromac (tipo Z, C, O, móvil) y con la mayoría de elevadores estándar del mercado."
+      ],
+      "en": [
+        "CALYON Natural bucket in virgin PA6 food-grade polyamide, 7 litres nominal capacity. High capacity indicated for production combining medium-high product density with above-standard throughput.",
+        "No-retention geometry and optimised inner radii for total emptying. Compatible with the full Toromac elevator range (Z, C, O, mobile) and most standard market elevators."
+      ]
+    },
+    "applications": {
+      "es": ["Recambio para elevadores de cangilones", "Producción de alta capacidad", "Producto granulado denso", "Industria cerealista y agroalimentaria"],
+      "en": ["Spare for bucket elevators", "High-capacity production", "Dense granulated product", "Grain and agro-food industry"]
+    },
+    "specs": [
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "7 L" },
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 alimentaria virgen", "en": "Virgin PA6 food-grade polyamide" } },
+      { "label": { "es": "Tipo", "en": "Type" }, "value": "CALYON Natural" }
+    ],
+    "highlights": {
+      "es": ["Apto contacto alimentario", "Alta capacidad", "Geometría sin retención", "Compatible con elevadores Toromac y estándar de mercado"],
+      "en": ["Food-contact compliant", "High capacity", "No-retention geometry", "Compatible with Toromac and market-standard elevators"]
+    },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-natural-7l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON Natural 7L", "en": "CALYON Natural 7L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON Natural 7L poliamida alimentaria", "en": "CALYON Natural 7L food-grade polyamide bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON Natural 7L | Toromac", "description": "Cangilón de elevador 7 litros en PE alimentario natural." },
-      "en": { "title": "CALYON Natural Bucket 7L | Toromac", "description": "7-litre elevator bucket in natural food-grade PE." }
+      "es": { "title": "Cangilón CALYON Natural 7L Recambio Elevador | Toromac", "description": "Cangilón de elevador 7 litros en PA6 alimentaria natural. Alta capacidad para producción de granulados densos." },
+      "en": { "title": "CALYON Natural Bucket 7L Elevator Spare | Toromac", "description": "7-litre elevator bucket in natural food-grade PA6. High capacity for dense granulated production." }
     }
   },
   {
@@ -349,16 +734,38 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON Natural 10L", "en": "CALYON Natural Bucket 10L" },
     "shortDescription": {
-      "es": "Cangilón en polietileno alimentario natural de 10 litros. Máxima capacidad para alta producción.",
-      "en": "Natural food-grade polyethylene bucket, 10 litres. Maximum capacity for high throughput."
+      "es": "Cangilón CALYON Natural en PA6 alimentaria de 10 litros. Máxima capacidad de la gama — producciones de alto caudal y producto denso.",
+      "en": "CALYON Natural bucket in food-grade PA6, 10 litres. Maximum capacity in the range — high-throughput production with dense product."
     },
-    "specs": [{ "label": { "es": "Capacidad", "en": "Capacity" }, "value": "10 L" }],
-    "highlights": { "es": ["Máxima capacidad", "Apto alimentación"], "en": ["Maximum capacity", "Food-grade"] },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON Natural fabricado en poliamida PA6 alimentaria virgen, con 10 litros de capacidad nominal. Es el formato de máxima capacidad de la gama, indicado para producciones con caudal por encima del estándar industrial y producto de alta densidad.",
+        "Geometría sin retención y refuerzos estructurales adicionales para soportar el peso de la carga máxima. Compatible con la gama completa de elevadores Toromac y con la mayoría de elevadores estándar del mercado dimensionados para 10L."
+      ],
+      "en": [
+        "CALYON Natural bucket in virgin PA6 food-grade polyamide, 10 litres nominal capacity. The maximum-capacity format in the range, indicated for production with above-standard industrial throughput and high product density.",
+        "No-retention geometry and additional structural reinforcements to support maximum load weight. Compatible with the full Toromac elevator range and most market-standard elevators sized for 10L."
+      ]
+    },
+    "applications": {
+      "es": ["Producción de máximo caudal", "Producto a granel de alta densidad", "Industria harinera y cerealista a gran escala"],
+      "en": ["Maximum-throughput production", "High-density bulk product", "Large-scale milling and grain industry"]
+    },
+    "specs": [
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "10 L" },
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 alimentaria virgen", "en": "Virgin PA6 food-grade polyamide" } },
+      { "label": { "es": "Tipo", "en": "Type" }, "value": "CALYON Natural" }
+    ],
+    "highlights": {
+      "es": ["Máxima capacidad de la gama CALYON Natural", "Apto contacto alimentario", "Refuerzos estructurales para carga máxima", "Compatible con elevadores Toromac y estándar de mercado"],
+      "en": ["Maximum capacity in the CALYON Natural range", "Food-contact compliant", "Structural reinforcements for max load", "Compatible with Toromac and market-standard elevators"]
+    },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-natural-10l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON Natural 10L", "en": "CALYON Natural 10L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON Natural 10L poliamida alimentaria", "en": "CALYON Natural 10L food-grade polyamide bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON Natural 10L | Toromac", "description": "Cangilón de elevador 10 litros en PE alimentario. Máxima capacidad." },
-      "en": { "title": "CALYON Natural Bucket 10L | Toromac", "description": "10-litre elevator bucket in food-grade PE. Maximum capacity." }
+      "es": { "title": "Cangilón CALYON Natural 10L Recambio Elevador | Toromac", "description": "Cangilón de elevador 10 litros en PA6 alimentaria natural. Máxima capacidad de la gama — producción de alto caudal y producto denso." },
+      "en": { "title": "CALYON Natural Bucket 10L Elevator Spare | Toromac", "description": "10-litre elevator bucket in food-grade PA6. Maximum range capacity — high-throughput production with dense product." }
     }
   },
   {
@@ -367,19 +774,49 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON X Metal-Detectable 2L", "en": "CALYON X Metal-Detectable Bucket 2L" },
     "shortDescription": {
-      "es": "Cangilón detectable por metales 2L para entornos críticos en alimentación, farma y nutracéutica.",
-      "en": "Metal-detectable 2L bucket for critical food, pharma and nutraceutical environments."
+      "es": "Cangilón CALYON X de 2L en poliamida con aditivo metálico detectable. Para entornos críticos en farma y alimentación certificada.",
+      "en": "CALYON X 2L bucket in metal-detectable polyamide with metallic additive. For critical pharma and certified food environments."
+    },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON X – PA6 Azul de 2 litros de capacidad con seguridad Metal-Detectable. Fabricado en poliamida natural con aditivo de metal en polvo distribuido homogéneamente en la masa del cangilón.",
+        "Sus propiedades permiten que los detectores de metales en línea identifiquen y rechacen cualquier viruta o fragmento de cangilón que pudiera caer al producto durante la operación, requisito habitual en industria farmacéutica y nutracéutica y en líneas alimentarias certificadas (IFS, BRC).",
+        "El color azul intenso facilita la detección visual durante operaciones de control de calidad. Geometría sin retención compatible con la gama completa de elevadores Toromac (Z, C, O, móvil)."
+      ],
+      "en": [
+        "CALYON X bucket – PA6 Blue with 2 litres capacity and Metal-Detectable safety. Built in natural polyamide with metal-powder additive distributed homogeneously through the bucket mass.",
+        "Its properties allow inline metal detectors to identify and reject any chip or bucket fragment that may fall into product during operation — a common requirement in pharma and nutraceutical industries and in certified food lines (IFS, BRC).",
+        "The intense blue colour enables visual detection during QC operations. No-retention geometry compatible with the full Toromac elevator range (Z, C, O, mobile)."
+      ]
+    },
+    "applications": {
+      "es": ["Industria farmacéutica y nutracéutica", "Líneas alimentarias certificadas IFS / BRC", "Producto delicado en sectores críticos", "Líneas con detector de metales obligatorio"],
+      "en": ["Pharma and nutraceutical industry", "IFS / BRC certified food lines", "Delicate product in critical sectors", "Lines with mandatory metal detector"]
     },
     "specs": [
       { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "2 L" },
-      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "PE alimentario con aditivo metal-detectable", "en": "Food-grade PE with metal-detectable additive" } }
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 azul con aditivo metálico", "en": "PA6 blue polyamide with metallic additive" } },
+      { "label": { "es": "Detección", "en": "Detection" }, "value": { "es": "Por sensores de metales en línea", "en": "By inline metal detectors" } },
+      { "label": { "es": "Grado", "en": "Grade" }, "value": { "es": "Alimentario", "en": "Food-grade" } }
     ],
-    "highlights": { "es": ["Detectable por sensores de metales", "Apto entornos críticos", "Trazabilidad por lote"], "en": ["Detectable by metal sensors", "Critical-environment ready", "Batch traceability"] },
+    "highlights": {
+      "es": ["Detectable por sensores de metales", "Color azul para detección visual", "Apto líneas IFS / BRC y farma", "Geometría sin retención"],
+      "en": ["Detectable by metal sensors", "Blue colour for visual detection", "Suitable for IFS / BRC and pharma lines", "No-retention geometry"]
+    },
+    "faq": [
+      {
+        "question": { "es": "¿Por qué usar cangilón metal-detectable?", "en": "Why use a metal-detectable bucket?" },
+        "answer": {
+          "es": "Reduce el riesgo de que un fragmento de cangilón roto contamine el producto sin ser detectado, y es requisito habitual en estándares como IFS, BRC, FSSC 22000, GMP en farma.",
+          "en": "It reduces the risk that a broken bucket fragment contaminates product undetected, and is a common requirement in standards like IFS, BRC, FSSC 22000 and GMP in pharma."
+        }
+      }
+    ],
     "image": "/images/products/cangilon-calyon-x-metal-detectable-2l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 2L", "en": "CALYON X Metal-Detectable 2L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 2L azul", "en": "CALYON X Metal-Detectable 2L blue bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON X Metal-Detectable 2L | Toromac", "description": "Cangilón 2L detectable por metales para alimentación y farma." },
-      "en": { "title": "CALYON X Metal-Detectable Bucket 2L | Toromac", "description": "Metal-detectable 2L bucket for food and pharma." }
+      "es": { "title": "Cangilón Metal-Detectable 2L CALYON X | Toromac", "description": "Cangilón 2L detectable por metales para entornos críticos en alimentación certificada y farma. Color azul, PA6 con aditivo metálico." },
+      "en": { "title": "Metal-Detectable Bucket 2L CALYON X | Toromac", "description": "2L metal-detectable bucket for critical certified food and pharma environments. Blue, PA6 with metallic additive." }
     }
   },
   {
@@ -389,16 +826,41 @@
     "featured": true,
     "name": { "es": "Cangilón CALYON X Metal-Detectable 5L", "en": "CALYON X Metal-Detectable Bucket 5L" },
     "shortDescription": {
-      "es": "Cangilón detectable por metales 5L. Capacidad media para alimentación y farma.",
-      "en": "Metal-detectable 5L bucket. Mid-capacity for food and pharma."
+      "es": "Cangilón CALYON X de 5L en poliamida metal-detectable. Capacidad media — el formato estándar para alimentación certificada y farma.",
+      "en": "CALYON X 5L bucket in metal-detectable polyamide. Mid-capacity — the standard format for certified food and pharma."
     },
-    "specs": [{ "label": { "es": "Capacidad", "en": "Capacity" }, "value": "5 L" }],
-    "highlights": { "es": ["Detectable por metales", "Capacidad media"], "en": ["Metal-detectable", "Mid capacity"] },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON X – PA6 Azul de 5 litros de capacidad con seguridad Metal-Detectable. Es el formato estándar de la gama X y el más demandado en líneas certificadas.",
+        "Fabricado en poliamida con aditivo de metal en polvo, permite a los detectores de metales identificar y rechazar fragmentos accidentales del cangilón. Color azul intenso para detección visual durante el control de calidad.",
+        "Compatible con la gama completa de elevadores Toromac (Z, C, O, móvil) y con la mayoría de elevadores del mercado dimensionados para cangilones de 5L."
+      ],
+      "en": [
+        "CALYON X bucket – PA6 Blue with 5 litres capacity and Metal-Detectable safety. The standard format in the X range and the most requested for certified lines.",
+        "Built in polyamide with metal-powder additive, allowing metal detectors to identify and reject accidental bucket fragments. Intense blue colour for visual detection during QC.",
+        "Compatible with the full Toromac elevator range (Z, C, O, mobile) and most market elevators sized for 5L buckets."
+      ]
+    },
+    "applications": {
+      "es": ["Producción estándar en líneas certificadas", "Industria alimentaria con IFS / BRC", "Industria farmacéutica y nutracéutica"],
+      "en": ["Standard production in certified lines", "Food industry with IFS / BRC", "Pharma and nutraceutical industry"]
+    },
+    "specs": [
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "5 L" },
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 azul con aditivo metálico", "en": "PA6 blue polyamide with metallic additive" } },
+      { "label": { "es": "Detección", "en": "Detection" }, "value": { "es": "Por sensores de metales en línea", "en": "By inline metal detectors" } },
+      { "label": { "es": "Grado", "en": "Grade" }, "value": { "es": "Alimentario", "en": "Food-grade" } }
+    ],
+    "highlights": {
+      "es": ["Capacidad media — formato estándar de la gama X", "Detectable por sensores de metales", "Color azul para detección visual", "Apto líneas IFS / BRC y farma"],
+      "en": ["Mid capacity — standard format in the X range", "Detectable by metal sensors", "Blue colour for visual detection", "Suitable for IFS / BRC and pharma lines"]
+    },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-x-metal-detectable-5l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 5L", "en": "CALYON X Metal-Detectable 5L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 5L azul", "en": "CALYON X Metal-Detectable 5L blue bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON X Metal-Detectable 5L | Toromac", "description": "Cangilón 5L detectable por metales." },
-      "en": { "title": "CALYON X Metal-Detectable Bucket 5L | Toromac", "description": "5L metal-detectable bucket." }
+      "es": { "title": "Cangilón Metal-Detectable 5L CALYON X | Toromac", "description": "Cangilón 5L detectable por metales. El formato estándar de la gama X — alimentación certificada IFS/BRC y farma." },
+      "en": { "title": "Metal-Detectable Bucket 5L CALYON X | Toromac", "description": "5L metal-detectable bucket. The standard format in the X range — certified IFS/BRC food and pharma." }
     }
   },
   {
@@ -407,16 +869,39 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON X Metal-Detectable 7L", "en": "CALYON X Metal-Detectable Bucket 7L" },
     "shortDescription": {
-      "es": "Cangilón detectable por metales 7L. Alta capacidad para entornos críticos.",
-      "en": "Metal-detectable 7L bucket. High capacity for critical environments."
+      "es": "Cangilón CALYON X de 7L metal-detectable. Alta capacidad para alimentación certificada y farma con caudales superiores al estándar.",
+      "en": "CALYON X 7L metal-detectable bucket. High capacity for certified food and pharma with above-standard throughput."
     },
-    "specs": [{ "label": { "es": "Capacidad", "en": "Capacity" }, "value": "7 L" }],
-    "highlights": { "es": ["Detectable por metales", "Alta capacidad"], "en": ["Metal-detectable", "High capacity"] },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON X – PA6 Azul de 7 litros con seguridad Metal-Detectable. Alta capacidad indicada cuando la línea certificada requiere caudales por encima del estándar habitual de 5L.",
+        "Fabricado en poliamida con aditivo metálico, permite la detección y rechazo de fragmentos por sensores de metales en línea. Geometría sin retención compatible con elevadores Toromac y estándar de mercado dimensionados para 7L."
+      ],
+      "en": [
+        "CALYON X bucket – PA6 Blue with 7 litres capacity and Metal-Detectable safety. High capacity indicated when the certified line requires throughput above the usual 5L standard.",
+        "Built in polyamide with metallic additive, enabling fragment detection and rejection by inline metal detectors. No-retention geometry compatible with Toromac and market-standard elevators sized for 7L."
+      ]
+    },
+    "applications": {
+      "es": ["Líneas certificadas de alta capacidad", "Industria alimentaria IFS / BRC con producción intensiva", "Industria farmacéutica con caudales elevados"],
+      "en": ["High-capacity certified lines", "IFS / BRC food industry with intensive production", "Pharma industry with high throughput"]
+    },
+    "specs": [
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "7 L" },
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 azul con aditivo metálico", "en": "PA6 blue polyamide with metallic additive" } },
+      { "label": { "es": "Detección", "en": "Detection" }, "value": { "es": "Por sensores de metales en línea", "en": "By inline metal detectors" } },
+      { "label": { "es": "Grado", "en": "Grade" }, "value": { "es": "Alimentario", "en": "Food-grade" } }
+    ],
+    "highlights": {
+      "es": ["Alta capacidad", "Detectable por sensores de metales", "Color azul para detección visual", "Apto líneas IFS / BRC y farma"],
+      "en": ["High capacity", "Detectable by metal sensors", "Blue colour for visual detection", "Suitable for IFS / BRC and pharma lines"]
+    },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-x-metal-detectable-7l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 7L", "en": "CALYON X Metal-Detectable 7L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 7L azul", "en": "CALYON X Metal-Detectable 7L blue bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON X Metal-Detectable 7L | Toromac", "description": "Cangilón 7L detectable por metales para alimentación y farma." },
-      "en": { "title": "CALYON X Metal-Detectable Bucket 7L | Toromac", "description": "7L metal-detectable bucket for food and pharma." }
+      "es": { "title": "Cangilón Metal-Detectable 7L CALYON X | Toromac", "description": "Cangilón 7L detectable por metales para líneas certificadas de alta capacidad. PA6 azul con aditivo metálico." },
+      "en": { "title": "Metal-Detectable Bucket 7L CALYON X | Toromac", "description": "7L metal-detectable bucket for high-capacity certified lines. PA6 blue with metallic additive." }
     }
   },
   {
@@ -425,16 +910,39 @@
     "category": "recambios-cangilones",
     "name": { "es": "Cangilón CALYON X Metal-Detectable 10L", "en": "CALYON X Metal-Detectable Bucket 10L" },
     "shortDescription": {
-      "es": "Cangilón detectable por metales 10L. Máxima capacidad para alta producción crítica.",
-      "en": "Metal-detectable 10L bucket. Maximum capacity for critical high throughput."
+      "es": "Cangilón CALYON X de 10L metal-detectable. Máxima capacidad de la gama X — alimentación certificada con caudales industriales muy altos.",
+      "en": "CALYON X 10L metal-detectable bucket. Maximum capacity in the X range — certified food with very high industrial throughput."
     },
-    "specs": [{ "label": { "es": "Capacidad", "en": "Capacity" }, "value": "10 L" }],
-    "highlights": { "es": ["Detectable por metales", "Máxima capacidad"], "en": ["Metal-detectable", "Maximum capacity"] },
+    "longDescription": {
+      "es": [
+        "Cangilón CALYON X – PA6 Azul de 10 litros con seguridad Metal-Detectable. Es la máxima capacidad de la gama X, indicado para industrias certificadas que combinan alta densidad de producto y caudales muy elevados.",
+        "Fabricado en poliamida con aditivo metálico distribuido homogéneamente. Refuerzos estructurales para soportar el peso de la carga máxima. Compatible con elevadores Toromac y estándar de mercado dimensionados para 10L."
+      ],
+      "en": [
+        "CALYON X bucket – PA6 Blue with 10 litres capacity and Metal-Detectable safety. Maximum capacity in the X range, indicated for certified industries combining high product density and very high throughput.",
+        "Built in polyamide with homogeneously distributed metallic additive. Structural reinforcements to support max-load weight. Compatible with Toromac and market-standard elevators sized for 10L."
+      ]
+    },
+    "applications": {
+      "es": ["Producción certificada de máximo caudal", "Industria harinera y cerealista con IFS / BRC", "Líneas de pet food con detección de metales obligatoria"],
+      "en": ["Maximum-throughput certified production", "Milling and grain industry with IFS / BRC", "Pet food lines with mandatory metal detection"]
+    },
+    "specs": [
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "10 L" },
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Poliamida PA6 azul con aditivo metálico", "en": "PA6 blue polyamide with metallic additive" } },
+      { "label": { "es": "Detección", "en": "Detection" }, "value": { "es": "Por sensores de metales en línea", "en": "By inline metal detectors" } },
+      { "label": { "es": "Grado", "en": "Grade" }, "value": { "es": "Alimentario", "en": "Food-grade" } }
+    ],
+    "highlights": {
+      "es": ["Máxima capacidad de la gama X", "Refuerzos estructurales para carga máxima", "Detectable por sensores de metales", "Apto líneas IFS / BRC y farma"],
+      "en": ["Maximum capacity in the X range", "Structural reinforcements for max load", "Detectable by metal sensors", "Suitable for IFS / BRC and pharma lines"]
+    },
+    "faq": [],
     "image": "/images/products/cangilon-calyon-x-metal-detectable-10l.jpg",
-    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 10L", "en": "CALYON X Metal-Detectable 10L bucket" },
+    "imageAlt": { "es": "Cangilón CALYON X Metal-Detectable 10L azul", "en": "CALYON X Metal-Detectable 10L blue bucket" },
     "seo": {
-      "es": { "title": "Cangilón CALYON X Metal-Detectable 10L | Toromac", "description": "Cangilón 10L detectable por metales." },
-      "en": { "title": "CALYON X Metal-Detectable Bucket 10L | Toromac", "description": "10L metal-detectable bucket." }
+      "es": { "title": "Cangilón Metal-Detectable 10L CALYON X | Toromac", "description": "Cangilón 10L detectable por metales — máxima capacidad para alimentación certificada y producción industrial intensiva." },
+      "en": { "title": "Metal-Detectable Bucket 10L CALYON X | Toromac", "description": "10L metal-detectable bucket — maximum capacity for certified food and intensive industrial production." }
     }
   },
 
@@ -444,19 +952,58 @@
     "category": "procesado",
     "name": { "es": "Tamizadora Centrífuga TC400", "en": "Centrifugal Sifter TC400" },
     "shortDescription": {
-      "es": "Tamizadora centrífuga TC400 para cribado de seguridad de polvos y granulados a baja capacidad.",
-      "en": "TC400 centrifugal sifter for safety screening of powders and granulates at low capacity."
+      "es": "Tamizadora centrífuga compacta TC400 para tamizado de seguridad y separación granulométrica de polvos, harinas y granulados a baja capacidad. Hasta 2 t/h.",
+      "en": "Compact TC400 centrifugal sifter for safety screening and particle separation of powders, flours and granulates at low capacity. Up to 2 t/h."
+    },
+    "longDescription": {
+      "es": [
+        "La tamizadora centrífuga TC400 es la solución compacta de Toromac para tamizado de seguridad y separación de granulometrías en procesos industriales de bajo caudal donde el espacio en planta es limitado.",
+        "Está diseñada para trabajar con productos en polvo, harinas y granulados, garantizando un proceso fiable y continuo. Diámetro de tamiz de 400 mm, capacidad hasta 2 t/h, malla intercambiable según granulometría requerida.",
+        "Gracias a su tamaño reducido y diseño eficiente, la TC400 es ideal para integrarse en líneas existentes ofreciendo una solución económica, robusta y de fácil mantenimiento. Construcción en acero inoxidable AISI 304L con opciones de acabado alimentario o sanitario."
+      ],
+      "en": [
+        "The TC400 centrifugal sifter is Toromac's compact solution for safety screening and particle separation in low-throughput industrial processes where plant space is limited.",
+        "Designed to work with powders, flours and granulates, guaranteeing a reliable continuous process. 400 mm sieve diameter, capacity up to 2 t/h, interchangeable mesh per required particle size.",
+        "Thanks to its reduced size and efficient design, the TC400 is ideal for integration in existing lines, offering an economical, robust and easy-maintenance solution. AISI 304L stainless construction with food-grade or sanitary finish options."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria — tamizado de harinas y polvos", "Industria química — separación granulométrica de baja capacidad", "Pet food y agroalimentaria", "Procesos auxiliares en líneas existentes"],
+      "en": ["Food industry — flour and powder screening", "Chemical industry — low-capacity particle separation", "Pet food and agro-food", "Auxiliary processes in existing lines"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 2 t/h" },
-      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "400 mm" }
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Hasta 2 t/h", "en": "Up to 2 t/h" } },
+      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "400 mm" },
+      { "label": { "es": "Tipo", "en": "Type" }, "value": { "es": "Centrífuga / cernedor industrial", "en": "Centrifugal / industrial sifter" } },
+      { "label": { "es": "Productos", "en": "Products" }, "value": { "es": "Polvos, harinas y granulados", "en": "Powders, flours and granulates" } },
+      { "label": { "es": "Construcción", "en": "Construction" }, "value": "AISI 304L" },
+      { "label": { "es": "Acabados", "en": "Finishes" }, "value": { "es": "Básico, alimentario o sanitario", "en": "Basic, food-grade or sanitary" } }
     ],
-    "highlights": { "es": ["Cribado de seguridad", "Acabado sanitario opcional", "Compacto"], "en": ["Safety screening", "Optional sanitary finish", "Compact"] },
+    "highlights": {
+      "es": ["Diseño compacto para espacios reducidos", "Tamizado de seguridad continuo", "Sustitución rápida del tamiz filtrante", "Fácil integración en líneas existentes", "Bajo mantenimiento"],
+      "en": ["Compact design for reduced footprint", "Continuous safety screening", "Quick sieve replacement", "Easy integration in existing lines", "Low maintenance"]
+    },
+    "faq": [
+      {
+        "question": { "es": "¿Para qué tipo de procesos es ideal la TC400?", "en": "What processes is the TC400 ideal for?" },
+        "answer": {
+          "es": "Para líneas compactas y aplicaciones de bajo caudal donde se necesita tamizado de seguridad fiable ocupando poco espacio.",
+          "en": "For compact lines and low-throughput applications requiring reliable safety screening with a small footprint."
+        }
+      },
+      {
+        "question": { "es": "¿Es adecuada para industria alimentaria?", "en": "Is it suitable for food industry?" },
+        "answer": {
+          "es": "Sí. Se fabrica en AISI 304L con configuración y acabados aptos para procesos alimentarios, facilitando limpieza e higiene.",
+          "en": "Yes. Built in AISI 304L with configuration and finishes suitable for food processes, facilitating cleaning and hygiene."
+        }
+      }
+    ],
     "image": "/images/products/tamizadora-centrifuga-tc400.jpg",
-    "imageAlt": { "es": "Tamizadora centrífuga industrial TC400", "en": "TC400 industrial centrifugal sifter" },
+    "imageAlt": { "es": "Tamizadora centrífuga industrial TC400 Toromac", "en": "TC400 Toromac industrial centrifugal sifter" },
     "seo": {
-      "es": { "title": "Tamizadora Centrífuga TC400 | Toromac", "description": "Tamiz centrífugo TC400 para cribado de polvos y granulados. Hasta 2 t/h." },
-      "en": { "title": "Centrifugal Sifter TC400 | Toromac", "description": "TC400 centrifugal sifter for powders and granulates. Up to 2 t/h." }
+      "es": { "title": "Tamizadora Centrífuga TC400 Industrial | Toromac", "description": "Tamiz centrífugo TC400 compacto para tamizado de seguridad de polvos y granulados. Hasta 2 t/h, diámetro 400 mm, AISI 304L." },
+      "en": { "title": "Centrifugal Sifter TC400 Industrial | Toromac", "description": "Compact TC400 centrifugal sifter for safety screening of powders and granulates. Up to 2 t/h, 400 mm diameter, AISI 304L." }
     }
   },
   {
@@ -465,19 +1012,42 @@
     "category": "procesado",
     "name": { "es": "Tamizadora Centrífuga TC650", "en": "Centrifugal Sifter TC650" },
     "shortDescription": {
-      "es": "Tamizadora centrífuga TC650 para capacidades medias. Cribado de seguridad y separación granulométrica.",
-      "en": "TC650 centrifugal sifter for medium capacity. Safety screening and particle separation."
+      "es": "Tamizadora centrífuga TC650 para capacidades medias hasta 5 t/h. Equilibrio óptimo rendimiento / tamaño, malla intercambiable según granulometría.",
+      "en": "TC650 centrifugal sifter for medium capacity up to 5 t/h. Optimal performance / size balance, interchangeable mesh per particle size."
+    },
+    "longDescription": {
+      "es": [
+        "La tamizadora centrífuga TC650 está diseñada para tamizado de seguridad en líneas de producción de capacidad media, ofreciendo un equilibrio óptimo entre rendimiento, tamaño y versatilidad.",
+        "Diámetro de tamiz de 650 mm, capacidad hasta 5 t/h. Permite trabajar con polvos, harinas y granulados garantizando una separación homogénea y fiable, con malla intercambiable rápida según granulometría requerida.",
+        "Su diseño modular facilita la sustitución rápida del tamiz y una integración sencilla en procesos industriales nuevos o existentes. Construcción en acero inoxidable con opciones de acabado para alimentación, química, pet food o packaging."
+      ],
+      "en": [
+        "The TC650 centrifugal sifter is designed for safety screening in medium-capacity production lines, offering an optimal balance between performance, size and versatility.",
+        "650 mm sieve diameter, capacity up to 5 t/h. Works with powders, flours and granulates guaranteeing homogeneous reliable separation, with quick interchangeable mesh per required particle size.",
+        "Its modular design enables quick sieve replacement and easy integration in new or existing industrial processes. Stainless construction with finish options for food, chemical, pet food or packaging."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria — capacidad media", "Industria química y agroalimentaria", "Packaging y pet food", "Líneas de producción intermedias"],
+      "en": ["Food industry — medium capacity", "Chemical and agro-food industry", "Packaging and pet food", "Intermediate production lines"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 5 t/h" },
-      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "650 mm" }
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Hasta 5 t/h", "en": "Up to 5 t/h" } },
+      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "650 mm" },
+      { "label": { "es": "Productos", "en": "Products" }, "value": { "es": "Polvos, harinas y granulados", "en": "Powders, flours and granulates" } },
+      { "label": { "es": "Construcción", "en": "Construction" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Diseño", "en": "Design" }, "value": "Modular" }
     ],
-    "highlights": { "es": ["Capacidad media", "Acabado sanitario opcional"], "en": ["Medium capacity", "Optional sanitary finish"] },
+    "highlights": {
+      "es": ["Excelente relación rendimiento / tamaño", "Cambio rápido del tamiz filtrante", "Integración sencilla en líneas de producción", "Funcionamiento continuo y estable", "Mantenimiento reducido"],
+      "en": ["Excellent performance / size ratio", "Quick sieve replacement", "Easy integration in production lines", "Continuous stable operation", "Reduced maintenance"]
+    },
+    "faq": [],
     "image": "/images/products/tamizadora-centrifuga-tc650.jpg",
-    "imageAlt": { "es": "Tamizadora centrífuga industrial TC650", "en": "TC650 industrial centrifugal sifter" },
+    "imageAlt": { "es": "Tamizadora centrífuga industrial TC650 Toromac", "en": "TC650 Toromac industrial centrifugal sifter" },
     "seo": {
-      "es": { "title": "Tamizadora Centrífuga TC650 | Toromac", "description": "Tamiz centrífugo TC650 para capacidades medias. Hasta 5 t/h." },
-      "en": { "title": "Centrifugal Sifter TC650 | Toromac", "description": "TC650 centrifugal sifter for medium capacity. Up to 5 t/h." }
+      "es": { "title": "Tamizadora Centrífuga TC650 Industrial | Toromac", "description": "Tamiz centrífugo TC650 para capacidades medias. Hasta 5 t/h, diámetro 650 mm, malla intercambiable. Para alimentación, química y pet food." },
+      "en": { "title": "Centrifugal Sifter TC650 Industrial | Toromac", "description": "TC650 centrifugal sifter for medium capacity. Up to 5 t/h, 650 mm diameter, interchangeable mesh. For food, chemical and pet food." }
     }
   },
   {
@@ -486,19 +1056,42 @@
     "category": "procesado",
     "name": { "es": "Tamizadora Centrífuga TC800", "en": "Centrifugal Sifter TC800" },
     "shortDescription": {
-      "es": "Tamizadora centrífuga TC800 para capacidades altas. Cribado y separación granulométrica continuos.",
-      "en": "TC800 centrifugal sifter for high capacity. Continuous screening and particle separation."
+      "es": "Tamizadora centrífuga TC800 hasta 8 t/h. Para producciones industriales exigentes con tamizado continuo y estable de polvos, harinas y granulados.",
+      "en": "TC800 centrifugal sifter up to 8 t/h. For demanding industrial production with continuous stable screening of powders, flours and granulates."
+    },
+    "longDescription": {
+      "es": [
+        "Tamizadora centrífuga TC800 ideal para tamizado de seguridad en producciones industriales de mayor capacidad, donde se requiere un proceso continuo y estable sin comprometer rendimiento.",
+        "Diámetro de tamiz de 800 mm, capacidad hasta 8 t/h. Diseñada para separar distintas granulometrías de productos en polvo, harinas y granulados — incluso húmedos o grasos hasta 50% — manteniendo la calidad del producto final.",
+        "Construcción en acero inoxidable con diseño modular para integración sencilla en líneas automatizadas existentes o nuevas. Disponible con opciones de manipulación higiénica para alimentación, farma o nutracéutica."
+      ],
+      "en": [
+        "TC800 centrifugal sifter ideal for safety screening in larger-capacity industrial production where continuous stable processing is required without compromising performance.",
+        "800 mm sieve diameter, capacity up to 8 t/h. Designed to separate different particle sizes of powders, flours and granulates — including moist or fatty up to 50% — maintaining final product quality.",
+        "Stainless steel construction with modular design for easy integration in new or existing automated lines. Available with hygienic-handling options for food, pharma or nutraceutical."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria de alta capacidad", "Industria química — separación granulométrica intensiva", "Procesos industriales continuos automatizados", "Pet food y agroalimentaria"],
+      "en": ["High-capacity food industry", "Chemical industry — intensive particle separation", "Automated continuous industrial processes", "Pet food and agro-food"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 8 t/h" },
-      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "800 mm" }
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Hasta 8 t/h", "en": "Up to 8 t/h" } },
+      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "800 mm" },
+      { "label": { "es": "Productos", "en": "Products" }, "value": { "es": "Polvos, harinas, granulados (hasta 50% humedad)", "en": "Powders, flours, granulates (up to 50% humidity)" } },
+      { "label": { "es": "Construcción", "en": "Construction" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Diseño", "en": "Design" }, "value": "Modular" }
     ],
-    "highlights": { "es": ["Alta capacidad", "Servicio continuo"], "en": ["High capacity", "Continuous duty"] },
+    "highlights": {
+      "es": ["Capacidad alta sin sacrificar tamaño", "Apta para producto húmedo / graso hasta 50%", "Integración en líneas automatizadas", "Manipulación higiénica opcional", "Mantenimiento reducido"],
+      "en": ["High capacity without sacrificing size", "Suitable for moist / fatty product up to 50%", "Integration in automated lines", "Optional hygienic handling", "Reduced maintenance"]
+    },
+    "faq": [],
     "image": "/images/products/tamizadora-centrifuga-tc800.jpg",
-    "imageAlt": { "es": "Tamizadora centrífuga industrial TC800", "en": "TC800 industrial centrifugal sifter" },
+    "imageAlt": { "es": "Tamizadora centrífuga industrial TC800 Toromac", "en": "TC800 Toromac industrial centrifugal sifter" },
     "seo": {
-      "es": { "title": "Tamizadora Centrífuga TC800 | Toromac", "description": "Tamiz centrífugo TC800 para alta capacidad. Hasta 8 t/h." },
-      "en": { "title": "Centrifugal Sifter TC800 | Toromac", "description": "TC800 centrifugal sifter for high capacity. Up to 8 t/h." }
+      "es": { "title": "Tamizadora Centrífuga TC800 Industrial | Toromac", "description": "Tamiz centrífugo TC800 hasta 8 t/h, diámetro 800 mm. Para producciones industriales exigentes con tamizado continuo y estable." },
+      "en": { "title": "Centrifugal Sifter TC800 Industrial | Toromac", "description": "TC800 centrifugal sifter up to 8 t/h, 800 mm diameter. For demanding industrial production with continuous stable screening." }
     }
   },
   {
@@ -508,24 +1101,81 @@
     "featured": true,
     "name": { "es": "Tamizadora Centrífuga TC1000", "en": "Centrifugal Sifter TC1000" },
     "shortDescription": {
-      "es": "Tamizadora centrífuga TC1000 para máxima capacidad industrial. Cribado de seguridad para alimentación, farma y química.",
-      "en": "TC1000 centrifugal sifter for maximum industrial capacity. Safety screening for food, pharma and chemical."
+      "es": "Tamizadora centrífuga TC1000 industrial — máxima capacidad hasta 12 t/h. Tamizado de seguridad y separación granulométrica para alimentación, farma y química.",
+      "en": "TC1000 industrial centrifugal sifter — maximum capacity up to 12 t/h. Safety screening and particle separation for food, pharma and chemical industries."
     },
-    "description": {
-      "es": "Tamiz centrífugo industrial de máxima capacidad, con cuerpo en acero inoxidable, malla intercambiable según granulometría requerida y opción de manipulación higiénica para alimentación o farma. Indicada para cribado de seguridad en final de línea o separación de fracciones en proceso.",
-      "en": "Maximum-capacity industrial centrifugal sifter, with stainless steel body, interchangeable mesh per required particle size and hygienic-handling option for food or pharma. Suited to end-of-line safety screening or in-process fraction separation."
+    "longDescription": {
+      "es": [
+        "La tamizadora centrífuga industrial TC1000 está diseñada para el tamizado de seguridad y separación de granulometrías en procesos industriales continuos de máxima capacidad.",
+        "Diámetro de tamiz de 1.000 mm, capacidad hasta 12 t/h. Es ideal para productos en polvo, harinas, granulados e incluso productos húmedos o grasos (hasta un 50%), garantizando alto rendimiento y excelente calidad del producto final.",
+        "Gracias a su diseño robusto y modular, permite una sustitución rápida del tamiz, integración sencilla en líneas existentes y funcionamiento fiable en aplicaciones exigentes. Construcción en acero inoxidable AISI 304L o 316L según sector y normativa.",
+        "Disponible con manipulación higiénica para alimentación, farma y nutracéutica, y opciones ATEX bajo demanda para entornos químicos con riesgo de explosión."
+      ],
+      "en": [
+        "The TC1000 industrial centrifugal sifter is designed for safety screening and particle separation in continuous industrial processes at maximum capacity.",
+        "1,000 mm sieve diameter, capacity up to 12 t/h. Ideal for powders, flours, granulates and even moist or fatty products (up to 50%), guaranteeing high performance and excellent final product quality.",
+        "Thanks to its robust modular design, it enables quick sieve replacement, easy integration in existing lines and reliable operation in demanding applications. AISI 304L or 316L stainless construction per sector and regulation.",
+        "Available with hygienic handling for food, pharma and nutraceutical, and ATEX options on demand for chemical environments with explosion risk."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria de máxima capacidad", "Industria farmacéutica y nutracéutica", "Industria minera y química", "Pet food y agroalimentaria a gran escala", "Reciclado de plástico y procesado industrial"],
+      "en": ["Maximum-capacity food industry", "Pharma and nutraceutical industry", "Mining and chemical industry", "Large-scale pet food and agro-food", "Plastic recycling and industrial processing"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "Hasta 12 t/h" },
-      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "1000 mm" },
-      { "label": { "es": "Material", "en": "Material" }, "value": "AISI 304L / 316L" }
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Hasta 12 t/h", "en": "Up to 12 t/h" } },
+      { "label": { "es": "Diámetro tamiz", "en": "Sieve diameter" }, "value": "1.000 mm" },
+      { "label": { "es": "Productos", "en": "Products" }, "value": { "es": "Polvos, harinas, granulados, semihúmedos hasta 50%", "en": "Powders, flours, granulates, semi-moist up to 50%" } },
+      { "label": { "es": "Construcción", "en": "Construction" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Diseño", "en": "Design" }, "value": { "es": "Compacto, robusto y modular", "en": "Compact, robust and modular" } },
+      { "label": { "es": "ATEX", "en": "ATEX" }, "value": { "es": "Bajo demanda", "en": "On demand" } }
     ],
-    "highlights": { "es": ["Máxima capacidad industrial", "Malla intercambiable", "Manipulación higiénica opcional"], "en": ["Maximum industrial capacity", "Interchangeable mesh", "Optional hygienic handling"] },
+    "highlights": {
+      "es": [
+        "Máxima capacidad industrial — hasta 12 t/h",
+        "Tamizado de seguridad continuo y eficaz",
+        "Apta para productos secos, húmedos o grasos",
+        "Sustitución rápida del tamiz filtrante",
+        "Manipulación higiénica opcional",
+        "Opciones ATEX bajo demanda"
+      ],
+      "en": [
+        "Maximum industrial capacity — up to 12 t/h",
+        "Continuous effective safety screening",
+        "Suitable for dry, moist or fatty products",
+        "Quick sieve replacement",
+        "Optional hygienic handling",
+        "ATEX options on demand"
+      ]
+    },
+    "faq": [
+      {
+        "question": { "es": "¿Qué tipo de productos puede tamizar la TC1000?", "en": "What products can the TC1000 sift?" },
+        "answer": {
+          "es": "Productos en polvo, harinas, granulados y productos húmedos o grasos hasta un 50% de humedad.",
+          "en": "Powders, flours, granulates and moist or fatty products up to 50% humidity."
+        }
+      },
+      {
+        "question": { "es": "¿Es apta para industria alimentaria?", "en": "Is it suitable for food industry?" },
+        "answer": {
+          "es": "Sí. Se fabrica en acero inoxidable AISI 304L o 316L con manipulación higiénica opcional para alimentación, farma y nutracéutica.",
+          "en": "Yes. Built in AISI 304L or 316L stainless with optional hygienic handling for food, pharma and nutraceutical."
+        }
+      },
+      {
+        "question": { "es": "¿Se puede personalizar según el proceso?", "en": "Can it be customised to the process?" },
+        "answer": {
+          "es": "Sí. Cada equipo se adapta a las necesidades específicas del cliente, su aplicación y la malla requerida según granulometría.",
+          "en": "Yes. Every unit is adapted to the customer's specific needs, application and required mesh per particle size."
+        }
+      }
+    ],
     "image": "/images/products/tamizadora-centrifuga-tc1000.jpg",
-    "imageAlt": { "es": "Tamizadora centrífuga industrial TC1000 acero inoxidable", "en": "TC1000 stainless steel centrifugal sifter" },
+    "imageAlt": { "es": "Tamizadora centrífuga industrial TC1000 acero inoxidable Toromac", "en": "TC1000 Toromac stainless steel industrial centrifugal sifter" },
     "seo": {
-      "es": { "title": "Tamizadora Centrífuga TC1000 Industrial | Toromac", "description": "Tamiz centrífugo industrial TC1000 hasta 12 t/h. Acero inoxidable. Para alimentación, farma y química." },
-      "en": { "title": "Centrifugal Sifter TC1000 Industrial | Toromac", "description": "TC1000 industrial centrifugal sifter up to 12 t/h. Stainless steel. For food, pharma and chemical." }
+      "es": { "title": "Tamizadora Centrífuga TC1000 Industrial 12 t/h | Toromac", "description": "Tamiz centrífugo industrial TC1000 hasta 12 t/h, diámetro 1.000 mm. Acero inoxidable. Para alimentación, farma y química con opciones ATEX." },
+      "en": { "title": "Centrifugal Sifter TC1000 Industrial 12 t/h | Toromac", "description": "TC1000 industrial centrifugal sifter up to 12 t/h, 1,000 mm diameter. Stainless steel. For food, pharma and chemical with ATEX options." }
     }
   },
   {
@@ -534,19 +1184,74 @@
     "category": "procesado",
     "name": { "es": "Freidora Industrial de Acero Inoxidable", "en": "Stainless Steel Industrial Fryer" },
     "shortDescription": {
-      "es": "Freidora industrial inox a medida para snacks, frutos secos y productos rebozados. Capacidad y calentamiento configurables.",
-      "en": "Custom stainless industrial fryer for snacks, nuts and battered products. Configurable capacity and heating."
+      "es": "Sartén industrial circular para fritura continua. A medida hasta 2.000L, calentamiento eléctrico, gas o aceite térmico. Para snacks, frutos secos y rebozados.",
+      "en": "Circular industrial fryer for continuous frying. Custom up to 2,000L, electric, gas or thermal-oil heating. For snacks, nuts and battered products."
+    },
+    "longDescription": {
+      "es": [
+        "Sartén industrial circular para procesos de fritura de gran capacidad, diseñada para procesos continuos y controlados con uniformidad térmica máxima en toda la superficie.",
+        "Se fabrica totalmente a medida, con capacidades personalizables hasta 2.000 litros, adaptándose a las necesidades específicas de cada proceso productivo. Calentamiento configurable: eléctrico, gas o aceite térmico según la disponibilidad energética de la planta y los requisitos de productividad.",
+        "Su diseño robusto y su construcción en acero inoxidable garantizan un rendimiento estable, una excelente uniformidad en la fritura y un mantenimiento sencillo, incluso en aplicaciones industriales exigentes con producción continua de snacks, frutos secos, rebozados o platos preparados.",
+        "Puede integrarse con sistemas de elevación y transporte, dosificación, tamizado y equipos de procesado Toromac, permitiendo crear líneas completas de producción adaptadas a cada necesidad. Limpieza CIP y recuperación de calor opcionales."
+      ],
+      "en": [
+        "Circular industrial fryer for high-capacity frying processes, designed for continuous controlled processing with maximum thermal uniformity across the surface.",
+        "Built entirely to order, with capacities up to 2,000 litres, adapting to each production process. Configurable heating: electric, gas or thermal oil per plant energy availability and productivity requirements.",
+        "Robust design and stainless construction guarantee stable performance, excellent frying uniformity and simple maintenance, even in demanding industrial applications with continuous production of snacks, nuts, battered products or prepared dishes.",
+        "Can integrate with Toromac elevation, transport, dosing, screening and process equipment to build complete production lines per need. Optional CIP cleaning and heat recovery."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria — snacks, frutos secos", "Productos rebozados y empanados", "Platos preparados y precocinados", "Procesos de fritura industrial a gran escala"],
+      "en": ["Food industry — snacks, nuts", "Battered and breaded products", "Prepared and pre-cooked dishes", "Large-scale industrial frying processes"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "A medida", "en": "Custom" } },
-      { "label": { "es": "Calentamiento", "en": "Heating" }, "value": { "es": "Eléctrico / gas / aceite térmico", "en": "Electric / gas / thermal oil" } }
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "Hasta 2.000 L (a medida)", "en": "Up to 2,000 L (custom)" } },
+      { "label": { "es": "Forma", "en": "Shape" }, "value": { "es": "Sartén circular", "en": "Circular pan" } },
+      { "label": { "es": "Calentamiento", "en": "Heating" }, "value": { "es": "Eléctrico, gas o aceite térmico", "en": "Electric, gas or thermal oil" } },
+      { "label": { "es": "Construcción", "en": "Construction" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Limpieza CIP", "en": "CIP cleaning" }, "value": { "es": "Opcional", "en": "Optional" } },
+      { "label": { "es": "Recuperación de calor", "en": "Heat recovery" }, "value": { "es": "Opcional", "en": "Optional" } }
     ],
-    "highlights": { "es": ["Diseño a medida", "Recuperación de calor", "Limpieza CIP opcional"], "en": ["Custom design", "Heat recovery", "Optional CIP cleaning"] },
+    "highlights": {
+      "es": [
+        "Fritura homogénea y controlada del producto",
+        "Diseño circular para reparto uniforme del calor",
+        "Capacidades personalizables hasta 2.000 litros",
+        "Calentamiento eléctrico, gas o aceite térmico",
+        "Recuperación de calor y CIP opcionales",
+        "Integrable en líneas industriales completas"
+      ],
+      "en": [
+        "Homogeneous controlled product frying",
+        "Circular design for uniform heat distribution",
+        "Custom capacities up to 2,000 litres",
+        "Electric, gas or thermal-oil heating",
+        "Optional heat recovery and CIP",
+        "Integrable in complete industrial lines"
+      ]
+    },
+    "faq": [
+      {
+        "question": { "es": "¿Qué capacidad puede tener la freidora industrial?", "en": "What capacity can the industrial fryer have?" },
+        "answer": {
+          "es": "La capacidad es totalmente personalizable, pudiendo fabricarse hasta 2.000 litros, según las necesidades del proceso.",
+          "en": "Capacity is fully customisable, up to 2,000 litres, per process needs."
+        }
+      },
+      {
+        "question": { "es": "¿Se puede integrar en una línea existente?", "en": "Can it integrate in an existing line?" },
+        "answer": {
+          "es": "Sí. La freidora se diseña para integración sencilla con elevadores, transportadores y equipos de procesado Toromac, en líneas nuevas o ya operativas.",
+          "en": "Yes. The fryer is designed for easy integration with Toromac elevators, conveyors and process equipment, in new or existing lines."
+        }
+      }
+    ],
     "image": "/images/products/freidora-industrial-acero-inox.jpg",
     "imageAlt": { "es": "Freidora industrial Toromac de acero inoxidable", "en": "Toromac stainless steel industrial fryer" },
     "seo": {
-      "es": { "title": "Freidora Industrial de Acero Inoxidable | Toromac", "description": "Freidoras industriales inox a medida. Calentamiento eléctrico, gas o aceite térmico. Limpieza CIP opcional." },
-      "en": { "title": "Stainless Steel Industrial Fryer | Toromac", "description": "Custom stainless industrial fryers. Electric, gas or thermal oil heating. Optional CIP." }
+      "es": { "title": "Freidora Industrial de Acero Inoxidable a Medida | Toromac", "description": "Freidoras industriales inox a medida hasta 2.000 L. Calentamiento eléctrico, gas o aceite térmico. Para snacks, frutos secos y rebozados." },
+      "en": { "title": "Custom Stainless Steel Industrial Fryer | Toromac", "description": "Custom stainless industrial fryers up to 2,000 L. Electric, gas or thermal-oil heating. For snacks, nuts and battered products." }
     }
   },
   {
@@ -555,20 +1260,61 @@
     "category": "procesado",
     "name": { "es": "Caldera Volcable", "en": "Tilting Kettle" },
     "shortDescription": {
-      "es": "Caldera basculante para cocción y mezcla. Inox sanitario, vuelco hidráulico y agitador opcional.",
-      "en": "Tilting kettle for cooking and mixing. Sanitary stainless, hydraulic tilt and optional agitator."
+      "es": "Caldera volcable industrial 100–600L con doble cámara de calentamiento, vuelco hidráulico y agitadores combinados áncora + turbina para cocción y mezcla.",
+      "en": "Industrial tilting kettle 100–600L with double heating chamber, hydraulic tilt and combined anchor + turbine agitators for cooking and mixing."
+    },
+    "longDescription": {
+      "es": [
+        "Caldera volcable industrial destinada a la fabricación de productos alimenticios con proceso de agitación para homogeneizar mezclas: salsas, cremas, mermeladas, rellenos, cárnicos cocidos.",
+        "Dispone de tapa plana con parte central fija donde se sitúa el puente soporte de los dos agitadores, y mitades frontal y trasera abatibles para acceso e inspección.",
+        "Doble cámara en dos mitades para calentamiento del producto, que permite calentamiento diferenciado de la parte inferior y superior — pueden trabajar combinadas o por separado. El fluido de calentamiento puede ser aceite térmico o vapor industrial (máx. 3 bar). La doble cámara está protegida por una tercera cámara forrada de lana de roca de 50 mm de espesor para aislamiento térmico.",
+        "La cuba se apoya en dos columnas a través de dos ejes exteriores horizontales que descansan en rodamientos con soportes de fundición. Un reductor permite el volqueo seguro de la caldera para vaciado total del producto al finalizar el proceso.",
+        "Equipada con dos agitadores: uno lento tipo áncora con rascadores y rompe-corrientes fijos para producto denso, y otro rápido tipo Turbine para emulsiones y dispersión fina. Fabricación a medida con capacidades configurables de 100 a 600 litros."
+      ],
+      "en": [
+        "Industrial tilting kettle for food product manufacturing with agitation processes to homogenise mixtures: sauces, creams, jams, fillings, cooked meat products.",
+        "Features a flat lid with fixed central section housing the bridge support for the two agitators, and folding front and rear halves for access and inspection.",
+        "Double chamber in two halves for product heating, enabling differentiated heating of lower and upper sections — they can operate combined or separately. Heating fluid can be thermal oil or industrial steam (max. 3 bar). The double chamber is protected by a third chamber lined with 50 mm rock-wool insulation.",
+        "The vessel rests on two columns via two horizontal external shafts on cast-supported bearings. A reducer enables safe kettle tilting for total product emptying at process end.",
+        "Equipped with two agitators: one slow anchor-type with scrapers and fixed flow breakers for dense product, and one fast Turbine-type for emulsions and fine dispersion. Custom-built with capacities from 100 to 600 litres."
+      ]
+    },
+    "applications": {
+      "es": ["Salsas, cremas y mermeladas", "Rellenos para repostería y panadería", "Cárnicos cocidos y emulsionados", "Procesos de homogeneización con calentamiento", "Mezcla de productos densos en industria alimentaria"],
+      "en": ["Sauces, creams and jams", "Fillings for confectionery and bakery", "Cooked and emulsified meat products", "Homogenisation processes with heating", "Mixing dense products in food industry"]
     },
     "specs": [
       { "label": { "es": "Capacidad", "en": "Capacity" }, "value": "100 – 600 L" },
       { "label": { "es": "Material", "en": "Material" }, "value": "AISI 304L / 316L" },
-      { "label": { "es": "Vuelco", "en": "Tilt" }, "value": { "es": "Hidráulico", "en": "Hydraulic" } }
+      { "label": { "es": "Vuelco", "en": "Tilt" }, "value": { "es": "Hidráulico con reductor", "en": "Hydraulic with reducer" } },
+      { "label": { "es": "Calentamiento", "en": "Heating" }, "value": { "es": "Aceite térmico o vapor (máx. 3 bar)", "en": "Thermal oil or steam (max. 3 bar)" } },
+      { "label": { "es": "Cámaras", "en": "Chambers" }, "value": { "es": "Doble cámara + aislamiento lana de roca 50 mm", "en": "Double chamber + 50 mm rock-wool insulation" } },
+      { "label": { "es": "Agitadores", "en": "Agitators" }, "value": { "es": "Áncora lenta + Turbine rápida", "en": "Slow anchor + fast Turbine" } }
     ],
-    "highlights": { "es": ["Vuelco seguro hidráulico", "Inox sanitario", "Agitador opcional"], "en": ["Safe hydraulic tilt", "Sanitary stainless", "Optional agitator"] },
+    "highlights": {
+      "es": [
+        "Doble cámara para calentamiento diferenciado",
+        "Vuelco hidráulico seguro para vaciado total",
+        "Aislamiento térmico de lana de roca 50 mm",
+        "Dos agitadores combinados (áncora + turbina)",
+        "Capacidades configurables 100–600 L",
+        "Acabado sanitario inox"
+      ],
+      "en": [
+        "Double chamber for differentiated heating",
+        "Safe hydraulic tilt for total emptying",
+        "50 mm rock-wool thermal insulation",
+        "Two combined agitators (anchor + turbine)",
+        "Configurable capacity 100–600 L",
+        "Sanitary stainless finish"
+      ]
+    },
+    "faq": [],
     "image": "/images/products/caldera-volcable.jpg",
-    "imageAlt": { "es": "Caldera volcable industrial inoxidable Toromac", "en": "Toromac stainless tilting kettle" },
+    "imageAlt": { "es": "Caldera volcable industrial inoxidable Toromac con agitadores", "en": "Toromac stainless industrial tilting kettle with agitators" },
     "seo": {
-      "es": { "title": "Caldera Volcable Industrial | Toromac", "description": "Caldera basculante inox para cocción y mezcla. 100–600 L. Vuelco hidráulico." },
-      "en": { "title": "Industrial Tilting Kettle | Toromac", "description": "Stainless tilting kettle for cooking and mixing. 100–600 L. Hydraulic tilt." }
+      "es": { "title": "Caldera Volcable Industrial 100–600L | Toromac", "description": "Caldera basculante inox 100–600 L con doble cámara, vuelco hidráulico y agitadores áncora + turbina. Para cocción y mezcla en alimentación." },
+      "en": { "title": "Industrial Tilting Kettle 100–600L | Toromac", "description": "Stainless tilting kettle 100–600 L with double chamber, hydraulic tilt and anchor + turbine agitators. For food cooking and mixing." }
     }
   },
 
@@ -579,24 +1325,59 @@
     "featured": true,
     "name": { "es": "Soporte para Big Bags", "en": "Big Bag Support" },
     "shortDescription": {
-      "es": "Estación de descarga de Big Bags con manga, vibración opcional y captación de polvo. Para alimentación, química y farma.",
-      "en": "Big Bag discharge station with sleeve, optional vibration and dust extraction. For food, chemical and pharma."
+      "es": "Estación de descarga de Big Bags 400–1.500L con manga estanca, regulación de altura a medida y conexión a captación de polvo. Acero al carbono o inox AISI 304.",
+      "en": "Big Bag discharge station 400–1,500L with sealed sleeve, custom height adjustment and dust extraction connection. Painted carbon steel or AISI 304 stainless."
     },
-    "description": {
-      "es": "Soporte para descarga controlada de Big Bags con manga de descarga estanca, sistema de tensado para vaciado total, vibración opcional para producto compactado y conexión a captación de polvo. Compatible con elevadores y tolvas Toromac.",
-      "en": "Big Bag discharge support with sealed outlet sleeve, tensioning system for total emptying, optional vibration for compacted product and dust extraction connection. Compatible with Toromac elevators and hoppers."
+    "longDescription": {
+      "es": [
+        "Estructura de soporte para Big Bag destinada a la descarga controlada en máquinas como cintas transportadoras, sin-fines, elevadores de banda y elevadores de cangilones — el primer eslabón habitual de cualquier línea que parte de granel envasado en Big Bag.",
+        "El Big Bag se cuelga fácilmente en la estructura mediante percha y carretilla elevadora. Si la estructura lo contempla, la manipulación y elevación puede producirse mediante polipasto u otros elementos neumáticos o eléctricos para reducir la dependencia de la carretilla.",
+        "La regulación de altura para la estructura se realizará a medida según el tipo de Big Bag a descargar. Toromac fabrica estructuras destinadas a Big Bags de diferentes tamaños — desde 400L hasta 1.500L — con sistemas de tensado para garantizar el vaciado total y reducir restos de producto en pliegues del saco.",
+        "Las estructuras pueden construirse en acero al carbono pintado para entornos secos no-alimentarios o en acero inoxidable AISI 304 para alimentación y entornos higiénicos. Vibración opcional para producto compactado y conexión a captación de polvo para reducir contaminación cruzada y mejorar la salud laboral."
+      ],
+      "en": [
+        "Big Bag support structure for controlled discharge into machines like belt conveyors, screws, belt elevators and bucket elevators — the typical first link of any line starting from bulk packaged in Big Bag.",
+        "The Big Bag hangs easily on the structure via hanger and forklift. Where the structure includes it, handling and lifting can use a hoist or other pneumatic or electric devices to reduce forklift dependency.",
+        "Height adjustment is built to order per Big Bag type. Toromac builds structures for Big Bags from 400L to 1,500L, with tensioning systems to guarantee total emptying and reduce product trapped in bag folds.",
+        "Structures can be built in painted carbon steel for dry non-food environments or AISI 304 stainless for food and hygienic environments. Optional vibration for compacted product and dust extraction connection to reduce cross-contamination and improve workplace health."
+      ]
+    },
+    "applications": {
+      "es": ["Descarga de Big Bags en cintas transportadoras", "Descarga de Big Bags en sin-fines", "Descarga de Big Bags en elevadores de banda y cangilones", "Manipulación con polipasto neumático o eléctrico", "Inicio de líneas de producción a partir de Big Bag"],
+      "en": ["Big Bag discharge into belt conveyors", "Big Bag discharge into screw conveyors", "Big Bag discharge into belt and bucket elevators", "Handling with pneumatic or electric hoist", "Start of production lines from Big Bag"]
     },
     "specs": [
-      { "label": { "es": "Carga útil", "en": "Payload" }, "value": "Hasta 2 000 kg" },
+      { "label": { "es": "Capacidad de Big Bag", "en": "Big Bag capacity" }, "value": "400 – 1.500 L" },
+      { "label": { "es": "Material", "en": "Material" }, "value": { "es": "Acero al carbono pintado o inox AISI 304", "en": "Painted carbon steel or AISI 304 stainless" } },
+      { "label": { "es": "Regulación de altura", "en": "Height adjustment" }, "value": { "es": "A medida según Big Bag", "en": "Custom per Big Bag" } },
       { "label": { "es": "Vibración", "en": "Vibration" }, "value": { "es": "Opcional", "en": "Optional" } },
-      { "label": { "es": "Captación polvo", "en": "Dust extraction" }, "value": { "es": "Opcional", "en": "Optional" } }
+      { "label": { "es": "Captación de polvo", "en": "Dust extraction" }, "value": { "es": "Opcional", "en": "Optional" } },
+      { "label": { "es": "Manipulación", "en": "Handling" }, "value": { "es": "Carretilla, polipasto, neumático o eléctrico", "en": "Forklift, hoist, pneumatic or electric" } }
     ],
-    "highlights": { "es": ["Vaciado total", "Manga estanca", "Conexión captación de polvo"], "en": ["Total emptying", "Sealed sleeve", "Dust extraction connection"] },
+    "highlights": {
+      "es": [
+        "Vaciado total con sistema de tensado",
+        "Manga de descarga estanca",
+        "Conexión a captación de polvo",
+        "Disponible en acero al carbono o inox AISI 304",
+        "Regulación de altura a medida del Big Bag",
+        "Compatible con polipasto neumático o eléctrico"
+      ],
+      "en": [
+        "Total emptying with tensioning system",
+        "Sealed outlet sleeve",
+        "Dust extraction connection",
+        "Available in carbon steel or AISI 304 stainless",
+        "Height adjustment custom per Big Bag",
+        "Compatible with pneumatic or electric hoist"
+      ]
+    },
+    "faq": [],
     "image": "/images/products/soporte-big-bags.jpg",
-    "imageAlt": { "es": "Estación de descarga de Big Bags Toromac", "en": "Toromac Big Bag discharge station" },
+    "imageAlt": { "es": "Estación de descarga de Big Bags Toromac con manga estanca", "en": "Toromac Big Bag discharge station with sealed sleeve" },
     "seo": {
-      "es": { "title": "Soporte Big Bag Industrial | Toromac", "description": "Estación de descarga de Big Bags con vibración opcional y captación de polvo. Hasta 2.000 kg." },
-      "en": { "title": "Industrial Big Bag Support | Toromac", "description": "Big Bag discharge station with optional vibration and dust extraction. Up to 2,000 kg." }
+      "es": { "title": "Soporte Big Bag Industrial 400–1500L | Toromac", "description": "Estación de descarga de Big Bags 400–1.500L con manga estanca, vibración opcional y captación de polvo. Acero al carbono o inox AISI 304." },
+      "en": { "title": "Industrial Big Bag Support 400–1500L | Toromac", "description": "Big Bag discharge station 400–1,500L with sealed sleeve, optional vibration and dust extraction. Painted carbon steel or AISI 304 stainless." }
     }
   },
   {
@@ -605,19 +1386,66 @@
     "category": "dosificacion",
     "name": { "es": "Alimentador de Silos Industrial", "en": "Industrial Silo Feeder" },
     "shortDescription": {
-      "es": "Alimentador para llenado controlado de silos. Dosificación por sin-fin o cinta según producto.",
-      "en": "Feeder for controlled silo filling. Screw or belt dosing per product."
+      "es": "Sistema de alimentación controlada para sólidos a granel desde silos. Dosificación por sin-fin o cinta, fabricación a medida, integración sencilla en líneas existentes.",
+      "en": "Controlled feeding system for bulk solids from silos. Screw or belt dosing, custom build, easy integration in existing lines."
+    },
+    "longDescription": {
+      "es": [
+        "Sistema de alimentación controlada para productos sólidos a granel diseñado para regular la descarga desde silos hacia líneas de transporte, procesado o envasado, eliminando picos y atascos en el flujo de producto.",
+        "Se fabrica a medida adaptándose a las necesidades específicas de cada proceso productivo: tipo de producto, caudal requerido, granulometría, configuración del silo y del equipo siguiente. El resultado es un flujo estable, seguro y continuo del producto desde el silo hasta el siguiente eslabón de la línea.",
+        "Gracias a su diseño robusto, permite optimizar la dosificación, reducir incidencias y mejorar la eficiencia global de la instalación. Construcción industrial reforzada con motores Energy Save para reducir el consumo eléctrico en operación continua.",
+        "Toromac diseña y fabrica todos los equipamientos a medida, adaptándolos a las necesidades y aplicaciones específicas requeridas en cada caso, con dosificación por sin-fin (para polvos cohesivos y productos de granulometría fina) o por cinta (para granulados y producto a granel)."
+      ],
+      "en": [
+        "Controlled feeding system for bulk solid products designed to regulate discharge from silos to transport, process or packing lines, eliminating peaks and jams in product flow.",
+        "Custom-built to adapt to each production process: product type, required throughput, particle size, silo configuration and downstream equipment. The result is a stable, safe and continuous product flow from silo to the next line element.",
+        "Thanks to its robust design, it optimises dosing, reduces incidents and improves overall plant efficiency. Reinforced industrial construction with Energy Save motors to reduce electrical consumption in continuous operation.",
+        "Toromac designs and manufactures every unit to order, with screw dosing (for cohesive powders and fine granulometry) or belt dosing (for granulates and bulk product)."
+      ]
+    },
+    "applications": {
+      "es": ["Industria alimentaria a partir de silos", "Industria química — descarga controlada de granulados", "Pet food y alimentación animal a gran escala", "Industria agroalimentaria con flujo intensivo", "Procesos a granel desde almacenaje fijo"],
+      "en": ["Food industry from silos", "Chemical industry — controlled granulate discharge", "Large-scale pet food and animal nutrition", "Intensive-flow agro-food industry", "Bulk processes from fixed storage"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "A medida", "en": "Custom" } },
-      { "label": { "es": "Dosificación", "en": "Dosing" }, "value": { "es": "Sin-fin / cinta", "en": "Screw / belt" } }
+      { "label": { "es": "Tipo de producto", "en": "Product type" }, "value": { "es": "Sólidos a granel", "en": "Bulk solids" } },
+      { "label": { "es": "Función", "en": "Function" }, "value": { "es": "Alimentación y dosificación desde silos", "en": "Feeding and dosing from silos" } },
+      { "label": { "es": "Dosificación", "en": "Dosing" }, "value": { "es": "Sin-fin o cinta", "en": "Screw or belt" } },
+      { "label": { "es": "Diseño", "en": "Design" }, "value": { "es": "Industrial reforzado, a medida", "en": "Reinforced industrial, custom" } },
+      { "label": { "es": "Funcionamiento", "en": "Operation" }, "value": { "es": "Continuo y estable", "en": "Continuous and stable" } }
     ],
-    "highlights": { "es": ["Llenado controlado", "Dosificación sin-fin o cinta"], "en": ["Controlled filling", "Screw or belt dosing"] },
+    "highlights": {
+      "es": [
+        "Dosificación controlada y uniforme",
+        "Regulación precisa del caudal de descarga",
+        "Reducción de atascos y paradas de producción",
+        "Diseño robusto para trabajo continuo",
+        "Integración sencilla con elevadores y cintas Toromac",
+        "Bajo mantenimiento y alta fiabilidad"
+      ],
+      "en": [
+        "Controlled uniform dosing",
+        "Precise discharge flow regulation",
+        "Reduced jams and production stops",
+        "Robust design for continuous duty",
+        "Easy integration with Toromac elevators and conveyors",
+        "Low maintenance and high reliability"
+      ]
+    },
+    "faq": [
+      {
+        "question": { "es": "¿Sin-fin o cinta? ¿Cuál elegir?", "en": "Screw or belt? Which to choose?" },
+        "answer": {
+          "es": "Sin-fin para polvos cohesivos, harinas finas o productos de baja densidad. Cinta para granulados, producto a granel grueso o cuando se requiere transferencia con menor degradación.",
+          "en": "Screw for cohesive powders, fine flours or low-density products. Belt for granulates, coarse bulk product or when transfer with less degradation is needed."
+        }
+      }
+    ],
     "image": "/images/products/alimentador-silos-industrial.jpg",
-    "imageAlt": { "es": "Alimentador de silos industrial Toromac", "en": "Toromac industrial silo feeder" },
+    "imageAlt": { "es": "Alimentador de silos industrial Toromac con dosificación controlada", "en": "Toromac industrial silo feeder with controlled dosing" },
     "seo": {
-      "es": { "title": "Alimentador de Silos Industrial | Toromac", "description": "Alimentador para llenado controlado de silos. Dosificación sin-fin o cinta." },
-      "en": { "title": "Industrial Silo Feeder | Toromac", "description": "Feeder for controlled silo filling. Screw or belt dosing." }
+      "es": { "title": "Alimentador de Silos Industrial a Medida | Toromac", "description": "Alimentador para descarga controlada de silos. Dosificación por sin-fin o cinta. A medida según producto, caudal y configuración de planta." },
+      "en": { "title": "Custom Industrial Silo Feeder | Toromac", "description": "Feeder for controlled silo discharge. Screw or belt dosing. Custom-built per product, throughput and plant configuration." }
     }
   },
   {
@@ -626,19 +1454,59 @@
     "category": "dosificacion",
     "name": { "es": "Depósito de Agua Purificada", "en": "Purified Water Tank" },
     "shortDescription": {
-      "es": "Depósito sanitario para agua purificada. Inox 316L con acabado pulido y conexiones higiénicas.",
-      "en": "Sanitary tank for purified water. 316L stainless with polished finish and hygienic fittings."
+      "es": "Depósito sanitario en acero inoxidable AISI 316L pulido con conexiones higiénicas. Para almacenaje de agua purificada en farma, nutracéutica y alimentación crítica.",
+      "en": "Sanitary tank in polished AISI 316L stainless steel with hygienic fittings. For purified water storage in pharma, nutraceutical and critical food."
+    },
+    "longDescription": {
+      "es": [
+        "Depósito sanitario en acero inoxidable AISI 316L pulido espejo o eléctroquímico, diseñado para el almacenaje y dosificación de agua purificada en industrias con requisitos sanitarios estrictos: farmacéutica, nutracéutica, cosmética y alimentación crítica.",
+        "Acabado interior pulido para reducir la rugosidad superficial (Ra ≤ 0,8 µm en estándar, ≤ 0,4 µm bajo demanda) y prevenir la formación de biofilm. Conexiones higiénicas tipo SMS, DIN o Tri-Clamp según especificación del cliente.",
+        "Capacidad y geometría a medida del proyecto. Boca de hombre superior con cierre rápido para inspección y limpieza, válvula de seguridad y manómetro, conexiones para sondas de nivel y temperatura. Aislamiento térmico opcional con lana de roca y forrado exterior inox para entornos donde se requiere mantener la temperatura del agua.",
+        "Limpieza CIP integrable y validación documental completa: certificados de material, planos as-built, FAT (Factory Acceptance Test) cuando aplica, manuales en idioma del cliente."
+      ],
+      "en": [
+        "Sanitary tank in polished AISI 316L stainless steel — mirror or electropolished — designed for purified water storage and dosing in industries with strict sanitary requirements: pharmaceutical, nutraceutical, cosmetic and critical food.",
+        "Polished interior finish to reduce surface roughness (Ra ≤ 0.8 µm standard, ≤ 0.4 µm on demand) and prevent biofilm formation. Hygienic fittings SMS, DIN or Tri-Clamp per customer specification.",
+        "Capacity and geometry built to project. Top manway with quick-release closure for inspection and cleaning, safety valve and gauge, connections for level and temperature probes. Optional thermal insulation with rock wool and stainless outer cladding for environments requiring water temperature maintenance.",
+        "Integrable CIP cleaning and full documentary validation: material certificates, as-built drawings, FAT (Factory Acceptance Test) when applicable, manuals in customer language."
+      ]
+    },
+    "applications": {
+      "es": ["Industria farmacéutica — almacenaje de agua purificada", "Nutracéutica y suplementos", "Cosmética industrial", "Alimentación crítica con requisitos sanitarios", "Sistemas de agua para limpieza CIP"],
+      "en": ["Pharma industry — purified water storage", "Nutraceutical and supplements", "Industrial cosmetics", "Critical food with sanitary requirements", "Water systems for CIP cleaning"]
     },
     "specs": [
-      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "A medida", "en": "Custom" } },
-      { "label": { "es": "Material", "en": "Material" }, "value": "AISI 316L pulido" }
+      { "label": { "es": "Material", "en": "Material" }, "value": "AISI 316L pulido" },
+      { "label": { "es": "Acabado interior Ra", "en": "Interior Ra finish" }, "value": { "es": "≤ 0,8 µm (estándar) / ≤ 0,4 µm (bajo demanda)", "en": "≤ 0.8 µm (standard) / ≤ 0.4 µm (on demand)" } },
+      { "label": { "es": "Conexiones", "en": "Fittings" }, "value": "SMS / DIN / Tri-Clamp" },
+      { "label": { "es": "Capacidad", "en": "Capacity" }, "value": { "es": "A medida del proyecto", "en": "Custom per project" } },
+      { "label": { "es": "Aislamiento térmico", "en": "Thermal insulation" }, "value": { "es": "Opcional (lana de roca + forrado inox)", "en": "Optional (rock wool + stainless cladding)" } },
+      { "label": { "es": "Limpieza CIP", "en": "CIP cleaning" }, "value": { "es": "Integrable", "en": "Integrable" } }
     ],
-    "highlights": { "es": ["Acabado sanitario 316L", "Conexiones higiénicas"], "en": ["Sanitary 316L finish", "Hygienic fittings"] },
+    "highlights": {
+      "es": [
+        "Acabado sanitario AISI 316L pulido",
+        "Conexiones higiénicas SMS / DIN / Tri-Clamp",
+        "Validación documental completa (materiales, FAT)",
+        "Capacidad y geometría a medida",
+        "Aislamiento térmico opcional",
+        "Compatible con CIP"
+      ],
+      "en": [
+        "Sanitary AISI 316L polished finish",
+        "Hygienic fittings SMS / DIN / Tri-Clamp",
+        "Full documentary validation (materials, FAT)",
+        "Custom capacity and geometry",
+        "Optional thermal insulation",
+        "CIP-compatible"
+      ]
+    },
+    "faq": [],
     "image": "/images/products/deposito-agua-purificada.jpg",
-    "imageAlt": { "es": "Depósito de agua purificada Toromac inox 316L", "en": "Toromac 316L purified water tank" },
+    "imageAlt": { "es": "Depósito de agua purificada Toromac AISI 316L pulido sanitario", "en": "Toromac AISI 316L polished sanitary purified water tank" },
     "seo": {
-      "es": { "title": "Depósito de Agua Purificada Industrial | Toromac", "description": "Depósito sanitario en 316L pulido para agua purificada. Acabado y conexiones higiénicas." },
-      "en": { "title": "Industrial Purified Water Tank | Toromac", "description": "Sanitary tank in polished 316L for purified water. Hygienic finish and fittings." }
+      "es": { "title": "Depósito de Agua Purificada Sanitario AISI 316L | Toromac", "description": "Depósito en 316L pulido para agua purificada en farma, nutracéutica y alimentación crítica. Conexiones SMS / DIN / Tri-Clamp, CIP integrable." },
+      "en": { "title": "Sanitary Purified Water Tank AISI 316L | Toromac", "description": "Polished 316L tank for purified water in pharma, nutraceutical and critical food. SMS / DIN / Tri-Clamp fittings, integrable CIP." }
     }
   },
 
@@ -648,19 +1516,57 @@
     "category": "otros",
     "name": { "es": "Canal de Alimentación Vibrada", "en": "Vibratory Feeder" },
     "shortDescription": {
-      "es": "Canal vibrado con tolva para dosificación y alimentación uniforme de producto a granel.",
-      "en": "Vibrating chute with hopper for dosing and uniform feed of bulk product."
+      "es": "Canal vibrado con tolva integrada para dosificación uniforme de producto a granel hacia el siguiente equipo. Vibración regulable, construcción inox.",
+      "en": "Vibrating chute with integrated hopper for uniform dosing of bulk product to the next unit. Adjustable vibration, stainless construction."
+    },
+    "longDescription": {
+      "es": [
+        "Canal de alimentación vibrada con tolva integrada para dosificación y alimentación uniforme de producto a granel hacia el siguiente equipo de proceso: pesadora multicabezal, envasadora, mezcladora, elevador o cinta.",
+        "El sistema vibratorio — eléctrico o neumático según preferencia — propaga ondas controladas a lo largo del canal que provocan el avance regular del producto sin acelerarlo. Esto reduce la rotura, evita la formación de bóvedas en la tolva y entrega un caudal uniforme y predecible al siguiente eslabón de la línea.",
+        "Vibración regulable en intensidad para adaptarse a la densidad y granulometría del producto. Tolva integrada dimensionada según volumen de buffer requerido. Construcción industrial robusta en acero inoxidable AISI 304L con opciones de acabado alimentario o sanitario para alimentación, farma o química.",
+        "Toromac diseña y fabrica todos los equipamientos a medida, adaptándolos a las necesidades específicas del proyecto."
+      ],
+      "en": [
+        "Vibrating feeder with integrated hopper for dosing and uniform feeding of bulk product to the next process unit: multihead weigher, packer, mixer, elevator or conveyor.",
+        "The vibratory system — electric or pneumatic by preference — propagates controlled waves along the chute causing regular product advance without acceleration. This reduces breakage, prevents arching in the hopper and delivers a uniform predictable flow to the next link in the line.",
+        "Vibration intensity adjustable to match product density and particle size. Integrated hopper sized to required buffer volume. Robust industrial construction in AISI 304L stainless with food-grade or sanitary finish options for food, pharma or chemical.",
+        "Toromac designs and manufactures every unit to order, adapting to specific project needs."
+      ]
+    },
+    "applications": {
+      "es": ["Alimentación de pesadoras multicabezal en envasado", "Dosificación a mezcladoras de proceso", "Buffer entre etapas de producción", "Industria alimentaria — frutos secos, snacks, cereales", "Industria química — granulados secos"],
+      "en": ["Feeding multihead weighers in packing lines", "Dosing to process mixers", "Buffer between production stages", "Food industry — nuts, snacks, cereals", "Chemical industry — dry granulates"]
     },
     "specs": [
-      { "label": { "es": "Tolva", "en": "Hopper" }, "value": { "es": "Integrada", "en": "Integrated" } },
-      { "label": { "es": "Vibración", "en": "Vibration" }, "value": { "es": "Regulable", "en": "Adjustable" } }
+      { "label": { "es": "Tolva", "en": "Hopper" }, "value": { "es": "Integrada, dimensión a medida", "en": "Integrated, custom-sized" } },
+      { "label": { "es": "Vibración", "en": "Vibration" }, "value": { "es": "Regulable (eléctrica o neumática)", "en": "Adjustable (electric or pneumatic)" } },
+      { "label": { "es": "Material", "en": "Material" }, "value": "AISI 304L / 316L" },
+      { "label": { "es": "Acabados", "en": "Finishes" }, "value": { "es": "Básico, alimentario o sanitario", "en": "Basic, food-grade or sanitary" } }
     ],
-    "highlights": { "es": ["Dosificación uniforme", "Vibración regulable", "Tolva integrada"], "en": ["Uniform dosing", "Adjustable vibration", "Integrated hopper"] },
+    "highlights": {
+      "es": [
+        "Dosificación uniforme y predecible",
+        "Vibración regulable según producto",
+        "Tolva integrada como buffer",
+        "Reduce rotura y formación de bóvedas",
+        "Construcción inox industrial",
+        "Compatible con líneas Toromac y de terceros"
+      ],
+      "en": [
+        "Uniform predictable dosing",
+        "Adjustable vibration per product",
+        "Integrated hopper as buffer",
+        "Reduces breakage and arching",
+        "Industrial stainless construction",
+        "Compatible with Toromac and third-party lines"
+      ]
+    },
+    "faq": [],
     "image": "/images/products/canal-alimentacion-vibrada.jpg",
-    "imageAlt": { "es": "Canal de alimentación vibrada con tolva Toromac", "en": "Toromac vibratory feeder with hopper" },
+    "imageAlt": { "es": "Canal de alimentación vibrada con tolva Toromac", "en": "Toromac vibratory feeder with integrated hopper" },
     "seo": {
-      "es": { "title": "Canal de Alimentación Vibrada con Tolva | Toromac", "description": "Canal vibrado para dosificación uniforme. Tolva integrada, vibración regulable." },
-      "en": { "title": "Vibratory Feeder with Hopper | Toromac", "description": "Vibrating chute for uniform dosing. Integrated hopper, adjustable vibration." }
+      "es": { "title": "Canal de Alimentación Vibrada con Tolva Industrial | Toromac", "description": "Canal vibrado para dosificación uniforme de producto a granel. Tolva integrada, vibración regulable, inox 304L. Para envasado, pesado y mezcla." },
+      "en": { "title": "Vibratory Feeder with Hopper Industrial | Toromac", "description": "Vibrating chute for uniform bulk product dosing. Integrated hopper, adjustable vibration, 304L stainless. For packing, weighing and mixing." }
     }
   },
   {
@@ -669,18 +1575,55 @@
     "category": "otros",
     "name": { "es": "Filtro Ciclónico", "en": "Cyclone Filter" },
     "shortDescription": {
-      "es": "Filtro ciclónico para separación de polvo y partículas en línea de envasado o transporte neumático.",
-      "en": "Cyclone filter for dust and particle separation in packing or pneumatic transport lines."
+      "es": "Filtro ciclónico industrial para separación eficiente de polvo en líneas de embolsado y transporte neumático. Construcción inox, diseño a medida.",
+      "en": "Industrial cyclone filter for efficient dust separation in bagging and pneumatic transport lines. Stainless construction, custom design."
+    },
+    "longDescription": {
+      "es": [
+        "Filtro ciclónico industrial diseñado para la separación de polvo y partículas finas en sistemas de embolsado, transporte neumático y procesos donde la captación de polvo es requisito sanitario y de seguridad.",
+        "El principio ciclónico aprovecha la fuerza centrífuga generada por el flujo de aire para separar las partículas suspendidas del aire que las transporta: el aire entra tangencialmente, gira en espiral descendente y las partículas — más pesadas — caen al colector inferior, mientras el aire limpio sale por la chimenea central superior.",
+        "Toromac diseña y fabrica el filtro ciclónico a medida según el caudal de aire del proceso, la granulometría y densidad de las partículas a separar y los requisitos del sector. Construcción robusta en acero inoxidable o pintado, acabados alimentario y sanitario opcionales.",
+        "Compatible con elevadores, cintas y tamizadoras Toromac para integración en líneas completas. Conexiones para mangueras y conductos estándar de la industria."
+      ],
+      "en": [
+        "Industrial cyclone filter designed for dust and fine-particle separation in bagging systems, pneumatic transport and processes where dust extraction is a sanitary and safety requirement.",
+        "The cyclone principle uses centrifugal force generated by airflow to separate suspended particles from the air carrying them: air enters tangentially, spirals down, and the heavier particles fall to the lower collector while clean air exits via the upper central stack.",
+        "Toromac designs and builds the cyclone filter to order per process air throughput, particle size and density and sector requirements. Robust stainless or painted-steel construction, optional food-grade and sanitary finishes.",
+        "Compatible with Toromac elevators, conveyors and sifters for integration in complete lines. Standard industry connections for hoses and ducts."
+      ]
+    },
+    "applications": {
+      "es": ["Líneas de embolsado y envasado de polvo", "Transporte neumático en industria alimentaria, química y minera", "Separación de polvo en procesos de molienda y mezcla", "Captación de polvo en estaciones de Big Bag"],
+      "en": ["Powder bagging and packing lines", "Pneumatic transport in food, chemical and mining industry", "Dust separation in milling and mixing processes", "Dust extraction in Big Bag stations"]
     },
     "specs": [
-      { "label": { "es": "Aplicación", "en": "Application" }, "value": { "es": "Embolsado / transporte neumático", "en": "Bagging / pneumatic transport" } }
+      { "label": { "es": "Aplicación", "en": "Application" }, "value": { "es": "Embolsado / transporte neumático / captación polvo", "en": "Bagging / pneumatic transport / dust extraction" } },
+      { "label": { "es": "Construcción", "en": "Construction" }, "value": { "es": "Acero inoxidable o pintado", "en": "Stainless or painted steel" } },
+      { "label": { "es": "Diseño", "en": "Design" }, "value": { "es": "A medida según caudal y partículas", "en": "Custom per air flow and particles" } },
+      { "label": { "es": "Conexiones", "en": "Connections" }, "value": { "es": "Mangueras y conductos estándar industria", "en": "Standard industry hoses and ducts" } }
     ],
-    "highlights": { "es": ["Separación eficiente", "Construcción robusta inox"], "en": ["Efficient separation", "Robust stainless construction"] },
+    "highlights": {
+      "es": [
+        "Separación eficiente por fuerza centrífuga",
+        "Construcción robusta inox o pintada",
+        "Diseño a medida según caudal y partículas",
+        "Acabados alimentario o sanitario opcionales",
+        "Integrable con líneas Toromac"
+      ],
+      "en": [
+        "Efficient separation by centrifugal force",
+        "Robust stainless or painted construction",
+        "Custom design per air flow and particles",
+        "Optional food-grade or sanitary finishes",
+        "Integrable with Toromac lines"
+      ]
+    },
+    "faq": [],
     "image": "/images/products/filtro-ciclonico.jpg",
-    "imageAlt": { "es": "Filtro ciclónico industrial Toromac", "en": "Toromac industrial cyclone filter" },
+    "imageAlt": { "es": "Filtro ciclónico industrial Toromac para separación de polvo", "en": "Toromac industrial cyclone filter for dust separation" },
     "seo": {
-      "es": { "title": "Filtro Ciclónico Industrial | Toromac", "description": "Filtro ciclónico para embolsado y transporte neumático. Separación eficiente de polvo." },
-      "en": { "title": "Industrial Cyclone Filter | Toromac", "description": "Cyclone filter for bagging and pneumatic transport. Efficient dust separation." }
+      "es": { "title": "Filtro Ciclónico Industrial Captación de Polvo | Toromac", "description": "Filtro ciclónico para separación de polvo en embolsado y transporte neumático. Construcción inox, diseño a medida según caudal y partículas." },
+      "en": { "title": "Industrial Cyclone Filter Dust Extraction | Toromac", "description": "Cyclone filter for dust separation in bagging and pneumatic transport. Stainless construction, custom design per air flow and particles." }
     }
   }
 ]

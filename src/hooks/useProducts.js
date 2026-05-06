@@ -1,16 +1,22 @@
 import productsData from '../data/products/products.json';
+import categoriesData from '../data/products/categories.json';
 
+// Lista de categorias en orden de aparicion en navegacion / filtros.
 export const CATEGORIES = [
-  { id: 'elevacion-transporte', label: { es: 'Elevación y transporte', en: 'Elevation & Transport' } },
-  { id: 'recambios-cangilones', label: { es: 'Recambios y cangilones', en: 'Buckets & Spare Parts' } },
-  { id: 'procesado',            label: { es: 'Equipos de procesado',  en: 'Process Equipment'    } },
-  { id: 'dosificacion',         label: { es: 'Dosificación y almacenaje', en: 'Dosing & Storage' } },
-  { id: 'otros',                label: { es: 'Otros',                 en: 'Other'                } },
-];
+  'elevacion-transporte',
+  'recambios-cangilones',
+  'procesado',
+  'dosificacion',
+  'otros',
+].map((id) => ({ id, ...categoriesData[id] }));
 
 export function getCategoryLabel(categoryId, lang = 'es') {
-  const cat = CATEGORIES.find((c) => c.id === categoryId);
-  return cat ? cat.label[lang] || cat.label.es : categoryId;
+  const cat = categoriesData[categoryId];
+  return cat?.label?.[lang] || cat?.label?.es || categoryId;
+}
+
+export function getCategoryMeta(categoryId) {
+  return categoriesData[categoryId] || null;
 }
 
 export function getAllProducts() {

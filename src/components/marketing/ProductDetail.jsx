@@ -15,7 +15,7 @@ import {
   getCategoryLabel,
   resolveSpecValue,
 } from '../../hooks/useProducts';
-import { productSchema, breadcrumbSchema } from '../../utils/schema';
+import { productSchema, breadcrumbSchema, faqPageSchema } from '../../utils/schema';
 
 export default function ProductDetail() {
   const { slug } = useParams();
@@ -31,7 +31,6 @@ export default function ProductDetail() {
   const categoryLabel = getCategoryLabel(product.category, lang);
   const seo = product.seo?.[lang] || product.seo?.es || {};
 
-  // Slugs ES y EN para hreflang correcto
   const slugEs = product.slug?.es || product.id;
   const slugEn = product.slug?.en || product.id;
   const alternates = {
@@ -42,6 +41,7 @@ export default function ProductDetail() {
   const homeHref = isEn ? '/en' : '/';
   const productsHref = isEn ? '/en/products' : '/productos';
   const quoteHref = isEn ? '/en/quote' : '/presupuesto';
+  const productQuoteHref = `${quoteHref}?product=${product.id}`;
 
   const breadcrumb = [
     { name: t('nav.home'), path: homeHref },
@@ -51,18 +51,25 @@ export default function ProductDetail() {
 
   const related = getRelatedProducts(product, lang, 3);
 
+  const longDescription = product.longDescription?.[lang] || product.longDescription?.es || [];
+  const applications = product.applications?.[lang] || product.applications?.es || [];
   const highlights = product.highlights?.[lang] || product.highlights?.es || [];
   const specs = Array.isArray(product.specs) ? product.specs : [];
+  const faqs = Array.isArray(product.faq) ? product.faq : [];
+
+  // Schemas: Product + Breadcrumb siempre, FAQPage solo si hay >=1 FAQ
+  const schemas = [productSchema(product, lang), breadcrumbSchema(breadcrumb)];
+  if (faqs.length > 0) schemas.push(faqPageSchema(faqs, lang));
 
   return (
     <>
       <PageSeo
         title={seo.title || `${name} | Toromac`}
-        description={seo.description || desc}
+        description={seo.description || product.shortDescription?.[lang] || desc}
         type="website"
         image={product.image}
         alternates={alternates}
-        schema={[productSchema(product, lang), breadcrumbSchema(breadcrumb)]}
+        schema={schemas}
       />
 
       {/* Top: breadcrumb + back link */}
@@ -118,7 +125,9 @@ export default function ProductDetail() {
               <h1 className="font-display text-3xl lg:text-5xl font-extrabold leading-[1.05] text-balance">
                 {name}
               </h1>
-              <p className="text-toro-gray-mid leading-relaxed text-pretty text-lg">{desc}</p>
+              <p className="text-toro-gray-mid leading-relaxed text-pretty text-lg">
+                {product.shortDescription?.[lang] || desc}
+              </p>
 
               {highlights.length > 0 && (
                 <ul className="space-y-2.5 pt-2">
@@ -134,7 +143,7 @@ export default function ProductDetail() {
               )}
 
               <div className="flex flex-wrap gap-3 pt-4">
-                <Button to={quoteHref} variant="primary" size="lg" withArrow>
+                <Button to={productQuoteHref} variant="primary" size="lg" withArrow>
                   {t('cta.quote')}
                 </Button>
                 <Button to={isEn ? '/en/contact' : '/contacto'} variant="secondary" size="lg">
@@ -146,9 +155,51 @@ export default function ProductDetail() {
         </Container>
       </section>
 
+      {/* Long description + applications */}
+      {(longDescription.length > 0 || applications.length > 0) && (
+        <section className="bg-toro-gray-cold border-y border-toro-black/[0.06]">
+          <Container className="py-16 lg:py-20">
+            <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
+              <div className="lg:col-span-7 space-y-5">
+                <Eyebrow className="text-toro-blue">{t('product.descriptionLabel')}</Eyebrow>
+                <h2 className="font-display text-2xl lg:text-4xl font-extrabold leading-[1.05] text-balance">
+                  {t('product.descriptionHeadline', { product: name })}
+                </h2>
+                <div className="space-y-4 text-toro-black/85 leading-relaxed text-pretty pt-2">
+                  {longDescription.map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                </div>
+              </div>
+
+              {applications.length > 0 && (
+                <aside className="lg:col-span-5 lg:sticky lg:top-24 self-start">
+                  <div className="rounded-xl bg-white border border-toro-black/[0.08] p-6 lg:p-8 space-y-4">
+                    <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-toro-blue">
+                      {t('product.applicationsLabel')}
+                    </p>
+                    <h3 className="font-display text-xl font-bold leading-tight">
+                      {t('product.applicationsHeadline')}
+                    </h3>
+                    <ul className="space-y-2 pt-1">
+                      {applications.map((app) => (
+                        <li key={app} className="flex items-start gap-2.5 text-sm text-toro-black/85 leading-relaxed">
+                          <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-toro-blue" />
+                          {app}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </aside>
+              )}
+            </div>
+          </Container>
+        </section>
+      )}
+
       {/* Specs técnicos */}
       {specs.length > 0 && (
-        <section className="bg-toro-gray-cold border-y border-toro-black/[0.06]">
+        <section className="bg-white">
           <Container className="py-16 lg:py-20">
             <div className="grid gap-10 lg:grid-cols-12 lg:items-end mb-10">
               <div className="lg:col-span-7 space-y-4">
@@ -180,6 +231,47 @@ export default function ProductDetail() {
         </section>
       )}
 
+      {/* FAQ */}
+      {faqs.length > 0 && (
+        <section className="bg-toro-gray-cold border-y border-toro-black/[0.06]">
+          <Container className="py-16 lg:py-20">
+            <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
+              <div className="lg:col-span-4 space-y-4">
+                <Eyebrow className="text-toro-blue">{t('product.faqLabel')}</Eyebrow>
+                <h2 className="font-display text-2xl lg:text-4xl font-extrabold leading-[1.05] text-balance">
+                  {t('product.faqHeadline')}
+                </h2>
+              </div>
+              <div className="lg:col-span-8">
+                <ul className="space-y-px">
+                  {faqs.map((f, i) => {
+                    const q = f.question?.[lang] || f.question?.es;
+                    const a = f.answer?.[lang] || f.answer?.es;
+                    return (
+                      <li key={i} className="border-b border-toro-black/10 last:border-b-0 group">
+                        <details className="py-5 lg:py-6">
+                          <summary className="flex items-start justify-between gap-4 cursor-pointer list-none">
+                            <h3 className="font-display text-lg lg:text-xl font-bold text-toro-black leading-snug pr-2">
+                              {q}
+                            </h3>
+                            <span aria-hidden className="grid h-7 w-7 shrink-0 place-items-center rounded-full border border-toro-black/15 text-toro-blue text-lg leading-none transition-transform group-open:rotate-45">
+                              +
+                            </span>
+                          </summary>
+                          <p className="pt-3 text-toro-gray-mid leading-relaxed text-pretty pr-10">
+                            {a}
+                          </p>
+                        </details>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
       {/* CTA contextual */}
       <section className="bg-blueprint text-white">
         <Container className="py-16 lg:py-20">
@@ -193,7 +285,7 @@ export default function ProductDetail() {
                 {t('product.ctaLead')}
               </p>
             </div>
-            <Button to={quoteHref} variant="primary" size="lg" withArrow>
+            <Button to={productQuoteHref} variant="primary" size="lg" withArrow>
               {t('cta.quote')}
             </Button>
           </div>

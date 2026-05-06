@@ -1,19 +1,18 @@
 /**
- * Wall de logos placeholder. Cuando lleguen los SVG/PNG reales,
- * se reemplaza el wordmark por un <img>. Mantenemos el contenedor
- * con la misma altura para evitar layout shift.
+ * Wall de logos de clientes. Cada logo es PNG con fondo transparente.
+ * En grayscale por defecto, color en hover, para coherencia visual cross-marca.
  */
 const CLIENTS = [
-  'Gallo',
-  'BFR Groupe',
-  'Grefusa',
-  'Radar Process',
-  'Oromas',
-  'Rovema',
-  'ULMA',
-  'Realplast',
-  'Chupa Chups',
-  'MIPCRE',
+  { slug: 'gallo',         name: 'Pastas Gallo' },
+  { slug: 'bfr-latinpack', name: 'BFR Groupe / Latinpack' },
+  { slug: 'grefusa',       name: 'Grefusa' },
+  { slug: 'radar-process', name: 'Radar Process' },
+  { slug: 'oromas',        name: 'Oromas' },
+  { slug: 'rovema',        name: 'Rovema' },
+  { slug: 'ulma',          name: 'ULMA' },
+  { slug: 'realplast',     name: 'Realplast' },
+  { slug: 'chupa-chups',   name: 'Chupa Chups' },
+  { slug: 'mipcre',        name: 'Mipcre' },
 ];
 
 export default function ClientLogos({ tone = 'light' }) {
@@ -21,17 +20,23 @@ export default function ClientLogos({ tone = 'light' }) {
   return (
     <ul
       className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-x-6 gap-y-8 items-center ${
-        isDark ? 'text-white/45' : 'text-toro-gray-mid'
+        isDark ? 'opacity-90' : ''
       }`}
     >
-      {CLIENTS.map((name) => (
-        <li
-          key={name}
-          className="flex h-14 items-center justify-center text-center"
-        >
-          <span className="font-display text-lg font-bold uppercase tracking-tight transition-colors hover:text-toro-black">
-            {name}
-          </span>
+      {CLIENTS.map(({ slug, name }) => (
+        <li key={slug} className="flex items-center justify-center h-16 sm:h-20">
+          <img
+            src={`/images/clients/${slug}.png`}
+            alt={name}
+            width="160"
+            height="80"
+            loading="lazy"
+            className={`max-h-full max-w-[140px] object-contain transition-all duration-300 ease-out-soft ${
+              isDark
+                ? 'brightness-0 invert opacity-60 hover:opacity-100'
+                : 'grayscale opacity-70 hover:grayscale-0 hover:opacity-100'
+            }`}
+          />
         </li>
       ))}
     </ul>

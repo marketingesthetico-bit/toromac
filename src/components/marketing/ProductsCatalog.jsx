@@ -9,6 +9,7 @@ import {
   CATEGORIES,
   getAllProducts,
   getCategoryLabel,
+  getCategoryMeta,
 } from '../../hooks/useProducts';
 
 export default function ProductsCatalog() {
@@ -16,6 +17,7 @@ export default function ProductsCatalog() {
   const { lang } = useLang();
   const [params, setParams] = useSearchParams();
   const activeCat = params.get('category') || '';
+  const activeMeta = activeCat ? getCategoryMeta(activeCat) : null;
   const all = useMemo(() => getAllProducts(), []);
   const filtered = useMemo(
     () => (activeCat ? all.filter((p) => p.category === activeCat) : all),
@@ -45,7 +47,7 @@ export default function ProductsCatalog() {
         </p>
 
         {/* Filtros de categoría — chips */}
-        <div className="flex flex-wrap gap-2 mb-12 -mx-1 px-1 overflow-x-auto" role="tablist" aria-label={t('catalog.filterLabel')}>
+        <div className="flex flex-wrap gap-2 mb-10 -mx-1 px-1 overflow-x-auto" role="tablist" aria-label={t('catalog.filterLabel')}>
           <FilterChip
             active={!activeCat}
             onClick={() => setCategory('')}
@@ -62,6 +64,26 @@ export default function ProductsCatalog() {
             </FilterChip>
           ))}
         </div>
+
+        {/* Bloque SEO de categoría activa — H2 + descripción larga.
+            Visible solo cuando hay categoría seleccionada. */}
+        {activeMeta && (
+          <article className="mb-12 rounded-xl border border-toro-black/[0.08] bg-toro-gray-cold/40 p-6 lg:p-10 animate-fade-up">
+            <div className="grid gap-6 lg:grid-cols-12 lg:gap-10">
+              <div className="lg:col-span-4 space-y-3">
+                <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-toro-blue">
+                  {activeMeta.label?.[lang] || activeMeta.label?.es}
+                </p>
+                <h2 className="font-display text-xl lg:text-2xl font-bold leading-tight text-balance">
+                  {activeMeta.seoH2?.[lang] || activeMeta.seoH2?.es}
+                </h2>
+              </div>
+              <div className="lg:col-span-8 text-toro-black/85 leading-relaxed text-pretty">
+                {activeMeta.description?.[lang] || activeMeta.description?.es}
+              </div>
+            </div>
+          </article>
+        )}
 
         {filtered.length === 0 ? (
           <div className="rounded-xl border border-dashed border-toro-black/15 p-12 text-center">
