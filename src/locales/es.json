@@ -9,20 +9,31 @@
     "company": "Compañía",
     "news": "Novedades",
     "contact": "Contacto",
-    "quote": "Presupuesto"
+    "quote": "Presupuesto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "cta": {
     "quote": "Solicitar presupuesto",
     "contact": "Contactar",
     "viewMore": "Ver más",
     "viewAll": "Ver todos",
+    "viewProduct": "Ver producto",
     "readMore": "Leer artículo"
   },
   "lang": {
     "current": "ES",
-    "switchTo": "EN"
+    "switchTo": "EN",
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
   },
   "footer": {
+    "tagline": "Soluciones de ingeniería para la industria alimentaria, farmacéutica, química y nutrición animal.",
+    "products": "Productos",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "follow": "Síguenos",
     "rights": "Todos los derechos reservados.",
     "legal": "Aviso legal",
     "privacy": "Política de privacidad",
@@ -30,6 +41,7 @@
   },
   "common": {
     "loading": "Cargando…",
-    "comingSoon": "Próximamente"
+    "comingSoon": "Próximamente",
+    "skipToContent": "Saltar al contenido"
   }
 }

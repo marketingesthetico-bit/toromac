@@ -9,20 +9,31 @@
     "company": "Company",
     "news": "News",
     "contact": "Contact",
-    "quote": "Quote"
+    "quote": "Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "cta": {
     "quote": "Request a quote",
     "contact": "Contact us",
     "viewMore": "View more",
     "viewAll": "View all",
+    "viewProduct": "View product",
     "readMore": "Read article"
   },
   "lang": {
     "current": "EN",
-    "switchTo": "ES"
+    "switchTo": "ES",
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
   },
   "footer": {
+    "tagline": "Engineering solutions for the food, pharmaceutical, chemical and animal nutrition industries.",
+    "products": "Products",
+    "company": "Company",
+    "contact": "Contact",
+    "follow": "Follow us",
     "rights": "All rights reserved.",
     "legal": "Legal notice",
     "privacy": "Privacy policy",
@@ -30,6 +41,7 @@
   },
   "common": {
     "loading": "Loading…",
-    "comingSoon": "Coming soon"
+    "comingSoon": "Coming soon",
+    "skipToContent": "Skip to content"
   }
 }
