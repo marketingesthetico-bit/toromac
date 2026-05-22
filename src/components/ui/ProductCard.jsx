@@ -18,7 +18,7 @@ export default function ProductCard({ product, lang = 'es', categoryLabel }) {
       to={href}
       className="group flex flex-col overflow-hidden rounded-xl border border-toro-black/10 bg-white transition-all duration-300 ease-out-soft hover:border-toro-black/20 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-toro-blue/40"
     >
-      <div className="relative overflow-hidden bg-toro-gray-cold aspect-[4/3]">
+      <div className="relative overflow-hidden bg-toro-gray-cold aspect-square">
         {product.image ? (
           <img
             src={product.image}
