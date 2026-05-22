@@ -12,14 +12,41 @@ export default function HeroHome() {
   const quoteHref = isEn ? '/en/quote' : '/presupuesto';
 
   return (
-    <section className="relative overflow-hidden bg-blueprint text-white">
-      {/* Spotlight detras del producto */}
+    <section className="relative overflow-hidden bg-toro-black text-white">
+      {/* Video de fondo */}
+      <video
+        aria-hidden
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster="/images/hero/portada-poster.jpg"
+      >
+        <source src="/videos/portada_toromac.mp4" type="video/mp4" />
+      </video>
+
+      {/* Overlay 1 — degradado negro horizontal: oscurece la zona del texto, deja ver el video a la derecha */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-toro-black via-toro-black/85 to-toro-black/30"
+      />
+      {/* Overlay 2 — degradado vertical: funde el fondo con la franja de stats y la seccion siguiente */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-gradient-to-t from-toro-black via-toro-black/20 to-toro-black/40"
+      />
+      {/* Overlay 3 — cuadricula blueprint semitransparente sobre el video */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 bg-grid-lines opacity-70" />
+
+      {/* Spotlight azul detras del producto */}
       <div
         aria-hidden
         className="pointer-events-none absolute right-0 top-0 hidden h-full w-1/2 lg:block"
         style={{
           background:
-            'radial-gradient(ellipse at 65% 50%, rgba(43,79,191,0.18) 0%, rgba(10,10,10,0) 60%)',
+            'radial-gradient(ellipse at 65% 50%, rgba(43,79,191,0.22) 0%, rgba(10,10,10,0) 60%)',
         }}
       />
 

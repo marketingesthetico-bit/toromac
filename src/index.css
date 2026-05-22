@@ -45,6 +45,15 @@
     background-position: -1px -1px;
   }
 
+  /* Solo las lineas de la cuadricula, sin fondo: para superponer sobre video/imagen */
+  .bg-grid-lines {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 56px 56px;
+    background-position: -1px -1px;
+  }
+
   /* Number callout para stats grandes */
   .stat-number {
     @apply font-display font-extrabold tabular-nums tracking-tight;
