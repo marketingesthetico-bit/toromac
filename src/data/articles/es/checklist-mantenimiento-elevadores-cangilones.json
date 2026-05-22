@@ -1,0 +1,383 @@
+{
+  "id": "checklist-mantenimiento-elevadores-cangilones",
+  "slug": {
+    "es": "checklist-mantenimiento-elevadores-cangilones",
+    "en": "maintenance-checklist-bucket-elevators"
+  },
+  "publishedAt": "2026-05-12T09:00:00Z",
+  "updatedAt": "2026-05-12T09:00:00Z",
+  "author": "Equipo Toromac",
+  "category": "elevacion-transporte",
+  "relatedProduct": "elevador-cangilones-tipo-z",
+  "title": {
+    "es": "Checklist de mantenimiento para elevadores de cangilones",
+    "en": "Maintenance checklist for bucket elevators"
+  },
+  "metaDescription": {
+    "es": "Plan de mantenimiento para elevadores de cangilones: inspecciones diarias, semanales y trimestrales para alargar la vida del equipo y reducir paradas no programadas.",
+    "en": "Maintenance plan for bucket elevators: daily, weekly and quarterly inspections to extend equipment life and reduce unplanned downtime."
+  },
+  "heroImage": "/images/products/elevador-cangilones-tipo-c.jpg",
+  "heroImageAlt": {
+    "es": "Elevador de cangilones industrial en planta de proceso",
+    "en": "Industrial bucket elevator in a process plant"
+  },
+  "seo": {
+    "es": {
+      "title": "Checklist de mantenimiento de elevadores de cangilones | Toromac",
+      "description": "Checklist de mantenimiento para elevadores de cangilones: inspecciones diarias, semanales y trimestrales. Tensión de banda, alineación, desgaste y seguridad."
+    },
+    "en": {
+      "title": "Bucket elevator maintenance checklist | Toromac",
+      "description": "Maintenance checklist for bucket elevators: daily, weekly and quarterly inspections. Belt tension, alignment, wear and safety."
+    }
+  },
+  "content": {
+    "es": [
+      { "type": "p", "text": "Un elevador de cangilones bien mantenido funciona durante años con paradas mínimas. Uno descuidado falla en el peor momento: en plena campaña, con la línea llena de producto. La diferencia entre ambos escenarios no es la marca del equipo, sino la existencia de un plan de mantenimiento preventivo que se cumpla." },
+      { "type": "p", "text": "Este artículo propone un checklist de mantenimiento estructurado por frecuencias —diaria, semanal, trimestral y anual— para elevadores de cangilones en industria alimentaria, farma y química. Está pensado para responsables de planta y equipos de mantenimiento que quieran reducir paradas no programadas y alargar la vida útil del equipo." },
+      { "type": "h2", "text": "Por qué un plan de mantenimiento preventivo" },
+      { "type": "p", "text": "El elevador de cangilones tiene pocos elementos móviles, pero todos críticos: la banda o cadena, los cangilones, los tambores, los rodamientos y el accionamiento. Un fallo en cualquiera de ellos detiene el transporte y, en el peor caso, provoca un atasco que obliga a vaciar manualmente el equipo. El mantenimiento preventivo sustituye la reparación de urgencia por la inspección programada: más barata, más segura y planificable." },
+      { "type": "callout", "text": "El coste de una hora de parada no programada en plena producción suele superar con creces el coste anual del mantenimiento preventivo del equipo. El preventivo no es un gasto: es la forma de no pagar el correctivo." },
+      { "type": "h2", "text": "Inspecciones diarias" },
+      { "type": "p", "text": "Son comprobaciones visuales y auditivas de pocos minutos, sin parar el equipo salvo indicación. El operario de línea puede realizarlas al inicio de turno." },
+      {
+        "type": "ul",
+        "items": [
+          "Ruido y vibración anómalos durante el funcionamiento.",
+          "Temperatura de rodamientos y motorreductor al tacto o por sensor.",
+          "Ausencia de roces metálicos entre cangilones y carcasa.",
+          "Fugas de producto en juntas, registros y zona de carga.",
+          "Funcionamiento correcto de la descarga, sin retorno de producto.",
+          "Estado de los resguardos y paradas de emergencia."
+        ]
+      },
+      { "type": "h2", "text": "Inspecciones semanales" },
+      { "type": "p", "text": "Requieren parar el equipo y abrir registros. Conviene programarlas en la limpieza semanal de línea." },
+      {
+        "type": "ul",
+        "items": [
+          "Tensión de la banda o cadena: ni floja (patina y descarrila) ni excesiva (sobrecarga rodamientos).",
+          "Alineación de la banda respecto a los tambores; corregir desviaciones tempranas.",
+          "Estado de los cangilones: desgaste del borde de carga, grietas y fijaciones flojas.",
+          "Limpieza interior: acumulación de producto, finos o costras en fondo y zona de descarga.",
+          "Apriete de tornillería de cangilones y de la estructura.",
+          "Estado de juntas y sellados en aplicaciones higiénicas."
+        ]
+      },
+      { "type": "h2", "text": "Inspecciones mensuales y trimestrales" },
+      { "type": "p", "text": "Revisiones más profundas que combinan medición y sustitución preventiva de consumibles." },
+      {
+        "type": "ul",
+        "items": [
+          "Medición del desgaste de tambores y recubrimientos.",
+          "Estado de rodamientos: juego, ruido y lubricación según pauta del fabricante.",
+          "Revisión del accionamiento: tensión de transmisión, nivel de aceite del reductor.",
+          "Comprobación de sensores de velocidad, desalineación y atasco si el equipo los incorpora.",
+          "Inspección estructural: soldaduras, anclajes y paneles.",
+          "Sustitución de cangilones que muestren desgaste avanzado antes de que rompan."
+        ]
+      },
+      { "type": "h2", "text": "Revisión anual" },
+      { "type": "p", "text": "Una parada planificada para puesta a punto completa, idealmente fuera de campaña." },
+      {
+        "type": "ol",
+        "items": [
+          "Cambio de aceite del motorreductor según horas de funcionamiento.",
+          "Sustitución programada de rodamientos según vida estimada.",
+          "Evaluación del estado de la banda o cadena y decisión de sustitución.",
+          "Revisión completa de la tornillería y reapriete con par.",
+          "Verificación de todos los elementos de seguridad y enclavamientos.",
+          "Actualización del histórico de mantenimiento del equipo."
+        ]
+      },
+      { "type": "h2", "text": "Tabla resumen de frecuencias" },
+      {
+        "type": "table",
+        "headers": ["Tarea", "Frecuencia", "Requiere parada"],
+        "rows": [
+          ["Ruido, vibración y temperatura", "Diaria", "No"],
+          ["Fugas y estado de descarga", "Diaria", "No"],
+          ["Tensión y alineación de banda", "Semanal", "Sí"],
+          ["Estado de cangilones y limpieza interior", "Semanal", "Sí"],
+          ["Rodamientos y accionamiento", "Trimestral", "Sí"],
+          ["Sustitución preventiva de cangilones", "Según desgaste", "Sí"],
+          ["Cambio de aceite y rodamientos programados", "Anual", "Sí"]
+        ]
+      },
+      { "type": "h2", "text": "Mantenimiento según el producto y el sector" },
+      { "type": "p", "text": "No todos los elevadores requieren el mismo plan. El producto manipulado y el sector determinan dónde poner el foco. Con productos abrasivos —granulados duros, minerales, sal—, el desgaste de cangilones, banda y recubrimientos de tambor se acelera, por lo que las inspecciones de desgaste deben ser más frecuentes y el stock de recambios mayor. Con productos pegajosos o húmedos, el foco está en la limpieza interior y en evitar acumulaciones que desequilibren la banda o generen contaminación." },
+      { "type": "p", "text": "En alimentación y farma, el plan incorpora la dimensión higiénica: verificación de juntas y sellados, control del estado de las superficies en contacto con producto y registro de las limpiezas como parte de la trazabilidad. En entornos químicos o con polvo combustible, la revisión de los elementos antiestáticos y del sellado forma parte de la seguridad ATEX, no solo del mantenimiento mecánico. Adaptar la frecuencia y el contenido de las inspecciones al producto real evita tanto el sobremantenimiento como las averías por defecto de revisión." },
+      { "type": "p", "text": "La regla general es sencilla: cuanto más exigente es el producto o el sector, más estructurado debe ser el plan. Pero incluso el plan más básico, cumplido con constancia, rinde más que el plan más completo aplicado de forma irregular." },
+      { "type": "h2", "text": "Indicadores que conviene medir" },
+      { "type": "p", "text": "Un plan de mantenimiento mejora lo que se mide. Tres indicadores resumen la salud del equipo y permiten justificar el preventivo frente a la dirección:" },
+      {
+        "type": "ul",
+        "items": [
+          "Disponibilidad: porcentaje del tiempo en que el elevador está operativo respecto al tiempo planificado de producción.",
+          "MTBF (tiempo medio entre fallos): a mayor MTBF, más fiable es el equipo y mejor está funcionando el preventivo.",
+          "MTTR (tiempo medio de reparación): mide la rapidez de respuesta; depende de tener repuestos y procedimientos listos."
+        ]
+      },
+      { "type": "p", "text": "No hace falta un sistema complejo: una hoja de registro con fecha, tipo de incidencia y tiempo de parada permite calcular estos indicadores y detectar tendencias antes de que se conviertan en averías graves." },
+      { "type": "h2", "text": "Tensión y alineación de la banda en detalle" },
+      { "type": "p", "text": "La tensión y la alineación son las dos variables que más fallos previenen y, a la vez, las que más se descuidan. Una banda floja patina sobre el tambor motriz, pierde caudal y puede descarrilar; una banda excesivamente tensa sobrecarga los rodamientos y acelera su desgaste. La tensión correcta es la mínima que mantiene el agarre sin forzar el accionamiento. La alineación se comprueba observando si la banda corre centrada sobre los tambores: una desviación continua desgasta un borde de la banda y los cangilones de ese lado, reduciendo la vida útil del conjunto. Corregir ambas a tiempo, en la inspección semanal, evita la mayoría de las averías mecánicas." },
+      { "type": "h2", "text": "Diagnóstico de fallos comunes" },
+      { "type": "p", "text": "La mayoría de incidencias en un elevador de cangilones responden a un número reducido de causas. Esta tabla relaciona el síntoma con la causa probable y la acción correctiva." },
+      {
+        "type": "table",
+        "headers": ["Síntoma", "Causa probable", "Acción"],
+        "rows": [
+          ["Caída de caudal", "Cangilones desgastados o vaciado incompleto", "Medir borde de carga; revisar velocidad y geometría"],
+          ["Ruido metálico repetitivo", "Cangilón suelto o banda descentrada", "Parar, localizar y reapretar o realinear"],
+          ["Banda que descarrila", "Tensión insuficiente o desalineación de tambores", "Tensar y alinear; revisar guías"],
+          ["Rodamiento caliente", "Falta de lubricación o desgaste", "Lubricar según pauta; sustituir si hay juego"],
+          ["Atasco en el fondo", "Arranque con producto acumulado o sobrealimentación", "Vaciar el fondo; revisar accionamiento y antirretorno"],
+          ["Retorno de producto", "Velocidad inadecuada para el producto", "Ajustar velocidad al modo de descarga"]
+        ]
+      },
+      { "type": "h2", "text": "Lubricación" },
+      { "type": "p", "text": "La lubricación de rodamientos y reductor es una de las tareas preventivas de mayor impacto y, a la vez, de las más descuidadas. Cada punto de engrase tiene un tipo de grasa o aceite y una frecuencia definidos por el fabricante; usar el lubricante incorrecto o engrasar en exceso es tan dañino como no engrasar. En entornos alimentarios, los lubricantes en puntos con posible contacto deben ser de grado alimentario. Un esquema de lubricación visible junto al equipo, con punto, producto y frecuencia, evita olvidos y errores." },
+      { "type": "h2", "text": "Repuestos críticos en stock" },
+      { "type": "p", "text": "El tiempo de reparación depende tanto de la rapidez del técnico como de la disponibilidad del repuesto. Tener en stock los consumibles de fallo más probable convierte una parada de días en una de horas. Para un elevador de cangilones, el stock mínimo recomendado incluye:" },
+      {
+        "type": "ul",
+        "items": [
+          "Un juego de cangilones del modelo instalado.",
+          "Tornillería de fijación de cangilones.",
+          "Rodamientos de los puntos críticos.",
+          "Elementos de la transmisión de desgaste habitual.",
+          "Juntas y sellados en aplicaciones higiénicas."
+        ]
+      },
+      { "type": "h2", "text": "Elementos de seguridad y sensores" },
+      { "type": "p", "text": "Los equipos instrumentados incorporan sensores de velocidad, de desalineación y de atasco que detienen el elevador antes de que un fallo se convierta en avería o en riesgo. Estos elementos también requieren mantenimiento: comprobar que el sensor de velocidad detecta correctamente una bajada de revoluciones, que la parada de emergencia corta de verdad el accionamiento y que los resguardos están en su sitio es parte del plan, no un extra. Un sensor que no avisa es peor que no tenerlo, porque genera una falsa sensación de seguridad." },
+      { "type": "h2", "text": "Cómo planificar la parada anual" },
+      { "type": "p", "text": "La revisión anual rinde más si se planifica como un proyecto y no como una urgencia. Antes de la parada conviene revisar el histórico del equipo para anticipar qué sustituir, reunir los repuestos necesarios, preparar el procedimiento y el personal, y reservar la ventana fuera de campaña. Una parada anual bien preparada deja el equipo listo para el siguiente ciclo de producción sin sorpresas." },
+      { "type": "p", "text": "Conviene aprovechar la parada para tareas que no se pueden hacer en marcha: inspección estructural completa, reapriete con par de toda la tornillería y verificación dimensional de tambores y recubrimientos. Documentar el estado de partida y el final de la parada da una referencia para comparar en la siguiente revisión." },
+      { "type": "h2", "text": "Registro y trazabilidad del mantenimiento" },
+      { "type": "p", "text": "Cada intervención debe quedar registrada: qué se hizo, cuándo, con qué repuesto y por quién. Ese histórico es la base para calcular indicadores, predecir vidas útiles y demostrar la trazabilidad del mantenimiento en auditorías, algo especialmente relevante en farma y en alimentación certificada. Un sistema de gestión de mantenimiento (GMAO/CMMS) facilita la tarea, pero incluso una hoja de cálculo bien mantenida cumple el objetivo: que el conocimiento del equipo no dependa de la memoria de una sola persona." },
+      { "type": "h2", "text": "Señales de alarma: cuándo parar de inmediato" },
+      { "type": "p", "text": "Hay síntomas que no admiten esperar a la siguiente revisión. Si aparecen, hay que parar el equipo y diagnosticar antes de continuar." },
+      {
+        "type": "ul",
+        "items": [
+          "Ruido metálico repetitivo: posible cangilón suelto golpeando la carcasa.",
+          "Banda descentrada que roza de forma continua.",
+          "Subida brusca de temperatura en un rodamiento.",
+          "Caída inexplicable de caudal: vaciado incompleto o cangilones dañados.",
+          "Olor a quemado en el accionamiento o la transmisión."
+        ]
+      },
+      { "type": "h2", "text": "Seguridad: bloqueo y consignación" },
+      { "type": "p", "text": "Toda intervención con apertura de registros o acceso a elementos móviles exige consignar el equipo: parar, bloquear y etiquetar el accionamiento para impedir un arranque accidental. Verifique siempre la parada efectiva antes de introducir las manos. La seguridad no es opcional en mantenimiento de elevadores: la mayoría de accidentes graves ocurren por arranques inesperados durante la intervención." },
+      { "type": "p", "text": "Un buen plan de mantenimiento empieza por un equipo bien diseñado, con registros accesibles y componentes estandarizados. Si necesita repuestos —cangilones, banda, rodamientos— o quiere revisar el plan de mantenimiento de su elevador, el equipo técnico de Toromac puede ayudarle a partir de la configuración de su instalación." }
+    ],
+    "en": [
+      { "type": "p", "text": "A well-maintained bucket elevator runs for years with minimal downtime. A neglected one fails at the worst moment: mid-campaign, with the line full of product. The difference between the two scenarios is not the brand of the equipment, but the existence of a preventive maintenance plan that is actually followed." },
+      { "type": "p", "text": "This article proposes a maintenance checklist structured by frequency —daily, weekly, quarterly and annual— for bucket elevators in food, pharma and chemical industries. It is aimed at plant managers and maintenance teams who want to reduce unplanned downtime and extend equipment life." },
+      { "type": "h2", "text": "Why a preventive maintenance plan" },
+      { "type": "p", "text": "The bucket elevator has few moving parts, but all of them are critical: the belt or chain, the buckets, the pulleys, the bearings and the drive. A failure in any of them stops conveying and, in the worst case, causes a jam that forces manual emptying of the unit. Preventive maintenance replaces emergency repair with scheduled inspection: cheaper, safer and plannable." },
+      { "type": "callout", "text": "The cost of one hour of unplanned downtime in full production usually far exceeds the annual cost of preventive maintenance for the unit. Preventive maintenance is not an expense: it is how you avoid paying for corrective maintenance." },
+      { "type": "h2", "text": "Daily inspections" },
+      { "type": "p", "text": "These are visual and audible checks of a few minutes, without stopping the unit unless indicated. The line operator can carry them out at the start of the shift." },
+      {
+        "type": "ul",
+        "items": [
+          "Abnormal noise and vibration during operation.",
+          "Bearing and gearmotor temperature by touch or sensor.",
+          "No metallic rubbing between buckets and casing.",
+          "No product leaks at seals, inspection doors and the loading zone.",
+          "Correct discharge operation, with no product carry-back.",
+          "Condition of guards and emergency stops."
+        ]
+      },
+      { "type": "h2", "text": "Weekly inspections" },
+      { "type": "p", "text": "These require stopping the unit and opening inspection doors. It is best to schedule them during the weekly line cleaning." },
+      {
+        "type": "ul",
+        "items": [
+          "Belt or chain tension: neither slack (it slips and derails) nor excessive (it overloads bearings).",
+          "Belt alignment relative to the pulleys; correct early deviations.",
+          "Bucket condition: leading-edge wear, cracks and loose fixings.",
+          "Internal cleaning: build-up of product, fines or crust in the boot and discharge zone.",
+          "Tightness of bucket and structure fasteners.",
+          "Condition of seals and gaskets in hygienic applications."
+        ]
+      },
+      { "type": "h2", "text": "Monthly and quarterly inspections" },
+      { "type": "p", "text": "Deeper reviews combining measurement and preventive replacement of consumables." },
+      {
+        "type": "ul",
+        "items": [
+          "Measurement of pulley and lagging wear.",
+          "Bearing condition: play, noise and lubrication per manufacturer schedule.",
+          "Drive review: transmission tension, gearbox oil level.",
+          "Check of speed, misalignment and blockage sensors if fitted.",
+          "Structural inspection: welds, anchors and panels.",
+          "Replacement of buckets showing advanced wear before they break."
+        ]
+      },
+      { "type": "h2", "text": "Annual overhaul" },
+      { "type": "p", "text": "A planned stop for a complete tune-up, ideally outside the campaign." },
+      {
+        "type": "ol",
+        "items": [
+          "Gearmotor oil change according to running hours.",
+          "Scheduled bearing replacement according to estimated life.",
+          "Assessment of belt or chain condition and replacement decision.",
+          "Complete review of fasteners and re-torquing.",
+          "Verification of all safety devices and interlocks.",
+          "Update of the equipment maintenance log."
+        ]
+      },
+      { "type": "h2", "text": "Frequency summary table" },
+      {
+        "type": "table",
+        "headers": ["Task", "Frequency", "Requires stop"],
+        "rows": [
+          ["Noise, vibration and temperature", "Daily", "No"],
+          ["Leaks and discharge condition", "Daily", "No"],
+          ["Belt tension and alignment", "Weekly", "Yes"],
+          ["Bucket condition and internal cleaning", "Weekly", "Yes"],
+          ["Bearings and drive", "Quarterly", "Yes"],
+          ["Preventive bucket replacement", "As per wear", "Yes"],
+          ["Scheduled oil and bearing change", "Annual", "Yes"]
+        ]
+      },
+      { "type": "h2", "text": "Maintenance tailored to product and sector" },
+      { "type": "p", "text": "Not every elevator needs the same plan. The product handled and the sector determine where to focus. With abrasive products —hard granulates, minerals, salt—, wear of buckets, belt and pulley lagging accelerates, so wear inspections must be more frequent and the spares stock larger. With sticky or moist products, the focus is on internal cleaning and on preventing build-up that unbalances the belt or creates contamination." },
+      { "type": "p", "text": "In food and pharma, the plan incorporates the hygienic dimension: verification of seals and gaskets, control of the condition of product-contact surfaces and recording of cleaning as part of traceability. In chemical environments or those with combustible dust, the review of antistatic elements and sealing is part of ATEX safety, not just mechanical maintenance. Tailoring the frequency and content of inspections to the real product avoids both over-maintenance and breakdowns from under-inspection." },
+      { "type": "p", "text": "The general rule is simple: the more demanding the product or sector, the more structured the plan must be. But even the most basic plan, followed consistently, pays off more than the most complete plan applied irregularly." },
+      { "type": "h2", "text": "Indicators worth measuring" },
+      { "type": "p", "text": "A maintenance plan improves what it measures. Three indicators summarise equipment health and help justify preventive maintenance to management:" },
+      {
+        "type": "ul",
+        "items": [
+          "Availability: percentage of time the elevator is operational versus planned production time.",
+          "MTBF (mean time between failures): the higher the MTBF, the more reliable the equipment and the better the preventive plan is working.",
+          "MTTR (mean time to repair): measures response speed; it depends on having spares and procedures ready."
+        ]
+      },
+      { "type": "p", "text": "No complex system is needed: a log sheet with date, type of incident and downtime allows these indicators to be calculated and trends to be spotted before they become serious failures." },
+      { "type": "h2", "text": "Belt tension and alignment in detail" },
+      { "type": "p", "text": "Tension and alignment are the two variables that prevent the most failures and, at the same time, the most neglected. A slack belt slips on the drive pulley, loses throughput and may derail; an over-tensioned belt overloads the bearings and accelerates their wear. Correct tension is the minimum that maintains grip without straining the drive. Alignment is checked by observing whether the belt runs centred on the pulleys: a continuous deviation wears one belt edge and the buckets on that side, shortening the assembly's life. Correcting both in time, at the weekly inspection, prevents most mechanical failures." },
+      { "type": "h2", "text": "Diagnosing common failures" },
+      { "type": "p", "text": "Most incidents in a bucket elevator come down to a small number of causes. This table links the symptom to the probable cause and the corrective action." },
+      {
+        "type": "table",
+        "headers": ["Symptom", "Probable cause", "Action"],
+        "rows": [
+          ["Throughput drop", "Worn buckets or incomplete emptying", "Measure leading edge; review speed and geometry"],
+          ["Repetitive metallic noise", "Loose bucket or off-centre belt", "Stop, locate and retighten or realign"],
+          ["Belt derailing", "Insufficient tension or pulley misalignment", "Tension and align; check guides"],
+          ["Hot bearing", "Lack of lubrication or wear", "Lubricate per schedule; replace if there is play"],
+          ["Boot jam", "Start-up with accumulated product or overfeeding", "Empty the boot; check drive and anti-runback"],
+          ["Product carry-back", "Speed unsuited to the product", "Adjust speed to the discharge mode"]
+        ]
+      },
+      { "type": "h2", "text": "Lubrication" },
+      { "type": "p", "text": "Lubrication of bearings and gearbox is one of the highest-impact preventive tasks and, at the same time, one of the most neglected. Each lubrication point has a grease or oil type and a frequency defined by the manufacturer; using the wrong lubricant or over-greasing is as damaging as not greasing. In food environments, lubricants at points with possible contact must be food-grade. A lubrication chart visible next to the equipment, with point, product and frequency, prevents omissions and errors." },
+      { "type": "h2", "text": "Critical spares in stock" },
+      { "type": "p", "text": "Repair time depends as much on the technician's speed as on spare-part availability. Keeping the most likely failure consumables in stock turns a days-long stop into an hours-long one. For a bucket elevator, the recommended minimum stock includes:" },
+      {
+        "type": "ul",
+        "items": [
+          "One set of buckets of the installed model.",
+          "Bucket fixing fasteners.",
+          "Bearings for the critical points.",
+          "Transmission components subject to regular wear.",
+          "Seals and gaskets in hygienic applications."
+        ]
+      },
+      { "type": "h2", "text": "Safety devices and sensors" },
+      { "type": "p", "text": "Instrumented units incorporate speed, misalignment and blockage sensors that stop the elevator before a fault becomes a breakdown or a hazard. These elements also require maintenance: checking that the speed sensor correctly detects a drop in revolutions, that the emergency stop really cuts the drive and that guards are in place is part of the plan, not an extra. A sensor that does not warn is worse than not having one, because it creates a false sense of security." },
+      { "type": "h2", "text": "How to plan the annual overhaul" },
+      { "type": "p", "text": "The annual overhaul pays off more if planned as a project rather than an emergency. Before the stop it is advisable to review the equipment log to anticipate what to replace, gather the necessary spares, prepare the procedure and personnel, and book the window outside the campaign. A well-prepared annual stop leaves the equipment ready for the next production cycle with no surprises." },
+      { "type": "p", "text": "It is worth using the stop for tasks that cannot be done while running: complete structural inspection, re-torquing of all fasteners and dimensional verification of pulleys and lagging. Documenting the starting and ending condition of the stop gives a reference to compare at the next overhaul." },
+      { "type": "h2", "text": "Maintenance record and traceability" },
+      { "type": "p", "text": "Every intervention must be recorded: what was done, when, with which spare and by whom. That log is the basis for calculating indicators, predicting service lives and demonstrating maintenance traceability in audits, particularly relevant in pharma and certified food. A maintenance management system (CMMS) eases the task, but even a well-kept spreadsheet meets the goal: that knowledge of the equipment does not depend on one person's memory." },
+      { "type": "h2", "text": "Warning signs: when to stop immediately" },
+      { "type": "p", "text": "Some symptoms cannot wait for the next review. If they appear, the unit must be stopped and diagnosed before continuing." },
+      {
+        "type": "ul",
+        "items": [
+          "Repetitive metallic noise: possible loose bucket striking the casing.",
+          "Off-centre belt rubbing continuously.",
+          "Sudden temperature rise in a bearing.",
+          "Unexplained throughput drop: incomplete emptying or damaged buckets.",
+          "Burning smell at the drive or transmission."
+        ]
+      },
+      { "type": "h2", "text": "Safety: lockout and isolation" },
+      { "type": "p", "text": "Any intervention involving opening inspection doors or accessing moving parts requires isolating the unit: stop, lock and tag the drive to prevent accidental start-up. Always verify effective stoppage before reaching inside. Safety is not optional in elevator maintenance: most serious accidents happen due to unexpected start-ups during intervention." },
+      { "type": "p", "text": "A good maintenance plan starts with a well-designed unit, with accessible inspection doors and standardised components. If you need spare parts —buckets, belt, bearings— or want to review your elevator's maintenance plan, Toromac's engineering team can help you based on your installation's configuration." }
+    ]
+  },
+  "faq": [
+    {
+      "question": {
+        "es": "¿Cada cuánto hay que revisar la tensión de la banda?",
+        "en": "How often should belt tension be checked?"
+      },
+      "answer": {
+        "es": "Como pauta general, semanalmente, aprovechando la parada de limpieza. Una banda floja patina y puede descarrilar; una banda demasiado tensa sobrecarga los rodamientos. La tensión correcta es la que mantiene el agarre sin forzar el accionamiento.",
+        "en": "As a general rule, weekly, taking advantage of the cleaning stop. A slack belt slips and may derail; an over-tensioned belt overloads the bearings. Correct tension is the one that maintains grip without straining the drive."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cuáles son las averías más frecuentes en un elevador de cangilones?",
+        "en": "What are the most frequent failures in a bucket elevator?"
+      },
+      "answer": {
+        "es": "Las más habituales son cangilones sueltos o rotos, banda descentrada o floja, rodamientos desgastados y acumulación de producto en el fondo. Casi todas se detectan a tiempo con inspecciones semanales y se evitan con sustitución preventiva antes de la rotura.",
+        "en": "The most common are loose or broken buckets, an off-centre or slack belt, worn bearings and product build-up in the boot. Almost all are caught in time with weekly inspections and avoided with preventive replacement before breakage."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cuándo hay que parar el elevador de inmediato?",
+        "en": "When should the elevator be stopped immediately?"
+      },
+      "answer": {
+        "es": "Ante ruido metálico repetitivo, subida brusca de temperatura en un rodamiento, banda que roza de forma continua, caída inexplicable de caudal u olor a quemado. Son síntomas que no admiten esperar a la siguiente revisión: hay que parar y diagnosticar.",
+        "en": "When there is repetitive metallic noise, a sudden bearing temperature rise, a belt rubbing continuously, an unexplained throughput drop or a burning smell. These symptoms cannot wait for the next review: stop and diagnose."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cómo se evita la contaminación por acumulación de producto?",
+        "en": "How is contamination from product build-up avoided?"
+      },
+      "answer": {
+        "es": "Con limpieza interior periódica del fondo y la zona de descarga, y con cangilones de geometría sin retención que vacían completamente. En aplicaciones higiénicas, los acabados pulidos y las juntas sanitarias reducen los puntos donde el producto puede quedar retenido.",
+        "en": "With periodic internal cleaning of the boot and discharge zone, and with no-retention bucket geometry that empties completely. In hygienic applications, polished finishes and sanitary seals reduce the points where product can stay trapped."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué precauciones de seguridad hay que tomar en el mantenimiento?",
+        "en": "What safety precautions are needed during maintenance?"
+      },
+      "answer": {
+        "es": "Consignar siempre el equipo antes de abrir registros o acceder a elementos móviles: parar, bloquear y etiquetar el accionamiento para impedir un arranque accidental, y verificar la parada efectiva antes de introducir las manos. La mayoría de accidentes graves se deben a arranques inesperados durante la intervención.",
+        "en": "Always isolate the unit before opening inspection doors or accessing moving parts: stop, lock and tag the drive to prevent accidental start-up, and verify effective stoppage before reaching inside. Most serious accidents are due to unexpected start-ups during intervention."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cada cuánto se sustituyen los cangilones?",
+        "en": "How often are buckets replaced?"
+      },
+      "answer": {
+        "es": "No por calendario, sino por desgaste. Se inspecciona el borde de carga y la integridad de la fijación en las revisiones, y se sustituye el cangilón cuando muestra desgaste avanzado, antes de que rompa. La frecuencia depende de la abrasividad del producto y de las horas de funcionamiento.",
+        "en": "Not by calendar, but by wear. The leading edge and fixing integrity are inspected during reviews, and the bucket is replaced when it shows advanced wear, before it breaks. The frequency depends on product abrasiveness and running hours."
+      }
+    }
+  ],
+  "tags": {
+    "es": ["mantenimiento", "elevador de cangilones", "mantenimiento preventivo", "repuestos"],
+    "en": ["maintenance", "bucket elevator", "preventive maintenance", "spare parts"]
+  }
+}

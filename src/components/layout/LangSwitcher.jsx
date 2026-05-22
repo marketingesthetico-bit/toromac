@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLang, useAlternatePath } from '../../hooks/useLang';
+import { useAlternatesValue } from '../../hooks/useAlternates';
 import Flag from '../ui/Flag';
 
 const LANGS = [
@@ -19,7 +20,8 @@ export default function LangSwitcher({ tone = 'light', overrides }) {
   const ref = useRef(null);
   const { lang } = useLang();
   const { t } = useTranslation();
-  const otherPath = useAlternatePath(overrides);
+  const ctxOverrides = useAlternatesValue();
+  const otherPath = useAlternatePath(overrides || ctxOverrides || {});
   const otherLang = lang === 'es' ? 'en' : 'es';
   const current = LANGS.find((l) => l.code === lang);
   const other = LANGS.find((l) => l.code === otherLang);

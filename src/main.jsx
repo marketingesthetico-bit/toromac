@@ -6,12 +6,15 @@ import { HelmetProvider } from 'react-helmet-async';
 import './i18n';
 import './index.css';
 import App from './App';
+import { AlternatesProvider } from './hooks/useAlternates';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HelmetProvider>
       <BrowserRouter>
-        <App />
+        <AlternatesProvider>
+          <App />
+        </AlternatesProvider>
       </BrowserRouter>
     </HelmetProvider>
   </StrictMode>

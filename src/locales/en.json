@@ -142,6 +142,32 @@
     "relatedEyebrow": "Also in our catalog",
     "relatedHeadline": "Related equipment."
   },
+  "news": {
+    "seo": {
+      "title": "News · Toromac · Technical notes for process engineering",
+      "description": "Technical guides, comparisons and checklists on bucket elevators, belt conveyors and industrial process equipment. Content for process engineering."
+    },
+    "eyebrow": "Toromac · Technical notes",
+    "headline": "Technical notes for process engineering.",
+    "lead": "Guides, comparisons and checklists on elevation, transport and industrial processing. Technical content, no sales filler.",
+    "filterLabel": "Filter by category",
+    "allCategories": "All",
+    "empty": "No articles in this category."
+  },
+  "article": {
+    "backToNews": "Back to news",
+    "tocLabel": "In this article",
+    "readingTime": "{{minutes}} min read",
+    "faqLabel": "Frequently asked questions",
+    "faqHeadline": "What process engineers ask us.",
+    "relatedProductLabel": "Related product",
+    "ctaEyebrow": "Custom configuration",
+    "ctaHeadline": "Need a unit for your line?",
+    "ctaLead": "Send us product, capacity and sector. We reply with a technical proposal and delivery date within 48 working hours.",
+    "relatedEyebrow": "Keep reading",
+    "relatedHeadline": "Related articles.",
+    "viewAll": "See all notes"
+  },
   "contact": {
     "seo": {
       "title": "Contact · Toromac · Industrial engineering team",

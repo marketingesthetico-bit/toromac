@@ -9,6 +9,7 @@ import ProductCard from '../ui/ProductCard';
 import PageSeo from '../seo/PageSeo';
 import NotFound from '../../pages/NotFound';
 import { useLang } from '../../hooks/useLang';
+import { useSetAlternates } from '../../hooks/useAlternates';
 import {
   getProductBySlug,
   getRelatedProducts,
@@ -22,6 +23,17 @@ export default function ProductDetail() {
   const { t } = useTranslation();
   const { lang, isEn } = useLang();
   const product = getProductBySlug(slug, lang);
+
+  // Publica las rutas alternas para el selector de idioma (Rules of Hooks:
+  // se llama siempre, con null cuando no hay producto).
+  useSetAlternates(
+    product
+      ? {
+          es: `/productos/${product.slug?.es || product.id}`,
+          en: `/en/products/${product.slug?.en || product.id}`,
+        }
+      : null
+  );
 
   if (!product) return <NotFound />;
 

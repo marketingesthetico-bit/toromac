@@ -1,0 +1,313 @@
+{
+  "id": "guia-tipos-cangilones-elevadores",
+  "slug": {
+    "es": "guia-tipos-cangilones-elevadores",
+    "en": "guide-bucket-types-elevators"
+  },
+  "publishedAt": "2026-04-28T09:00:00Z",
+  "updatedAt": "2026-04-28T09:00:00Z",
+  "author": "Equipo Toromac",
+  "category": "recambios-cangilones",
+  "relatedProduct": "cangilon-calyon-natural-5l",
+  "title": {
+    "es": "Guía completa sobre tipos de cangilones para elevadores",
+    "en": "Complete guide to bucket types for elevators"
+  },
+  "metaDescription": {
+    "es": "Comparativa técnica de cangilones para elevadores por material, geometría y aplicación. Criterios de selección para ingeniería de proceso en alimentación, farma y química.",
+    "en": "Technical comparison of elevator buckets by material, geometry and application. Selection criteria for process engineering in food, pharma and chemical industries."
+  },
+  "heroImage": "/images/products/cangilon-calyon-natural-5l.jpg",
+  "heroImageAlt": {
+    "es": "Cangilones para elevadores industriales en poliamida alimentaria",
+    "en": "Industrial elevator buckets in food-grade polyamide"
+  },
+  "seo": {
+    "es": {
+      "title": "Tipos de cangilones para elevadores: guía técnica | Toromac",
+      "description": "Tipos de cangilones para elevadores por material y geometría. Comparativa poliamida, acero y metal-detectable. Criterios de selección para alimentación, farma y química."
+    },
+    "en": {
+      "title": "Bucket types for elevators: technical guide | Toromac",
+      "description": "Elevator bucket types by material and geometry. Polyamide, steel and metal-detectable comparison. Selection criteria for food, pharma and chemical industries."
+    }
+  },
+  "content": {
+    "es": [
+      { "type": "p", "text": "El cangilón es el componente que define el rendimiento real de un elevador de cangilones. Determina cuánto producto se transporta por hora, cuánto se rompe en el trayecto, cuánto queda retenido tras cada ciclo y con qué frecuencia hay que parar la línea para limpiar o sustituir piezas. Elegir el cangilón correcto no es un detalle de recambio: es una decisión de proceso que condiciona el caudal, la higiene y el coste de mantenimiento de toda la instalación." },
+      { "type": "p", "text": "Esta guía clasifica los cangilones para elevadores por material y por geometría, explica cuándo aplica cada opción y ofrece un método de selección para ingenieros de proceso y responsables de planta. El objetivo es que pueda especificar un cangilón a partir del producto que va a manipular, no de un catálogo cerrado." },
+      { "type": "h2", "text": "Qué es un cangilón y qué función cumple" },
+      { "type": "p", "text": "El cangilón es el recipiente que recoge el producto en el punto de carga del elevador, lo retiene durante el ascenso y lo descarga por gravedad o por fuerza centrífuga en el punto superior. Va fijado a una banda o a una cadena que se mueve en circuito cerrado entre el tambor inferior y el superior. La capacidad útil de cada cangilón, multiplicada por el número de cangilones por metro y por la velocidad de la banda, da el caudal teórico del elevador." },
+      { "type": "p", "text": "Tres parámetros del cangilón gobiernan ese caudal: el volumen nominal, la geometría de vaciado y el paso entre cangilones. Un cangilón mal elegido puede reducir el caudal efectivo entre un 15 % y un 30 % respecto al teórico por vaciado incompleto, retorno de producto o roturas." },
+      { "type": "h2", "text": "Clasificación por material" },
+      { "type": "p", "text": "El material del cangilón se elige en función del producto a manipular, la temperatura de trabajo, la abrasividad y los requisitos normativos del sector. Estas son las familias principales." },
+      { "type": "h3", "text": "Poliamida (PA6 / nylon) de grado alimentario" },
+      { "type": "p", "text": "Es el material más extendido en industria alimentaria. La poliamida virgen ofrece superficie lisa, bajo coeficiente de fricción, buena resistencia al impacto y un peso muy inferior al del acero, lo que reduce la carga sobre la banda y el consumo del motor. Apta para contacto alimentario directo, es la opción por defecto para cereales, snacks, frutos secos, granulados y producto seco en general." },
+      { "type": "h3", "text": "Poliamida metal-detectable" },
+      { "type": "p", "text": "Es poliamida con un aditivo que la hace detectable por los detectores de metales de la línea. Si un fragmento de cangilón se desprende y cae al producto, el detector lo identifica y rechaza el lote afectado. Es un requisito habitual en industria farmacéutica y en líneas alimentarias con certificación de seguridad alimentaria, donde la trazabilidad de cuerpos extraños es obligatoria." },
+      { "type": "h3", "text": "Acero inoxidable 304 / 316" },
+      { "type": "p", "text": "Se reserva para productos abrasivos, temperaturas elevadas o entornos donde la poliamida no resiste. El acero 316 añade resistencia química frente a productos corrosivos. El cangilón de acero pesa más, encarece la banda y el accionamiento, pero es la única opción viable para ciertos minerales, granulados duros o procesos en caliente." },
+      { "type": "h3", "text": "Poliuretano y elastómeros" },
+      { "type": "p", "text": "Para productos muy abrasivos donde se busca amortiguar el impacto y reducir el desgaste, los cangilones de poliuretano ofrecen un compromiso entre la ligereza del plástico y la resistencia a la abrasión. Su uso es más específico y menos frecuente en alimentación." },
+      { "type": "h2", "text": "Clasificación por geometría" },
+      { "type": "p", "text": "La geometría del cangilón se selecciona según cómo descarga el elevador y según las características de fluidez del producto." },
+      { "type": "h3", "text": "Cangilón de fondo redondeado, sin ángulos de retención" },
+      { "type": "p", "text": "Es la geometría preferida en alimentación y farma. La ausencia de aristas internas evita que el producto quede retenido tras la descarga, lo que mejora el vaciado total y, sobre todo, facilita la limpieza. Un cangilón sin retención reduce el riesgo de contaminación cruzada entre lotes y de proliferación microbiológica en producto húmedo." },
+      { "type": "h3", "text": "Cangilón profundo frente a cangilón poco profundo" },
+      { "type": "p", "text": "El cangilón profundo retiene más volumen y descarga bien con productos de buena fluidez en descarga centrífuga, propia de elevadores rápidos. El cangilón poco profundo, más abierto, favorece la descarga por gravedad en elevadores lentos y con productos pegajosos o de baja fluidez, donde un cangilón profundo no vaciaría completamente." },
+      { "type": "h2", "text": "Comparativa técnica de materiales" },
+      { "type": "p", "text": "La siguiente tabla resume los criterios de decisión más habituales entre las familias de material para un mismo volumen nominal." },
+      {
+        "type": "table",
+        "headers": ["Criterio", "Poliamida natural", "Poliamida metal-detectable", "Acero inox 304/316"],
+        "rows": [
+          ["Contacto alimentario", "Sí", "Sí", "Sí"],
+          ["Detectable por detector de metales", "No", "Sí", "Sí (metálico)"],
+          ["Peso relativo", "Bajo", "Bajo", "Alto"],
+          ["Resistencia a la abrasión", "Media", "Media", "Alta"],
+          ["Temperatura máxima orientativa", "80–100 °C", "80–100 °C", ">200 °C"],
+          ["Sector típico", "Alimentación", "Farma / alimentación certificada", "Química / abrasivos / caliente"]
+        ]
+      },
+      { "type": "callout", "text": "Regla práctica: en alimentación seca a temperatura ambiente, la poliamida natural cubre la mayoría de casos. Si la línea tiene detector de metales o certificación de seguridad alimentaria, especifique metal-detectable. Reserve el acero para abrasión severa, corrosión o calor." },
+      { "type": "h2", "text": "Criterios de selección: checklist" },
+      { "type": "p", "text": "Para especificar el cangilón correcto, reúna estos datos antes de pedir oferta. Cada uno condiciona material, geometría y volumen." },
+      {
+        "type": "ol",
+        "items": [
+          "Producto a manipular: naturaleza, granulometría y densidad aparente.",
+          "Fluidez y adherencia: ¿es seco y suelto o tiende a apelmazarse?",
+          "Temperatura de trabajo en el punto de carga.",
+          "Abrasividad del producto.",
+          "Requisitos normativos: contacto alimentario, metal-detectable, ATEX.",
+          "Caudal objetivo en t/h o m³/h.",
+          "Tipo de elevador y modo de descarga (gravedad o centrífuga).",
+          "Compatibilidad de fijación con la banda o cadena existente."
+        ]
+      },
+      { "type": "h2", "text": "Compatibilidad con el tipo de elevador" },
+      { "type": "p", "text": "El cangilón no se elige de forma aislada: debe ser compatible con el elevador. Los elevadores tipo Z y tipo C trabajan con cangilones fijados a banda y descarga controlada; los elevadores rápidos centrífugos requieren geometrías que vacíen por inercia. Antes de cambiar de cangilón, verifique el paso de fijación, el ancho de banda y la velocidad de línea para no comprometer ni el caudal ni el vaciado." },
+      { "type": "p", "text": "Los cangilones CALYON de Toromac están diseñados para encajar en cualquier elevador de cangilones de nuestro catálogo y en la mayoría de elevadores estándar del mercado, en cuatro capacidades (2 L, 5 L, 7 L y 10 L) y en versión natural o metal-detectable." },
+      { "type": "h2", "text": "Cómo calcular el caudal real del elevador" },
+      { "type": "p", "text": "El caudal teórico de un elevador se obtiene multiplicando la capacidad útil del cangilón en litros por el número de cangilones por metro, por la velocidad de la banda en metros por minuto y por la densidad aparente del producto. El resultado se corrige por el factor de llenado, que rara vez supera el 85 % y baja con productos poco fluidos." },
+      { "type": "p", "text": "Un ejemplo orientativo: un cangilón de 5 litros, con un paso que da 4 cangilones por metro, a 30 m/min y producto de 0,65 kg/L, transporta del orden de 5 × 4 × 30 × 0,65 = 390 kg/min teóricos. Aplicando un factor de llenado del 80 %, el caudal real se sitúa cerca de 312 kg/min, unas 18,7 t/h. Trabajar sobre el caudal teórico sin corregir lleva a sobredimensionar el equipo o, peor, a quedarse corto en planta." },
+      { "type": "callout", "text": "El factor de llenado es el parámetro que más errores de dimensionado provoca. Producto fino y fluido llena mejor el cangilón; producto pegajoso, en escamas o de baja densidad llena peor. Conviene partir de un factor conservador y confirmarlo con la curva real del producto antes de cerrar la velocidad de línea." },
+      { "type": "h2", "text": "Cómo elegir el volumen de cangilón" },
+      { "type": "p", "text": "Elegir el volumen solo por el caudal objetivo, sin considerar el resto de variables, es un error frecuente. El volumen útil debe combinarse con el paso, la velocidad y el factor de llenado para alcanzar el caudal, y con la granulometría del producto para garantizar que el cangilón llena y vacía bien. Un cangilón demasiado grande para un producto que no fluye trabajará medio vacío; uno demasiado pequeño obligará a subir la velocidad y aumentará la rotura. Las cuatro capacidades CALYON (2 L, 5 L, 7 L y 10 L) cubren desde dosis pequeñas y producto delicado hasta granulado de alta densidad y caudales elevados." },
+      { "type": "h2", "text": "El paso entre cangilones" },
+      { "type": "p", "text": "El paso —la distancia entre cangilones consecutivos— condiciona tanto el caudal como la calidad de la descarga. Un paso corto aumenta el número de cangilones por metro y el caudal, pero puede provocar interferencias en la descarga si los cangilones se solapan. Un paso largo descarga más limpio pero reduce el caudal. El paso óptimo es un compromiso entre caudal objetivo y modo de descarga, y debe definirse junto con la geometría del cangilón, nunca de forma aislada." },
+      { "type": "h2", "text": "Sistemas de fijación del cangilón" },
+      { "type": "p", "text": "La unión entre el cangilón y la banda o cadena es un punto crítico de fiabilidad. Una fijación deficiente provoca cangilones sueltos que golpean la carcasa, generan ruido y acaban contaminando el producto. Las opciones más habituales son:" },
+      {
+        "type": "ul",
+        "items": [
+          "Tornillería pasante con tuerca y arandela de seguridad: la solución estándar, robusta y desmontable.",
+          "Tornillos de cabeza embutida (elevator bolts): reducen el perfil interior y evitan que el producto se enganche en la cabeza.",
+          "Fijación a cadena mediante soportes en elevadores de cangilones pesados o de gran capacidad."
+        ]
+      },
+      { "type": "p", "text": "Sea cual sea el sistema, el par de apriete y la revisión periódica de la tornillería son tan importantes como el propio cangilón. Una buena práctica es marcar la tornillería con una línea de pintura para detectar visualmente aflojamientos durante las inspecciones." },
+      { "type": "h2", "text": "Limpieza y compatibilidad con CIP" },
+      { "type": "p", "text": "En alimentación y farma, el cangilón debe poder limpiarse de forma efectiva. La geometría sin retención es el primer requisito, pero también lo son la calidad de la superficie y la resistencia química frente a los agentes de limpieza." },
+      {
+        "type": "ul",
+        "items": [
+          "Superficie lisa, sin poros ni rebabas donde se acumule producto o se forme biofilm.",
+          "Resistencia a los detergentes y desinfectantes de la línea, especialmente en limpiezas con sosa o ácidos.",
+          "Compatibilidad con limpieza in situ (CIP) o con desmontaje rápido para limpieza manual.",
+          "Ausencia de zonas de sombra en el ensamblaje con la banda, donde el producto quedaría fuera del alcance del lavado."
+        ]
+      },
+      { "type": "h2", "text": "Normativa de contacto alimentario" },
+      { "type": "p", "text": "Los cangilones en contacto con alimentos deben cumplir el marco de materiales en contacto con alimentos. En la Unión Europea, el Reglamento (CE) 1935/2004 establece el principio general de no transferencia al alimento, y el Reglamento (UE) 10/2011 regula específicamente los materiales plásticos. En mercados regulados por la FDA aplican las normas correspondientes de contacto alimentario. Especificar poliamida de grado alimentario con su documentación de conformidad evita problemas en auditorías de seguridad alimentaria." },
+      { "type": "h2", "text": "Cómo funciona un cangilón metal-detectable" },
+      { "type": "p", "text": "El cangilón metal-detectable incorpora un aditivo que altera el campo electromagnético del detector de metales de la línea. Cuando un fragmento desprendido pasa por el detector, este lo identifica como cuerpo extraño y activa el rechazo del producto afectado. La sensibilidad real depende del tamaño del fragmento, de su posición en el flujo y de la calibración del detector, por lo que el cangilón metal-detectable es una capa de seguridad complementaria al control de proceso, no un sustituto de las inspecciones periódicas del equipo." },
+      { "type": "h2", "text": "Desgaste y vida útil" },
+      { "type": "p", "text": "El cangilón se desgasta principalmente en el borde de carga, que es el que raspa el producto en el punto de recogida. Un borde redondeado por desgaste recoge menos volumen y baja el caudal de forma progresiva y poco visible, hasta que un día el elevador ya no da la capacidad esperada. La pauta correcta es medir el espesor del borde en las inspecciones y fijar un umbral de sustitución antes de que aparezca rotura." },
+      { "type": "p", "text": "Llevar un registro del momento de sustitución de cada juego de cangilones, junto con las horas de funcionamiento acumuladas, permite predecir la vida útil real en su producto y planificar la compra de recambios antes de la parada, en lugar de a contrarreloj cuando ya hay rotura. En productos abrasivos la vida útil puede ser de meses; en producto suave, de varios años." },
+      { "type": "h2", "text": "Errores comunes al especificar cangilones" },
+      {
+        "type": "ul",
+        "items": [
+          "Elegir volumen por catálogo sin verificar el llenado real, que rara vez llega al 100 %.",
+          "Usar cangilón profundo con producto pegajoso: el vaciado queda incompleto y el caudal cae.",
+          "Omitir el requisito metal-detectable en una línea que sí tiene detector de metales.",
+          "Sobredimensionar en acero cuando la poliamida cubriría el caso, encareciendo banda y motor.",
+          "No revisar la geometría de retención en producto húmedo, generando puntos de contaminación."
+        ]
+      },
+      { "type": "p", "text": "Especificar bien el cangilón es la forma más barata de ganar caudal y reducir paradas. Si tiene dudas sobre qué material y geometría aplican a su producto, el equipo técnico de Toromac puede revisar su caso a partir del producto que manipula y la línea en la que va instalado." }
+    ],
+    "en": [
+      { "type": "p", "text": "The bucket is the component that defines the real performance of a bucket elevator. It determines how much product is moved per hour, how much breaks in transit, how much stays trapped after each cycle, and how often the line must stop to clean or replace parts. Choosing the right bucket is not a spare-part detail: it is a process decision that conditions throughput, hygiene and maintenance cost across the whole installation." },
+      { "type": "p", "text": "This guide classifies elevator buckets by material and geometry, explains when each option applies, and offers a selection method for process engineers and plant managers. The goal is that you can specify a bucket from the product you handle, not from a closed catalog." },
+      { "type": "h2", "text": "What a bucket is and what it does" },
+      { "type": "p", "text": "The bucket is the vessel that picks up product at the elevator loading point, retains it during the climb and discharges it by gravity or centrifugal force at the top. It is fixed to a belt or chain moving in a closed loop between the bottom and top pulleys. The useful capacity of each bucket, multiplied by the number of buckets per metre and by belt speed, gives the elevator's theoretical throughput." },
+      { "type": "p", "text": "Three bucket parameters govern that throughput: nominal volume, discharge geometry and pitch between buckets. A poorly chosen bucket can cut effective throughput by 15 % to 30 % versus the theoretical figure through incomplete discharge, product carry-back or breakage." },
+      { "type": "h2", "text": "Classification by material" },
+      { "type": "p", "text": "Bucket material is chosen according to the product handled, working temperature, abrasiveness and the sector's regulatory requirements. These are the main families." },
+      { "type": "h3", "text": "Food-grade polyamide (PA6 / nylon)" },
+      { "type": "p", "text": "This is the most widespread material in the food industry. Virgin polyamide offers a smooth surface, low friction coefficient, good impact resistance and a weight far below steel, which reduces load on the belt and motor consumption. Suitable for direct food contact, it is the default choice for cereals, snacks, nuts, granulates and dry product in general." },
+      { "type": "h3", "text": "Metal-detectable polyamide" },
+      { "type": "p", "text": "This is polyamide with an additive that makes it detectable by the line's metal detectors. If a bucket fragment breaks off and falls into the product, the detector identifies it and rejects the affected batch. It is a common requirement in the pharmaceutical industry and in certified food lines, where foreign-body traceability is mandatory." },
+      { "type": "h3", "text": "Stainless steel 304 / 316" },
+      { "type": "p", "text": "Reserved for abrasive products, high temperatures or environments where polyamide does not hold up. Grade 316 adds chemical resistance against corrosive products. Steel buckets weigh more and raise the cost of belt and drive, but they are the only viable option for certain minerals, hard granulates or hot processes." },
+      { "type": "h3", "text": "Polyurethane and elastomers" },
+      { "type": "p", "text": "For very abrasive products where the aim is to cushion impact and reduce wear, polyurethane buckets offer a compromise between the lightness of plastic and abrasion resistance. Their use is more specific and less frequent in food." },
+      { "type": "h2", "text": "Classification by geometry" },
+      { "type": "p", "text": "Bucket geometry is selected according to how the elevator discharges and the flow characteristics of the product." },
+      { "type": "h3", "text": "Rounded-bottom bucket, no retention angles" },
+      { "type": "p", "text": "This is the preferred geometry in food and pharma. The absence of internal edges prevents product from staying trapped after discharge, which improves total emptying and, above all, eases cleaning. A no-retention bucket reduces the risk of cross-contamination between batches and microbiological build-up in moist product." },
+      { "type": "h3", "text": "Deep versus shallow bucket" },
+      { "type": "p", "text": "The deep bucket holds more volume and discharges well with free-flowing products under centrifugal discharge, typical of fast elevators. The shallow, more open bucket favours gravity discharge in slow elevators and with sticky or low-flow products, where a deep bucket would not empty completely." },
+      { "type": "h2", "text": "Technical comparison of materials" },
+      { "type": "p", "text": "The following table summarises the most common decision criteria between material families for the same nominal volume." },
+      {
+        "type": "table",
+        "headers": ["Criterion", "Natural polyamide", "Metal-detectable polyamide", "Stainless 304/316"],
+        "rows": [
+          ["Food contact", "Yes", "Yes", "Yes"],
+          ["Detectable by metal detector", "No", "Yes", "Yes (metallic)"],
+          ["Relative weight", "Low", "Low", "High"],
+          ["Abrasion resistance", "Medium", "Medium", "High"],
+          ["Indicative max temperature", "80–100 °C", "80–100 °C", ">200 °C"],
+          ["Typical sector", "Food", "Pharma / certified food", "Chemical / abrasive / hot"]
+        ]
+      },
+      { "type": "callout", "text": "Rule of thumb: in dry food at room temperature, natural polyamide covers most cases. If the line has a metal detector or food-safety certification, specify metal-detectable. Reserve steel for severe abrasion, corrosion or heat." },
+      { "type": "h2", "text": "Selection criteria: checklist" },
+      { "type": "p", "text": "To specify the right bucket, gather this data before requesting a quote. Each item conditions material, geometry and volume." },
+      {
+        "type": "ol",
+        "items": [
+          "Product handled: nature, particle size and bulk density.",
+          "Flowability and stickiness: is it dry and loose or prone to caking?",
+          "Working temperature at the loading point.",
+          "Product abrasiveness.",
+          "Regulatory requirements: food contact, metal-detectable, ATEX.",
+          "Target throughput in t/h or m³/h.",
+          "Elevator type and discharge mode (gravity or centrifugal).",
+          "Fixing compatibility with the existing belt or chain."
+        ]
+      },
+      { "type": "h2", "text": "Compatibility with the elevator type" },
+      { "type": "p", "text": "The bucket is not chosen in isolation: it must be compatible with the elevator. Z-type and C-type elevators work with belt-mounted buckets and controlled discharge; fast centrifugal elevators require geometries that empty by inertia. Before changing buckets, check the fixing pitch, belt width and line speed so as not to compromise throughput or emptying." },
+      { "type": "p", "text": "Toromac's CALYON buckets are designed to fit any bucket elevator in our catalog and most standard market elevators, in four capacities (2 L, 5 L, 7 L and 10 L) and in natural or metal-detectable versions." },
+      { "type": "h2", "text": "How to calculate real elevator throughput" },
+      { "type": "p", "text": "The theoretical throughput of an elevator is obtained by multiplying the useful bucket capacity in litres by the number of buckets per metre, by belt speed in metres per minute and by the product's bulk density. The result is corrected by the fill factor, which rarely exceeds 85 % and drops with low-flow products." },
+      { "type": "p", "text": "An indicative example: a 5-litre bucket, with a pitch giving 4 buckets per metre, at 30 m/min and product of 0.65 kg/L, moves around 5 × 4 × 30 × 0.65 = 390 kg/min theoretical. Applying an 80 % fill factor, real throughput sits near 312 kg/min, about 18.7 t/h. Working from uncorrected theoretical throughput leads to over-sizing or, worse, falling short on the plant floor." },
+      { "type": "callout", "text": "The fill factor is the parameter that causes the most sizing errors. Fine, free-flowing product fills the bucket better; sticky, flaky or low-density product fills it worse. Start from a conservative factor and confirm it with the product's real curve before locking in line speed." },
+      { "type": "h2", "text": "How to choose bucket volume" },
+      { "type": "p", "text": "Choosing volume from target throughput alone, without considering the other variables, is a frequent error. Useful volume must be combined with pitch, speed and fill factor to reach throughput, and with product particle size to ensure the bucket fills and empties well. A bucket too large for a non-flowing product will run half empty; one too small forces higher speed and increases breakage. The four CALYON capacities (2 L, 5 L, 7 L and 10 L) cover from small doses and delicate product to high-density granulate and high throughput." },
+      { "type": "h2", "text": "Pitch between buckets" },
+      { "type": "p", "text": "Pitch —the distance between consecutive buckets— conditions both throughput and discharge quality. A short pitch increases the number of buckets per metre and throughput, but can cause discharge interference if buckets overlap. A long pitch discharges more cleanly but reduces throughput. Optimal pitch is a compromise between target throughput and discharge mode, and must be defined together with bucket geometry, never in isolation." },
+      { "type": "h2", "text": "Bucket fixing systems" },
+      { "type": "p", "text": "The joint between bucket and belt or chain is a critical reliability point. Poor fixing causes loose buckets that strike the casing, generate noise and end up contaminating the product. The most common options are:" },
+      {
+        "type": "ul",
+        "items": [
+          "Through bolts with nut and lock washer: the standard, robust and removable solution.",
+          "Countersunk head bolts (elevator bolts): they reduce the inner profile and stop product catching on the head.",
+          "Chain fixing via supports on heavy or high-capacity bucket elevators."
+        ]
+      },
+      { "type": "p", "text": "Whatever the system, tightening torque and periodic fastener review are as important as the bucket itself. A good practice is to mark the fasteners with a paint line to visually detect loosening during inspections." },
+      { "type": "h2", "text": "Cleaning and CIP compatibility" },
+      { "type": "p", "text": "In food and pharma, the bucket must be effectively cleanable. No-retention geometry is the first requirement, but so are surface quality and chemical resistance to cleaning agents." },
+      {
+        "type": "ul",
+        "items": [
+          "Smooth surface, with no pores or burrs where product accumulates or biofilm forms.",
+          "Resistance to the line's detergents and disinfectants, especially in caustic or acid cleaning.",
+          "Compatibility with clean-in-place (CIP) or with quick disassembly for manual cleaning.",
+          "No shadow zones in the belt assembly, where product would stay out of the wash's reach."
+        ]
+      },
+      { "type": "h2", "text": "Food-contact regulations" },
+      { "type": "p", "text": "Buckets in contact with food must comply with the food-contact materials framework. In the European Union, Regulation (EC) 1935/2004 sets the general principle of no transfer to food, and Regulation (EU) 10/2011 specifically governs plastic materials. In FDA-regulated markets the corresponding food-contact rules apply. Specifying food-grade polyamide with its declaration of conformity avoids problems in food-safety audits." },
+      { "type": "h2", "text": "How a metal-detectable bucket works" },
+      { "type": "p", "text": "The metal-detectable bucket incorporates an additive that alters the electromagnetic field of the line's metal detector. When a broken-off fragment passes through the detector, it identifies it as a foreign body and triggers rejection of the affected product. Real sensitivity depends on fragment size, its position in the flow and detector calibration, so the metal-detectable bucket is a complementary safety layer to process control, not a substitute for periodic equipment inspections." },
+      { "type": "h2", "text": "Wear and service life" },
+      { "type": "p", "text": "The bucket wears mainly at the leading edge, which scrapes product at the pick-up point. An edge rounded by wear picks up less volume and lowers throughput gradually and almost invisibly, until one day the elevator no longer delivers the expected capacity. The correct approach is to measure edge thickness during inspections and set a replacement threshold before breakage appears." },
+      { "type": "p", "text": "Keeping a record of when each set of buckets was replaced, together with accumulated running hours, allows you to predict real service life on your product and plan spare-part purchases ahead of the stop, instead of against the clock once breakage has occurred. In abrasive products service life can be months; in soft product, several years." },
+      { "type": "h2", "text": "Common mistakes when specifying buckets" },
+      {
+        "type": "ul",
+        "items": [
+          "Choosing volume from the catalog without checking real fill, which rarely reaches 100 %.",
+          "Using a deep bucket with sticky product: emptying is incomplete and throughput drops.",
+          "Omitting the metal-detectable requirement on a line that does have a metal detector.",
+          "Over-specifying steel when polyamide would cover the case, raising belt and motor cost.",
+          "Not reviewing retention geometry with moist product, creating contamination points."
+        ]
+      },
+      { "type": "p", "text": "Specifying the bucket well is the cheapest way to gain throughput and reduce downtime. If you are unsure which material and geometry apply to your product, Toromac's engineering team can review your case from the product you handle and the line it runs on." }
+    ]
+  },
+  "faq": [
+    {
+      "question": {
+        "es": "¿Qué capacidad puede manejar un cangilón?",
+        "en": "What capacity can a bucket handle?"
+      },
+      "answer": {
+        "es": "Depende del volumen nominal y del grado de llenado real, que rara vez alcanza el 100 %. Los cangilones CALYON cubren de 2 L a 10 L. El caudal del elevador resulta de multiplicar la capacidad útil por cangilones por metro y por la velocidad de banda; un cálculo realista parte de un llenado del 75–85 % según fluidez.",
+        "en": "It depends on the nominal volume and the real fill level, which rarely reaches 100 %. CALYON buckets range from 2 L to 10 L. Elevator throughput is the useful capacity times buckets per metre times belt speed; a realistic calculation assumes 75–85 % fill depending on flowability."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cuándo necesito cangilones metal-detectables?",
+        "en": "When do I need metal-detectable buckets?"
+      },
+      "answer": {
+        "es": "Siempre que la línea disponga de detector de metales y deba garantizar la ausencia de cuerpos extraños en el producto final, algo habitual en farma y en alimentación con certificación de seguridad alimentaria. El aditivo permite al detector identificar y rechazar cualquier fragmento de cangilón que caiga al producto.",
+        "en": "Whenever the line has a metal detector and must guarantee the absence of foreign bodies in the final product, common in pharma and in food with food-safety certification. The additive lets the detector identify and reject any bucket fragment that falls into the product."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Poliamida o acero inoxidable?",
+        "en": "Polyamide or stainless steel?"
+      },
+      "answer": {
+        "es": "La poliamida cubre la mayoría de aplicaciones de alimentación seca a temperatura ambiente: es ligera, lisa y apta para contacto alimentario. El acero se reserva para productos abrasivos, corrosivos o procesos por encima de la temperatura que la poliamida resiste. Sobredimensionar en acero encarece la banda y el accionamiento sin aportar ventaja.",
+        "en": "Polyamide covers most dry-food applications at room temperature: it is light, smooth and food-contact compliant. Steel is reserved for abrasive or corrosive products or processes above the temperature polyamide can withstand. Over-specifying steel raises belt and drive cost with no added benefit."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Por qué mi elevador no alcanza el caudal teórico?",
+        "en": "Why doesn't my elevator reach theoretical throughput?"
+      },
+      "answer": {
+        "es": "Las causas más frecuentes son el vaciado incompleto por geometría inadecuada para un producto pegajoso, el retorno de producto por velocidad mal ajustada y un grado de llenado inferior al previsto. Revisar la geometría del cangilón y la velocidad de banda suele recuperar entre un 15 % y un 30 % de caudal efectivo.",
+        "en": "The most frequent causes are incomplete discharge from a geometry unsuited to a sticky product, product carry-back from poorly set speed, and a fill level below expectations. Reviewing bucket geometry and belt speed usually recovers 15 % to 30 % of effective throughput."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Los cangilones CALYON encajan en elevadores de otras marcas?",
+        "en": "Do CALYON buckets fit other brands' elevators?"
+      },
+      "answer": {
+        "es": "Están diseñados para encajar en cualquier elevador de cangilones del catálogo Toromac y en la mayoría de elevadores estándar del mercado. Antes de la sustitución conviene verificar el paso de fijación y el ancho de banda para garantizar la compatibilidad mecánica.",
+        "en": "They are designed to fit any bucket elevator in the Toromac catalog and most standard market elevators. Before replacement it is advisable to check the fixing pitch and belt width to ensure mechanical compatibility."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cada cuánto hay que sustituir los cangilones?",
+        "en": "How often should buckets be replaced?"
+      },
+      "answer": {
+        "es": "No hay un intervalo fijo: depende de la abrasividad del producto, las horas de funcionamiento y el material del cangilón. La pauta correcta es inspeccionar el desgaste del borde de carga y la integridad de la fijación en las revisiones periódicas y sustituir antes de que aparezca rotura, no después.",
+        "en": "There is no fixed interval: it depends on product abrasiveness, running hours and bucket material. The correct approach is to inspect leading-edge wear and fixing integrity at periodic checks and replace before breakage appears, not after."
+      }
+    }
+  ],
+  "tags": {
+    "es": ["cangilones", "cangilones para elevadores", "elevador de cangilones", "metal detectable"],
+    "en": ["buckets", "elevator buckets", "bucket elevator", "metal detectable"]
+  }
+}

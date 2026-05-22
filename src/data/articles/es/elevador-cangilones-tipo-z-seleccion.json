@@ -1,0 +1,317 @@
+{
+  "id": "elevador-cangilones-tipo-z-seleccion",
+  "slug": {
+    "es": "elevador-cangilones-tipo-z-seleccion",
+    "en": "z-type-bucket-elevator-selection"
+  },
+  "publishedAt": "2026-05-05T09:00:00Z",
+  "updatedAt": "2026-05-05T09:00:00Z",
+  "author": "Equipo Toromac",
+  "category": "elevacion-transporte",
+  "relatedProduct": "elevador-cangilones-tipo-z",
+  "title": {
+    "es": "Elevador de cangilones tipo Z: guía de selección y comparativa",
+    "en": "Z-type bucket elevator: selection guide and comparison"
+  },
+  "metaDescription": {
+    "es": "Cuándo elegir un elevador de cangilones tipo Z frente a tipo C u O. Capacidad, ocupación de espacio, consumo y cuidado del producto. Guía técnica de selección.",
+    "en": "When to choose a Z-type bucket elevator over C-type or O-type. Capacity, footprint, energy and product care. Technical selection guide."
+  },
+  "heroImage": "/images/products/elevador-cangilones-tipo-z.jpg",
+  "heroImageAlt": {
+    "es": "Elevador de cangilones tipo Z fabricado por Toromac",
+    "en": "Z-type bucket elevator manufactured by Toromac"
+  },
+  "seo": {
+    "es": {
+      "title": "Elevador de cangilones tipo Z: selección y comparativa | Toromac",
+      "description": "Guía de selección del elevador tipo Z frente a C y O. Caudal hasta 50 m³/h, acero inoxidable 304L/316L, bajo consumo y mínima rotura de producto."
+    },
+    "en": {
+      "title": "Z-type bucket elevator: selection and comparison | Toromac",
+      "description": "Selection guide for the Z-type elevator versus C and O. Up to 50 m³/h, 304L/316L stainless steel, low energy and minimal product breakage."
+    }
+  },
+  "content": {
+    "es": [
+      { "type": "p", "text": "El elevador de cangilones tipo Z es uno de los equipos más versátiles para mover producto sólido, granulado o en polvo entre dos puntos de planta situados a distinta altura. Su trazado en forma de Z —una entrada horizontal baja, un tramo vertical de elevación y una descarga horizontal en altura— permite recoger producto a ras de suelo y entregarlo sobre una tolva, una envasadora o una báscula sin necesidad de estructuras auxiliares." },
+      { "type": "p", "text": "Esta guía explica cuándo el tipo Z es la mejor opción frente a los elevadores tipo C y tipo O, qué parámetros condicionan su diseño y cómo especificarlo correctamente para alimentación, farma o química." },
+      { "type": "h2", "text": "Qué es un elevador tipo Z y por qué se llama así" },
+      { "type": "p", "text": "El nombre describe la trayectoria del producto. El cangilón entra en horizontal por la parte inferior, sube en vertical y vuelve a salir en horizontal por la parte superior, dibujando una Z. Esta geometría desacopla el punto de carga del de descarga, lo que da una flexibilidad de layout que un elevador puramente vertical no ofrece." },
+      { "type": "p", "text": "Los cangilones van fijados a una banda en circuito cerrado. El producto se transporta dentro del cangilón en todo el recorrido, sin contacto con la estructura, lo que minimiza la rotura y la generación de finos. Por eso el tipo Z es habitual con producto frágil: copos, snacks, pasta, frutos secos o producto recubierto." },
+      { "type": "h2", "text": "Cuándo elegir tipo Z frente a tipo C u O" },
+      { "type": "p", "text": "Las tres geometrías comparten el principio de cangilón sobre banda, pero resuelven necesidades de layout distintas." },
+      { "type": "h3", "text": "Tipo Z" },
+      { "type": "p", "text": "Carga y descarga horizontales en planos distintos. Ideal cuando hay que recoger a ras de suelo y descargar en altura sobre otro equipo, con tramos horizontales de transporte integrados en el propio elevador. Es la opción más flexible para integrar el elevador en una línea ya montada." },
+      { "type": "h3", "text": "Tipo C" },
+      { "type": "p", "text": "Carga y descarga en el mismo lado, con entrada y salida verticales en línea. Ocupa menos planta en horizontal y conviene cuando el espacio es estrecho y la carga y la descarga están alineadas verticalmente." },
+      { "type": "h3", "text": "Tipo O" },
+      { "type": "p", "text": "Combina un tramo de elevación con transporte horizontal en circuito, útil cuando se quiere alimentar varios puntos o cubrir una distancia horizontal larga además de la elevación. Es la geometría más específica de las tres." },
+      { "type": "h2", "text": "Comparativa técnica Z / C / O" },
+      { "type": "p", "text": "Resumen orientativo de los criterios de decisión entre las tres geometrías." },
+      {
+        "type": "table",
+        "headers": ["Criterio", "Tipo Z", "Tipo C", "Tipo O"],
+        "rows": [
+          ["Carga / descarga", "Horizontal / horizontal", "Vertical en línea", "Horizontal + recorrido"],
+          ["Flexibilidad de layout", "Alta", "Media", "Alta"],
+          ["Ocupación en planta", "Media", "Reducida", "Mayor"],
+          ["Cuidado del producto frágil", "Muy alto", "Alto", "Alto"],
+          ["Caso típico", "Recoger a suelo y descargar en altura", "Espacio estrecho, carga/descarga alineadas", "Alimentar varios puntos o distancia larga"]
+        ]
+      },
+      { "type": "callout", "text": "Regla práctica: si necesita recoger producto a ras de suelo y entregarlo en altura sobre otro equipo respetando la integridad del producto, el tipo Z es casi siempre la elección correcta. Si el espacio horizontal es crítico, evalúe el tipo C." },
+      { "type": "h2", "text": "Parámetros de diseño que condicionan el equipo" },
+      { "type": "p", "text": "Un elevador tipo Z no se elige por catálogo: se dimensiona a partir del producto y de la línea. Estos son los parámetros que determinan la configuración." },
+      {
+        "type": "ol",
+        "items": [
+          "Caudal objetivo en t/h o m³/h, que define capacidad de cangilón y velocidad.",
+          "Altura de elevación entre el punto de carga y el de descarga.",
+          "Densidad aparente y granulometría del producto.",
+          "Fragilidad: condiciona velocidad y geometría de descarga para evitar rotura.",
+          "Temperatura y humedad del producto en el punto de carga.",
+          "Requisitos sanitarios: 304L, 316L, manipulación higiénica, ATEX.",
+          "Restricciones de espacio y puntos de conexión con la línea existente."
+        ]
+      },
+      { "type": "p", "text": "El elevador tipo Z de Toromac alcanza caudales de hasta 50 m³/h y se fabrica en acero inoxidable 304L o 316L según la exigencia del sector, con cangilones en poliamida natural o metal-detectable." },
+      { "type": "h2", "text": "Materiales y acabados sanitarios" },
+      { "type": "p", "text": "En alimentación y farma, el acabado es parte de la especificación, no un extra. El acero 304L cubre la mayoría de aplicaciones alimentarias; el 316L se reserva para entornos con mayor exigencia química o de limpieza agresiva. Las soldaduras pulidas y la ausencia de zonas de retención facilitan la limpieza y reducen el riesgo de contaminación. Para entornos químicos con riesgo de explosión, el equipo admite configuración ATEX bajo demanda." },
+      { "type": "h2", "text": "Consumo energético y cuidado del producto" },
+      { "type": "p", "text": "Frente a sistemas de transporte neumático, el elevador de cangilones tipo Z mueve el mismo caudal con un consumo energético sensiblemente menor, porque no necesita generar y mantener un flujo de aire. Además, al transportar el producto contenido en el cangilón y no arrastrado, reduce drásticamente la rotura y la generación de finos. En productos de valor añadido, esa diferencia de rotura tiene impacto directo en el rendimiento de línea." },
+      { "type": "h2", "text": "Cómo dimensionar el caudal" },
+      { "type": "p", "text": "Dimensionar un elevador tipo Z empieza por el caudal y la altura. El caudal teórico es el producto de la capacidad útil del cangilón, el número de cangilones por metro, la velocidad de banda y la densidad aparente del producto, corregido por el factor de llenado. Para un caudal objetivo dado hay varias combinaciones posibles de capacidad, paso y velocidad; la elección correcta equilibra capacidad y velocidad para no forzar la descarga ni aumentar la rotura." },
+      { "type": "p", "text": "Subir la velocidad incrementa el caudal de forma lineal, pero también la energía cinética en la descarga, lo que en producto frágil se traduce en más rotura. Por eso, en producto delicado se prefiere ganar caudal con cangilones de mayor capacidad y velocidad moderada antes que con velocidad alta y cangilones pequeños." },
+      { "type": "p", "text": "Conviene además dejar un margen de capacidad sobre el caudal nominal para absorber picos de alimentación y la pérdida progresiva de caudal por desgaste de los cangilones. Un sobredimensionado moderado, del orden del 10–15 %, evita que el elevador se convierta en el cuello de botella de la línea cuando el producto o las condiciones cambian." },
+      { "type": "h2", "text": "Velocidad y modo de descarga" },
+      { "type": "p", "text": "El modo de descarga —por gravedad o centrífugo— depende de la velocidad de la banda y de la geometría del cangilón, y debe casar con la fluidez del producto. A baja velocidad domina la descarga por gravedad, adecuada para productos pegajosos o de baja fluidez que no saldrían por inercia. A velocidad alta, la descarga es centrífuga y conviene a productos fluidos. Ajustar la velocidad al producto es lo que separa un elevador que vacía limpio de uno que devuelve producto al fondo y pierde caudal." },
+      { "type": "p", "text": "En el elevador tipo Z, el tramo horizontal superior facilita una descarga controlada sobre el equipo siguiente, lo que reduce la caída libre del producto y, con ella, la rotura en el punto de entrega." },
+      { "type": "h2", "text": "Sistema de accionamiento" },
+      { "type": "p", "text": "El accionamiento define el comportamiento del elevador en arranque, marcha y parada. Los elementos a considerar son:" },
+      {
+        "type": "ul",
+        "items": [
+          "Motorreductor dimensionado para el par de arranque con el elevador cargado, no solo en vacío.",
+          "Variador de frecuencia para ajustar la velocidad al caudal real y suavizar los arranques.",
+          "Dispositivo antirretorno que impide que la banda cargada retroceda al parar, evitando el atasco en el fondo.",
+          "Protecciones de sobrecarga y, en equipos instrumentados, sensores de velocidad y desalineación."
+        ]
+      },
+      { "type": "p", "text": "Un accionamiento bien dimensionado evita el problema más habitual del elevador de cangilones: el bloqueo al arrancar con producto acumulado en el fondo tras una parada no planificada." },
+      { "type": "h2", "text": "Sellado y control de polvo" },
+      { "type": "p", "text": "En producto pulverulento, el control del polvo es parte de la especificación. La carcasa cerrada del elevador tipo Z contiene el producto durante todo el recorrido, pero los puntos de carga y descarga requieren sellado y, según el producto, conexión a aspiración. En entornos con polvo combustible, el sellado y las medidas antiestáticas forman parte de la configuración ATEX." },
+      { "type": "p", "text": "Un sellado deficiente no solo genera pérdidas de producto y limpieza adicional: en polvos finos puede crear una atmósfera de polvo en suspensión con riesgo higiénico y, en productos combustibles, de explosión. Por eso el control de polvo se especifica desde el diseño, no como añadido posterior." },
+      { "type": "h2", "text": "Instalación y requisitos de espacio" },
+      { "type": "p", "text": "La geometría en Z desacopla carga y descarga, lo que da flexibilidad para encajar el elevador en una línea existente. Aun así, conviene planificar el acceso para mantenimiento: los registros de inspección, la zona del fondo y el accionamiento deben quedar accesibles. Un elevador bien ubicado se mantiene en minutos; uno encajado sin acceso convierte cada inspección en una intervención costosa." },
+      { "type": "h2", "text": "Elevador de cangilones frente a otras tecnologías" },
+      { "type": "p", "text": "Para mover producto en vertical existen alternativas. Esta comparativa orientativa sitúa el elevador de cangilones frente al transporte neumático y al sinfín." },
+      {
+        "type": "table",
+        "headers": ["Criterio", "Elevador cangilones", "Transporte neumático", "Sinfín"],
+        "rows": [
+          ["Consumo energético", "Bajo", "Alto", "Medio"],
+          ["Rotura de producto", "Muy baja", "Alta", "Media"],
+          ["Altura de elevación", "Alta", "Alta", "Media"],
+          ["Producto frágil", "Óptimo", "No recomendado", "Limitado"],
+          ["Limpieza / cambio de producto", "Buena", "Media", "Buena"]
+        ]
+      },
+      { "type": "p", "text": "Para producto frágil o de valor con elevación a altura, el elevador de cangilones suele ser la opción más eficiente en energía y en rendimiento de producto." },
+      { "type": "h2", "text": "Mantenimiento y vida útil" },
+      { "type": "p", "text": "El elevador tipo Z tiene pocos elementos móviles, pero todos críticos: banda, cangilones, tambores, rodamientos y accionamiento. Un plan de mantenimiento preventivo con inspección de tensión y alineación de banda, estado de cangilones y rodamientos prolonga la vida del equipo y evita paradas no programadas. Especificar un equipo con registros accesibles y componentes estandarizados facilita ese mantenimiento desde el primer día." },
+      { "type": "h2", "text": "Errores frecuentes en la selección" },
+      { "type": "p", "text": "Algunos errores se repiten al especificar un elevador tipo Z. El más común es dimensionar sobre el caudal teórico sin aplicar el factor de llenado, lo que deja el equipo corto en planta. Otro es priorizar la velocidad para ganar caudal con producto frágil, sacrificando rendimiento de producto por rotura. También es habitual olvidar el margen de capacidad para picos y desgaste, o no definir desde el principio los requisitos de acabado y ATEX, que condicionan el diseño y no se añaden bien a posteriori." },
+      { "type": "p", "text": "Por último, encajar el elevador en la línea sin prever el acceso para mantenimiento convierte cada inspección en una intervención costosa. Definir caudal, altura, producto, acabado y acceso antes de comparar equipos evita la mayoría de estos errores y permite recibir ofertas comparables entre sí." },
+      { "type": "h2", "text": "Checklist de selección" },
+      {
+        "type": "ul",
+        "items": [
+          "Defina caudal y altura de elevación antes de comparar equipos.",
+          "Confirme la geometría (Z, C u O) según el layout y los puntos de carga/descarga.",
+          "Especifique material 304L o 316L según el sector.",
+          "Indique si la línea requiere cangilones metal-detectables.",
+          "Valore la fragilidad del producto para fijar velocidad y descarga.",
+          "Compruebe necesidades ATEX si hay polvo combustible.",
+          "Verifique los puntos de conexión con la línea existente."
+        ]
+      },
+      { "type": "h2", "text": "Aplicaciones por sector" },
+      { "type": "p", "text": "En alimentación, el tipo Z alimenta envasadoras, básculas multicabezal y tolvas con snacks, cereales, frutos secos y congelados. En farma y nutracéutica transporta polvos sensibles con acabados sanitarios y trazabilidad completa. En química mueve granulados y polvos con opciones de manipulación controlada y ATEX. En nutrición animal prioriza el transporte eficiente con mínima rotura de producto." },
+      { "type": "p", "text": "Si está evaluando un elevador para una línea concreta, el equipo técnico de Toromac puede dimensionar el equipo a partir de su producto, caudal y altura de elevación, y proponer la geometría más adecuada." }
+    ],
+    "en": [
+      { "type": "p", "text": "The Z-type bucket elevator is one of the most versatile units for moving solid, granular or powder product between two plant points at different heights. Its Z-shaped path —a low horizontal inlet, a vertical lifting section and a horizontal discharge at height— lets it pick up product at floor level and deliver it onto a hopper, a packaging machine or a scale with no auxiliary structures." },
+      { "type": "p", "text": "This guide explains when the Z-type is the best option versus C-type and O-type elevators, which parameters condition its design, and how to specify it correctly for food, pharma or chemical applications." },
+      { "type": "h2", "text": "What a Z-type elevator is and why it's called that" },
+      { "type": "p", "text": "The name describes the product's path. The bucket enters horizontally at the bottom, rises vertically and exits horizontally at the top, tracing a Z. This geometry decouples the loading point from the discharge point, giving a layout flexibility that a purely vertical elevator cannot offer." },
+      { "type": "p", "text": "Buckets are fixed to a belt in a closed loop. Product travels inside the bucket the whole way, without contact with the structure, which minimises breakage and fines generation. That is why the Z-type is common with fragile product: flakes, snacks, pasta, nuts or coated product." },
+      { "type": "h2", "text": "When to choose Z-type over C-type or O-type" },
+      { "type": "p", "text": "The three geometries share the bucket-on-belt principle but solve different layout needs." },
+      { "type": "h3", "text": "Z-type" },
+      { "type": "p", "text": "Horizontal loading and discharge on different planes. Ideal when you must pick up at floor level and discharge at height onto other equipment, with horizontal transport sections built into the elevator itself. It is the most flexible option for integrating the elevator into an existing line." },
+      { "type": "h3", "text": "C-type" },
+      { "type": "p", "text": "Loading and discharge on the same side, with vertical inlet and outlet in line. It takes up less horizontal floor space and suits narrow spaces where loading and discharge are vertically aligned." },
+      { "type": "h3", "text": "O-type" },
+      { "type": "p", "text": "Combines a lifting section with horizontal circuit transport, useful when feeding several points or covering a long horizontal distance in addition to lifting. It is the most specific of the three geometries." },
+      { "type": "h2", "text": "Technical comparison Z / C / O" },
+      { "type": "p", "text": "Indicative summary of decision criteria between the three geometries." },
+      {
+        "type": "table",
+        "headers": ["Criterion", "Z-type", "C-type", "O-type"],
+        "rows": [
+          ["Loading / discharge", "Horizontal / horizontal", "Vertical in line", "Horizontal + run"],
+          ["Layout flexibility", "High", "Medium", "High"],
+          ["Floor footprint", "Medium", "Reduced", "Larger"],
+          ["Fragile product care", "Very high", "High", "High"],
+          ["Typical case", "Pick up at floor, discharge at height", "Narrow space, aligned load/discharge", "Feed several points or long distance"]
+        ]
+      },
+      { "type": "callout", "text": "Rule of thumb: if you need to pick up product at floor level and deliver it at height onto other equipment while preserving product integrity, the Z-type is almost always the right choice. If horizontal space is critical, evaluate the C-type." },
+      { "type": "h2", "text": "Design parameters that condition the unit" },
+      { "type": "p", "text": "A Z-type elevator is not chosen from a catalog: it is sized from the product and the line. These are the parameters that determine the configuration." },
+      {
+        "type": "ol",
+        "items": [
+          "Target throughput in t/h or m³/h, which sets bucket capacity and speed.",
+          "Lifting height between loading and discharge points.",
+          "Bulk density and particle size of the product.",
+          "Fragility: conditions speed and discharge geometry to avoid breakage.",
+          "Product temperature and moisture at the loading point.",
+          "Hygienic requirements: 304L, 316L, hygienic handling, ATEX.",
+          "Space constraints and connection points with the existing line."
+        ]
+      },
+      { "type": "p", "text": "Toromac's Z-type elevator reaches throughputs of up to 50 m³/h and is manufactured in 304L or 316L stainless steel depending on the sector, with buckets in natural or metal-detectable polyamide." },
+      { "type": "h2", "text": "Materials and sanitary finishes" },
+      { "type": "p", "text": "In food and pharma, the finish is part of the specification, not an extra. 304L steel covers most food applications; 316L is reserved for environments with higher chemical demand or aggressive cleaning. Polished welds and the absence of retention zones ease cleaning and reduce contamination risk. For chemical environments with explosion risk, the unit accepts ATEX configuration on demand." },
+      { "type": "h2", "text": "Energy consumption and product care" },
+      { "type": "p", "text": "Compared with pneumatic conveying systems, the Z-type bucket elevator moves the same throughput with noticeably lower energy consumption, because it does not need to generate and maintain an air flow. Furthermore, by carrying product contained in the bucket rather than dragged, it drastically reduces breakage and fines generation. In value-added products, that breakage difference has a direct impact on line yield." },
+      { "type": "h2", "text": "How to size throughput" },
+      { "type": "p", "text": "Sizing a Z-type elevator starts with throughput and height. Theoretical throughput is the product of useful bucket capacity, the number of buckets per metre, belt speed and the product's bulk density, corrected by the fill factor. For a given target throughput there are several possible combinations of capacity, pitch and speed; the right choice balances capacity and speed so as not to force discharge or increase breakage." },
+      { "type": "p", "text": "Raising speed increases throughput linearly, but also kinetic energy at discharge, which in fragile product means more breakage. That is why, for delicate product, throughput is gained with higher-capacity buckets at moderate speed rather than high speed with small buckets." },
+      { "type": "p", "text": "It is also advisable to leave a capacity margin over nominal throughput to absorb feed peaks and the gradual throughput loss from bucket wear. Moderate over-sizing, of the order of 10–15 %, prevents the elevator becoming the line's bottleneck when product or conditions change." },
+      { "type": "h2", "text": "Speed and discharge mode" },
+      { "type": "p", "text": "The discharge mode —gravity or centrifugal— depends on belt speed and bucket geometry, and must match the product's flowability. At low speed, gravity discharge dominates, suitable for sticky or low-flow products that would not exit by inertia. At high speed, discharge is centrifugal and suits free-flowing products. Matching speed to product is what separates an elevator that empties cleanly from one that returns product to the boot and loses throughput." },
+      { "type": "p", "text": "In the Z-type elevator, the upper horizontal section enables controlled discharge onto the next unit, which reduces the product's free fall and, with it, breakage at the delivery point." },
+      { "type": "h2", "text": "Drive system" },
+      { "type": "p", "text": "The drive defines the elevator's behaviour at start-up, running and stopping. The elements to consider are:" },
+      {
+        "type": "ul",
+        "items": [
+          "Gearmotor sized for the starting torque with the elevator loaded, not just empty.",
+          "Variable frequency drive to adjust speed to real throughput and soften start-ups.",
+          "Anti-runback device that stops the loaded belt from reversing on stopping, preventing a boot jam.",
+          "Overload protection and, on instrumented units, speed and misalignment sensors."
+        ]
+      },
+      { "type": "p", "text": "A well-sized drive avoids the most common bucket-elevator problem: blockage on start-up with product accumulated in the boot after an unplanned stop." },
+      { "type": "h2", "text": "Sealing and dust control" },
+      { "type": "p", "text": "With powdery product, dust control is part of the specification. The Z-type elevator's enclosed casing contains the product the whole way, but the loading and discharge points require sealing and, depending on the product, an extraction connection. In environments with combustible dust, sealing and antistatic measures are part of the ATEX configuration." },
+      { "type": "p", "text": "Poor sealing not only causes product loss and extra cleaning: in fine powders it can create a suspended-dust atmosphere with a hygienic risk and, in combustible products, an explosion risk. That is why dust control is specified from the design stage, not as a later add-on." },
+      { "type": "h2", "text": "Installation and space requirements" },
+      { "type": "p", "text": "The Z geometry decouples loading and discharge, giving flexibility to fit the elevator into an existing line. Even so, maintenance access should be planned: inspection doors, the boot area and the drive must remain accessible. A well-located elevator is serviced in minutes; one squeezed in without access turns every inspection into a costly intervention." },
+      { "type": "h2", "text": "Bucket elevator versus other technologies" },
+      { "type": "p", "text": "There are alternatives for moving product vertically. This indicative comparison places the bucket elevator against pneumatic conveying and the screw conveyor." },
+      {
+        "type": "table",
+        "headers": ["Criterion", "Bucket elevator", "Pneumatic conveying", "Screw conveyor"],
+        "rows": [
+          ["Energy consumption", "Low", "High", "Medium"],
+          ["Product breakage", "Very low", "High", "Medium"],
+          ["Lifting height", "High", "High", "Medium"],
+          ["Fragile product", "Optimal", "Not recommended", "Limited"],
+          ["Cleaning / product change", "Good", "Medium", "Good"]
+        ]
+      },
+      { "type": "p", "text": "For fragile or value product with lifting at height, the bucket elevator is usually the most efficient option in energy and product yield." },
+      { "type": "h2", "text": "Maintenance and service life" },
+      { "type": "p", "text": "The Z-type elevator has few moving parts, but all of them critical: belt, buckets, pulleys, bearings and drive. A preventive maintenance plan with inspection of belt tension and alignment, bucket condition and bearings extends equipment life and prevents unplanned downtime. Specifying a unit with accessible inspection doors and standardised components eases that maintenance from day one." },
+      { "type": "h2", "text": "Common selection mistakes" },
+      { "type": "p", "text": "Some mistakes recur when specifying a Z-type elevator. The most common is sizing from theoretical throughput without applying the fill factor, which leaves the unit short on the plant floor. Another is prioritising speed to gain throughput with fragile product, sacrificing product yield to breakage. It is also common to forget the capacity margin for peaks and wear, or not to define finish and ATEX requirements from the start, which condition the design and are not well added afterwards." },
+      { "type": "p", "text": "Finally, fitting the elevator into the line without planning maintenance access turns every inspection into a costly intervention. Defining throughput, height, product, finish and access before comparing units avoids most of these mistakes and lets you receive comparable offers." },
+      { "type": "h2", "text": "Selection checklist" },
+      {
+        "type": "ul",
+        "items": [
+          "Define throughput and lifting height before comparing units.",
+          "Confirm the geometry (Z, C or O) based on layout and load/discharge points.",
+          "Specify 304L or 316L material according to the sector.",
+          "State whether the line requires metal-detectable buckets.",
+          "Assess product fragility to set speed and discharge.",
+          "Evaluate ATEX needs if there is combustible dust.",
+          "Check connection points with the existing line."
+        ]
+      },
+      { "type": "h2", "text": "Applications by sector" },
+      { "type": "p", "text": "In food, the Z-type feeds packaging machines, multihead scales and hoppers with snacks, cereals, nuts and frozen product. In pharma and nutraceuticals it conveys sensitive powders with sanitary finishes and full traceability. In chemicals it moves granulates and powders with controlled-handling and ATEX options. In animal nutrition it prioritises efficient transport with minimal product breakage." },
+      { "type": "p", "text": "If you are evaluating an elevator for a specific line, Toromac's engineering team can size the unit from your product, throughput and lifting height, and propose the most suitable geometry." }
+    ]
+  },
+  "faq": [
+    {
+      "question": {
+        "es": "¿Qué caudal alcanza un elevador tipo Z?",
+        "en": "What throughput does a Z-type elevator reach?"
+      },
+      "answer": {
+        "es": "El elevador tipo Z de Toromac alcanza hasta 50 m³/h. El caudal real depende de la capacidad del cangilón, el paso entre cangilones, la velocidad de banda y el grado de llenado, que varía con la fluidez del producto.",
+        "en": "Toromac's Z-type elevator reaches up to 50 m³/h. Actual throughput depends on bucket capacity, pitch between buckets, belt speed and fill level, which varies with product flowability."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cuál es la diferencia entre elevador tipo Z y tipo C?",
+        "en": "What is the difference between Z-type and C-type elevators?"
+      },
+      "answer": {
+        "es": "El tipo Z carga y descarga en horizontal en planos distintos, ideal para recoger a ras de suelo y descargar en altura sobre otro equipo. El tipo C tiene entrada y salida verticales en línea y en el mismo lado, lo que reduce la ocupación horizontal cuando el espacio es estrecho.",
+        "en": "The Z-type loads and discharges horizontally on different planes, ideal to pick up at floor level and discharge at height onto other equipment. The C-type has vertical inlet and outlet in line on the same side, reducing horizontal footprint when space is narrow."
+      }
+    },
+    {
+      "question": {
+        "es": "¿El elevador tipo Z daña el producto frágil?",
+        "en": "Does the Z-type elevator damage fragile product?"
+      },
+      "answer": {
+        "es": "No, es precisamente una de sus ventajas. Al transportar el producto contenido dentro del cangilón y no arrastrado, y al permitir ajustar velocidad y geometría de descarga, minimiza la rotura y la generación de finos. Por eso es habitual con copos, snacks, pasta y producto recubierto.",
+        "en": "No, that is precisely one of its advantages. By carrying product contained inside the bucket rather than dragged, and by allowing speed and discharge geometry to be adjusted, it minimises breakage and fines generation. That is why it is common with flakes, snacks, pasta and coated product."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Se fabrica en acero inoxidable 316L?",
+        "en": "Is it manufactured in 316L stainless steel?"
+      },
+      "answer": {
+        "es": "Sí. Se fabrica en 304L para la mayoría de aplicaciones alimentarias y en 316L para entornos con mayor exigencia química o de limpieza agresiva. La elección del acabado forma parte de la especificación según el sector.",
+        "en": "Yes. It is manufactured in 304L for most food applications and in 316L for environments with higher chemical demand or aggressive cleaning. The finish choice is part of the specification according to the sector."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Admite configuración ATEX?",
+        "en": "Does it support ATEX configuration?"
+      },
+      "answer": {
+        "es": "Sí, admite configuración ATEX bajo demanda para entornos químicos o con polvo combustible y riesgo de explosión. La configuración concreta se define a partir de la clasificación de la zona y del producto manipulado.",
+        "en": "Yes, it supports ATEX configuration on demand for chemical environments or those with combustible dust and explosion risk. The specific configuration is defined from the zone classification and the product handled."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Consume menos que un transporte neumático?",
+        "en": "Does it consume less than pneumatic conveying?"
+      },
+      "answer": {
+        "es": "Para el mismo caudal, el elevador de cangilones consume sensiblemente menos energía que un transporte neumático, porque no necesita generar y mantener un flujo de aire. Además reduce la rotura del producto, lo que mejora el rendimiento de línea en productos de valor.",
+        "en": "For the same throughput, the bucket elevator consumes noticeably less energy than pneumatic conveying, because it does not need to generate and maintain an air flow. It also reduces product breakage, improving line yield on value products."
+      }
+    }
+  ],
+  "tags": {
+    "es": ["elevador tipo z", "elevador de cangilones", "elevación industrial", "acero inoxidable"],
+    "en": ["z type bucket elevator", "bucket elevator", "industrial elevation", "stainless steel"]
+  }
+}

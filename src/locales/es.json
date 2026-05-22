@@ -142,6 +142,32 @@
     "relatedEyebrow": "También fabricamos",
     "relatedHeadline": "Equipos relacionados."
   },
+  "news": {
+    "seo": {
+      "title": "Novedades · Toromac · Notas técnicas para ingeniería de proceso",
+      "description": "Guías técnicas, comparativas y checklists sobre elevadores de cangilones, cintas transportadoras y equipos de procesado industrial. Contenido para ingeniería de proceso."
+    },
+    "eyebrow": "Toromac · Notas técnicas",
+    "headline": "Notas técnicas para ingeniería de proceso.",
+    "lead": "Guías, comparativas y checklists sobre elevación, transporte y procesado industrial. Contenido técnico, sin relleno comercial.",
+    "filterLabel": "Filtrar por categoría",
+    "allCategories": "Todas",
+    "empty": "No hay artículos en esta categoría."
+  },
+  "article": {
+    "backToNews": "Volver a novedades",
+    "tocLabel": "En este artículo",
+    "readingTime": "{{minutes}} min de lectura",
+    "faqLabel": "Preguntas frecuentes",
+    "faqHeadline": "Lo que preguntan los ingenieros de proceso.",
+    "relatedProductLabel": "Producto relacionado",
+    "ctaEyebrow": "Configuración a medida",
+    "ctaHeadline": "¿Necesita un equipo para su línea?",
+    "ctaLead": "Envíenos producto a manipular, capacidad y sector. Le devolvemos propuesta técnica y plazo de entrega en 48 horas hábiles.",
+    "relatedEyebrow": "Sigue leyendo",
+    "relatedHeadline": "Artículos relacionados.",
+    "viewAll": "Ver todas las notas"
+  },
   "contact": {
     "seo": {
       "title": "Contacto · Toromac · Equipo técnico industrial",

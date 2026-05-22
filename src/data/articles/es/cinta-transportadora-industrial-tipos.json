@@ -1,0 +1,315 @@
+{
+  "id": "cinta-transportadora-industrial-tipos",
+  "slug": {
+    "es": "cinta-transportadora-industrial-tipos",
+    "en": "industrial-conveyor-belt-types"
+  },
+  "publishedAt": "2026-05-19T09:00:00Z",
+  "updatedAt": "2026-05-19T09:00:00Z",
+  "author": "Equipo Toromac",
+  "category": "elevacion-transporte",
+  "relatedProduct": "cinta-transportadora-banda-industrial",
+  "title": {
+    "es": "Cinta transportadora industrial: tipos y aplicaciones",
+    "en": "Industrial conveyor belt: types and applications"
+  },
+  "metaDescription": {
+    "es": "Tipos de cinta transportadora industrial por configuración y banda, aplicaciones por sector y criterios de selección. Cuándo elegir cinta o elevador de cangilones.",
+    "en": "Types of industrial conveyor belt by configuration and belt, applications by sector and selection criteria. When to choose a conveyor or a bucket elevator."
+  },
+  "heroImage": "/images/products/cinta-transportadora-banda-industrial.jpg",
+  "heroImageAlt": {
+    "es": "Cinta transportadora de banda industrial para industria alimentaria",
+    "en": "Industrial belt conveyor for the food industry"
+  },
+  "seo": {
+    "es": {
+      "title": "Cinta transportadora industrial: tipos y aplicaciones | Toromac",
+      "description": "Cinta transportadora industrial: tipos por configuración y material de banda, aplicaciones por sector y criterios de selección para alimentación, farma y química."
+    },
+    "en": {
+      "title": "Industrial conveyor belt: types and applications | Toromac",
+      "description": "Industrial conveyor belt: types by configuration and belt material, applications by sector and selection criteria for food, pharma and chemical industries."
+    }
+  },
+  "content": {
+    "es": [
+      { "type": "p", "text": "La cinta transportadora industrial es el equipo más usado para mover producto en horizontal o en ligera inclinación dentro de una planta. Su aparente sencillez esconde decisiones técnicas importantes: el tipo de banda, la configuración del bastidor y el acabado determinan si la cinta es apta para un sector concreto, cuánto producto puede mover y con qué nivel de higiene." },
+      { "type": "p", "text": "Esta guía clasifica las cintas transportadoras industriales por configuración y por material de banda, repasa sus aplicaciones por sector y ofrece criterios para decidir entre una cinta y un elevador de cangilones cuando hay que salvar también un desnivel." },
+      { "type": "h2", "text": "Qué es una cinta transportadora industrial" },
+      { "type": "p", "text": "Una cinta transportadora es un sistema de transporte continuo formado por una banda sin fin que se desplaza sobre rodillos o sobre una superficie de deslizamiento, accionada por un tambor motriz. El producto se deposita sobre la banda y avanza con ella desde el punto de carga hasta el de descarga. Es el método más eficiente para transporte horizontal de producto a granel o envasado, con consumo energético reducido y mantenimiento sencillo." },
+      { "type": "h2", "text": "Tipos por configuración" },
+      { "type": "p", "text": "La configuración del bastidor define el recorrido y la función de la cinta dentro de la línea." },
+      { "type": "h3", "text": "Cinta plana horizontal" },
+      { "type": "p", "text": "La configuración básica: transporte en línea recta y a nivel. Se usa para conectar equipos, alimentar procesos y mover producto entre estaciones. Es la más económica y la de mantenimiento más simple." },
+      { "type": "h3", "text": "Cinta inclinada" },
+      { "type": "p", "text": "Cuando hay que ganar altura de forma suave, la cinta inclinada salva un desnivel manteniendo el producto sobre la banda. Para evitar el deslizamiento del producto se emplean bandas con perfiles, tacos o nervios. La inclinación máxima depende del producto y del tipo de banda." },
+      { "type": "h3", "text": "Cinta modular de plástico" },
+      { "type": "p", "text": "La banda está formada por módulos de plástico articulados, lo que permite curvas, transferencias y limpieza intensiva. Es la opción habitual en alimentación por su higiene, durabilidad y facilidad de reparación módulo a módulo." },
+      { "type": "h3", "text": "Cinta con curvas y transferencias" },
+      { "type": "p", "text": "Para layouts que cambian de dirección, las cintas curvas y las transferencias entre tramos permiten encajar el transporte en el espacio disponible sin manipular el producto en exceso." },
+      { "type": "h2", "text": "Tipos por material de banda" },
+      { "type": "p", "text": "El material de la banda se elige según el producto, la temperatura, la higiene y la resistencia mecánica requerida." },
+      {
+        "type": "table",
+        "headers": ["Banda", "Característica principal", "Aplicación típica"],
+        "rows": [
+          ["PVC / PU alimentaria", "Lisa, fácil de limpiar, contacto alimentario", "Producto envasado y a granel en alimentación"],
+          ["Modular de plástico", "Curvas, limpieza intensiva, reparable", "Líneas higiénicas, lavado frecuente"],
+          ["Banda con perfiles / tacos", "Evita deslizamiento", "Transporte inclinado"],
+          ["Malla metálica", "Resiste alta temperatura", "Hornos, secado, enfriamiento"],
+          ["Banda de elastómero", "Resistencia mecánica y abrasión", "Granulados y producto pesado"]
+        ]
+      },
+      { "type": "callout", "text": "En alimentación, la elección suele estar entre banda de PVC/PU alimentaria para transporte sencillo y banda modular de plástico cuando se necesitan curvas o lavado intensivo. La malla metálica se reserva para procesos térmicos." },
+      { "type": "h2", "text": "Aplicaciones por sector" },
+      { "type": "p", "text": "En industria alimentaria, las cintas mueven snacks, cereales, frutos secos, congelados y producto envasado entre procesos y hacia el empaquetado. En farma y nutracéutica priorizan la higiene y la trazabilidad. En química transportan granulados y producto a granel con resistencia a la abrasión. En nutrición animal mueven grandes volúmenes con mínima rotura." },
+      { "type": "h2", "text": "Cinta o elevador de cangilones: cuándo cada uno" },
+      { "type": "p", "text": "La pregunta más frecuente al diseñar una línea es si usar una cinta o un elevador de cangilones. La respuesta depende del desnivel a salvar." },
+      {
+        "type": "table",
+        "headers": ["Necesidad", "Cinta transportadora", "Elevador de cangilones"],
+        "rows": [
+          ["Transporte horizontal", "Óptimo", "No aplica"],
+          ["Inclinación suave", "Sí, con banda de perfiles", "No necesario"],
+          ["Elevación vertical", "Limitada", "Óptimo"],
+          ["Ocupación en planta", "Mayor en horizontal", "Reducida en vertical"],
+          ["Producto frágil en altura", "Limitado", "Muy bueno (tipo Z)"]
+        ]
+      },
+      { "type": "p", "text": "En muchas plantas, cinta y elevador no compiten: se combinan. La cinta cubre el transporte horizontal y el elevador de cangilones salva el desnivel. Toromac fabrica ambos como parte de la misma línea de elevación y transporte, lo que facilita la integración." },
+      { "type": "h2", "text": "Cómo calcular la capacidad de una cinta" },
+      { "type": "p", "text": "La capacidad de una cinta transportadora depende del ancho de banda, la velocidad, la sección de producto sobre la banda y la densidad aparente. De forma simplificada, el caudal es el área de la sección transversal del producto multiplicada por la velocidad de la banda y por la densidad. El ancho y la velocidad son las dos palancas principales: a igualdad de producto, una banda más ancha o más rápida transporta más, pero la velocidad excesiva puede provocar derrames y, en producto frágil, rotura." },
+      { "type": "p", "text": "Como referencia, una cinta con una sección de producto de 0,02 m² avanzando a 0,5 m/s con producto de 600 kg/m³ transporta del orden de 0,02 × 0,5 × 600 = 6 kg/s, unas 21,6 t/h. El cálculo real considera además el ángulo de reposo del producto, que define cuánto se puede cargar sin derrame, y la inclinación de los rodillos en artesa si la cinta es acanalada." },
+      { "type": "p", "text": "En transporte de producto envasado, la lógica cambia: la capacidad se mide en unidades por minuto y depende del tamaño del producto, la separación entre unidades y la velocidad de banda. En ambos casos, sobredimensionar ligeramente el ancho da margen para picos de producción sin forzar la velocidad." },
+      { "type": "h2", "text": "Componentes principales" },
+      { "type": "p", "text": "Más allá de la banda, una cinta transportadora se compone de varios elementos cuyo estado condiciona el rendimiento y la vida útil:" },
+      {
+        "type": "ul",
+        "items": [
+          "Tambor motriz: transmite el movimiento a la banda; su recubrimiento mejora el agarre.",
+          "Tambor de reenvío y tensor: cierran el circuito y mantienen la tensión correcta.",
+          "Rodillos de soporte: sostienen la banda y el producto en el ramal superior y guían el retorno en el inferior.",
+          "Raspadores o limpiadores de banda: retiran el producto adherido en la descarga, clave para la higiene.",
+          "Bastidor: la estructura, en acero inoxidable para sectores higiénicos."
+        ]
+      },
+      { "type": "h2", "text": "Accionamiento y tensado" },
+      { "type": "p", "text": "El accionamiento se dimensiona para mover la banda cargada con margen para el arranque. Un variador de frecuencia permite ajustar la velocidad al caudal real y sincronizar la cinta con el resto de la línea. El sistema de tensado —por tornillo o por contrapeso— mantiene la tensión correcta de la banda: ni floja, que patina, ni excesiva, que sobrecarga rodamientos y acelera el desgaste. Revisar la tensión y el tensado es la tarea de mantenimiento más rentable en una cinta." },
+      { "type": "h2", "text": "Empalmes de banda" },
+      { "type": "p", "text": "La banda sin fin se cierra mediante un empalme, y el tipo de empalme afecta a la durabilidad y a la higiene. El empalme vulcanizado, en caliente o en frío, crea una unión continua, lisa y resistente, preferible en alimentación por su facilidad de limpieza y por no tener elementos que retengan producto. El empalme mecánico por grapas es más rápido de instalar y reparar, pero deja una junta que puede acumular producto y es menos adecuada en sectores higiénicos. La elección del empalme forma parte de la especificación de la banda." },
+      { "type": "h2", "text": "Transporte inclinado y bandas especiales" },
+      { "type": "p", "text": "Cuando la cinta debe ganar altura, el ángulo máximo lo limita el deslizamiento del producto sobre la banda. Con banda lisa la inclinación práctica es reducida; con bandas de perfiles, tacos o nervios transversales se alcanzan ángulos mayores reteniendo el producto entre los relieves. Para producto a granel que debe subir mucho, llega un punto en que un elevador de cangilones es más eficiente que forzar la inclinación de una cinta. La frontera entre ambas soluciones es una decisión de proyecto que depende del ángulo, el producto y el caudal." },
+      { "type": "p", "text": "Existen además bandas especiales para casos concretos: bandas con bordes de contención para evitar derrames laterales, bandas de malla metálica para procesos térmicos de horneado, secado o enfriamiento, y bandas modulares con tacos para transporte de producto suelto en pendiente." },
+      { "type": "h2", "text": "Seguridad en cintas transportadoras" },
+      { "type": "p", "text": "Las cintas concentran riesgos de atrapamiento en los puntos donde la banda entra en contacto con tambores y rodillos. La configuración segura incluye:" },
+      {
+        "type": "ul",
+        "items": [
+          "Resguardos fijos en los puntos de atrapamiento (tambores, transferencias).",
+          "Paradas de emergencia accesibles a lo largo del recorrido, por cable tirador en cintas largas.",
+          "Señalización y enclavamientos que impiden el acceso con la cinta en marcha.",
+          "Procedimiento de consignación para limpieza y mantenimiento."
+        ]
+      },
+      { "type": "p", "text": "Como en los elevadores, la mayoría de accidentes graves en cintas se deben a intervenciones con el equipo en marcha. La consignación no es opcional." },
+      { "type": "h2", "text": "Higiene en sectores regulados" },
+      { "type": "p", "text": "En alimentación y farma, la cinta forma parte de la cadena de seguridad alimentaria. El diseño higiénico busca eliminar los puntos donde el producto puede quedar retenido y favorecer un lavado efectivo: bandas lisas o modulares desmontables sin herramientas, bastidores abiertos en acero inoxidable que drenan el agua, ausencia de roscas y huecos donde se acumule producto, y raspadores que dejan la banda limpia en cada vuelta. Una cinta difícil de limpiar acaba siendo un foco de contaminación, por bien que transporte." },
+      { "type": "h2", "text": "Mantenimiento básico" },
+      { "type": "p", "text": "El mantenimiento de una cinta es sencillo pero constante. Las tareas clave son el control periódico de la tensión y la alineación de la banda, la revisión del estado de rodillos y tambores —un rodillo bloqueado desgasta la banda y aumenta el consumo—, la limpieza de los raspadores y la comprobación del accionamiento. Una banda mal alineada se desgasta por un borde y reduce su vida útil; corregir la alineación en cuanto se detecta una desviación es la intervención más rentable. Llevar un registro de las sustituciones de banda permite anticipar el siguiente cambio y evitar una parada por rotura." },
+      { "type": "h2", "text": "Eficiencia energética" },
+      { "type": "p", "text": "La cinta transportadora es uno de los métodos de transporte más eficientes en energía por unidad de producto movido, especialmente en horizontal. Ajustar la velocidad al caudal real con variador, evitar tramos innecesariamente largos y mantener la banda bien tensada y alineada reduce el consumo y el desgaste. Frente al transporte neumático, la cinta consume mucho menos para mover el mismo producto en horizontal." },
+      { "type": "p", "text": "El estado mecánico influye directamente en el consumo: rodillos agarrotados, banda desalineada o tensión incorrecta obligan al motor a trabajar más para mover la misma carga. Un mantenimiento que mantenga la cinta en buen estado no solo evita averías, también reduce la factura energética a lo largo de la vida del equipo." },
+      { "type": "h2", "text": "Errores frecuentes en la selección" },
+      { "type": "p", "text": "Al especificar una cinta, los errores más comunes son elegir la velocidad demasiado alta —que provoca derrames y rotura— en lugar de ampliar el ancho de banda, subestimar los requisitos de higiene del sector y, sobre todo, optar por una cinta cuando el desnivel a salvar pide en realidad un elevador de cangilones. Definir producto, recorrido, caudal e higiene antes de comparar equipos evita estos errores y da ofertas comparables." },
+      { "type": "h2", "text": "Criterios de selección" },
+      {
+        "type": "ol",
+        "items": [
+          "Producto a transportar: a granel o envasado, granulometría y densidad.",
+          "Recorrido: horizontal, inclinado o con curvas.",
+          "Caudal objetivo y velocidad de línea.",
+          "Requisitos de higiene: contacto alimentario, lavado frecuente, trazabilidad.",
+          "Temperatura del producto y del entorno.",
+          "Resistencia a la abrasión según el producto.",
+          "Restricciones de espacio y puntos de conexión."
+        ]
+      },
+      { "type": "h2", "text": "Higiene y mantenimiento" },
+      { "type": "p", "text": "En sectores higiénicos, la cinta debe permitir limpieza efectiva: bandas lisas o modulares desmontables, bastidores en acero inoxidable, ausencia de zonas de retención y accesibilidad para el lavado. El mantenimiento básico incluye control de tensión y alineación de banda, estado de rodillos y tambores, y revisión del accionamiento. Una banda mal alineada se desgasta en exceso por un borde y reduce su vida útil." },
+      { "type": "p", "text": "Si está diseñando o ampliando una línea de transporte, el equipo técnico de Toromac puede recomendar la configuración de cinta más adecuada a su producto y, si hay que salvar un desnivel, integrar el elevador de cangilones correspondiente." }
+    ],
+    "en": [
+      { "type": "p", "text": "The industrial conveyor belt is the most used unit for moving product horizontally or at a slight incline within a plant. Its apparent simplicity hides important technical decisions: the belt type, the frame configuration and the finish determine whether the conveyor suits a specific sector, how much product it can move and at what hygiene level." },
+      { "type": "p", "text": "This guide classifies industrial conveyor belts by configuration and belt material, reviews their applications by sector, and offers criteria to decide between a conveyor and a bucket elevator when a height change must also be overcome." },
+      { "type": "h2", "text": "What an industrial conveyor belt is" },
+      { "type": "p", "text": "A conveyor belt is a continuous transport system made up of an endless belt that moves over rollers or a sliding surface, driven by a drive pulley. Product is placed on the belt and moves with it from the loading point to the discharge point. It is the most efficient method for horizontal transport of bulk or packaged product, with low energy consumption and simple maintenance." },
+      { "type": "h2", "text": "Types by configuration" },
+      { "type": "p", "text": "The frame configuration defines the path and function of the conveyor within the line." },
+      { "type": "h3", "text": "Flat horizontal conveyor" },
+      { "type": "p", "text": "The basic configuration: straight, level transport. Used to connect equipment, feed processes and move product between stations. It is the most economical and the simplest to maintain." },
+      { "type": "h3", "text": "Inclined conveyor" },
+      { "type": "p", "text": "When a gentle height gain is needed, the inclined conveyor overcomes a difference in level while keeping product on the belt. To prevent product sliding, belts with profiles, cleats or ribs are used. Maximum incline depends on the product and belt type." },
+      { "type": "h3", "text": "Modular plastic conveyor" },
+      { "type": "p", "text": "The belt is made up of articulated plastic modules, allowing curves, transfers and intensive cleaning. It is the usual choice in food for its hygiene, durability and module-by-module repairability." },
+      { "type": "h3", "text": "Curved conveyors and transfers" },
+      { "type": "p", "text": "For layouts that change direction, curved conveyors and transfers between sections fit the transport into the available space without over-handling the product." },
+      { "type": "h2", "text": "Types by belt material" },
+      { "type": "p", "text": "The belt material is chosen according to product, temperature, hygiene and the required mechanical strength." },
+      {
+        "type": "table",
+        "headers": ["Belt", "Main feature", "Typical application"],
+        "rows": [
+          ["Food-grade PVC / PU", "Smooth, easy to clean, food contact", "Packaged and bulk product in food"],
+          ["Modular plastic", "Curves, intensive cleaning, repairable", "Hygienic lines, frequent washdown"],
+          ["Profiled / cleated belt", "Prevents sliding", "Inclined transport"],
+          ["Wire mesh", "Withstands high temperature", "Ovens, drying, cooling"],
+          ["Elastomer belt", "Mechanical and abrasion strength", "Granulates and heavy product"]
+        ]
+      },
+      { "type": "callout", "text": "In food, the choice is usually between a food-grade PVC/PU belt for simple transport and a modular plastic belt when curves or intensive washdown are needed. Wire mesh is reserved for thermal processes." },
+      { "type": "h2", "text": "Applications by sector" },
+      { "type": "p", "text": "In the food industry, conveyors move snacks, cereals, nuts, frozen and packaged product between processes and towards packaging. In pharma and nutraceuticals they prioritise hygiene and traceability. In chemicals they convey granulates and bulk product with abrasion resistance. In animal nutrition they move large volumes with minimal breakage." },
+      { "type": "h2", "text": "Conveyor or bucket elevator: when each one" },
+      { "type": "p", "text": "The most frequent question when designing a line is whether to use a conveyor or a bucket elevator. The answer depends on the height to be overcome." },
+      {
+        "type": "table",
+        "headers": ["Need", "Conveyor belt", "Bucket elevator"],
+        "rows": [
+          ["Horizontal transport", "Optimal", "Not applicable"],
+          ["Gentle incline", "Yes, with profiled belt", "Not needed"],
+          ["Vertical lifting", "Limited", "Optimal"],
+          ["Floor footprint", "Larger horizontally", "Reduced vertically"],
+          ["Fragile product at height", "Limited", "Very good (Z-type)"]
+        ]
+      },
+      { "type": "p", "text": "In many plants, conveyor and elevator do not compete: they combine. The conveyor covers horizontal transport and the bucket elevator overcomes the height. Toromac manufactures both as part of the same elevation and transport line, which eases integration." },
+      { "type": "h2", "text": "How to calculate conveyor capacity" },
+      { "type": "p", "text": "The capacity of a conveyor belt depends on belt width, speed, the cross-section of product on the belt and bulk density. In simplified terms, throughput is the product's cross-sectional area multiplied by belt speed and density. Width and speed are the two main levers: for the same product, a wider or faster belt carries more, but excessive speed can cause spillage and, in fragile product, breakage." },
+      { "type": "p", "text": "As a reference, a conveyor with a product cross-section of 0.02 m² moving at 0.5 m/s with product of 600 kg/m³ carries around 0.02 × 0.5 × 600 = 6 kg/s, about 21.6 t/h. The real calculation also considers the product's angle of repose, which defines how much can be loaded without spillage, and the trough idler angle if the belt is troughed." },
+      { "type": "p", "text": "In packaged-product transport, the logic changes: capacity is measured in units per minute and depends on product size, the gap between units and belt speed. In both cases, slightly over-sizing the width gives margin for production peaks without forcing speed." },
+      { "type": "h2", "text": "Main components" },
+      { "type": "p", "text": "Beyond the belt, a conveyor is made up of several elements whose condition conditions performance and service life:" },
+      {
+        "type": "ul",
+        "items": [
+          "Drive pulley: transmits motion to the belt; its lagging improves grip.",
+          "Tail pulley and tensioner: close the loop and maintain correct tension.",
+          "Support idlers: hold the belt and product on the upper run and guide the return on the lower run.",
+          "Belt scrapers or cleaners: remove product stuck at discharge, key for hygiene.",
+          "Frame: the structure, in stainless steel for hygienic sectors."
+        ]
+      },
+      { "type": "h2", "text": "Drive and tensioning" },
+      { "type": "p", "text": "The drive is sized to move the loaded belt with margin for start-up. A variable frequency drive allows speed to be matched to real throughput and the conveyor to be synchronised with the rest of the line. The tensioning system —by screw or counterweight— keeps the belt's correct tension: neither slack, which slips, nor excessive, which overloads bearings and accelerates wear. Checking tension and tensioning is the most cost-effective maintenance task on a conveyor." },
+      { "type": "h2", "text": "Belt splices" },
+      { "type": "p", "text": "The endless belt is closed with a splice, and the splice type affects durability and hygiene. The vulcanised splice, hot or cold, creates a continuous, smooth and strong joint, preferable in food for its ease of cleaning and for having no elements that retain product. The mechanical splice with clips is faster to install and repair, but leaves a joint that can accumulate product and is less suitable in hygienic sectors. The splice choice is part of the belt specification." },
+      { "type": "h2", "text": "Inclined transport and special belts" },
+      { "type": "p", "text": "When the conveyor must gain height, the maximum angle is limited by product sliding on the belt. With a smooth belt the practical incline is small; with profiled, cleated or transverse-ribbed belts greater angles are reached by retaining product between the reliefs. For bulk product that must rise a lot, there comes a point where a bucket elevator is more efficient than forcing a conveyor's incline. The boundary between the two solutions is a project decision depending on angle, product and throughput." },
+      { "type": "p", "text": "There are also special belts for specific cases: belts with containment edges to prevent side spillage, wire-mesh belts for thermal processes of baking, drying or cooling, and modular belts with cleats for transporting loose product on a slope." },
+      { "type": "h2", "text": "Conveyor safety" },
+      { "type": "p", "text": "Conveyors concentrate entrapment risks at the points where the belt contacts pulleys and idlers. A safe configuration includes:" },
+      {
+        "type": "ul",
+        "items": [
+          "Fixed guards at entrapment points (pulleys, transfers).",
+          "Emergency stops accessible along the run, by pull-cord on long conveyors.",
+          "Signage and interlocks that prevent access with the conveyor running.",
+          "Lockout procedure for cleaning and maintenance."
+        ]
+      },
+      { "type": "p", "text": "As with elevators, most serious conveyor accidents are due to interventions with the equipment running. Lockout is not optional." },
+      { "type": "h2", "text": "Hygiene in regulated sectors" },
+      { "type": "p", "text": "In food and pharma, the conveyor is part of the food-safety chain. Hygienic design aims to eliminate points where product can stay trapped and to favour effective washdown: smooth or tool-free removable modular belts, open stainless steel frames that drain water, no threads or gaps where product accumulates, and scrapers that leave the belt clean on each turn. A conveyor that is hard to clean ends up being a contamination source, however well it transports." },
+      { "type": "h2", "text": "Basic maintenance" },
+      { "type": "p", "text": "Conveyor maintenance is simple but constant. The key tasks are periodic control of belt tension and alignment, review of roller and pulley condition —a seized roller wears the belt and increases consumption—, cleaning of the scrapers and checking of the drive. A misaligned belt wears on one edge and shortens its service life; correcting alignment as soon as a deviation is detected is the most cost-effective intervention. Keeping a record of belt replacements allows the next change to be anticipated and a breakage stop to be avoided." },
+      { "type": "h2", "text": "Energy efficiency" },
+      { "type": "p", "text": "The conveyor belt is one of the most energy-efficient transport methods per unit of product moved, especially horizontally. Matching speed to real throughput with a variable frequency drive, avoiding unnecessarily long runs and keeping the belt well tensioned and aligned reduces consumption and wear. Compared with pneumatic conveying, the conveyor consumes far less to move the same product horizontally." },
+      { "type": "p", "text": "Mechanical condition directly affects consumption: seized rollers, a misaligned belt or incorrect tension force the motor to work harder to move the same load. Maintenance that keeps the conveyor in good condition not only prevents breakdowns, it also reduces the energy bill over the life of the equipment." },
+      { "type": "h2", "text": "Common selection mistakes" },
+      { "type": "p", "text": "When specifying a conveyor, the most common mistakes are choosing too high a speed —which causes spillage and breakage— instead of widening the belt, underestimating the sector's hygiene requirements and, above all, opting for a conveyor when the height to overcome actually calls for a bucket elevator. Defining product, path, throughput and hygiene before comparing units avoids these mistakes and gives comparable offers." },
+      { "type": "h2", "text": "Selection criteria" },
+      {
+        "type": "ol",
+        "items": [
+          "Product to transport: bulk or packaged, particle size and density.",
+          "Path: horizontal, inclined or with curves.",
+          "Target throughput and line speed.",
+          "Hygiene requirements: food contact, frequent washdown, traceability.",
+          "Product and ambient temperature.",
+          "Abrasion resistance according to the product.",
+          "Space constraints and connection points."
+        ]
+      },
+      { "type": "h2", "text": "Hygiene and maintenance" },
+      { "type": "p", "text": "In hygienic sectors, the conveyor must allow effective cleaning: smooth or removable modular belts, stainless steel frames, no retention zones and accessibility for washdown. Basic maintenance includes belt tension and alignment control, roller and pulley condition, and drive review. A misaligned belt wears excessively on one edge and shortens its service life." },
+      { "type": "p", "text": "If you are designing or expanding a transport line, Toromac's engineering team can recommend the most suitable conveyor configuration for your product and, if a height change must be overcome, integrate the corresponding bucket elevator." }
+    ]
+  },
+  "faq": [
+    {
+      "question": {
+        "es": "¿Qué tipo de banda es mejor para alimentación?",
+        "en": "Which belt type is best for food?"
+      },
+      "answer": {
+        "es": "Para transporte sencillo, la banda de PVC o poliuretano alimentaria, lisa y fácil de limpiar. Cuando se necesitan curvas o lavado intensivo, la banda modular de plástico es preferible por su higiene y por permitir reparación módulo a módulo. La malla metálica se reserva para procesos térmicos.",
+        "en": "For simple transport, a food-grade PVC or polyurethane belt, smooth and easy to clean. When curves or intensive washdown are needed, a modular plastic belt is preferable for its hygiene and module-by-module repair. Wire mesh is reserved for thermal processes."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Hasta qué inclinación puede trabajar una cinta?",
+        "en": "Up to what incline can a conveyor work?"
+      },
+      "answer": {
+        "es": "Depende del producto y del tipo de banda. Con banda lisa la inclinación es limitada porque el producto desliza; con bandas de perfiles, tacos o nervios se pueden alcanzar inclinaciones mayores. Para desniveles importantes suele ser más eficiente un elevador de cangilones.",
+        "en": "It depends on the product and the belt type. With a smooth belt the incline is limited because product slides; with profiled, cleated or ribbed belts greater inclines are possible. For significant height changes a bucket elevator is usually more efficient."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cinta transportadora o elevador de cangilones?",
+        "en": "Conveyor belt or bucket elevator?"
+      },
+      "answer": {
+        "es": "La cinta es óptima para transporte horizontal o en ligera inclinación; el elevador de cangilones, para salvar desniveles verticales con poca ocupación de planta. En muchas líneas se combinan: la cinta transporta en horizontal y el elevador eleva. La decisión depende del desnivel a salvar.",
+        "en": "The conveyor is optimal for horizontal or slightly inclined transport; the bucket elevator, for overcoming vertical height with a small footprint. In many lines they combine: the conveyor moves horizontally and the elevator lifts. The decision depends on the height to overcome."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Las cintas de Toromac son aptas para limpieza intensiva?",
+        "en": "Are Toromac conveyors suitable for intensive cleaning?"
+      },
+      "answer": {
+        "es": "Sí. Para sectores higiénicos se configuran con bandas lisas o modulares desmontables, bastidores en acero inoxidable y geometrías sin zonas de retención, con accesibilidad para el lavado. La configuración concreta se define según el sector y la frecuencia de limpieza.",
+        "en": "Yes. For hygienic sectors they are configured with smooth or removable modular belts, stainless steel frames and geometries with no retention zones, with accessibility for washdown. The specific configuration is defined according to the sector and cleaning frequency."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué mantenimiento necesita una cinta transportadora?",
+        "en": "What maintenance does a conveyor belt need?"
+      },
+      "answer": {
+        "es": "Control periódico de la tensión y la alineación de la banda, revisión del estado de rodillos y tambores, y comprobación del accionamiento. Una banda mal alineada se desgasta por un borde y reduce su vida útil, por lo que corregir la alineación a tiempo es clave.",
+        "en": "Periodic control of belt tension and alignment, review of roller and pulley condition, and check of the drive. A misaligned belt wears on one edge and shortens its service life, so correcting alignment in time is key."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Se puede integrar la cinta con un elevador en la misma línea?",
+        "en": "Can the conveyor be integrated with an elevator in the same line?"
+      },
+      "answer": {
+        "es": "Sí, es lo habitual. Toromac fabrica cintas transportadoras y elevadores de cangilones como parte de la misma línea de elevación y transporte, lo que facilita la integración de transporte horizontal y elevación vertical en un único conjunto coordinado.",
+        "en": "Yes, it is the usual approach. Toromac manufactures conveyor belts and bucket elevators as part of the same elevation and transport line, which eases the integration of horizontal transport and vertical lifting into a single coordinated assembly."
+      }
+    }
+  ],
+  "tags": {
+    "es": ["cinta transportadora", "cinta transportadora industrial", "transporte industrial", "banda modular"],
+    "en": ["conveyor belt", "industrial conveyor belt", "industrial transport", "modular belt"]
+  }
+}

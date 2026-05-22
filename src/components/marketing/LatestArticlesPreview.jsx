@@ -5,57 +5,15 @@ import Container from '../ui/Container';
 import Eyebrow from './Eyebrow';
 import ArticleCard from '../ui/ArticleCard';
 import { useLang } from '../../hooks/useLang';
-
-// Placeholder hasta que existan articulos reales (Fase 6).
-const PLACEHOLDER_ARTICLES = [
-  {
-    id: 'guia-tipos-cangilones-elevadores',
-    slug: { es: 'guia-tipos-cangilones-elevadores', en: 'guide-bucket-types-elevators' },
-    publishedAt: '2026-04-12T10:00:00Z',
-    category: { es: 'Cangilones', en: 'Buckets' },
-    title: {
-      es: 'Guía completa sobre tipos de cangilones para elevadores',
-      en: 'Complete guide to bucket types for elevators',
-    },
-    metaDescription: {
-      es: 'Comparativa técnica de cangilones por material, geometría y aplicación. Criterios de selección para ingeniería de proceso.',
-      en: 'Technical comparison of buckets by material, geometry and application. Selection criteria for process engineering.',
-    },
-  },
-  {
-    id: 'elevador-z-seleccion-comparativa',
-    slug: { es: 'elevador-cangilones-tipo-z-seleccion', en: 'z-type-bucket-elevator-selection' },
-    publishedAt: '2026-03-28T10:00:00Z',
-    category: { es: 'Elevación', en: 'Elevation' },
-    title: {
-      es: 'Elevador de cangilones tipo Z: guía de selección y comparativa',
-      en: 'Z-type bucket elevator: selection guide and comparison',
-    },
-    metaDescription: {
-      es: 'Cuándo elegir un elevador tipo Z frente a tipo C u O. Capacidad, ocupación de espacio y consumo energético.',
-      en: 'When to pick a Z-type elevator over C-type or O-type. Capacity, footprint and energy consumption.',
-    },
-  },
-  {
-    id: 'checklist-mantenimiento-elevadores',
-    slug: { es: 'checklist-mantenimiento-elevadores-cangilones', en: 'maintenance-checklist-bucket-elevators' },
-    publishedAt: '2026-03-10T10:00:00Z',
-    category: { es: 'Mantenimiento', en: 'Maintenance' },
-    title: {
-      es: 'Checklist de mantenimiento para elevadores de cangilones',
-      en: 'Maintenance checklist for bucket elevators',
-    },
-    metaDescription: {
-      es: 'Inspecciones diarias, semanales y trimestrales para alargar la vida útil del equipo y reducir paradas no programadas.',
-      en: 'Daily, weekly and quarterly inspections to extend equipment life and reduce unplanned downtime.',
-    },
-  },
-];
+import { getLatestArticles, getCategoryLabel } from '../../hooks/useArticles';
 
 export default function LatestArticlesPreview() {
   const { t } = useTranslation();
   const { lang, isEn } = useLang();
   const newsHref = isEn ? '/en/news' : '/novedades';
+  const articles = getLatestArticles(3);
+
+  if (articles.length === 0) return null;
 
   return (
     <section className="bg-white">
@@ -80,12 +38,12 @@ export default function LatestArticlesPreview() {
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {PLACEHOLDER_ARTICLES.map((a) => (
+          {articles.map((a) => (
             <ArticleCard
               key={a.id}
               article={a}
               lang={lang}
-              categoryLabel={a.category[lang] || a.category.es}
+              categoryLabel={getCategoryLabel(a.category, lang)}
             />
           ))}
         </div>
