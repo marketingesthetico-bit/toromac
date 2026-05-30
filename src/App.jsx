@@ -25,6 +25,7 @@ import ContactEn from './pages/en/Contact';
 import QuoteEn from './pages/en/Quote';
 
 import { detectLang } from './utils/seo';
+import { trackPageview } from './utils/analytics';
 
 function LangSync() {
   const location = useLocation();
@@ -41,6 +42,8 @@ function ScrollToTop() {
   const location = useLocation();
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
+    // GA4: pageview por cada cambio de ruta (SPA).
+    trackPageview(location.pathname);
   }, [location.pathname]);
   return null;
 }
