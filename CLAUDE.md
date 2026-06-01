@@ -453,7 +453,7 @@ Schema JSON-LD por tipo de página:
 Lee la siguiente fila con `estado = pendiente` del Google Sheet.
 
 **Nodo 2 — HTTP Request (Serper.dev)**
-POST a `https://google.serper.dev/search` con header `X-API-KEY: {{SERPER_API_KEY}}` y body JSON `{"q":"{{keyword_es}}","gl":"es","hl":"es","num":10}`. Lee `organic[]` y extrae URLs de los 8–10 primeros resultados orgánicos.
+POST a `https://google.serper.dev/search` con header `X-API-KEY: {{$env.TOROMAC_SERPER_API_KEY}}` y body JSON `{"q":"{{keyword_es}}","gl":"es","hl":"es","num":10}`. Lee `organic[]` y extrae URLs de los 8–10 primeros resultados orgánicos.
 
 **Nodo 3 — HTTP Request (fetch contenido competidores)**
 Para cada URL, hace fetch del contenido. Extrae: estructura de H2/H3, longitud aproximada, preguntas PAA presentes, subtemas cubiertos.
@@ -488,7 +488,7 @@ Si algún campo falla: regenera solo ese campo y continúa.
 
 **Nodo 8 — HTTP Request (endpoint Toromac)**
 POST a `https://toromac.com/api/publish-article`  
-Header: `Authorization: Bearer {{PUBLISH_SECRET}}`  
+Header: `Authorization: Bearer {{$env.TOROMAC_PUBLISH_SECRET}}`  
 Body JSON:
 ```json
 {

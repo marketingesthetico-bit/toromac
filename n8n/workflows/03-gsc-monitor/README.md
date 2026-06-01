@@ -15,8 +15,8 @@
 ```
 [1] Cron Trigger (diario)
   ↓
-[2] HTTP: GET searchconsole.googleapis.com/v1/sites/{{GSC_SITE_URL}}/urlInspection/index:inspect
-    (Para top 10 URLs estratégicas — definidas en Variable URLS_PRIORITARIAS)
+[2] HTTP: GET searchconsole.googleapis.com/v1/sites/{{$env.TOROMAC_GSC_SITE_URL}}/urlInspection/index:inspect
+    (Para top 10 URLs estratégicas — definidas en env var TOROMAC_URLS_PRIORITARIAS)
   ↓
 [3] Code (JS): detectar URLs con coverageState != "Submitted and indexed"
   ↓
@@ -60,9 +60,11 @@
 ## Variables
 
 ```
-URLS_PRIORITARIAS=https://toromac.com/,https://toromac.com/productos/,https://toromac.com/productos/elevador-cangilones-tipo-z,https://toromac.com/novedades/,...
-GSC_SITE_URL=sc-domain:toromac.com   (o https://toromac.com/ si se verificó por URL)
+TOROMAC_URLS_PRIORITARIAS=https://toromac.com/,https://toromac.com/productos,https://toromac.com/productos/elevador-cangilones-tipo-z,https://toromac.com/novedades,https://toromac.com/en,...
+TOROMAC_GSC_SITE_URL=sc-domain:toromac.com   (o https://toromac.com/ si se verificó por URL)
 ```
+
+Acceso en n8n: `{{$env.TOROMAC_URLS_PRIORITARIAS}}` (splittear por coma en un nodo Code).
 
 ---
 

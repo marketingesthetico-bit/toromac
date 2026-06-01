@@ -12,7 +12,7 @@ Ver [`credentials-checklist.md`](credentials-checklist.md). Configura primero la
 2. Crear 5 pestañas con los nombres exactos: `keywords-backlog`, `competitor-findings`, `gsc-issues`, `seo-changelog`, `monthly-reports`.
 3. Copiar las cabeceras de [`../sheet-schemas/README.md`](../sheet-schemas/README.md) en la primera fila de cada pestaña.
 4. Compartir la hoja con el email del service account (Editor).
-5. Anotar el `SHEET_ID` (de la URL).
+5. Anotar el `SHEET_ID` (de la URL). Va a Render como `TOROMAC_SHEET_ID`.
 
 ## 3. Rellenar el backlog inicial
 
@@ -23,8 +23,8 @@ En la pestaña `keywords-backlog`, añade las keywords de partida. Como referenc
 En el dashboard de Vercel del proyecto Toromac, añadir las nuevas:
 - `VITE_GA_ID` (público, expuesto al cliente)
 - `VITE_GSC_VERIFICATION` (público) o verificar GSC por DNS y dejar vacío
-- `PUBLISH_SECRET` (privado, mismo valor en n8n)
-- `GITHUB_TOKEN` (privado)
+- `PUBLISH_SECRET` (privado; duplicado en Render como `TOROMAC_PUBLISH_SECRET`)
+- `GITHUB_TOKEN` (privado; duplicado en Render como `TOROMAC_GITHUB_TOKEN`)
 - `GITHUB_REPO` (ya estaba)
 
 Reploiar para que los `VITE_` lleguen al cliente.
@@ -72,7 +72,7 @@ Para que los workflows se entiendan entre sí, usa estos **nombres exactos** al 
 | `Toromac GitHub` | HTTP Header Auth (`Authorization: Bearer <PAT>`) |
 | `Toromac Serper` | HTTP Header Auth (`X-API-KEY: <key>`) |
 | `Toromac Google` | Google Service Account (cubre Sheets, GA4, GSC) |
-| `Toromac Vercel API` | HTTP Header Auth (`Authorization: Bearer <PUBLISH_SECRET>`) |
+| `Toromac Vercel API` | HTTP Header Auth (`Authorization: Bearer {{$env.TOROMAC_PUBLISH_SECRET}}`) — o se inyecta directo desde la env var en cada nodo HTTP sin necesidad de credential separada |
 | `Toromac Telegram` | Telegram (bot token) |
 
 Los specs de cada workflow asumen estos nombres.

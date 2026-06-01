@@ -19,7 +19,7 @@
 [4] Sheets: Update estado=en_proceso (lock)
   ↓
 [5] HTTP: Serper.dev search → POST https://google.serper.dev/search
-     Header: X-API-KEY: {{SERPER_API_KEY}}
+     Header: X-API-KEY: {{$env.TOROMAC_SERPER_API_KEY}}
      Body JSON: {"q":"{{keyword_es}}","gl":"es","hl":"es","num":10}
   ↓
 [6] Code (JS): de la respuesta, leer `organic[]` (NO `organic_results`) → extraer top 8 URLs
@@ -250,7 +250,7 @@ Si `pass=false` y hay issues `critical`, el workflow bucle al nodo de redacción
 URL: https://toromac.com/api/publish-article
 Method: POST
 Headers:
-  Authorization: Bearer {{PUBLISH_SECRET}}
+  Authorization: Bearer {{$env.TOROMAC_PUBLISH_SECRET}}
   Content-Type: application/json
 Body:
   {

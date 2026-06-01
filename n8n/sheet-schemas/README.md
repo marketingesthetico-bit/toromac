@@ -1,6 +1,6 @@
 # Google Sheet — esquema de las 5 pestañas
 
-Una única hoja de cálculo con 5 pestañas. Comparte la hoja con el email del service account (rol Editor). El `SHEET_ID` es la única variable que los workflows necesitan; cada agente sabe qué pestaña usar.
+Una única hoja de cálculo con 5 pestañas. Comparte la hoja con el email del service account (rol Editor). El `TOROMAC_SHEET_ID` (env var en Render) es la única variable que los workflows necesitan; cada agente sabe qué pestaña usar.
 
 ## Pestaña 1: `keywords-backlog`
 

@@ -8,7 +8,7 @@ n8n tiene un nodo nativo de Telegram. Cada workflow lo usa para alertas y para c
 
 ## Chat ID
 
-`{{TELEGRAM_CHAT_ID}}` como variable global. Para un grupo, el ID es negativo (`-1001234567890`). Para un usuario, positivo.
+`{{$env.TOROMAC_TELEGRAM_CHAT_ID}}` como variable global. Para un grupo, el ID es negativo (`-1001234567890`). Para un usuario, positivo.
 
 ## Formato de los mensajes
 

@@ -12,12 +12,12 @@
 ```
 [1] Cron Trigger (semanal)
   ↓
-[2] Variable: TARGET_KEYWORDS_ES (lista) + COMPETITORS (lista de dominios a vigilar)
+[2] Variable: $env.TOROMAC_TARGET_KEYWORDS_ES (lista) + $env.TOROMAC_COMPETITORS (lista de dominios a vigilar)
   ↓
 [3] Loop por keyword:
     ↓
     [3a] Serper.dev → POST https://google.serper.dev/search
-         Header: X-API-KEY: {{SERPER_API_KEY}}
+         Header: X-API-KEY: {{$env.TOROMAC_SERPER_API_KEY}}
          Body JSON: {"q":"{{keyword}}","gl":"es","hl":"es","num":20}
          Respuesta: leer `organic[]`
     ↓
@@ -90,11 +90,13 @@ Criterios para asignar:
 
 ## Selección de competidores
 
-La lista `COMPETITORS` se mantiene como variable de n8n. Inicio (basado en SERP real de keywords objetivo):
+La lista `TOROMAC_COMPETITORS` se mantiene como env var en Render. Inicio (basado en SERP real de keywords objetivo):
 
 ```
-COMPETITORS=sinfimasa.com,marobera.com,maquinariatadel.com,ulmapackaging.com,rovema.com,grupoegasa.com
+TOROMAC_COMPETITORS=sinfimasa.com,marobera.com,maquinariatadel.com,ulmapackaging.com,rovema.com,grupoegasa.com
 ```
+
+Se lee en el workflow como `{{$env.TOROMAC_COMPETITORS}}` y se splittea por coma en un nodo Code.
 
 Ajustar según el sector real. Cualquier dominio que aparezca en top 10 para más de 3 de nuestras keywords objetivo debería entrar. La lista se irá actualizando automáticamente cuando el Competitor Analyzer detecte nuevos dominios recurrentes en top 10 — los irá apuntando en `seo-changelog` como candidatos a añadir.
 
