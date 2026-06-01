@@ -3,7 +3,7 @@
 **Misión:** generar 2 artículos bilingües por semana (ES + EN, ≥2.000 palabras cada uno, con tabla técnica, ≥5 FAQs y CTA a producto) sobre keywords del backlog, y publicarlos automáticamente vía `/api/publish-article`.
 
 **Cron:** Lunes y Jueves 09:00 (UTC+1).
-**Credentials usadas:** `Toromac Google` (Sheets), `Toromac SerpAPI`, `Toromac OpenAI`, `Toromac Anthropic`, `Toromac Vercel API`, `Toromac Telegram`.
+**Credentials usadas:** `Toromac Google` (Sheets), `Toromac Serper`, `Toromac OpenAI`, `Toromac Anthropic`, `Toromac Vercel API`, `Toromac Telegram`.
 
 ---
 
@@ -18,9 +18,11 @@
   ↓
 [4] Sheets: Update estado=en_proceso (lock)
   ↓
-[5] HTTP: SerpAPI search (q={{keyword_es}}, gl=es, hl=es, num=10)
+[5] HTTP: Serper.dev search → POST https://google.serper.dev/search
+     Header: X-API-KEY: {{SERPER_API_KEY}}
+     Body JSON: {"q":"{{keyword_es}}","gl":"es","hl":"es","num":10}
   ↓
-[6] Code (JS): extraer top 8 URLs orgánicas y construir lista
+[6] Code (JS): de la respuesta, leer `organic[]` (NO `organic_results`) → extraer top 8 URLs
   ↓
 [7] HTTP loop: fetch contenido de cada URL (parallel, timeout 15s)
   ↓
@@ -265,7 +267,7 @@ Nota: el endpoint escribe en `src/data/articles/es/<slug-es>.json` y `src/data/a
 
 | Error | Acción |
 |---|---|
-| SerpAPI 429 | Reintentar 2 veces con backoff exponencial. Si falla, marcar `error_temporal`. |
+| Serper.dev 429 | Reintentar 2 veces con backoff exponencial. Si falla, marcar `error_temporal`. |
 | Anthropic timeout | Reintentar 1 vez. Si falla, marcar `error_temporal`. |
 | Publish-article 401 | Crítico: PUBLISH_SECRET mal. Parar y Telegram urgente. |
 | Publish-article 502 | GitHub rate limit. Reintentar en 5 min. |

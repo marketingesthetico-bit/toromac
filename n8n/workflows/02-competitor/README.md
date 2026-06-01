@@ -3,7 +3,7 @@
 **Misión:** vigilar semanalmente nuestra posición frente a competidores en las keywords objetivo, identificar dónde nos superan y por qué, y proponer acciones concretas para el Writer (nuevo artículo) o para el On-site Modifier (mejora de página existente).
 
 **Cron:** Viernes 06:00 (UTC+1) — analiza el lote semanal completo.
-**Credentials:** `Toromac Google` (Sheets), `Toromac SerpAPI`, `Toromac Anthropic`, `Toromac Vercel API` (opcional, para encadenar al Writer), `Toromac Telegram`.
+**Credentials:** `Toromac Google` (Sheets), `Toromac Serper`, `Toromac Anthropic`, `Toromac Vercel API` (opcional, para encadenar al Writer), `Toromac Telegram`.
 
 ---
 
@@ -16,7 +16,10 @@
   ↓
 [3] Loop por keyword:
     ↓
-    [3a] SerpAPI search (gl=es, hl=es, num=20)
+    [3a] Serper.dev → POST https://google.serper.dev/search
+         Header: X-API-KEY: {{SERPER_API_KEY}}
+         Body JSON: {"q":"{{keyword}}","gl":"es","hl":"es","num":20}
+         Respuesta: leer `organic[]`
     ↓
     [3b] Code: identificar posición Toromac + posiciones de cada competidor de la lista
     ↓
@@ -87,13 +90,13 @@ Criterios para asignar:
 
 ## Selección de competidores
 
-La lista `COMPETITORS` se mantiene como variable de n8n. Inicio sugerido:
+La lista `COMPETITORS` se mantiene como variable de n8n. Inicio (basado en SERP real de keywords objetivo):
 
 ```
-COMPETITORS=ulmapackaging.com,rovema.com,grupoegasa.com,maquinariaalimentaria.com,industriasleblan.com
+COMPETITORS=sinfimasa.com,marobera.com,maquinariatadel.com,ulmapackaging.com,rovema.com,grupoegasa.com
 ```
 
-Ajustar según el sector real. Cualquier dominio que aparezca en top 10 para más de 3 de nuestras keywords objetivo debería entrar.
+Ajustar según el sector real. Cualquier dominio que aparezca en top 10 para más de 3 de nuestras keywords objetivo debería entrar. La lista se irá actualizando automáticamente cuando el Competitor Analyzer detecte nuevos dominios recurrentes en top 10 — los irá apuntando en `seo-changelog` como candidatos a añadir.
 
 ---
 

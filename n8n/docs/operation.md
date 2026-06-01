@@ -35,7 +35,7 @@ Desactivar los 6 workflows. Las visitas a la web siguen funcionando: los agentes
 2. Click en el nodo rojo → ver el payload de entrada y el error.
 3. Causas más comunes:
    - **Credential caducada** (especialmente PAT GitHub o API key Anthropic con límite).
-   - **Rate limit** en SerpAPI / Anthropic / OpenAI.
+   - **Rate limit** en Serper.dev / Anthropic / OpenAI.
    - **Sheet ID o pestaña mal nombrada**.
    - **Endpoint `/api/*` devuelve 401** → revisar PUBLISH_SECRET en n8n vs Vercel.
    - **GitHub 422 al crear branch/PR** → ya existe rama con ese nombre; el slugBranch añade timestamp así que rarísimo.
@@ -58,13 +58,13 @@ Estimación mensual orientativa (varía por uso real):
 |---|---|
 | Anthropic (Claude Sonnet) | 30–80 USD según volumen de artículos y análisis |
 | OpenAI (GPT-4o-mini) | 5–15 USD |
-| SerpAPI | 50 USD (plan básico, 5.000 búsquedas) o equivalente |
+| Serper.dev | 0–50 USD según volumen (free tier 2.500 búsquedas iniciales; pack de 50.000 ~50 USD) |
 | Resend | Gratis hasta 100/día, normalmente sobra |
 | Google APIs | Gratis dentro de cuotas estándar |
 | Telegram | Gratis |
 | n8n en Render | Lo que ya pagas |
 
-El cuello más probable es SerpAPI. Si crece el volumen, evaluar DataForSEO o cache de SERPs.
+El cuello más probable es Serper.dev en volumen muy alto. Si se nota, evaluar cache de SERPs (deduplicar búsquedas de la misma keyword en 7 días) o pasarse a DataForSEO.
 
 ## Cambios futuros
 

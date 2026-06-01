@@ -11,7 +11,7 @@ Todas estas claves se configuran como **Credentials** en n8n (no como variables 
 | `PUBLISH_SECRET` (vercel + n8n) | Genera con `openssl rand -hex 32` o cualquier UUID v4 | Bearer de los 3 endpoints |
 | `ANTHROPIC_API_KEY` (n8n) | console.anthropic.com → API Keys | Writer (redacción), Competitor (análisis), Reviewer (validación), On-site (propuestas) |
 | `OPENAI_API_KEY` (n8n) | platform.openai.com → API keys | Writer (briefs), revisión SEO ligera |
-| `SERPAPI_KEY` (n8n) | serpapi.com (o equivalente: DataForSEO, Serper.dev) | Writer, Competitor Analyzer |
+| `SERPER_API_KEY` (n8n) | [serper.dev](https://serper.dev) → Dashboard → API Key | Writer, Competitor Analyzer |
 
 ## Google APIs (1 service account cubre las 3)
 
@@ -71,6 +71,6 @@ Antes de activar workflows en producción:
 - [ ] Endpoint `/api/agent-report` envía un email de prueba a `marketingesthetico@gmail.com`.
 - [ ] Bot de Telegram responde con un mensaje de "Toromac SEO online" enviado manualmente.
 - [ ] Service account tiene acceso GA4, GSC y al Sheet (verificar leyendo una métrica de prueba).
-- [ ] SerpAPI key tiene créditos disponibles y devuelve resultados para una keyword test.
+- [ ] Serper.dev key tiene créditos disponibles y devuelve resultados para una keyword test (verificar con `curl -X POST https://google.serper.dev/search -H "X-API-KEY: <key>" -H "Content-Type: application/json" -d '{"q":"elevador cangilones tipo z","gl":"es","hl":"es","num":3}'`).
 - [ ] El Sheet tiene las 5 hojas con las cabeceras del `sheet-schemas/`.
 - [ ] El primer artículo de prueba completa el ciclo Writer end-to-end y aparece live tras el build Vercel.

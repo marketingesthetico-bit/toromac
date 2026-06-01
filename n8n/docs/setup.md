@@ -70,7 +70,7 @@ Para que los workflows se entiendan entre sí, usa estos **nombres exactos** al 
 | `Toromac Anthropic` | Anthropic API |
 | `Toromac OpenAI` | OpenAI API |
 | `Toromac GitHub` | HTTP Header Auth (`Authorization: Bearer <PAT>`) |
-| `Toromac SerpAPI` | Header Auth o Query Auth con la key |
+| `Toromac Serper` | HTTP Header Auth (`X-API-KEY: <key>`) |
 | `Toromac Google` | Google Service Account (cubre Sheets, GA4, GSC) |
 | `Toromac Vercel API` | HTTP Header Auth (`Authorization: Bearer <PUBLISH_SECRET>`) |
 | `Toromac Telegram` | Telegram (bot token) |

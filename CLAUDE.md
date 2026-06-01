@@ -452,8 +452,8 @@ Schema JSON-LD por tipo de página:
 **Nodo 1 — Cron Trigger**
 Lee la siguiente fila con `estado = pendiente` del Google Sheet.
 
-**Nodo 2 — HTTP Request (SerpAPI)**
-Búsqueda web de `keyword_es`. Extrae URLs de los 8–10 primeros resultados orgánicos.
+**Nodo 2 — HTTP Request (Serper.dev)**
+POST a `https://google.serper.dev/search` con header `X-API-KEY: {{SERPER_API_KEY}}` y body JSON `{"q":"{{keyword_es}}","gl":"es","hl":"es","num":10}`. Lee `organic[]` y extrae URLs de los 8–10 primeros resultados orgánicos.
 
 **Nodo 3 — HTTP Request (fetch contenido competidores)**
 Para cada URL, hace fetch del contenido. Extrae: estructura de H2/H3, longitud aproximada, preguntas PAA presentes, subtemas cubiertos.
@@ -662,7 +662,7 @@ toromac/
 
 ### Fase 7 — Flujo n8n + auditoría + lanzamiento
 - [ ] Construir workflow n8n desde cero en la instancia de Render (8 nodos según sección 12)
-- [ ] Configurar credenciales en n8n: Google Sheets, SerpAPI, OpenAI, Anthropic, HTTP Request con Bearer
+- [ ] Configurar credenciales en n8n: Google Sheets, Serper.dev, OpenAI, Anthropic, HTTP Request con Bearer
 - [ ] Probar ejecución manual del workflow end-to-end
 - [ ] Verificar que el artículo aparece en producción tras el commit de n8n
 - [ ] Auditoría Lighthouse en todas las páginas principales (objetivo: 95+ en todos los apartados)
