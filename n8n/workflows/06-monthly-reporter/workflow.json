@@ -29,7 +29,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=https://searchconsole.googleapis.com/v1/sites/{{ encodeURIComponent($json.siteUrl) }}/searchAnalytics/query",
+        "url": "=https://searchconsole.googleapis.com/webmasters/v3/sites/{{ encodeURIComponent($json.siteUrl) }}/searchAnalytics/query",
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "googleOAuth2Api",
         "sendHeaders": true,
@@ -53,7 +53,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "=https://searchconsole.googleapis.com/v1/sites/{{ encodeURIComponent($('Calc Date Range').item.json.siteUrl) }}/searchAnalytics/query",
+        "url": "=https://searchconsole.googleapis.com/webmasters/v3/sites/{{ encodeURIComponent($('Calc Date Range').item.json.siteUrl) }}/searchAnalytics/query",
         "authentication": "predefinedCredentialType",
         "nodeCredentialType": "googleOAuth2Api",
         "sendHeaders": true,
