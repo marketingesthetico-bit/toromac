@@ -213,8 +213,8 @@
   ],
   "connections": {
     "Schedule Trigger": { "main": [[{ "node": "Calc Date Range", "type": "main", "index": 0 }]] },
-    "Calc Date Range": { "main": [[{ "node": "GSC Month Data", "type": "main", "index": 0 }, { "node": "GSC Top Pages", "type": "main", "index": 0 }]] },
-    "GSC Month Data": { "main": [[{ "node": "Build Report Payload", "type": "main", "index": 0 }]] },
+    "Calc Date Range": { "main": [[{ "node": "GSC Month Data", "type": "main", "index": 0 }]] },
+    "GSC Month Data": { "main": [[{ "node": "GSC Top Pages", "type": "main", "index": 0 }]] },
     "GSC Top Pages": { "main": [[{ "node": "Build Report Payload", "type": "main", "index": 0 }]] },
     "Build Report Payload": { "main": [[{ "node": "POST /api/agent-report", "type": "main", "index": 0 }]] },
     "POST /api/agent-report": { "main": [[{ "node": "Append Monthly Report", "type": "main", "index": 0 }, { "node": "Build Backlog Opportunities", "type": "main", "index": 0 }]] },
