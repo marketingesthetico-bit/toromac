@@ -193,7 +193,7 @@
     {
       "parameters": {
         "chatId": "-5142553799",
-        "text": "=🔍 [Competitor] Gap detectado\nKeyword: {{ $json.keyword }}\nCompetidor: {{ $json.topCompetitor.domain }} (pos {{ $json.topCompetitor.position }})\nToromac: pos {{ $json.toromacPos || 'no aparece en top 20' }}\nAcción: {{ $json.analysis.accion_propuesta.tipo }} ({{ $json.analysis.accion_propuesta.asignado_a }}, {{ $json.analysis.accion_propuesta.prioridad }})",
+        "text": "=🔍 [Competitor] Gap detectado\nKeyword: {{ $('Parse Analysis').item.json.keyword }}\nCompetidor: {{ $('Parse Analysis').item.json.topCompetitor.domain }} (pos {{ $('Parse Analysis').item.json.topCompetitor.position }})\nToromac: pos {{ $('Parse Analysis').item.json.toromacPos || 'no aparece en top 20' }}\nAcción: {{ $('Parse Analysis').item.json.analysis.accion_propuesta.tipo }} ({{ $('Parse Analysis').item.json.analysis.accion_propuesta.asignado_a }}, {{ $('Parse Analysis').item.json.analysis.accion_propuesta.prioridad }})",
         "additionalFields": {}
       },
       "id": "22222222-2222-2222-2222-222222220010",
