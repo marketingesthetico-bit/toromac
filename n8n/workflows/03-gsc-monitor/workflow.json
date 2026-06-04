@@ -1,0 +1,175 @@
+{
+  "name": "Toromac · 03 GSC Monitor",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "0 0 7 * * 1" }
+          ]
+        }
+      },
+      "id": "33333333-3333-3333-3333-333333330001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-1200, 0],
+      "notes": "Lunes 07:00 UTC — scan semanal de GSC"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Calcula fechas: últimos 7 días vs los 7 anteriores (para detectar tendencias).\nconst end = new Date();\nconst start = new Date(end.getTime() - 7 * 24 * 60 * 60 * 1000);\nconst prevEnd = new Date(start.getTime() - 1 * 24 * 60 * 60 * 1000);\nconst prevStart = new Date(prevEnd.getTime() - 7 * 24 * 60 * 60 * 1000);\nconst fmt = d => d.toISOString().slice(0, 10);\nreturn [{\n  json: {\n    currentRange: { start: fmt(start), end: fmt(end) },\n    previousRange: { start: fmt(prevStart), end: fmt(prevEnd) },\n    siteUrl: $env.TOROMAC_GSC_SITE_URL\n  }\n}];"
+      },
+      "id": "33333333-3333-3333-3333-333333330002",
+      "name": "Build Date Ranges",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-1000, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://searchconsole.googleapis.com/v1/sites/{{ encodeURIComponent($json.siteUrl) }}/searchAnalytics/query",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleOAuth2Api",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  startDate: $json.currentRange.start,\n  endDate: $json.currentRange.end,\n  dimensions: ['query', 'page'],\n  rowLimit: 200\n}) }}",
+        "options": { "timeout": 60000 }
+      },
+      "id": "33333333-3333-3333-3333-333333330003",
+      "name": "GSC Current Week",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-800, 0],
+      "credentials": {
+        "googleOAuth2Api": { "id": "PENDING_REBIND", "name": "Toromac GSC OAuth" }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Detecta issues a partir de los datos GSC:\n// - LOW_CTR: queries con impresiones >50 y CTR <1%\n// - GENERIC: cualquier query con posición media >20 e impresiones >100 (oportunidad)\nconst data = $input.first().json;\nconst rows = data.rows || [];\nconst issues = [];\nfor (const r of rows) {\n  const [query, page] = r.keys;\n  const { clicks = 0, impressions = 0, ctr = 0, position = 0 } = r;\n  // CTR bajo con tráfico\n  if (impressions > 50 && ctr < 0.01) {\n    issues.push({\n      tipo: 'LOW_CTR',\n      severidad: impressions > 200 ? 'alta' : 'media',\n      url: page,\n      detalle: `Query \"${query}\" — ${impressions} impresiones, CTR ${(ctr*100).toFixed(2)}%`,\n      metrica: `CTR ${(ctr*100).toFixed(2)}% en ${impressions} imp`,\n      accion_propuesta: 'Revisar title/meta para mejorar CTR'\n    });\n  }\n  // Oportunidad: posición lejana con impresiones (no es realmente un \"issue\" pero lo registramos)\n  if (impressions > 100 && position > 20) {\n    issues.push({\n      tipo: 'OPPORTUNITY',\n      severidad: 'baja',\n      url: page,\n      detalle: `Query \"${query}\" — posición ${position.toFixed(1)} con ${impressions} imp`,\n      metrica: `pos ${position.toFixed(1)} · ${impressions} imp`,\n      accion_propuesta: 'Candidata a artículo nuevo del Writer'\n    });\n  }\n}\nconst critical = issues.filter(i => i.severidad === 'alta');\nreturn [{\n  json: {\n    total_rows: rows.length,\n    total_issues: issues.length,\n    critical_count: critical.length,\n    issues,\n    critical\n  }\n}];"
+      },
+      "id": "33333333-3333-3333-3333-333333330004",
+      "name": "Detect Issues",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-600, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Itera issues en items separados para append en Sheet.\nreturn $input.first().json.issues.map(i => ({ json: i }));"
+      },
+      "id": "33333333-3333-3333-3333-333333330005",
+      "name": "Split Issues",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-400, 0]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.TOROMAC_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gsc-issues",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "fecha": "={{ $now.toISO() }}",
+            "tipo": "={{ $json.tipo }}",
+            "severidad": "={{ $json.severidad }}",
+            "url_afectada": "={{ $json.url }}",
+            "detalle": "={{ $json.detalle }}",
+            "metrica": "={{ $json.metrica }}",
+            "accion_propuesta": "={{ $json.accion_propuesta }}",
+            "estado": "nuevo"
+          }
+        },
+        "options": {}
+      },
+      "id": "33333333-3333-3333-3333-333333330006",
+      "name": "Append Issue Row",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [-200, 0],
+      "credentials": {
+        "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.TOROMAC_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "seo-changelog",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "timestamp": "={{ $now.toISO() }}",
+            "agente": "gsc",
+            "accion": "weekly_scan",
+            "target": "={{ $('Build Date Ranges').item.json.siteUrl }}",
+            "resultado": "=success ({{ $('Detect Issues').item.json.total_issues }} issues)"
+          }
+        },
+        "options": {}
+      },
+      "id": "33333333-3333-3333-3333-333333330007",
+      "name": "Append Changelog",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [0, 100],
+      "credentials": {
+        "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "-5142553799",
+        "text": "=📊 [GSC] Weekly scan completado\nRows analizadas: {{ $('Detect Issues').item.json.total_rows }}\nIssues detectadas: {{ $('Detect Issues').item.json.total_issues }}\nCríticas: {{ $('Detect Issues').item.json.critical_count }}\nRevisa gsc-issues en la Sheet.",
+        "additionalFields": {}
+      },
+      "id": "33333333-3333-3333-3333-333333330008",
+      "name": "Telegram Summary",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [200, 100],
+      "credentials": {
+        "telegramApi": { "id": "PENDING_REBIND", "name": "Toromac Telegram" }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": { "main": [[{ "node": "Build Date Ranges", "type": "main", "index": 0 }]] },
+    "Build Date Ranges": { "main": [[{ "node": "GSC Current Week", "type": "main", "index": 0 }]] },
+    "GSC Current Week": { "main": [[{ "node": "Detect Issues", "type": "main", "index": 0 }]] },
+    "Detect Issues": { "main": [[{ "node": "Split Issues", "type": "main", "index": 0 }, { "node": "Append Changelog", "type": "main", "index": 0 }]] },
+    "Split Issues": { "main": [[{ "node": "Append Issue Row", "type": "main", "index": 0 }]] },
+    "Append Changelog": { "main": [[{ "node": "Telegram Summary", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false,
+  "tags": []
+}

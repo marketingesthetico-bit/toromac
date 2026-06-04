@@ -1,0 +1,227 @@
+{
+  "name": "Toromac · 06 Monthly Reporter",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "0 0 8 1 * *" }
+          ]
+        }
+      },
+      "id": "66666666-6666-6666-6666-666666660001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-1200, 0],
+      "notes": "Día 1 de cada mes 08:00 UTC — informe mensual"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Calcula rangos del mes anterior (no del mes en curso, que estaría incompleto).\nconst now = new Date();\nconst endOfPrevMonth = new Date(now.getFullYear(), now.getMonth(), 0);\nconst startOfPrevMonth = new Date(now.getFullYear(), now.getMonth() - 1, 1);\nconst fmt = d => d.toISOString().slice(0, 10);\nconst monthLabel = startOfPrevMonth.toISOString().slice(0, 7);\nreturn [{\n  json: {\n    range: { start: fmt(startOfPrevMonth), end: fmt(endOfPrevMonth) },\n    monthLabel,\n    siteUrl: $env.TOROMAC_GSC_SITE_URL,\n    ga4PropertyId: $env.TOROMAC_GA4_PROPERTY_ID\n  }\n}];"
+      },
+      "id": "66666666-6666-6666-6666-666666660002",
+      "name": "Calc Date Range",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-1000, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://searchconsole.googleapis.com/v1/sites/{{ encodeURIComponent($json.siteUrl) }}/searchAnalytics/query",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleOAuth2Api",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [{ "name": "Content-Type", "value": "application/json" }]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  startDate: $json.range.start,\n  endDate: $json.range.end,\n  dimensions: ['query'],\n  rowLimit: 100\n}) }}",
+        "options": { "timeout": 60000 }
+      },
+      "id": "66666666-6666-6666-6666-666666660003",
+      "name": "GSC Month Data",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-800, -100],
+      "credentials": {
+        "googleOAuth2Api": { "id": "PENDING_REBIND", "name": "Toromac GSC OAuth" }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://searchconsole.googleapis.com/v1/sites/{{ encodeURIComponent($('Calc Date Range').item.json.siteUrl) }}/searchAnalytics/query",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleOAuth2Api",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [{ "name": "Content-Type", "value": "application/json" }]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  startDate: $('Calc Date Range').item.json.range.start,\n  endDate: $('Calc Date Range').item.json.range.end,\n  dimensions: ['page'],\n  rowLimit: 20\n}) }}",
+        "options": { "timeout": 60000 }
+      },
+      "id": "66666666-6666-6666-6666-666666660004",
+      "name": "GSC Top Pages",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-800, 100],
+      "credentials": {
+        "googleOAuth2Api": { "id": "PENDING_REBIND", "name": "Toromac GSC OAuth" }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Agrega métricas del mes.\nconst queries = $('GSC Month Data').item.json.rows || [];\nconst pages = $('GSC Top Pages').item.json.rows || [];\nconst meta = $('Calc Date Range').item.json;\n\nconst totalClicks = queries.reduce((s, r) => s + (r.clicks || 0), 0);\nconst totalImpr = queries.reduce((s, r) => s + (r.impressions || 0), 0);\nconst avgCtr = totalImpr > 0 ? (totalClicks / totalImpr) * 100 : 0;\nconst avgPos = queries.length > 0 ? queries.reduce((s, r) => s + (r.position || 0), 0) / queries.length : 0;\n\nconst topPages = pages\n  .sort((a, b) => (b.clicks || 0) - (a.clicks || 0))\n  .slice(0, 5)\n  .map(p => ({ url: p.keys[0], clicks: p.clicks || 0, position: p.position || 0 }));\n\nconst opportunities = queries\n  .filter(r => (r.impressions || 0) > 100 && (r.position || 0) > 8)\n  .sort((a, b) => (b.impressions || 0) - (a.impressions || 0))\n  .slice(0, 10)\n  .map(r => ({ keyword: r.keys[0], impressions: r.impressions, position: r.position }));\n\nconst payload = {\n  month: meta.monthLabel,\n  summary: {\n    clicks_total: totalClicks,\n    impresiones_gsc: totalImpr,\n    clicks_gsc: totalClicks,\n    ctr_medio: Number(avgCtr.toFixed(2)),\n    posicion_media: Number(avgPos.toFixed(1)),\n    articulos_publicados: null,\n    cambios_onsite: null,\n    issues_gsc_resueltas: null\n  },\n  top_pages: topPages,\n  queries_gain: [],\n  queries_loss: [],\n  opportunities,\n  alerts: []\n};\nreturn [{ json: payload }];"
+      },
+      "id": "66666666-6666-6666-6666-666666660005",
+      "name": "Build Report Payload",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-600, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.TOROMAC_API_BASE }}/agent-report",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{ $env.TOROMAC_PUBLISH_SECRET }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": { "timeout": 30000 }
+      },
+      "id": "66666666-6666-6666-6666-666666660006",
+      "name": "POST /api/agent-report",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-400, 0]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.TOROMAC_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "monthly-reports",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "mes": "={{ $('Build Report Payload').item.json.month }}",
+            "clicks_total": "={{ $('Build Report Payload').item.json.summary.clicks_total }}",
+            "impresiones_gsc": "={{ $('Build Report Payload').item.json.summary.impresiones_gsc }}",
+            "clicks_gsc": "={{ $('Build Report Payload').item.json.summary.clicks_gsc }}",
+            "ctr_medio": "={{ $('Build Report Payload').item.json.summary.ctr_medio }}",
+            "posicion_media": "={{ $('Build Report Payload').item.json.summary.posicion_media }}",
+            "top_5_paginas": "={{ $('Build Report Payload').item.json.top_pages.map(p => p.url).join('|') }}",
+            "oportunidades_keywords": "={{ $('Build Report Payload').item.json.opportunities.map(o => o.keyword).join('|') }}",
+            "email_enviado": "true"
+          }
+        },
+        "options": {}
+      },
+      "id": "66666666-6666-6666-6666-666666660007",
+      "name": "Append Monthly Report",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [-200, 0],
+      "credentials": {
+        "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Genera filas nuevas en keywords-backlog desde oportunidades GSC.\nconst opps = $('Build Report Payload').item.json.opportunities || [];\nreturn opps.map((o, i) => ({\n  json: {\n    keyword_es: o.keyword,\n    keyword_en: '',\n    intencion: 'commercial',\n    volumen_estimado: o.impressions,\n    dificultad: Math.round(o.position),\n    producto_relacionado: '',\n    prioridad: 'alta',\n    estado: 'pendiente',\n    origen: 'reporter',\n    notas: `Detectada en informe mensual ${$('Build Report Payload').item.json.month} · ${o.impressions} imp · pos ${o.position.toFixed(1)}`\n  }\n}));"
+      },
+      "id": "66666666-6666-6666-6666-666666660008",
+      "name": "Build Backlog Opportunities",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [0, 100]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.TOROMAC_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "keywords-backlog",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "keyword_es": "={{ $json.keyword_es }}",
+            "keyword_en": "={{ $json.keyword_en }}",
+            "intencion": "={{ $json.intencion }}",
+            "volumen_estimado": "={{ $json.volumen_estimado }}",
+            "dificultad": "={{ $json.dificultad }}",
+            "producto_relacionado": "={{ $json.producto_relacionado }}",
+            "prioridad": "={{ $json.prioridad }}",
+            "estado": "={{ $json.estado }}",
+            "origen": "={{ $json.origen }}",
+            "notas": "={{ $json.notas }}"
+          }
+        },
+        "options": {}
+      },
+      "id": "66666666-6666-6666-6666-666666660009",
+      "name": "Append to Backlog",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [200, 100],
+      "credentials": {
+        "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "-5142553799",
+        "text": "=📈 [Reporter] Informe {{ $('Build Report Payload').item.json.month }} enviado\nClicks GSC: {{ $('Build Report Payload').item.json.summary.clicks_gsc }}\nImpresiones: {{ $('Build Report Payload').item.json.summary.impresiones_gsc }}\nCTR medio: {{ $('Build Report Payload').item.json.summary.ctr_medio }}%\nPosición media: {{ $('Build Report Payload').item.json.summary.posicion_media }}\nOportunidades añadidas al backlog: {{ $('Build Report Payload').item.json.opportunities.length }}\nEmail entregado a marketingesthetico@gmail.com",
+        "additionalFields": {}
+      },
+      "id": "66666666-6666-6666-6666-666666660010",
+      "name": "Telegram Summary",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [400, 0],
+      "credentials": {
+        "telegramApi": { "id": "PENDING_REBIND", "name": "Toromac Telegram" }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": { "main": [[{ "node": "Calc Date Range", "type": "main", "index": 0 }]] },
+    "Calc Date Range": { "main": [[{ "node": "GSC Month Data", "type": "main", "index": 0 }, { "node": "GSC Top Pages", "type": "main", "index": 0 }]] },
+    "GSC Month Data": { "main": [[{ "node": "Build Report Payload", "type": "main", "index": 0 }]] },
+    "GSC Top Pages": { "main": [[{ "node": "Build Report Payload", "type": "main", "index": 0 }]] },
+    "Build Report Payload": { "main": [[{ "node": "POST /api/agent-report", "type": "main", "index": 0 }]] },
+    "POST /api/agent-report": { "main": [[{ "node": "Append Monthly Report", "type": "main", "index": 0 }, { "node": "Build Backlog Opportunities", "type": "main", "index": 0 }]] },
+    "Append Monthly Report": { "main": [[{ "node": "Telegram Summary", "type": "main", "index": 0 }]] },
+    "Build Backlog Opportunities": { "main": [[{ "node": "Append to Backlog", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false,
+  "tags": []
+}

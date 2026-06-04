@@ -1,0 +1,223 @@
+{
+  "name": "Toromac · 02 Competitor Analyzer",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "0 0 6 * * 5" }
+          ]
+        }
+      },
+      "id": "22222222-2222-2222-2222-222222220001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-1200, 0],
+      "notes": "Viernes 06:00 UTC — scan semanal de SERPs"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Lee TOP keywords y competidores desde env vars (con prefijo TOROMAC_).\n// Solo analiza las 5 primeras keywords por ejecución para controlar coste de\n// API. El cron es semanal, así que en ~5 semanas cubre las 26 keywords.\nconst kwsRaw = $env.TOROMAC_TARGET_KEYWORDS_ES || '';\nconst compRaw = $env.TOROMAC_COMPETITORS || '';\nconst keywords = kwsRaw.split(',').map(k => k.trim()).filter(Boolean).slice(0, 5);\nconst competitors = compRaw.split(',').map(c => c.trim().toLowerCase()).filter(Boolean);\nif (!keywords.length) throw new Error('TOROMAC_TARGET_KEYWORDS_ES vacía');\nif (!competitors.length) throw new Error('TOROMAC_COMPETITORS vacía');\nreturn keywords.map(k => ({ json: { keyword: k, competitors } }));"
+      },
+      "id": "22222222-2222-2222-2222-222222220002",
+      "name": "Build Keyword Batch",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-1000, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://google.serper.dev/search",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "X-API-KEY", "value": "={{ $env.TOROMAC_SERPER_API_KEY }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"q\": \"{{ $json.keyword }}\",\n  \"gl\": \"es\",\n  \"hl\": \"es\",\n  \"num\": 20\n}",
+        "options": { "timeout": 30000 }
+      },
+      "id": "22222222-2222-2222-2222-222222220003",
+      "name": "Serper SERP",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-800, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Analiza el SERP: encuentra posición de Toromac y de competidores.\n// Si un competidor está mejor posicionado que Toromac (o Toromac no aparece),\n// marca esa keyword como gap.\nconst serp = $input.first().json;\nconst keyword = $('Build Keyword Batch').item.json.keyword;\nconst competitors = $('Build Keyword Batch').item.json.competitors;\nconst organic = serp.organic || [];\n\nconst findDomain = (d) => organic.find(r => (r.link || '').toLowerCase().includes(d));\nconst toromacResult = findDomain('toromac.com');\nconst toromacPos = toromacResult ? toromacResult.position : null;\n\nconst competitorHits = competitors\n  .map(c => ({ domain: c, result: findDomain(c) }))\n  .filter(c => c.result)\n  .map(c => ({ domain: c.domain, position: c.result.position, url: c.result.link, title: c.result.title, snippet: c.result.snippet }));\n\n// El competidor mejor posicionado (menor posición numérica = mejor)\ncompetitorHits.sort((a, b) => a.position - b.position);\nconst topCompetitor = competitorHits[0] || null;\n\n// Hay gap si: Toromac no aparece, o aparece pero un competidor está mejor.\nconst hasGap = topCompetitor && (toromacPos === null || topCompetitor.position < toromacPos);\n\nreturn [{\n  json: {\n    keyword,\n    toromacPos,\n    toromacUrl: toromacResult?.link || null,\n    topCompetitor,\n    competitorHits,\n    hasGap,\n  }\n}];"
+      },
+      "id": "22222222-2222-2222-2222-222222220004",
+      "name": "Analyze SERP",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-600, 0]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "typeValidation": "loose" },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.hasGap }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "true", "singleValue": true }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "22222222-2222-2222-2222-222222220005",
+      "name": "IF Has Gap",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [-400, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "anthropicApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: 'claude-sonnet-4-5-20250929',\n  max_tokens: 1500,\n  temperature: 0.3,\n  messages: [{ role: 'user', content: `Eres analista SEO de Toromac. Para la keyword \\\"${$json.keyword}\\\" un competidor (${$json.topCompetitor.domain}) está en posición ${$json.topCompetitor.position} y Toromac está en posición ${$json.toromacPos || 'no aparece en top 20'}.\\n\\nTitle del competidor: ${$json.topCompetitor.title}\\nSnippet: ${$json.topCompetitor.snippet}\\nURL: ${$json.topCompetitor.url}\\n\\nDevuelve EXCLUSIVAMENTE un JSON con esta estructura, sin markdown:\\n{\\n  \\\"analisis\\\": \\\"2-3 frases técnicas sobre el gap, sin marketing\\\",\\n  \\\"diferenciales_clave\\\": [\\\"item 1\\\", \\\"item 2\\\", \\\"item 3\\\"],\\n  \\\"accion_propuesta\\\": {\\n    \\\"tipo\\\": \\\"NEW_ARTICLE\\\" o \\\"ONSITE_TWEAK\\\",\\n    \\\"descripcion\\\": \\\"1-2 frases accionables\\\",\\n    \\\"asignado_a\\\": \\\"writer\\\" o \\\"onsite\\\",\\n    \\\"prioridad\\\": \\\"alta\\\", \\\"media\\\" o \\\"baja\\\"\\n  }\\n}\\n\\nSi Toromac no aparece en top 20: NEW_ARTICLE asignado a writer. Si aparece pero el competidor le supera: ONSITE_TWEAK asignado a onsite. Prioridad alta solo si el gap es grande y replicable.` }]\n}) }}",
+        "options": { "timeout": 60000 }
+      },
+      "id": "22222222-2222-2222-2222-222222220006",
+      "name": "Anthropic Analyze Gap",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-200, -100],
+      "credentials": {
+        "anthropicApi": { "id": "PENDING_REBIND", "name": "Toromac Anthropic" }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const raw = $input.first().json;\nconst text = raw.content?.[0]?.text || raw.message?.content?.[0]?.text || '';\nlet jsonStr = text.trim();\nconst fence = jsonStr.match(/```(?:json)?\\s*([\\s\\S]*?)```/);\nif (fence) jsonStr = fence[1].trim();\nconst first = jsonStr.indexOf('{');\nconst last = jsonStr.lastIndexOf('}');\nif (first !== -1 && last !== -1) jsonStr = jsonStr.slice(first, last + 1);\nlet analysis;\ntry { analysis = JSON.parse(jsonStr); } catch (e) { throw new Error('Analysis parse failed: ' + e.message); }\nconst gap = $('Analyze SERP').item.json;\nreturn [{ json: { ...gap, analysis } }];"
+      },
+      "id": "22222222-2222-2222-2222-222222220007",
+      "name": "Parse Analysis",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [0, -100]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.TOROMAC_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "competitor-findings",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "fecha": "={{ $now.toISO() }}",
+            "keyword": "={{ $json.keyword }}",
+            "competidor": "={{ $json.topCompetitor.domain }}",
+            "posicion_competidor": "={{ $json.topCompetitor.position }}",
+            "posicion_toromac": "={{ $json.toromacPos || 'no aparece' }}",
+            "nuestra_url": "={{ $json.toromacUrl || '' }}",
+            "analisis": "={{ $json.analysis.analisis }}",
+            "accion_propuesta": "={{ $json.analysis.accion_propuesta.tipo + ': ' + $json.analysis.accion_propuesta.descripcion }}",
+            "asignado_a": "={{ $json.analysis.accion_propuesta.asignado_a }}",
+            "estado": "pendiente"
+          }
+        },
+        "options": {}
+      },
+      "id": "22222222-2222-2222-2222-222222220008",
+      "name": "Append Finding",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [200, -100],
+      "credentials": {
+        "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $env.TOROMAC_SHEET_ID }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "seo-changelog",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "timestamp": "={{ $now.toISO() }}",
+            "agente": "competitor",
+            "accion": "=gap_detected:{{ $json.keyword }}",
+            "target": "={{ $json.topCompetitor.domain }}",
+            "resultado": "success"
+          }
+        },
+        "options": {}
+      },
+      "id": "22222222-2222-2222-2222-222222220009",
+      "name": "Append Changelog",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [400, -100],
+      "credentials": {
+        "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "-5142553799",
+        "text": "=🔍 [Competitor] Gap detectado\nKeyword: {{ $json.keyword }}\nCompetidor: {{ $json.topCompetitor.domain }} (pos {{ $json.topCompetitor.position }})\nToromac: pos {{ $json.toromacPos || 'no aparece en top 20' }}\nAcción: {{ $json.analysis.accion_propuesta.tipo }} ({{ $json.analysis.accion_propuesta.asignado_a }}, {{ $json.analysis.accion_propuesta.prioridad }})",
+        "additionalFields": {}
+      },
+      "id": "22222222-2222-2222-2222-222222220010",
+      "name": "Telegram Notify",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [600, -100],
+      "credentials": {
+        "telegramApi": { "id": "PENDING_REBIND", "name": "Toromac Telegram" }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": { "main": [[{ "node": "Build Keyword Batch", "type": "main", "index": 0 }]] },
+    "Build Keyword Batch": { "main": [[{ "node": "Serper SERP", "type": "main", "index": 0 }]] },
+    "Serper SERP": { "main": [[{ "node": "Analyze SERP", "type": "main", "index": 0 }]] },
+    "Analyze SERP": { "main": [[{ "node": "IF Has Gap", "type": "main", "index": 0 }]] },
+    "IF Has Gap": { "main": [[{ "node": "Anthropic Analyze Gap", "type": "main", "index": 0 }], []] },
+    "Anthropic Analyze Gap": { "main": [[{ "node": "Parse Analysis", "type": "main", "index": 0 }]] },
+    "Parse Analysis": { "main": [[{ "node": "Append Finding", "type": "main", "index": 0 }]] },
+    "Append Finding": { "main": [[{ "node": "Append Changelog", "type": "main", "index": 0 }]] },
+    "Append Changelog": { "main": [[{ "node": "Telegram Notify", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false,
+  "tags": []
+}
