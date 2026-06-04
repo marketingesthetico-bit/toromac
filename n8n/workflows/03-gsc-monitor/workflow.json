@@ -54,7 +54,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Detecta issues a partir de los datos GSC:\n// - LOW_CTR: queries con impresiones >50 y CTR <1%\n// - GENERIC: cualquier query con posición media >20 e impresiones >100 (oportunidad)\nconst data = $input.first().json;\nconst rows = data.rows || [];\nconst issues = [];\nfor (const r of rows) {\n  const [query, page] = r.keys;\n  const { clicks = 0, impressions = 0, ctr = 0, position = 0 } = r;\n  // CTR bajo con tráfico\n  if (impressions > 50 && ctr < 0.01) {\n    issues.push({\n      tipo: 'LOW_CTR',\n      severidad: impressions > 200 ? 'alta' : 'media',\n      url: page,\n      detalle: `Query \"${query}\" — ${impressions} impresiones, CTR ${(ctr*100).toFixed(2)}%`,\n      metrica: `CTR ${(ctr*100).toFixed(2)}% en ${impressions} imp`,\n      accion_propuesta: 'Revisar title/meta para mejorar CTR'\n    });\n  }\n  // Oportunidad: posición lejana con impresiones (no es realmente un \"issue\" pero lo registramos)\n  if (impressions > 100 && position > 20) {\n    issues.push({\n      tipo: 'OPPORTUNITY',\n      severidad: 'baja',\n      url: page,\n      detalle: `Query \"${query}\" — posición ${position.toFixed(1)} con ${impressions} imp`,\n      metrica: `pos ${position.toFixed(1)} · ${impressions} imp`,\n      accion_propuesta: 'Candidata a artículo nuevo del Writer'\n    });\n  }\n}\nconst critical = issues.filter(i => i.severidad === 'alta');\nreturn [{\n  json: {\n    total_rows: rows.length,\n    total_issues: issues.length,\n    critical_count: critical.length,\n    issues,\n    critical\n  }\n}];"
+        "jsCode": "// Detecta issues a partir de los datos GSC:\n// - LOW_CTR: queries con impresiones >50 y CTR <1%\n// - GENERIC: cualquier query con posición media >20 e impresiones >100 (oportunidad)\nconst data = $input.first().json;\nconst rows = data.rows || [];\nconst issues = [];\nfor (const r of rows) {\n  const [query, page] = r.keys;\n  const { clicks = 0, impressions = 0, ctr = 0, position = 0 } = r;\n  // CTR bajo con tráfico\n  if (impressions > 50 && ctr < 0.01) {\n    issues.push({\n      tipo: 'LOW_CTR',\n      severidad: impressions > 200 ? 'alta' : 'media',\n      url: page,\n      detalle: `Query \"${query}\" — ${impressions} impresiones, CTR ${(ctr*100).toFixed(2)}%`,\n      metrica: `CTR ${(ctr*100).toFixed(2)}% en ${impressions} imp`,\n      accion_propuesta: 'Revisar title/meta para mejorar CTR'\n    });\n  }\n  // Oportunidad: posición lejana con impresiones (no es realmente un \"issue\" pero lo registramos)\n  if (impressions > 100 && position > 20) {\n    issues.push({\n      tipo: 'OPPORTUNITY',\n      severidad: 'baja',\n      url: page,\n      detalle: `Query \"${query}\" — posición ${position.toFixed(1)} con ${impressions} imp`,\n      metrica: `pos ${position.toFixed(1)} · ${impressions} imp`,\n      accion_propuesta: 'Candidata a artículo nuevo del Writer'\n    });\n  }\n}\nconst critical = issues.filter(i => i.severidad === 'alta');\nconst siteUrl = $('Build Date Ranges').item.json.siteUrl;\nreturn [{\n  json: {\n    total_rows: rows.length,\n    total_issues: issues.length,\n    critical_count: critical.length,\n    issues,\n    critical,\n    // Campos para Append Changelog (autoMap)\n    timestamp: new Date().toISOString(),\n    agente: 'gsc',\n    accion: 'weekly_scan',\n    target: siteUrl,\n    resultado: 'success (' + issues.length + ' issues)'\n  }\n}];"
       },
       "id": "33333333-3333-3333-3333-333333330004",
       "name": "Detect Issues",
@@ -64,7 +64,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Itera issues en items separados para append en Sheet.\nreturn $input.first().json.issues.map(i => ({ json: i }));"
+        "jsCode": "// Itera issues en items separados para append en Sheet.\n// Remapea las keys para que matcheen las columnas de la hoja gsc-issues.\nreturn $input.first().json.issues.map(i => ({\n  json: {\n    fecha: new Date().toISOString(),\n    tipo: i.tipo,\n    severidad: i.severidad,\n    url_afectada: i.url,\n    detalle: i.detalle,\n    metrica: i.metrica,\n    accion_propuesta: i.accion_propuesta,\n    estado: 'nuevo'\n  }\n}));"
       },
       "id": "33333333-3333-3333-3333-333333330005",
       "name": "Split Issues",
@@ -87,17 +87,10 @@
           "mode": "name"
         },
         "columns": {
-          "mappingMode": "defineBelow",
-          "value": {
-            "fecha": "={{ $now.toISO() }}",
-            "tipo": "={{ $json.tipo }}",
-            "severidad": "={{ $json.severidad }}",
-            "url_afectada": "={{ $json.url }}",
-            "detalle": "={{ $json.detalle }}",
-            "metrica": "={{ $json.metrica }}",
-            "accion_propuesta": "={{ $json.accion_propuesta }}",
-            "estado": "nuevo"
-          }
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
         },
         "options": {}
       },
@@ -125,14 +118,10 @@
           "mode": "name"
         },
         "columns": {
-          "mappingMode": "defineBelow",
-          "value": {
-            "timestamp": "={{ $now.toISO() }}",
-            "agente": "gsc",
-            "accion": "weekly_scan",
-            "target": "={{ $('Build Date Ranges').item.json.siteUrl }}",
-            "resultado": "=success ({{ $('Detect Issues').item.json.total_issues }} issues)"
-          }
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
         },
         "options": {}
       },

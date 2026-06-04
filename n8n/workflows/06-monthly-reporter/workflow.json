@@ -108,6 +108,16 @@
     },
     {
       "parameters": {
+        "jsCode": "// Flatten del payload para que Append Monthly Report use autoMap.\n// Esquiva el bug v4.5 donde el = de las expresiones se cuela en Sheets.\nconst p = $('Build Report Payload').item.json;\nreturn [{\n  json: {\n    mes: p.month,\n    clicks_total: p.summary.clicks_total,\n    impresiones_gsc: p.summary.impresiones_gsc,\n    clicks_gsc: p.summary.clicks_gsc,\n    ctr_medio: p.summary.ctr_medio,\n    posicion_media: p.summary.posicion_media,\n    top_5_paginas: (p.top_pages || []).map(pp => pp.url).join('|'),\n    oportunidades_keywords: (p.opportunities || []).map(o => o.keyword).join('|'),\n    email_enviado: 'true'\n  }\n}];"
+      },
+      "id": "66666666-6666-6666-6666-666666660011",
+      "name": "Build Monthly Row",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-300, 0]
+    },
+    {
+      "parameters": {
         "authentication": "serviceAccount",
         "operation": "append",
         "documentId": {
@@ -121,18 +131,10 @@
           "mode": "name"
         },
         "columns": {
-          "mappingMode": "defineBelow",
-          "value": {
-            "mes": "={{ $('Build Report Payload').item.json.month }}",
-            "clicks_total": "={{ $('Build Report Payload').item.json.summary.clicks_total }}",
-            "impresiones_gsc": "={{ $('Build Report Payload').item.json.summary.impresiones_gsc }}",
-            "clicks_gsc": "={{ $('Build Report Payload').item.json.summary.clicks_gsc }}",
-            "ctr_medio": "={{ $('Build Report Payload').item.json.summary.ctr_medio }}",
-            "posicion_media": "={{ $('Build Report Payload').item.json.summary.posicion_media }}",
-            "top_5_paginas": "={{ $('Build Report Payload').item.json.top_pages.map(p => p.url).join('|') }}",
-            "oportunidades_keywords": "={{ $('Build Report Payload').item.json.opportunities.map(o => o.keyword).join('|') }}",
-            "email_enviado": "true"
-          }
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
         },
         "options": {}
       },
@@ -140,7 +142,7 @@
       "name": "Append Monthly Report",
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
-      "position": [-200, 0],
+      "position": [-100, 0],
       "credentials": {
         "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
       }
@@ -170,19 +172,10 @@
           "mode": "name"
         },
         "columns": {
-          "mappingMode": "defineBelow",
-          "value": {
-            "keyword_es": "={{ $json.keyword_es }}",
-            "keyword_en": "={{ $json.keyword_en }}",
-            "intencion": "={{ $json.intencion }}",
-            "volumen_estimado": "={{ $json.volumen_estimado }}",
-            "dificultad": "={{ $json.dificultad }}",
-            "producto_relacionado": "={{ $json.producto_relacionado }}",
-            "prioridad": "={{ $json.prioridad }}",
-            "estado": "={{ $json.estado }}",
-            "origen": "={{ $json.origen }}",
-            "notas": "={{ $json.notas }}"
-          }
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
         },
         "options": {}
       },
@@ -217,7 +210,8 @@
     "GSC Month Data": { "main": [[{ "node": "GSC Top Pages", "type": "main", "index": 0 }]] },
     "GSC Top Pages": { "main": [[{ "node": "Build Report Payload", "type": "main", "index": 0 }]] },
     "Build Report Payload": { "main": [[{ "node": "POST /api/agent-report", "type": "main", "index": 0 }]] },
-    "POST /api/agent-report": { "main": [[{ "node": "Append Monthly Report", "type": "main", "index": 0 }, { "node": "Build Backlog Opportunities", "type": "main", "index": 0 }]] },
+    "POST /api/agent-report": { "main": [[{ "node": "Build Monthly Row", "type": "main", "index": 0 }, { "node": "Build Backlog Opportunities", "type": "main", "index": 0 }]] },
+    "Build Monthly Row": { "main": [[{ "node": "Append Monthly Report", "type": "main", "index": 0 }]] },
     "Append Monthly Report": { "main": [[{ "node": "Telegram Summary", "type": "main", "index": 0 }]] },
     "Build Backlog Opportunities": { "main": [[{ "node": "Append to Backlog", "type": "main", "index": 0 }]] }
   },

@@ -117,6 +117,16 @@
     },
     {
       "parameters": {
+        "jsCode": "// Pre-computa todos los valores como JS planos para evitar el bug v4.5\n// donde el `=` de las expresiones se cuela en el cell de Sheets.\nconst gap = $('Parse Analysis').item.json;\nconst a = gap.analysis;\nconst now = new Date().toISOString();\nreturn [{\n  json: {\n    // Campos para competitor-findings\n    fecha: now,\n    keyword: gap.keyword,\n    competidor: gap.topCompetitor.domain,\n    posicion_competidor: gap.topCompetitor.position,\n    posicion_toromac: gap.toromacPos ?? 'no aparece',\n    nuestra_url: gap.toromacUrl ?? '',\n    analisis: a.analisis,\n    accion_propuesta: a.accion_propuesta.tipo + ': ' + a.accion_propuesta.descripcion,\n    asignado_a: a.accion_propuesta.asignado_a,\n    estado: 'pendiente',\n    // Campos para seo-changelog\n    timestamp: now,\n    agente: 'competitor',\n    accion: 'gap_detected:' + gap.keyword,\n    target: gap.topCompetitor.domain,\n    resultado: 'success'\n  }\n}];"
+      },
+      "id": "22222222-2222-2222-2222-222222220011",
+      "name": "Build Sheets Rows",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [100, -100]
+    },
+    {
+      "parameters": {
         "authentication": "serviceAccount",
         "operation": "append",
         "documentId": {
@@ -130,19 +140,10 @@
           "mode": "name"
         },
         "columns": {
-          "mappingMode": "defineBelow",
-          "value": {
-            "fecha": "={{ $now.toISO() }}",
-            "keyword": "={{ $json.keyword }}",
-            "competidor": "={{ $json.topCompetitor.domain }}",
-            "posicion_competidor": "={{ $json.topCompetitor.position }}",
-            "posicion_toromac": "={{ $json.toromacPos || 'no aparece' }}",
-            "nuestra_url": "={{ $json.toromacUrl || '' }}",
-            "analisis": "={{ $json.analysis.analisis }}",
-            "accion_propuesta": "={{ $json.analysis.accion_propuesta.tipo + ': ' + $json.analysis.accion_propuesta.descripcion }}",
-            "asignado_a": "={{ $json.analysis.accion_propuesta.asignado_a }}",
-            "estado": "pendiente"
-          }
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
         },
         "options": {}
       },
@@ -150,7 +151,7 @@
       "name": "Append Finding",
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
-      "position": [200, -100],
+      "position": [300, -100],
       "credentials": {
         "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
       }
@@ -170,14 +171,10 @@
           "mode": "name"
         },
         "columns": {
-          "mappingMode": "defineBelow",
-          "value": {
-            "timestamp": "={{ $now.toISO() }}",
-            "agente": "competitor",
-            "accion": "=gap_detected:{{ $json.keyword }}",
-            "target": "={{ $json.topCompetitor.domain }}",
-            "resultado": "success"
-          }
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
         },
         "options": {}
       },
@@ -185,7 +182,7 @@
       "name": "Append Changelog",
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
-      "position": [400, -100],
+      "position": [500, -100],
       "credentials": {
         "googleApi": { "id": "PENDING_REBIND", "name": "Toromac Google" }
       }
@@ -213,7 +210,8 @@
     "Analyze SERP": { "main": [[{ "node": "IF Has Gap", "type": "main", "index": 0 }]] },
     "IF Has Gap": { "main": [[{ "node": "Anthropic Analyze Gap", "type": "main", "index": 0 }], []] },
     "Anthropic Analyze Gap": { "main": [[{ "node": "Parse Analysis", "type": "main", "index": 0 }]] },
-    "Parse Analysis": { "main": [[{ "node": "Append Finding", "type": "main", "index": 0 }]] },
+    "Parse Analysis": { "main": [[{ "node": "Build Sheets Rows", "type": "main", "index": 0 }]] },
+    "Build Sheets Rows": { "main": [[{ "node": "Append Finding", "type": "main", "index": 0 }]] },
     "Append Finding": { "main": [[{ "node": "Append Changelog", "type": "main", "index": 0 }]] },
     "Append Changelog": { "main": [[{ "node": "Telegram Notify", "type": "main", "index": 0 }]] }
   },
