@@ -4,43 +4,43 @@
     "es": "elevador-cangilones-tipo-z-guia-tecnica-completa",
     "en": "z-type-bucket-elevator-complete-technical-guide"
   },
-  "publishedAt": "2026-06-11T13:03:26.777Z",
-  "updatedAt": "2026-06-11T13:03:26.777Z",
+  "publishedAt": "2026-06-15T13:04:14.987Z",
+  "updatedAt": "2026-06-15T13:04:14.987Z",
   "author": "Equipo Toromac",
   "category": "elevacion-transporte",
   "relatedProduct": "elevador-cangilones-tipo-z",
   "title": {
-    "es": "Elevador de cangilones tipo Z: diseño, capacidad y aplicaciones industriales",
-    "en": "Z-type bucket elevator: design, capacity and industrial applications"
+    "es": "Elevador de cangilones tipo Z: características técnicas y aplicaciones industriales",
+    "en": "Z-type bucket elevator: technical characteristics and industrial applications"
   },
   "metaDescription": {
-    "es": "Análisis técnico del elevador de cangilones tipo Z: configuración, capacidad de transporte, ventajas operativas y criterios de selección industrial.",
-    "en": "Technical analysis of z-type bucket elevator: configuration, transport capacity, operational advantages and industrial selection criteria."
+    "es": "Análisis técnico del elevador de cangilones tipo Z: configuración, capacidades, materiales y criterios de selección para industria alimentaria y farma.",
+    "en": "Technical analysis of z-type bucket elevator: configuration, capacities, materials and selection criteria for food and pharma industry."
   },
   "heroImage": "/images/products/elevador-cangilones-tipo-z.jpg",
   "heroImageAlt": {
-    "es": "Elevador de cangilones tipo Z industrial para transporte vertical y horizontal",
-    "en": "Industrial z-type bucket elevator for vertical and horizontal transport"
+    "es": "Elevador de cangilones tipo Z en acero inoxidable para transporte vertical de productos alimentarios",
+    "en": "Z-type bucket elevator in stainless steel for vertical transport of food products"
   },
   "seo": {
     "es": {
-      "title": "Elevador de Cangilones Tipo Z | Guía Técnica Toromac",
-      "description": "Análisis técnico del elevador de cangilones tipo Z: configuración, capacidad de transporte, ventajas operativas y criterios de selección industrial."
+      "title": "Elevador de cangilones tipo Z | Guía técnica Toromac",
+      "description": "Análisis técnico del elevador de cangilones tipo Z: configuración, capacidades, materiales y criterios de selección para industria alimentaria y farma."
     },
     "en": {
-      "title": "Z-Type Bucket Elevator | Technical Guide Toromac",
-      "description": "Technical analysis of z-type bucket elevator: configuration, transport capacity, operational advantages and industrial selection criteria."
+      "title": "Z-type bucket elevator | Toromac technical guide",
+      "description": "Technical analysis of z-type bucket elevator: configuration, capacities, materials and selection criteria for food and pharma industry."
     }
   },
   "content": {
     "es": [
       {
         "type": "p",
-        "text": "El elevador de cangilones tipo Z constituye una solución de transporte vertical y horizontal combinado que permite elevar material a gran altura y depositarlo a distancia horizontal del punto de carga mediante una configuración geométrica en forma de Z. Este sistema integra tres secciones principales: un tramo de alimentación horizontal inferior, una sección vertical de elevación y un tramo horizontal superior de descarga, todo ello mediante un único órgano de tracción continuo que arrastra los cangilones a lo largo del recorrido completo."
+        "text": "El elevador de cangilones tipo Z constituye una solución de transporte vertical y horizontal combinado que permite superar diferencias de altura mientras desplaza el material en el plano horizontal mediante una configuración geométrica en forma de Z. Este sistema integra dos tramos verticales conectados por un segmento horizontal intermedio, eliminando la necesidad de equipos auxiliares de transporte entre puntos de proceso situados a diferentes alturas y posiciones horizontales. La configuración tipo Z resulta especialmente relevante en instalaciones donde las restricciones de espacio o la disposición de equipos de proceso requieren un trazado no lineal del flujo de material."
       },
       {
         "type": "p",
-        "text": "La configuración tipo Z resulta especialmente relevante en instalaciones donde el espacio disponible en planta requiere separar horizontalmente el punto de alimentación del punto de descarga, situación frecuente en plantas de procesado de cereales, fábricas de piensos, instalaciones de molienda y líneas de envasado. A diferencia de los elevadores verticales convencionales, el tipo Z elimina la necesidad de equipos adicionales de transporte horizontal, reduciendo puntos de transferencia y simplificando el layout de la instalación."
+        "text": "A diferencia de los elevadores verticales convencionales que únicamente elevan el producto en línea recta, el diseño tipo Z incorpora cambios de dirección controlados mediante sistemas de guiado que mantienen la integridad del producto y la continuidad del flujo. Esta característica resulta determinante en sectores como alimentación, farmacia, química y nutrición animal, donde la minimización de puntos de transferencia reduce el riesgo de contaminación cruzada y degradación del producto."
       },
       {
         "type": "h2",
@@ -48,211 +48,246 @@
       },
       {
         "type": "p",
-        "text": "El funcionamiento del elevador tipo Z se basa en el arrastre continuo de cangilones mediante cadena o correa a través de un circuito cerrado que describe tres tramos diferenciados. En el tramo horizontal inferior, los cangilones se desplazan en posición invertida o lateral hasta alcanzar el pie del elevador, donde inicia la sección vertical. Durante la elevación, los cangilones adoptan posición de carga y ascienden transportando el material. Al alcanzar la cabeza superior, el sistema describe un segundo giro para iniciar el tramo horizontal de descarga, donde los cangilones mantienen la carga hasta el punto de descarga programado."
+        "text": "El elevador de cangilones tipo Z opera mediante una cadena o correa continua equipada con cangilones espaciados regularmente que recogen el material en la zona de carga inferior, lo transportan verticalmente, lo desplazan horizontalmente en el tramo intermedio y finalmente lo elevan nuevamente hasta el punto de descarga superior. El sistema utiliza tensores automáticos o manuales para mantener la tensión adecuada del elemento de tracción en los tres tramos."
       },
       {
         "type": "p",
-        "text": "La geometría en Z implica la instalación de cuatro puntos de cambio de dirección mediante tambores o ruedas dentadas: dos en los extremos del tramo horizontal inferior, uno en la cabeza superior del tramo vertical y uno final en el extremo del tramo horizontal de descarga. Cada punto de cambio de dirección debe dimensionarse considerando el radio mínimo que permita el paso de los cangilones sin interferencias ni derrames, típicamente entre 250 mm y 600 mm de diámetro según el tamaño de cangilón y la velocidad de operación."
+        "text": "La geometría en Z se compone de tres secciones principales: el tramo vertical de entrada, el segmento horizontal intermedio y el tramo vertical de salida. En los puntos de transición entre secciones, el sistema incorpora tambores o ruedas de guiado que redirigen el flujo sin provocar descargas prematuras. El radio de curvatura en estos puntos críticos se dimensiona en función del tipo de producto, la velocidad lineal y las características de los cangilones para garantizar que el material permanezca contenido durante el cambio de dirección."
+      },
+      {
+        "type": "p",
+        "text": "Los cangilones pueden configurarse en disposición espaciada o continua según las características del material. En productos de flujo libre como cereales o pellets, la disposición espaciada permite la carga por excavación en la zona inferior. Para productos cohesivos o de difícil flujo, la configuración continua con carga directa resulta más eficiente. La velocidad lineal típica oscila entre 0.5 y 1.5 m/s, ajustándose según la fragilidad del producto y el caudal requerido."
       },
       {
         "type": "h2",
-        "text": "Componentes estructurales y elementos de tracción"
+        "text": "Componentes estructurales y materiales de construcción"
       },
       {
         "type": "p",
-        "text": "La estructura del elevador tipo Z se compone de perfiles tubulares o angulares de acero que conforman tres cuerpos independientes pero solidarios: la sección horizontal inferior, la columna vertical y la sección horizontal superior. Cada sección incorpora guías laterales que mantienen la trayectoria de la cadena y evitan el balanceo de los cangilones, especialmente crítico en los tramos horizontales donde la ausencia de tensión gravitatoria puede provocar desviaciones laterales."
+        "text": "La estructura portante del elevador tipo Z se fabrica habitualmente en perfiles de acero al carbono con tratamiento superficial o en acero inoxidable según los requisitos higiénicos de la aplicación. En industria alimentaria y farmacéutica, el acero inoxidable AISI 304L constituye el estándar para contacto con producto, mientras que el AISI 316L se especifica cuando existe exposición a ambientes corrosivos o productos con contenido salino elevado."
       },
       {
         "type": "p",
-        "text": "El órgano de tracción puede ser cadena de rodillos simple o doble, o correa de caucho con tacos de arrastre, según la capacidad requerida y las características del material. Las cadenas de rodillos ofrecen mayor resistencia mecánica y resultan preferibles para capacidades superiores a 50 t/h o alturas de elevación mayores de 15 metros. Las correas con tacos permiten operación más silenciosa y menor mantenimiento, adecuadas para materiales no abrasivos y capacidades moderadas. El sistema de tensado puede ubicarse en el pie o en la cabeza, siendo preferible la ubicación inferior para facilitar el acceso y mantenimiento."
+        "text": "El carenado o carcasa exterior cumple funciones de contención de polvo, protección mecánica y aislamiento del proceso. Puede ejecutarse en chapa de acero pintado para aplicaciones generales o en acero inoxidable pulido cuando se requiere cumplimiento de normativas ATEX o estándares GMP. Las puertas de inspección se distribuyen estratégicamente en cada sección para permitir acceso durante operaciones de mantenimiento sin comprometer la hermeticidad del sistema."
       },
       {
         "type": "ul",
         "items": [
-          "Cangilones de acero, polietileno o acero inoxidable según aplicación y normativa",
-          "Cadena de rodillos ISO 08B a 24B o correa de caucho reforzada con cables de acero",
-          "Tambores motrices y conducidos con recubrimiento antideslizante o dentado",
-          "Guías laterales en chapa o perfil angular para control de trayectoria",
-          "Sistema de tensado automático o manual con tornillo tensor",
-          "Compuertas de inspección y limpieza en cada sección"
+          "Cadena de tracción: acero templado o acero inoxidable, con paso entre 100 y 200 mm según capacidad",
+          "Cangilones: polipropileno, poliamida reforzada o acero inoxidable, volumen entre 0.5 y 5 litros",
+          "Tambores motrices y de reenvío: acero mecanizado con recubrimiento de goma o poliuretano para tracción",
+          "Guías laterales: perfiles de UHMW-PE o acero inoxidable para control del recorrido de cangilones",
+          "Sistema de tensado: tensor por tornillo, contrapeso o neumático según longitud total",
+          "Motorización: motorreductor con variador de frecuencia para control de velocidad y arranque suave"
         ]
       },
       {
-        "type": "h2",
-        "text": "Capacidad de transporte y velocidad operativa"
-      },
-      {
         "type": "p",
-        "text": "La capacidad de transporte de un elevador tipo Z se determina mediante la fórmula Q = 3.6 × V × n × C × ρ × φ, donde Q representa la capacidad en t/h, V la velocidad lineal en m/s, n el número de cangilones por metro de cadena, C la capacidad volumétrica del cangilón en litros, ρ la densidad aparente del material en kg/dm³ y φ el coeficiente de llenado que varía entre 0.65 y 0.85 según el método de carga y las características del material."
-      },
-      {
-        "type": "p",
-        "text": "La velocidad operativa típica oscila entre 0.4 m/s y 1.2 m/s. Velocidades inferiores a 0.5 m/s se emplean para materiales frágiles o de alta densidad donde se requiere minimizar roturas y desgaste. Velocidades entre 0.6 m/s y 0.8 m/s constituyen el rango estándar para cereales, harinas y productos granulados. Velocidades superiores a 1.0 m/s se reservan para materiales ligeros y no abrasivos donde la prioridad es maximizar capacidad en instalaciones con limitaciones de espacio."
-      },
-      {
-        "type": "callout",
-        "text": "Regla práctica: Para estimar la capacidad aproximada de un elevador tipo Z, multiplicar el volumen del cangilón en litros por la velocidad en m/s y por 2.5 para materiales de densidad media (0.7 kg/dm³). Ejemplo: cangilones de 5 litros a 0.8 m/s transportan aproximadamente 10 t/h de trigo."
+        "text": "Los cangilones en contacto con producto alimentario se fabrican preferentemente en poliamida 6 o polipropileno con aditivos antiestáticos y certificación FDA. Estos materiales presentan resistencia a la abrasión, no transmiten sabores ni olores, y permiten limpieza mediante sistemas CIP o lavado manual. Para productos abrasivos o temperaturas superiores a 80°C, los cangilones metálicos en acero inoxidable resultan más apropiados."
       },
       {
         "type": "h2",
-        "text": "Sistemas de carga y descarga específicos"
+        "text": "Capacidades de transporte y dimensionamiento"
       },
       {
         "type": "p",
-        "text": "El sistema de carga en elevadores tipo Z puede realizarse mediante alimentación directa por gravedad, alimentación forzada mediante tornillo o alimentación por cinta transportadora. La alimentación directa resulta más sencilla pero requiere que el material fluya libremente y que la altura de caída sea suficiente para llenar los cangilones durante su paso. La alimentación forzada mediante tornillo dosificador permite control preciso del caudal y resulta necesaria cuando el material presenta tendencia a formar puentes o cuando se requiere alimentación uniforme para evitar sobrecargas puntuales."
+        "text": "La capacidad de transporte de un elevador tipo Z se determina mediante la ecuación: Q = 3.6 × V × n × q × ψ, donde Q representa el caudal en m³/h, V la velocidad lineal en m/s, n el número de cangilones por metro, q el volumen unitario del cangilón en litros y ψ el coeficiente de llenado que varía entre 0.6 y 0.9 según el método de carga y las características del producto."
       },
       {
         "type": "p",
-        "text": "La descarga en el tramo horizontal superior puede configurarse en múltiples puntos mediante compuertas accionadas manual o automáticamente. Este sistema multipoint permite distribuir el material a diferentes destinos sin necesidad de equipos adicionales de derivación. La descarga centrífuga, donde el material es proyectado por la fuerza centrífuga al pasar por el tambor de cabeza, resulta adecuada para materiales granulares secos. La descarga continua, donde los cangilones se invierten gradualmente, se emplea para materiales cohesivos o húmedos que no se desprenden fácilmente por acción centrífuga."
-      },
-      {
-        "type": "h2",
-        "text": "Ventajas operativas frente a configuraciones alternativas"
-      },
-      {
-        "type": "p",
-        "text": "La principal ventaja del elevador tipo Z radica en la integración de transporte vertical y horizontal en un único equipo, eliminando puntos de transferencia intermedios que constituyen fuentes potenciales de degradación del producto, generación de polvo y pérdidas de material. Cada punto de transferencia en una instalación convencional requiere además elementos de sellado, sistemas de aspiración y mantenimiento adicional, incrementando el coste operativo total."
-      },
-      {
-        "type": "p",
-        "text": "Desde el punto de vista energético, el elevador tipo Z presenta un consumo específico inferior al de sistemas combinados de elevador vertical más transportador horizontal, debido a que el material se mantiene en los cangilones durante todo el recorrido sin necesidad de aceleraciones y deceleraciones sucesivas. El consumo energético típico oscila entre 0.015 kWh/t y 0.025 kWh/t para alturas de elevación de 10 a 20 metros y distancias horizontales de 5 a 15 metros, valores que representan entre un 15% y un 25% de ahorro respecto a configuraciones con múltiples equipos."
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Reducción de puntos de transferencia y minimización de degradación del producto",
-          "Menor generación de polvo y reducción de necesidades de aspiración",
-          "Consumo energético inferior al de sistemas combinados equivalentes",
-          "Simplificación del layout de planta y reducción de espacio requerido",
-          "Menor número de equipos motrices y sistemas de control",
-          "Reducción de mantenimiento al eliminar equipos intermedios"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "Criterios de dimensionamiento y selección técnica"
-      },
-      {
-        "type": "p",
-        "text": "El dimensionamiento de un elevador tipo Z requiere definir cinco parámetros fundamentales: capacidad de transporte requerida en t/h, altura de elevación en metros, distancia horizontal total en metros, características del material a transportar (densidad, granulometría, abrasividad, temperatura) y condiciones ambientales de operación. A partir de estos datos se determina el tamaño de cangilón, la separación entre cangilones, la velocidad lineal, el tipo de cadena o correa y la potencia motriz necesaria."
-      },
-      {
-        "type": "p",
-        "text": "La selección del tamaño de cangilón se realiza considerando que la capacidad volumétrica debe permitir transportar el caudal requerido a la velocidad operativa seleccionada, manteniendo un coeficiente de llenado entre 0.70 y 0.80 para asegurar operación estable sin derrames. Cangilones de capacidad insuficiente obligarán a incrementar la velocidad, aumentando el desgaste y el consumo energético. Cangilones sobredimensionados incrementan innecesariamente el peso del sistema y la carga sobre el órgano de tracción."
+        "text": "Para un elevador con cangilones de 2 litros, espaciados cada 200 mm (5 cangilones/metro), velocidad de 1 m/s y coeficiente de llenado de 0.75, la capacidad teórica resulta: Q = 3.6 × 1 × 5 × 2 × 0.75 = 27 m³/h. Este valor debe ajustarse considerando la densidad aparente del producto para obtener el caudal másico. Un cereal con densidad de 650 kg/m³ proporcionaría aproximadamente 17.5 t/h en estas condiciones."
       },
       {
         "type": "table",
         "headers": [
           "Parámetro",
           "Rango típico",
-          "Criterio de selección"
+          "Unidad",
+          "Observaciones"
         ],
         "rows": [
           [
-            "Capacidad volumétrica cangilón",
-            "1.5 - 12 litros",
-            "Según caudal y velocidad operativa requerida"
+            "Altura total de elevación",
+            "3-15",
+            "m",
+            "Suma de ambos tramos verticales"
+          ],
+          [
+            "Longitud tramo horizontal",
+            "1-8",
+            "m",
+            "Según disposición de equipos"
+          ],
+          [
+            "Capacidad volumétrica",
+            "5-50",
+            "m³/h",
+            "Dependiente de tamaño de cangilón"
           ],
           [
             "Velocidad lineal",
-            "0.4 - 1.2 m/s",
-            "Material frágil: 0.4-0.6 m/s; granular estándar: 0.6-0.8 m/s"
+            "0.5-1.5",
+            "m/s",
+            "Ajustable mediante variador"
           ],
           [
-            "Separación entre cangilones",
-            "300 - 600 mm",
-            "Mayor separación para materiales de baja densidad"
+            "Potencia instalada",
+            "1.5-7.5",
+            "kW",
+            "Función de altura y caudal"
           ],
           [
-            "Altura máxima de elevación",
-            "5 - 30 metros",
-            "Limitada por resistencia de cadena y estructura"
-          ],
-          [
-            "Distancia horizontal total",
-            "3 - 20 metros",
-            "Según layout de planta y puntos de descarga"
-          ],
-          [
-            "Potencia motriz instalada",
-            "1.5 - 15 kW",
-            "Función de capacidad, altura y características del material"
+            "Temperatura de trabajo",
+            "-10 a +80",
+            "°C",
+            "Ampliable con materiales especiales"
           ]
         ]
       },
       {
-        "type": "h2",
-        "text": "Aplicaciones industriales por sector"
-      },
-      {
         "type": "p",
-        "text": "En la industria de procesado de cereales, el elevador tipo Z se emplea para transportar grano desde silos de recepción hasta tolvas de limpieza o secado ubicadas en niveles superiores y desplazadas horizontalmente. La configuración permite alimentar múltiples puntos de proceso mediante descargas intermedias en el tramo horizontal superior, optimizando la distribución del material sin equipos adicionales. Capacidades típicas en este sector oscilan entre 20 t/h y 80 t/h con alturas de 12 a 25 metros."
-      },
-      {
-        "type": "p",
-        "text": "En plantas de fabricación de piensos, el elevador tipo Z transporta materias primas desde zonas de recepción hasta tolvas de dosificación situadas sobre mezcladoras. La capacidad de realizar múltiples descargas permite alimentar diferentes líneas de producción desde un único elevador, reduciendo la inversión en equipos y simplificando el control de proceso. La construcción en acero inoxidable AISI 304 o 316 resulta habitual cuando se procesan materias primas con requisitos higiénicos estrictos o en presencia de ambientes corrosivos."
-      },
-      {
-        "type": "p",
-        "text": "La industria química y farmacéutica emplea elevadores tipo Z para transporte de polvos, gránulos y productos intermedios entre diferentes etapas de proceso. En estos sectores, los requisitos de estanqueidad, limpiabilidad y trazabilidad son críticos, requiriendo diseños con acabados sanitarios, sistemas de inspección visual mediante ventanas de policarbonato y posibilidad de limpieza CIP o manual completa. Las velocidades operativas se reducen típicamente a 0.4-0.6 m/s para minimizar la generación de finos y la degradación del producto."
-      },
-      {
-        "type": "h2",
-        "text": "Mantenimiento preventivo y vida útil operativa"
-      },
-      {
-        "type": "p",
-        "text": "El programa de mantenimiento preventivo de un elevador tipo Z debe incluir inspección semanal del tensado de cadena, verificación mensual del estado de cangilones y fijaciones, lubricación trimestral de rodamientos y revisión semestral del estado de guías y puntos de desgaste. El tensado correcto de la cadena resulta crítico: una tensión insuficiente provoca saltos en los tambores y desgaste acelerado, mientras que una tensión excesiva sobrecarga rodamientos y aumenta el consumo energético."
-      },
-      {
-        "type": "p",
-        "text": "La vida útil de los componentes principales varía según las condiciones de operación. Los cangilones de acero presentan una vida útil de 15.000 a 25.000 horas en aplicaciones con materiales no abrasivos, reduciéndose a 8.000-12.000 horas con materiales abrasivos. Las cadenas de rodillos requieren reemplazo tras 20.000-30.000 horas de operación o cuando el alargamiento acumulado supera el 2% de la longitud original. Los rodamientos de tambores presentan una vida útil de 30.000-50.000 horas con lubricación adecuada."
+        "text": "La potencia requerida se calcula considerando la elevación del material, las pérdidas por fricción en guías y tambores, y el rendimiento del sistema de transmisión. Una aproximación práctica establece que se requieren entre 0.015 y 0.025 kW por cada metro de altura y tonelada/hora de capacidad, más un factor de seguridad del 20-30% para compensar arranques y variaciones de carga."
       },
       {
         "type": "callout",
-        "text": "Regla práctica: Inspeccionar el tensado de cadena semanalmente y ajustar cuando la flecha en el tramo horizontal inferior supere 15 mm por metro de distancia entre soportes. Un tensado correcto prolonga la vida útil de la cadena hasta un 40% y reduce el consumo energético entre un 5% y un 8%."
+        "text": "Regla práctica de dimensionamiento: Para productos de densidad media (500-800 kg/m³), considere 1 litro de capacidad de cangilón por cada 2-3 m³/h de caudal deseado. Ajuste la velocidad lineal antes de incrementar el tamaño de cangilón para optimizar el comportamiento del producto en las transiciones."
       },
       {
         "type": "h2",
-        "text": "Consideraciones de seguridad y normativa aplicable"
+        "text": "Sistemas de carga y descarga"
       },
       {
         "type": "p",
-        "text": "Los elevadores tipo Z deben cumplir la Directiva de Máquinas 2006/42/CE y las normas armonizadas EN 619 para equipos de elevación continua. Los requisitos de seguridad incluyen protección completa de órganos móviles mediante carcasas o rejillas, dispositivos de parada de emergencia accesibles desde puntos de operación, sistemas de detección de rotura de cadena, detectores de desalineamiento y protección contra sobrecarga del motor mediante relés térmicos o variadores de frecuencia."
+        "text": "La zona de carga inferior puede configurarse mediante alimentación directa desde tolva, carga por excavación en productos de flujo libre, o alimentación forzada mediante dosificador para productos cohesivos. El diseño de la boca de carga debe garantizar el llenado completo del cangilón sin provocar atascos ni derrames. La altura de producto en la zona de carga se mantiene mediante control de nivel por sondas capacitivas o mecánicas que regulan el equipo de alimentación aguas arriba."
       },
       {
         "type": "p",
-        "text": "En aplicaciones con materiales combustibles o en atmósferas potencialmente explosivas, el diseño debe cumplir la Directiva ATEX 2014/34/UE, incorporando medidas de prevención de ignición como motores certificados, eliminación de puntos calientes, sistemas de detección de temperatura y puesta a tierra de todos los elementos metálicos. La clasificación de zona ATEX determina el nivel de protección requerido: zona 20 requiere equipos categoría 1D, zona 21 categoría 2D y zona 22 categoría 3D."
+        "text": "La descarga en elevadores tipo Z puede ejecutarse por gravedad en el punto más alto mediante deflector que separa el cangilón del flujo de producto, o por descarga centrífuga aprovechando la velocidad lineal. La descarga centrífuga resulta más limpia y reduce la degradación del producto, pero requiere mayor velocidad lineal y genera una trayectoria de caída que debe considerarse en el diseño de la boca de salida. Para productos frágiles o cuando se requiere descarga controlada, se implementan sistemas de descarga continua con guías que acompañan el vaciado gradual del cangilón."
       },
       {
         "type": "p",
-        "text": "El elevador de cangilones tipo Z de Toromac integra estas consideraciones técnicas en un diseño modular que permite adaptación a requisitos específicos de cada instalación. La configuración estándar incluye estructura en acero al carbono con tratamiento anticorrosivo, cangilones en acero galvanizado o polietileno alimentario, cadena de rodillos ISO con tratamiento térmico y sistema de tensado por tornillo con indicador visual. Las opciones de personalización incluyen construcción en acero inoxidable AISI 304/316, cangilones especiales para productos frágiles, sistemas de descarga múltiple y automatización completa con control PLC."
+        "text": "En el tramo horizontal intermedio, algunos diseños incorporan puntos de descarga o carga adicionales que permiten alimentar o extraer producto sin interrumpir el flujo principal. Esta configuración multi-punto resulta útil en procesos que requieren dosificación desde o hacia diferentes equipos situados a lo largo del recorrido horizontal."
       },
       {
         "type": "h2",
-        "text": "Análisis comparativo con elevadores tipo O y tipo C"
+        "text": "Criterios de selección según aplicación industrial"
       },
       {
         "type": "p",
-        "text": "La selección entre elevador tipo Z, tipo O (configuración circular) o tipo C (vertical simple) depende de los requisitos específicos de layout y proceso. El elevador tipo C resulta más económico y compacto cuando no se requiere desplazamiento horizontal, siendo la opción preferente para alturas inferiores a 15 metros y cuando los puntos de carga y descarga están verticalmente alineados. Su principal limitación radica en la imposibilidad de realizar descargas múltiples o desplazadas horizontalmente."
+        "text": "La selección de un elevador tipo Z frente a otras configuraciones se fundamenta en el análisis del layout de planta, las restricciones de espacio y los requisitos de proceso. Cuando la distancia horizontal entre el punto de carga y descarga supera los 2 metros y ambos requieren elevación, el tipo Z elimina la necesidad de un transportador horizontal adicional, reduciendo puntos de transferencia y simplificando el control del proceso."
       },
       {
         "type": "p",
-        "text": "El elevador tipo O describe un circuito circular completo, permitiendo múltiples puntos de carga y descarga en cualquier posición del circuito. Esta configuración resulta adecuada para instalaciones donde se requiere recircular material o realizar operaciones de mezcla durante el transporte. Sin embargo, presenta mayor complejidad constructiva, requiere mayor altura de instalación y su capacidad de transporte resulta inferior al tipo Z para dimensiones equivalentes debido a la geometría circular que limita el llenado efectivo de los cangilones."
+        "text": "En industria alimentaria, el elevador tipo Z se especifica frecuentemente en líneas de envasado donde el producto debe elevarse desde silos de almacenamiento, desplazarse horizontalmente hasta la zona de envasado y elevarse nuevamente hasta tolvas de dosificación. La configuración cerrada minimiza la exposición del producto al ambiente y facilita el cumplimiento de requisitos HACCP. El diseño higiénico incorpora superficies interiores pulidas, ausencia de zonas de acumulación y accesibilidad para limpieza validada."
       },
       {
         "type": "p",
-        "text": "El elevador tipo Z representa un equilibrio óptimo cuando se requiere elevación vertical combinada con desplazamiento horizontal moderado (hasta 20 metros) y posibilidad de múltiples puntos de descarga. Su coste de inversión resulta entre un 15% y un 25% superior al tipo C equivalente, pero inferior en un 20% al tipo O de capacidad similar. La eficiencia energética del tipo Z supera al tipo O en aproximadamente un 18% debido a la trayectoria más directa y menor longitud total de recorrido."
+        "text": "Para productos farmacéuticos, los elevadores tipo Z se construyen conforme a normativas GMP con acabados electrobrillados Ra < 0.8 μm, juntas de estanqueidad validadas y sistemas de limpieza integrados. La documentación de fabricación incluye trazabilidad de materiales, certificados de conformidad y protocolos IQ/OQ. En aplicaciones que manejan polvos con riesgo de explosión, el equipo se diseña según directiva ATEX con conexiones equipotenciales, eliminación de puntos de ignición y sistemas de supresión o venteo de explosiones."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Cereales y granos: configuración con carga por excavación, cangilones espaciados, velocidad 1-1.2 m/s",
+          "Harinas y polvos finos: sistema hermético con filtro de desaireación, cangilones continuos, velocidad 0.6-0.8 m/s",
+          "Pellets y extrusionados: cangilones de polímero con refuerzos, descarga centrífuga suave para minimizar roturas",
+          "Productos químicos: construcción en acero inoxidable 316L, juntas resistentes a agentes químicos, ventilación controlada",
+          "Materiales abrasivos: cangilones metálicos, guías con insertos reemplazables de material resistente al desgaste",
+          "Productos higroscópicos: sistema completamente cerrado con atmósfera controlada, mínima exposición durante transferencias"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Mantenimiento preventivo y predictivo"
+      },
+      {
+        "type": "p",
+        "text": "El programa de mantenimiento de un elevador tipo Z debe contemplar inspecciones periódicas de los elementos sometidos a desgaste: cadena de tracción, cangilones, guías laterales y rodamientos de tambores. La frecuencia de inspección se establece en función de las horas de operación, las características abrasivas del producto y las condiciones ambientales. Un protocolo estándar incluye verificación semanal de tensión de cadena, inspección mensual de integridad de cangilones y revisión trimestral de alineación de tambores."
+      },
+      {
+        "type": "p",
+        "text": "El desgaste de la cadena se monitoriza mediante medición del alargamiento, que no debe superar el 2% de la longitud nominal antes de proceder a sustitución. Los cangilones se inspeccionan visualmente detectando grietas, deformaciones o pérdida de material en bordes. La sustitución se realiza por lotes completos para mantener el equilibrio dinámico del sistema. Las guías laterales de UHMW-PE presentan desgaste progresivo que se compensa mediante ajuste de posición hasta agotar el margen de regulación."
+      },
+      {
+        "type": "p",
+        "text": "Los sistemas de mantenimiento predictivo incorporan sensores de vibración en rodamientos, medición de corriente del motor para detectar incrementos de carga y sistemas de detección de rotura de cadena mediante interruptores de seguridad. El análisis de tendencias de estos parámetros permite programar intervenciones antes de que se produzcan fallos catastróficos. La implementación de variadores de frecuencia facilita el registro de parámetros operativos y la detección de anomalías mediante comparación con perfiles de funcionamiento normal."
+      },
+      {
+        "type": "callout",
+        "text": "Indicador de mantenimiento: Un incremento sostenido superior al 15% en la corriente nominal del motor, sin variación del caudal de producto, indica fricción excesiva por desalineación, desgaste de guías o acumulación de material. Proceda a inspección completa antes de continuar operación."
+      },
+      {
+        "type": "h2",
+        "text": "Integración en líneas de proceso automatizadas"
+      },
+      {
+        "type": "p",
+        "text": "El elevador tipo Z se integra en sistemas de control de planta mediante señales digitales y analógicas que permiten coordinación con equipos aguas arriba y aguas abajo. Las salidas típicas incluyen señal de marcha, alarma de fallo y confirmación de velocidad. Las entradas reciben comandos de arranque/paro, ajuste de velocidad mediante señal 4-20 mA o 0-10 V, y señales de enclavamiento desde sistemas de seguridad."
+      },
+      {
+        "type": "p",
+        "text": "Los controladores lógicos programables (PLC) gestionan secuencias de arranque que incluyen verificación de condiciones previas, arranque progresivo mediante rampa de aceleración y confirmación de régimen estable antes de habilitar la alimentación. Las secuencias de parada contemplan vaciado completo del elevador antes de detención del motor para evitar arranques con carga. Los sistemas SCADA registran parámetros operativos, generan alarmas y facilitan el análisis de eficiencia mediante cálculo de OEE (Overall Equipment Effectiveness)."
+      },
+      {
+        "type": "p",
+        "text": "La comunicación mediante protocolos industriales (Profibus, Modbus, Ethernet/IP) permite integración en arquitecturas de control distribuido donde el elevador constituye un nodo más de la red de planta. Esta conectividad facilita la implementación de estrategias de mantenimiento predictivo basadas en análisis de datos y la optimización de consumos energéticos mediante ajuste dinámico de velocidad según demanda real de proceso."
+      },
+      {
+        "type": "h2",
+        "text": "Comparativa con otras configuraciones de elevadores"
+      },
+      {
+        "type": "p",
+        "text": "El elevador tipo Z se posiciona entre el elevador vertical simple y configuraciones más complejas como el tipo C o el tipo O. El elevador vertical convencional resulta más económico y eficiente cuando no existe requerimiento de desplazamiento horizontal, ofreciendo mayor capacidad por unidad de potencia instalada. Sin embargo, requiere equipos auxiliares de transporte horizontal que incrementan el coste total de instalación y los puntos potenciales de fallo."
+      },
+      {
+        "type": "p",
+        "text": "El elevador tipo C, con configuración en doble Z invertida, permite múltiples puntos de carga y descarga a diferentes alturas, resultando apropiado para procesos complejos con distribución a varios equipos. Su coste de inversión y complejidad de mantenimiento superan al tipo Z, justificándose únicamente cuando la flexibilidad operativa compensa estos factores. El elevador tipo O, con recorrido circular continuo, ofrece capacidades superiores pero requiere mayor altura de instalación y presenta limitaciones en cuanto a cambios de dirección horizontal."
+      },
+      {
+        "type": "p",
+        "text": "La selección óptima se fundamenta en un análisis coste-beneficio que considera inversión inicial, costes operativos, flexibilidad de proceso y requisitos de mantenimiento. Para instalaciones con restricciones de espacio horizontal y necesidad de superar obstáculos arquitectónicos, el tipo Z constituye frecuentemente la solución más eficiente. En plantas de nueva construcción donde el layout puede optimizarse libremente, configuraciones más simples pueden ofrecer ventajas económicas."
+      },
+      {
+        "type": "h2",
+        "text": "Normativa aplicable y certificaciones"
+      },
+      {
+        "type": "p",
+        "text": "Los elevadores de cangilones tipo Z deben cumplir la Directiva de Máquinas 2006/42/CE, incorporando análisis de riesgos, diseño conforme a requisitos esenciales de seguridad y marcado CE. La documentación técnica incluye declaración de conformidad, manual de instrucciones en idioma del usuario y planos de conjunto. Los sistemas de protección obligatorios comprenden resguardos en zonas de transmisión, dispositivos de parada de emergencia accesibles y sistemas de bloqueo que impiden acceso a zonas peligrosas durante operación."
+      },
+      {
+        "type": "p",
+        "text": "Para aplicaciones en industria alimentaria, el diseño debe conformarse a Reglamento (CE) 1935/2004 sobre materiales en contacto con alimentos, utilizando exclusivamente materiales con declaración de conformidad FDA o certificación EU 10/2011 para plásticos. Las superficies en contacto con producto se diseñan conforme a estándares EHEDG (European Hygienic Engineering & Design Group) que establecen criterios de limpiabilidad, drenaje y ausencia de zonas de retención."
+      },
+      {
+        "type": "p",
+        "text": "En atmósferas potencialmente explosivas, el equipo se clasifica según Directiva ATEX 2014/34/UE, determinando la categoría apropiada mediante evaluación de frecuencia y duración de la atmósfera explosiva. Los elevadores para zona 20 (presencia permanente de polvo combustible) requieren construcción con grado de protección IP6X, eliminación de fuentes de ignición efectiva inferior a la energía mínima de ignición del polvo y sistemas de supresión o aislamiento de explosión. La documentación incluye certificado de conformidad emitido por organismo notificado y manual de instalación con requisitos de zona clasificada."
+      },
+      {
+        "type": "h2",
+        "text": "Soluciones Toromac en elevación tipo Z"
+      },
+      {
+        "type": "p",
+        "text": "Toromac desarrolla elevadores de cangilones tipo Z adaptados a los requisitos específicos de cada aplicación industrial, con más de cuatro décadas de experiencia en sectores de alimentación, farmacia, química y nutrición animal. Nuestros equipos se fabrican íntegramente en España con control total del proceso productivo, desde el diseño de ingeniería hasta las pruebas finales de funcionamiento. La construcción modular permite configuraciones personalizadas en cuanto a alturas, longitudes y capacidades, manteniendo componentes estandarizados que facilitan la disponibilidad de recambios y reducen plazos de entrega."
+      },
+      {
+        "type": "p",
+        "text": "Los elevadores Toromac incorporan sistemas de tensado automático que compensan el alargamiento de cadena durante la vida útil, reduciendo intervenciones de mantenimiento. Los cangilones se fabrican en poliamida de alta resistencia con certificación alimentaria o en acero inoxidable AISI 304L/316L según aplicación. El sistema de guiado lateral mediante perfiles de UHMW-PE de bajo coeficiente de fricción minimiza el consumo energético y el desgaste. La motorización mediante motorreductor con variador de frecuencia integrado permite ajuste preciso de velocidad y arranque progresivo que protege los componentes mecánicos."
+      },
+      {
+        "type": "p",
+        "text": "El servicio técnico de Toromac proporciona asistencia en la fase de especificación mediante cálculo de capacidades, selección de materiales y definición de interfaces con equipos adyacentes. El suministro incluye supervisión de montaje, puesta en marcha y formación de personal de operación y mantenimiento. El servicio postventa garantiza disponibilidad de recambios originales con plazos de entrega reducidos y soporte técnico remoto para resolución de incidencias. Consulte las especificaciones completas de nuestro <a href='/productos/elevador-cangilones-tipo-z'>elevador de cangilones tipo Z</a> para evaluar su adecuación a sus requisitos de proceso."
       }
     ],
     "en": [
       {
         "type": "p",
-        "text": "The z-type bucket elevator constitutes a combined vertical and horizontal transport solution that allows material elevation to considerable height and horizontal displacement from the loading point through a Z-shaped geometric configuration. This system integrates three main sections: a lower horizontal feeding section, a vertical elevation section and an upper horizontal discharge section, all driven by a single continuous traction element that drags the buckets along the complete path."
+        "text": "The z-type bucket elevator constitutes a combined vertical and horizontal transport solution that allows overcoming height differences while displacing material in the horizontal plane through a Z-shaped geometric configuration. This system integrates two vertical sections connected by an intermediate horizontal segment, eliminating the need for auxiliary transport equipment between process points located at different heights and horizontal positions. The z-type configuration proves especially relevant in installations where space restrictions or process equipment layout require a non-linear material flow path."
       },
       {
         "type": "p",
-        "text": "The z-type configuration proves especially relevant in installations where available floor space requires horizontal separation between feeding and discharge points, a frequent situation in grain processing plants, feed mills, milling facilities and packaging lines. Unlike conventional vertical elevators, the z-type eliminates the need for additional horizontal transport equipment, reducing transfer points and simplifying installation layout."
+        "text": "Unlike conventional vertical elevators that only lift product in a straight line, the z-type design incorporates controlled direction changes through guidance systems that maintain product integrity and flow continuity. This characteristic becomes determinant in sectors such as food, pharmaceutical, chemical and animal nutrition, where minimizing transfer points reduces the risk of cross-contamination and product degradation."
       },
       {
         "type": "h2",
@@ -260,286 +295,321 @@
       },
       {
         "type": "p",
-        "text": "The z-type elevator operation relies on continuous bucket dragging through chain or belt along a closed circuit describing three differentiated sections. In the lower horizontal section, buckets move in inverted or lateral position until reaching the elevator boot, where the vertical section begins. During elevation, buckets adopt loading position and ascend transporting the material. Upon reaching the upper head, the system describes a second turn to initiate the horizontal discharge section, where buckets maintain the load until the programmed discharge point."
+        "text": "The z-type bucket elevator operates through a continuous chain or belt equipped with regularly spaced buckets that collect material in the lower loading zone, transport it vertically, displace it horizontally in the intermediate section and finally elevate it again to the upper discharge point. The system uses automatic or manual tensioners to maintain adequate tension of the traction element in all three sections."
       },
       {
         "type": "p",
-        "text": "The Z geometry implies installation of four direction change points through drums or sprockets: two at the ends of the lower horizontal section, one at the upper head of the vertical section and one final at the end of the horizontal discharge section. Each direction change point must be dimensioned considering the minimum radius allowing bucket passage without interferences or spillage, typically between 250 mm and 600 mm diameter depending on bucket size and operating speed."
+        "text": "The Z geometry comprises three main sections: the inlet vertical section, the intermediate horizontal segment and the outlet vertical section. At transition points between sections, the system incorporates drums or guide wheels that redirect flow without causing premature discharge. The radius of curvature at these critical points is dimensioned according to product type, linear velocity and bucket characteristics to ensure material remains contained during direction change."
+      },
+      {
+        "type": "p",
+        "text": "Buckets can be configured in spaced or continuous arrangement according to material characteristics. For free-flowing products such as cereals or pellets, spaced arrangement allows loading by digging in the lower zone. For cohesive or difficult-flow products, continuous configuration with direct loading proves more efficient. Typical linear velocity ranges between 0.5 and 1.5 m/s, adjusting according to product fragility and required capacity."
       },
       {
         "type": "h2",
-        "text": "Structural components and traction elements"
+        "text": "Structural components and construction materials"
       },
       {
         "type": "p",
-        "text": "The z-type elevator structure comprises tubular or angular steel profiles forming three independent but solidary bodies: the lower horizontal section, the vertical column and the upper horizontal section. Each section incorporates lateral guides maintaining chain trajectory and preventing bucket swinging, especially critical in horizontal sections where absence of gravitational tension may cause lateral deviations."
+        "text": "The z-type elevator supporting structure is typically manufactured from carbon steel profiles with surface treatment or stainless steel according to hygienic requirements of the application. In food and pharmaceutical industry, AISI 304L stainless steel constitutes the standard for product contact, while AISI 316L is specified when exposure to corrosive environments or products with high saline content exists."
       },
       {
         "type": "p",
-        "text": "The traction element can be single or double roller chain, or rubber belt with dragging lugs, according to required capacity and material characteristics. Roller chains offer greater mechanical resistance and prove preferable for capacities exceeding 50 t/h or elevation heights greater than 15 meters. Belts with lugs allow quieter operation and lower maintenance, suitable for non-abrasive materials and moderate capacities. The tensioning system can be located at the boot or head, with lower location being preferable to facilitate access and maintenance."
+        "text": "The outer casing or housing fulfills dust containment, mechanical protection and process isolation functions. It can be executed in painted steel sheet for general applications or polished stainless steel when compliance with ATEX regulations or GMP standards is required. Inspection doors are strategically distributed in each section to allow access during maintenance operations without compromising system tightness."
       },
       {
         "type": "ul",
         "items": [
-          "Buckets in steel, polyethylene or stainless steel according to application and regulations",
-          "Roller chain ISO 08B to 24B or rubber belt reinforced with steel cables",
-          "Drive and driven drums with anti-slip coating or toothed profile",
-          "Lateral guides in sheet metal or angular profile for trajectory control",
-          "Automatic or manual tensioning system with tension screw",
-          "Inspection and cleaning hatches in each section"
+          "Traction chain: tempered steel or stainless steel, with pitch between 100 and 200 mm according to capacity",
+          "Buckets: polypropylene, reinforced polyamide or stainless steel, volume between 0.5 and 5 liters",
+          "Drive and return drums: machined steel with rubber or polyurethane coating for traction",
+          "Lateral guides: UHMW-PE profiles or stainless steel for bucket path control",
+          "Tensioning system: screw tensioner, counterweight or pneumatic according to total length",
+          "Motorization: gearmotor with frequency drive for speed control and soft start"
         ]
       },
       {
-        "type": "h2",
-        "text": "Transport capacity and operating speed"
-      },
-      {
         "type": "p",
-        "text": "The transport capacity of a z-type elevator is determined through the formula Q = 3.6 × V × n × C × ρ × φ, where Q represents capacity in t/h, V the linear speed in m/s, n the number of buckets per meter of chain, C the volumetric capacity of the bucket in liters, ρ the bulk density of material in kg/dm³ and φ the filling coefficient varying between 0.65 and 0.85 according to loading method and material characteristics."
-      },
-      {
-        "type": "p",
-        "text": "Typical operating speed ranges between 0.4 m/s and 1.2 m/s. Speeds below 0.5 m/s are employed for fragile or high-density materials where minimizing breakage and wear is required. Speeds between 0.6 m/s and 0.8 m/s constitute the standard range for cereals, flours and granulated products. Speeds exceeding 1.0 m/s are reserved for light and non-abrasive materials where priority is maximizing capacity in installations with space limitations."
-      },
-      {
-        "type": "callout",
-        "text": "Practical rule: To estimate approximate capacity of a z-type elevator, multiply bucket volume in liters by speed in m/s and by 2.5 for medium density materials (0.7 kg/dm³). Example: 5-liter buckets at 0.8 m/s transport approximately 10 t/h of wheat."
+        "text": "Buckets in contact with food product are preferably manufactured in polyamide 6 or polypropylene with antistatic additives and FDA certification. These materials present abrasion resistance, do not transmit flavors or odors, and allow cleaning through CIP systems or manual washing. For abrasive products or temperatures above 80°C, metallic stainless steel buckets prove more appropriate."
       },
       {
         "type": "h2",
-        "text": "Specific loading and discharge systems"
+        "text": "Transport capacities and dimensioning"
       },
       {
         "type": "p",
-        "text": "The loading system in z-type elevators can be performed through direct gravity feeding, forced feeding through screw or belt conveyor feeding. Direct feeding proves simpler but requires free-flowing material and sufficient drop height to fill buckets during passage. Forced feeding through dosing screw allows precise flow control and proves necessary when material presents bridging tendency or when uniform feeding is required to avoid punctual overloads."
+        "text": "The transport capacity of a z-type elevator is determined through the equation: Q = 3.6 × V × n × q × ψ, where Q represents flow rate in m³/h, V the linear velocity in m/s, n the number of buckets per meter, q the unit bucket volume in liters and ψ the filling coefficient that varies between 0.6 and 0.9 according to loading method and product characteristics."
       },
       {
         "type": "p",
-        "text": "Discharge in the upper horizontal section can be configured at multiple points through manually or automatically actuated gates. This multipoint system allows material distribution to different destinations without additional diverting equipment. Centrifugal discharge, where material is projected by centrifugal force when passing through the head drum, proves suitable for dry granular materials. Continuous discharge, where buckets gradually invert, is employed for cohesive or humid materials that do not easily detach by centrifugal action."
-      },
-      {
-        "type": "h2",
-        "text": "Operational advantages versus alternative configurations"
-      },
-      {
-        "type": "p",
-        "text": "The main advantage of the z-type elevator lies in the integration of vertical and horizontal transport in a single equipment, eliminating intermediate transfer points that constitute potential sources of product degradation, dust generation and material losses. Each transfer point in a conventional installation additionally requires sealing elements, aspiration systems and additional maintenance, increasing total operating cost."
-      },
-      {
-        "type": "p",
-        "text": "From an energy perspective, the z-type elevator presents lower specific consumption than combined systems of vertical elevator plus horizontal conveyor, because material remains in buckets throughout the entire path without need for successive accelerations and decelerations. Typical energy consumption ranges between 0.015 kWh/t and 0.025 kWh/t for elevation heights of 10 to 20 meters and horizontal distances of 5 to 15 meters, values representing between 15% and 25% savings compared to multiple equipment configurations."
-      },
-      {
-        "type": "ul",
-        "items": [
-          "Reduction of transfer points and minimization of product degradation",
-          "Lower dust generation and reduction of aspiration requirements",
-          "Energy consumption lower than equivalent combined systems",
-          "Simplification of plant layout and reduction of required space",
-          "Lower number of drive equipment and control systems",
-          "Reduced maintenance by eliminating intermediate equipment"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "Dimensioning criteria and technical selection"
-      },
-      {
-        "type": "p",
-        "text": "Dimensioning a z-type elevator requires defining five fundamental parameters: required transport capacity in t/h, elevation height in meters, total horizontal distance in meters, characteristics of material to be transported (density, granulometry, abrasiveness, temperature) and environmental operating conditions. From these data, bucket size, bucket spacing, linear speed, chain or belt type and necessary drive power are determined."
-      },
-      {
-        "type": "p",
-        "text": "Bucket size selection is performed considering that volumetric capacity must allow transporting required flow at selected operating speed, maintaining a filling coefficient between 0.70 and 0.80 to ensure stable operation without spillage. Buckets with insufficient capacity will force speed increase, raising wear and energy consumption. Oversized buckets unnecessarily increase system weight and load on the traction element."
+        "text": "For an elevator with 2-liter buckets, spaced every 200 mm (5 buckets/meter), velocity of 1 m/s and filling coefficient of 0.75, theoretical capacity results: Q = 3.6 × 1 × 5 × 2 × 0.75 = 27 m³/h. This value must be adjusted considering product bulk density to obtain mass flow rate. A cereal with density of 650 kg/m³ would provide approximately 17.5 t/h under these conditions."
       },
       {
         "type": "table",
         "headers": [
           "Parameter",
           "Typical range",
-          "Selection criterion"
+          "Unit",
+          "Observations"
         ],
         "rows": [
           [
-            "Bucket volumetric capacity",
-            "1.5 - 12 liters",
-            "According to flow and required operating speed"
+            "Total elevation height",
+            "3-15",
+            "m",
+            "Sum of both vertical sections"
           ],
           [
-            "Linear speed",
-            "0.4 - 1.2 m/s",
-            "Fragile material: 0.4-0.6 m/s; standard granular: 0.6-0.8 m/s"
+            "Horizontal section length",
+            "1-8",
+            "m",
+            "According to equipment layout"
           ],
           [
-            "Bucket spacing",
-            "300 - 600 mm",
-            "Greater spacing for low-density materials"
+            "Volumetric capacity",
+            "5-50",
+            "m³/h",
+            "Dependent on bucket size"
           ],
           [
-            "Maximum elevation height",
-            "5 - 30 meters",
-            "Limited by chain resistance and structure"
+            "Linear velocity",
+            "0.5-1.5",
+            "m/s",
+            "Adjustable through drive"
           ],
           [
-            "Total horizontal distance",
-            "3 - 20 meters",
-            "According to plant layout and discharge points"
+            "Installed power",
+            "1.5-7.5",
+            "kW",
+            "Function of height and capacity"
           ],
           [
-            "Installed drive power",
-            "1.5 - 15 kW",
-            "Function of capacity, height and material characteristics"
+            "Working temperature",
+            "-10 to +80",
+            "°C",
+            "Expandable with special materials"
           ]
         ]
       },
       {
-        "type": "h2",
-        "text": "Industrial applications by sector"
-      },
-      {
         "type": "p",
-        "text": "In the grain processing industry, the z-type elevator is employed to transport grain from reception silos to cleaning or drying hoppers located at upper levels and horizontally displaced. The configuration allows feeding multiple process points through intermediate discharges in the upper horizontal section, optimizing material distribution without additional equipment. Typical capacities in this sector range between 20 t/h and 80 t/h with heights of 12 to 25 meters."
-      },
-      {
-        "type": "p",
-        "text": "In feed manufacturing plants, the z-type elevator transports raw materials from reception areas to dosing hoppers located above mixers. The capacity to perform multiple discharges allows feeding different production lines from a single elevator, reducing equipment investment and simplifying process control. Construction in AISI 304 or 316 stainless steel proves common when processing raw materials with strict hygienic requirements or in presence of corrosive environments."
-      },
-      {
-        "type": "p",
-        "text": "The chemical and pharmaceutical industry employs z-type elevators for transport of powders, granules and intermediate products between different process stages. In these sectors, requirements for tightness, cleanability and traceability are critical, requiring designs with sanitary finishes, visual inspection systems through polycarbonate windows and possibility of complete CIP or manual cleaning. Operating speeds are typically reduced to 0.4-0.6 m/s to minimize fines generation and product degradation."
-      },
-      {
-        "type": "h2",
-        "text": "Preventive maintenance and operational lifespan"
-      },
-      {
-        "type": "p",
-        "text": "The preventive maintenance program for a z-type elevator must include weekly inspection of chain tension, monthly verification of bucket and fastening condition, quarterly lubrication of bearings and semi-annual review of guides and wear points condition. Correct chain tension proves critical: insufficient tension causes jumps on drums and accelerated wear, while excessive tension overloads bearings and increases energy consumption."
-      },
-      {
-        "type": "p",
-        "text": "Main component lifespan varies according to operating conditions. Steel buckets present a lifespan of 15,000 to 25,000 hours in applications with non-abrasive materials, reducing to 8,000-12,000 hours with abrasive materials. Roller chains require replacement after 20,000-30,000 operating hours or when accumulated elongation exceeds 2% of original length. Drum bearings present a lifespan of 30,000-50,000 hours with adequate lubrication."
+        "text": "Required power is calculated considering material elevation, friction losses in guides and drums, and transmission system efficiency. A practical approximation establishes that between 0.015 and 0.025 kW are required per meter of height and ton/hour of capacity, plus a safety factor of 20-30% to compensate for starts and load variations."
       },
       {
         "type": "callout",
-        "text": "Practical rule: Inspect chain tension weekly and adjust when sag in the lower horizontal section exceeds 15 mm per meter of distance between supports. Correct tensioning extends chain lifespan up to 40% and reduces energy consumption between 5% and 8%."
+        "text": "Practical dimensioning rule: For medium-density products (500-800 kg/m³), consider 1 liter of bucket capacity per 2-3 m³/h of desired flow rate. Adjust linear velocity before increasing bucket size to optimize product behavior in transitions."
       },
       {
         "type": "h2",
-        "text": "Safety considerations and applicable regulations"
+        "text": "Loading and discharge systems"
       },
       {
         "type": "p",
-        "text": "Z-type elevators must comply with Machinery Directive 2006/42/EC and harmonized standards EN 619 for continuous handling equipment. Safety requirements include complete protection of moving parts through casings or grilles, emergency stop devices accessible from operating points, chain breakage detection systems, misalignment detectors and motor overload protection through thermal relays or frequency drives."
+        "text": "The lower loading zone can be configured through direct feeding from hopper, loading by digging in free-flowing products, or forced feeding through feeder for cohesive products. Loading mouth design must guarantee complete bucket filling without causing jams or spillage. Product height in the loading zone is maintained through level control by capacitive or mechanical probes that regulate the upstream feeding equipment."
       },
       {
         "type": "p",
-        "text": "In applications with combustible materials or potentially explosive atmospheres, design must comply with ATEX Directive 2014/34/EU, incorporating ignition prevention measures such as certified motors, elimination of hot spots, temperature detection systems and grounding of all metallic elements. ATEX zone classification determines required protection level: zone 20 requires category 1D equipment, zone 21 category 2D and zone 22 category 3D."
+        "text": "Discharge in z-type elevators can be executed by gravity at the highest point through deflector that separates the bucket from product flow, or by centrifugal discharge leveraging linear velocity. Centrifugal discharge proves cleaner and reduces product degradation, but requires higher linear velocity and generates a fall trajectory that must be considered in outlet mouth design. For fragile products or when controlled discharge is required, continuous discharge systems with guides that accompany gradual bucket emptying are implemented."
       },
       {
         "type": "p",
-        "text": "The Toromac z-type bucket elevator integrates these technical considerations in a modular design allowing adaptation to specific requirements of each installation. Standard configuration includes carbon steel structure with anticorrosive treatment, buckets in galvanized steel or food-grade polyethylene, ISO roller chain with heat treatment and screw tensioning system with visual indicator. Customization options include construction in AISI 304/316 stainless steel, special buckets for fragile products, multiple discharge systems and complete automation with PLC control."
+        "text": "In the intermediate horizontal section, some designs incorporate additional discharge or loading points that allow feeding or extracting product without interrupting main flow. This multi-point configuration proves useful in processes requiring dosing from or to different equipment located along the horizontal path."
       },
       {
         "type": "h2",
-        "text": "Comparative analysis with O-type and C-type elevators"
+        "text": "Selection criteria according to industrial application"
       },
       {
         "type": "p",
-        "text": "Selection between z-type, o-type (circular configuration) or c-type (simple vertical) elevator depends on specific layout and process requirements. The c-type elevator proves more economical and compact when horizontal displacement is not required, being the preferred option for heights below 15 meters and when loading and discharge points are vertically aligned. Its main limitation lies in the impossibility of performing multiple or horizontally displaced discharges."
+        "text": "Selection of a z-type elevator versus other configurations is based on plant layout analysis, space restrictions and process requirements. When horizontal distance between loading and discharge point exceeds 2 meters and both require elevation, the z-type eliminates the need for an additional horizontal conveyor, reducing transfer points and simplifying process control."
       },
       {
         "type": "p",
-        "text": "The o-type elevator describes a complete circular circuit, allowing multiple loading and discharge points at any circuit position. This configuration proves suitable for installations requiring material recirculation or mixing operations during transport. However, it presents greater constructive complexity, requires greater installation height and its transport capacity proves inferior to z-type for equivalent dimensions due to circular geometry limiting effective bucket filling."
+        "text": "In food industry, the z-type elevator is frequently specified in packaging lines where product must be elevated from storage silos, displaced horizontally to the packaging area and elevated again to dosing hoppers. The closed configuration minimizes product exposure to environment and facilitates compliance with HACCP requirements. Hygienic design incorporates polished interior surfaces, absence of accumulation zones and accessibility for validated cleaning."
       },
       {
         "type": "p",
-        "text": "The z-type elevator represents an optimal balance when vertical elevation combined with moderate horizontal displacement (up to 20 meters) and possibility of multiple discharge points is required. Its investment cost proves between 15% and 25% higher than equivalent c-type, but 20% lower than o-type of similar capacity. The energy efficiency of z-type exceeds o-type by approximately 18% due to more direct trajectory and shorter total path length."
+        "text": "For pharmaceutical products, z-type elevators are constructed according to GMP regulations with electropolished finishes Ra < 0.8 μm, validated sealing gaskets and integrated cleaning systems. Manufacturing documentation includes material traceability, certificates of conformity and IQ/OQ protocols. In applications handling powders with explosion risk, equipment is designed according to ATEX directive with equipotential connections, elimination of ignition points and explosion suppression or venting systems."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Cereals and grains: configuration with loading by digging, spaced buckets, velocity 1-1.2 m/s",
+          "Flours and fine powders: hermetic system with deaeration filter, continuous buckets, velocity 0.6-0.8 m/s",
+          "Pellets and extrudates: polymer buckets with reinforcements, soft centrifugal discharge to minimize breakage",
+          "Chemical products: construction in 316L stainless steel, gaskets resistant to chemical agents, controlled ventilation",
+          "Abrasive materials: metallic buckets, guides with replaceable wear-resistant material inserts",
+          "Hygroscopic products: completely closed system with controlled atmosphere, minimal exposure during transfers"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Preventive and predictive maintenance"
+      },
+      {
+        "type": "p",
+        "text": "The maintenance program for a z-type elevator must contemplate periodic inspections of elements subject to wear: traction chain, buckets, lateral guides and drum bearings. Inspection frequency is established according to operating hours, product abrasive characteristics and environmental conditions. A standard protocol includes weekly verification of chain tension, monthly inspection of bucket integrity and quarterly review of drum alignment."
+      },
+      {
+        "type": "p",
+        "text": "Chain wear is monitored through elongation measurement, which should not exceed 2% of nominal length before proceeding to replacement. Buckets are visually inspected detecting cracks, deformations or material loss at edges. Replacement is performed in complete batches to maintain system dynamic balance. UHMW-PE lateral guides present progressive wear that is compensated through position adjustment until exhausting regulation margin."
+      },
+      {
+        "type": "p",
+        "text": "Predictive maintenance systems incorporate vibration sensors in bearings, motor current measurement to detect load increases and chain break detection systems through safety switches. Trend analysis of these parameters allows scheduling interventions before catastrophic failures occur. Implementation of frequency drives facilitates recording of operating parameters and anomaly detection through comparison with normal operation profiles."
+      },
+      {
+        "type": "callout",
+        "text": "Maintenance indicator: A sustained increase above 15% in motor nominal current, without variation in product flow rate, indicates excessive friction due to misalignment, guide wear or material accumulation. Proceed to complete inspection before continuing operation."
+      },
+      {
+        "type": "h2",
+        "text": "Integration in automated process lines"
+      },
+      {
+        "type": "p",
+        "text": "The z-type elevator integrates into plant control systems through digital and analog signals that allow coordination with upstream and downstream equipment. Typical outputs include running signal, fault alarm and speed confirmation. Inputs receive start/stop commands, speed adjustment through 4-20 mA or 0-10 V signal, and interlock signals from safety systems."
+      },
+      {
+        "type": "p",
+        "text": "Programmable logic controllers (PLC) manage start sequences that include verification of previous conditions, progressive start through acceleration ramp and stable regime confirmation before enabling feeding. Stop sequences contemplate complete elevator emptying before motor stop to avoid starts with load. SCADA systems record operating parameters, generate alarms and facilitate efficiency analysis through OEE (Overall Equipment Effectiveness) calculation."
+      },
+      {
+        "type": "p",
+        "text": "Communication through industrial protocols (Profibus, Modbus, Ethernet/IP) allows integration in distributed control architectures where the elevator constitutes one more node of the plant network. This connectivity facilitates implementation of predictive maintenance strategies based on data analysis and optimization of energy consumption through dynamic speed adjustment according to actual process demand."
+      },
+      {
+        "type": "h2",
+        "text": "Comparison with other elevator configurations"
+      },
+      {
+        "type": "p",
+        "text": "The z-type elevator is positioned between the simple vertical elevator and more complex configurations such as c-type or o-type. The conventional vertical elevator proves more economical and efficient when no horizontal displacement requirement exists, offering greater capacity per unit of installed power. However, it requires auxiliary horizontal transport equipment that increases total installation cost and potential failure points."
+      },
+      {
+        "type": "p",
+        "text": "The c-type elevator, with double inverted Z configuration, allows multiple loading and discharge points at different heights, proving appropriate for complex processes with distribution to several equipment. Its investment cost and maintenance complexity exceed the z-type, being justified only when operational flexibility compensates these factors. The o-type elevator, with continuous circular path, offers superior capacities but requires greater installation height and presents limitations regarding horizontal direction changes."
+      },
+      {
+        "type": "p",
+        "text": "Optimal selection is based on cost-benefit analysis that considers initial investment, operating costs, process flexibility and maintenance requirements. For installations with horizontal space restrictions and need to overcome architectural obstacles, the z-type frequently constitutes the most efficient solution. In new construction plants where layout can be freely optimized, simpler configurations may offer economic advantages."
+      },
+      {
+        "type": "h2",
+        "text": "Applicable regulations and certifications"
+      },
+      {
+        "type": "p",
+        "text": "Z-type bucket elevators must comply with Machinery Directive 2006/42/EC, incorporating risk analysis, design according to essential safety requirements and CE marking. Technical documentation includes declaration of conformity, instruction manual in user language and assembly drawings. Mandatory protection systems comprise guards in transmission zones, accessible emergency stop devices and locking systems that prevent access to dangerous zones during operation."
+      },
+      {
+        "type": "p",
+        "text": "For food industry applications, design must conform to Regulation (EC) 1935/2004 on materials in contact with food, using exclusively materials with FDA declaration of conformity or EU 10/2011 certification for plastics. Surfaces in contact with product are designed according to EHEDG (European Hygienic Engineering & Design Group) standards that establish cleanability, drainage and absence of retention zones criteria."
+      },
+      {
+        "type": "p",
+        "text": "In potentially explosive atmospheres, equipment is classified according to ATEX Directive 2014/34/EU, determining appropriate category through evaluation of frequency and duration of explosive atmosphere. Elevators for zone 20 (permanent presence of combustible dust) require construction with IP6X protection degree, elimination of ignition sources with effective energy below dust minimum ignition energy and explosion suppression or isolation systems. Documentation includes certificate of conformity issued by notified body and installation manual with classified zone requirements."
+      },
+      {
+        "type": "h2",
+        "text": "Toromac solutions in z-type elevation"
+      },
+      {
+        "type": "p",
+        "text": "Toromac develops z-type bucket elevators adapted to specific requirements of each industrial application, with over four decades of experience in food, pharmaceutical, chemical and animal nutrition sectors. Our equipment is entirely manufactured in Spain with total control of the production process, from engineering design to final operation tests. Modular construction allows customized configurations regarding heights, lengths and capacities, maintaining standardized components that facilitate spare parts availability and reduce delivery times."
+      },
+      {
+        "type": "p",
+        "text": "Toromac elevators incorporate automatic tensioning systems that compensate chain elongation during service life, reducing maintenance interventions. Buckets are manufactured in high-resistance polyamide with food certification or AISI 304L/316L stainless steel according to application. The lateral guidance system through UHMW-PE profiles with low friction coefficient minimizes energy consumption and wear. Motorization through gearmotor with integrated frequency drive allows precise speed adjustment and progressive start that protects mechanical components."
+      },
+      {
+        "type": "p",
+        "text": "Toromac technical service provides assistance in specification phase through capacity calculation, material selection and definition of interfaces with adjacent equipment. Supply includes assembly supervision, commissioning and training of operation and maintenance personnel. After-sales service guarantees availability of original spare parts with reduced delivery times and remote technical support for incident resolution. Consult complete specifications of our <a href='/products/z-type-bucket-elevator'>z-type bucket elevator</a> to evaluate its suitability to your process requirements."
       }
     ]
   },
   "faq": [
     {
       "question": {
-        "es": "¿Cuál es la diferencia principal entre un elevador tipo Z y un elevador vertical convencional?",
+        "es": "¿Qué diferencia principal existe entre un elevador tipo Z y un elevador vertical convencional?",
         "en": "What is the main difference between a z-type elevator and a conventional vertical elevator?"
       },
       "answer": {
-        "es": "El elevador tipo Z integra transporte vertical y horizontal en un único equipo mediante una configuración geométrica en forma de Z, mientras que el elevador vertical convencional únicamente realiza elevación en sentido vertical. El tipo Z permite desplazar el punto de descarga horizontalmente respecto al punto de carga sin necesidad de equipos adicionales, eliminando puntos de transferencia intermedios. Esta configuración resulta especialmente útil cuando el layout de planta requiere separación horizontal entre zonas de proceso, reduciendo el número de equipos necesarios y simplificando el sistema de transporte global.",
-        "en": "The z-type elevator integrates vertical and horizontal transport in a single equipment through a Z-shaped geometric configuration, while the conventional vertical elevator only performs elevation in vertical direction. The z-type allows horizontal displacement of the discharge point relative to the loading point without additional equipment, eliminating intermediate transfer points. This configuration proves especially useful when plant layout requires horizontal separation between process areas, reducing the number of necessary equipment and simplifying the global transport system."
+        "es": "El elevador tipo Z incorpora un tramo horizontal intermedio entre dos secciones verticales, permitiendo desplazar el material simultáneamente en altura y posición horizontal mediante un único equipo. El elevador vertical convencional únicamente eleva en línea recta, requiriendo transportadores horizontales adicionales cuando el punto de descarga no se encuentra directamente sobre el punto de carga. Esta diferencia resulta determinante en instalaciones con restricciones de espacio o cuando se busca minimizar puntos de transferencia para reducir riesgo de contaminación y degradación del producto.",
+        "en": "The z-type elevator incorporates an intermediate horizontal section between two vertical sections, allowing simultaneous displacement of material in height and horizontal position through a single equipment. The conventional vertical elevator only elevates in straight line, requiring additional horizontal conveyors when discharge point is not directly above loading point. This difference proves determinant in installations with space restrictions or when seeking to minimize transfer points to reduce contamination risk and product degradation."
       }
     },
     {
       "question": {
-        "es": "¿Qué capacidad de transporte puede alcanzar un elevador de cangilones tipo Z?",
-        "en": "What transport capacity can a z-type bucket elevator achieve?"
+        "es": "¿Cómo se determina la capacidad adecuada de un elevador tipo Z para una aplicación específica?",
+        "en": "How is the adequate capacity of a z-type elevator determined for a specific application?"
       },
       "answer": {
-        "es": "La capacidad de transporte de un elevador tipo Z varía típicamente entre 5 t/h y 150 t/h, dependiendo del tamaño de cangilón, velocidad operativa y características del material. Para aplicaciones estándar en procesado de cereales, las capacidades más comunes oscilan entre 20 t/h y 80 t/h con cangilones de 3 a 8 litros y velocidades de 0.6 a 0.8 m/s. Instalaciones industriales de gran escala pueden alcanzar capacidades superiores a 100 t/h mediante cangilones de mayor volumen y cadenas de doble ramal. La capacidad específica debe calcularse considerando la densidad aparente del material, el coeficiente de llenado efectivo y las limitaciones mecánicas del sistema de tracción.",
-        "en": "The transport capacity of a z-type elevator typically varies between 5 t/h and 150 t/h, depending on bucket size, operating speed and material characteristics. For standard applications in grain processing, most common capacities range between 20 t/h and 80 t/h with buckets of 3 to 8 liters and speeds of 0.6 to 0.8 m/s. Large-scale industrial installations can achieve capacities exceeding 100 t/h through larger volume buckets and double-strand chains. Specific capacity must be calculated considering material bulk density, effective filling coefficient and mechanical limitations of the traction system."
+        "es": "La capacidad se calcula mediante la fórmula Q = 3.6 × V × n × q × ψ, donde intervienen velocidad lineal, número de cangilones por metro, volumen unitario del cangilón y coeficiente de llenado. Este último varía entre 0.6 y 0.9 según el método de carga y características del producto. Para productos de flujo libre como cereales, se utilizan valores superiores a 0.75, mientras que productos cohesivos requieren coeficientes menores. El cálculo debe considerar la densidad aparente del producto para convertir capacidad volumétrica en caudal másico. Se recomienda incorporar un margen de seguridad del 15-20% sobre la capacidad nominal para compensar variaciones de proceso.",
+        "en": "Capacity is calculated through formula Q = 3.6 × V × n × q × ψ, where linear velocity, number of buckets per meter, unit bucket volume and filling coefficient intervene. The latter varies between 0.6 and 0.9 according to loading method and product characteristics. For free-flowing products such as cereals, values above 0.75 are used, while cohesive products require lower coefficients. Calculation must consider product bulk density to convert volumetric capacity into mass flow rate. It is recommended to incorporate a safety margin of 15-20% over nominal capacity to compensate for process variations."
       }
     },
     {
       "question": {
-        "es": "¿Qué materiales pueden transportarse mediante elevador tipo Z?",
-        "en": "What materials can be transported through z-type elevator?"
+        "es": "¿Qué materiales de construcción son apropiados para elevadores tipo Z en industria alimentaria?",
+        "en": "What construction materials are appropriate for z-type elevators in food industry?"
       },
       "answer": {
-        "es": "El elevador tipo Z puede transportar materiales granulares, pulverulentos y en piezas con densidades aparentes entre 0.3 kg/dm³ y 2.5 kg/dm³. Aplicaciones típicas incluyen cereales (trigo, maíz, cebada), harinas, piensos compuestos, pellets, semillas oleaginosas, azúcar, sal, productos químicos en polvo o gránulo, materias primas farmacéuticas y productos alimentarios secos. El diseño debe adaptarse a las características específicas del material: productos abrasivos requieren cangilones y guías reforzadas, materiales cohesivos necesitan sistemas de descarga asistida, productos frágiles operan a velocidades reducidas y materiales con requisitos higiénicos demandan construcción en acero inoxidable con acabados sanitarios.",
-        "en": "The z-type elevator can transport granular, powdery and piece materials with bulk densities between 0.3 kg/dm³ and 2.5 kg/dm³. Typical applications include cereals (wheat, corn, barley), flours, compound feeds, pellets, oilseeds, sugar, salt, chemical products in powder or granule, pharmaceutical raw materials and dry food products. Design must be adapted to specific material characteristics: abrasive products require reinforced buckets and guides, cohesive materials need assisted discharge systems, fragile products operate at reduced speeds and materials with hygienic requirements demand stainless steel construction with sanitary finishes."
+        "es": "Para contacto con producto alimentario se especifica acero inoxidable AISI 304L como estándar, o AISI 316L cuando existe exposición a ambientes corrosivos o productos con contenido salino. Los cangilones se fabrican preferentemente en poliamida 6 o polipropileno con certificación FDA, materiales que no transmiten sabores ni olores y resisten limpieza mediante sistemas CIP. Las guías laterales utilizan UHMW-PE por su bajo coeficiente de fricción y resistencia al desgaste. Las superficies deben presentar acabado pulido con rugosidad Ra inferior a 0.8 μm en aplicaciones farmacéuticas, y ausencia de zonas de retención conforme a criterios EHEDG para facilitar limpieza validada.",
+        "en": "For food product contact, AISI 304L stainless steel is specified as standard, or AISI 316L when exposure to corrosive environments or products with saline content exists. Buckets are preferably manufactured in polyamide 6 or polypropylene with FDA certification, materials that do not transmit flavors or odors and resist cleaning through CIP systems. Lateral guides use UHMW-PE for its low friction coefficient and wear resistance. Surfaces must present polished finish with roughness Ra below 0.8 μm in pharmaceutical applications, and absence of retention zones according to EHEDG criteria to facilitate validated cleaning."
       }
     },
     {
       "question": {
-        "es": "¿Cuál es el consumo energético de un elevador tipo Z?",
-        "en": "What is the energy consumption of a z-type elevator?"
+        "es": "¿Qué mantenimiento preventivo requiere un elevador de cangilones tipo Z?",
+        "en": "What preventive maintenance does a z-type bucket elevator require?"
       },
       "answer": {
-        "es": "El consumo energético específico de un elevador tipo Z oscila entre 0.015 kWh/t y 0.025 kWh/t para alturas de elevación de 10 a 20 metros y distancias horizontales de 5 a 15 metros. Este valor representa entre un 15% y un 25% de ahorro respecto a configuraciones con elevador vertical más transportador horizontal separados. La potencia instalada típica varía entre 1.5 kW y 15 kW según capacidad y dimensiones. Factores que incrementan el consumo incluyen materiales de alta densidad, velocidades operativas elevadas, tensado excesivo de cadena y fricción en guías. La instalación de variadores de frecuencia permite optimizar el consumo ajustando la velocidad al caudal real de alimentación.",
-        "en": "The specific energy consumption of a z-type elevator ranges between 0.015 kWh/t and 0.025 kWh/t for elevation heights of 10 to 20 meters and horizontal distances of 5 to 15 meters. This value represents between 15% and 25% savings compared to configurations with separate vertical elevator plus horizontal conveyor. Typical installed power varies between 1.5 kW and 15 kW according to capacity and dimensions. Factors increasing consumption include high-density materials, elevated operating speeds, excessive chain tension and friction in guides. Installation of frequency drives allows consumption optimization by adjusting speed to actual feeding flow."
+        "es": "El programa de mantenimiento incluye verificación semanal de tensión de cadena, inspección mensual de integridad de cangilones detectando grietas o deformaciones, y revisión trimestral de alineación de tambores y estado de rodamientos. El alargamiento de cadena no debe superar el 2% antes de proceder a sustitución. Las guías laterales de UHMW-PE requieren ajuste periódico para compensar desgaste. Se recomienda implementar monitorización de corriente del motor, donde incrementos sostenidos superiores al 15% sin variación de caudal indican fricción excesiva por desalineación o acumulación de material. Los sistemas con variador de frecuencia facilitan el registro de parámetros operativos para análisis de tendencias y detección temprana de anomalías.",
+        "en": "Maintenance program includes weekly verification of chain tension, monthly inspection of bucket integrity detecting cracks or deformations, and quarterly review of drum alignment and bearing condition. Chain elongation must not exceed 2% before proceeding to replacement. UHMW-PE lateral guides require periodic adjustment to compensate wear. It is recommended to implement motor current monitoring, where sustained increases above 15% without flow rate variation indicate excessive friction due to misalignment or material accumulation. Systems with frequency drive facilitate recording of operating parameters for trend analysis and early anomaly detection."
       }
     },
     {
       "question": {
-        "es": "¿Qué mantenimiento requiere un elevador de cangilones tipo Z?",
-        "en": "What maintenance does a z-type bucket elevator require?"
+        "es": "¿Cuándo resulta más apropiado seleccionar un elevador tipo Z frente a otras configuraciones?",
+        "en": "When is it more appropriate to select a z-type elevator versus other configurations?"
       },
       "answer": {
-        "es": "El mantenimiento preventivo incluye inspección semanal del tensado de cadena y ajuste si la flecha supera 15 mm/metro, verificación mensual del estado de cangilones y fijaciones con reemplazo de elementos dañados, lubricación trimestral de rodamientos con grasa de alta temperatura, revisión semestral del desgaste de guías y tambores, y limpieza anual completa del circuito. La cadena requiere reemplazo cuando el alargamiento acumulado supera el 2% o tras 20.000-30.000 horas de operación. Los cangilones presentan vida útil de 15.000-25.000 horas con materiales no abrasivos. Un programa de mantenimiento adecuado puede extender la vida útil del equipo hasta 25-30 años en condiciones normales de operación.",
-        "en": "Preventive maintenance includes weekly inspection of chain tension and adjustment if sag exceeds 15 mm/meter, monthly verification of bucket and fastening condition with replacement of damaged elements, quarterly lubrication of bearings with high-temperature grease, semi-annual review of guide and drum wear, and annual complete circuit cleaning. Chain requires replacement when accumulated elongation exceeds 2% or after 20,000-30,000 operating hours. Buckets present lifespan of 15,000-25,000 hours with non-abrasive materials. An adequate maintenance program can extend equipment lifespan up to 25-30 years under normal operating conditions."
+        "es": "El elevador tipo Z resulta óptimo cuando la distancia horizontal entre punto de carga y descarga supera los 2 metros y ambos requieren elevación a diferentes alturas. Esta configuración elimina la necesidad de transportador horizontal adicional, reduciendo puntos de transferencia, simplificando el control y minimizando riesgo de contaminación. Resulta especialmente apropiado en instalaciones con restricciones de espacio horizontal, necesidad de superar obstáculos arquitectónicos o cuando el layout de equipos de proceso no permite trazado vertical directo. En plantas de nueva construcción donde el layout puede optimizarse libremente, configuraciones más simples como el elevador vertical convencional pueden ofrecer ventajas económicas y mayor eficiencia energética.",
+        "en": "The z-type elevator proves optimal when horizontal distance between loading and discharge point exceeds 2 meters and both require elevation to different heights. This configuration eliminates the need for additional horizontal conveyor, reducing transfer points, simplifying control and minimizing contamination risk. It proves especially appropriate in installations with horizontal space restrictions, need to overcome architectural obstacles or when process equipment layout does not allow direct vertical path. In new construction plants where layout can be freely optimized, simpler configurations such as conventional vertical elevator may offer economic advantages and greater energy efficiency."
       }
     },
     {
       "question": {
-        "es": "¿Cuándo es preferible un elevador tipo Z frente a otras configuraciones?",
-        "en": "When is a z-type elevator preferable versus other configurations?"
+        "es": "¿Qué consideraciones de seguridad deben contemplarse en elevadores tipo Z para atmósferas explosivas?",
+        "en": "What safety considerations must be contemplated in z-type elevators for explosive atmospheres?"
       },
       "answer": {
-        "es": "El elevador tipo Z resulta preferible cuando se requiere elevación vertical combinada con desplazamiento horizontal entre 3 y 20 metros, cuando el layout de planta impide alineación vertical entre puntos de carga y descarga, cuando se necesitan múltiples puntos de descarga en el tramo horizontal superior, o cuando se busca minimizar puntos de transferencia para reducir degradación del producto. No resulta adecuado cuando la distancia horizontal supera 20 metros (más económico usar elevador vertical más transportador horizontal), cuando únicamente se requiere elevación vertical sin desplazamiento horizontal (más simple usar tipo C), o cuando se necesita recircular material (preferible tipo O circular).",
-        "en": "The z-type elevator proves preferable when vertical elevation combined with horizontal displacement between 3 and 20 meters is required, when plant layout prevents vertical alignment between loading and discharge points, when multiple discharge points are needed in the upper horizontal section, or when minimizing transfer points to reduce product degradation is sought. It proves unsuitable when horizontal distance exceeds 20 meters (more economical to use vertical elevator plus horizontal conveyor), when only vertical elevation without horizontal displacement is required (simpler to use c-type), or when material recirculation is needed (preferable circular o-type)."
+        "es": "En presencia de polvos combustibles, el elevador debe diseñarse conforme a Directiva ATEX 2014/34/UE, determinando la categoría apropiada según frecuencia y duración de la atmósfera explosiva. Para zona 20 se requiere construcción con grado de protección IP6X, eliminación de fuentes de ignición con energía efectiva inferior a la energía mínima de ignición del polvo, conexiones equipotenciales para evitar acumulación de carga estática y sistemas de supresión o venteo de explosión. Los componentes eléctricos deben certificarse para zona clasificada. La velocidad lineal se limita para reducir generación de electricidad estática y calentamiento por fricción. La documentación debe incluir certificado de organismo notificado y análisis de riesgos específico de la instalación.",
+        "en": "In presence of combustible dusts, elevator must be designed according to ATEX Directive 2014/34/EU, determining appropriate category according to frequency and duration of explosive atmosphere. For zone 20, construction with IP6X protection degree is required, elimination of ignition sources with effective energy below dust minimum ignition energy, equipotential connections to avoid static charge accumulation and explosion suppression or venting systems. Electrical components must be certified for classified zone. Linear velocity is limited to reduce static electricity generation and friction heating. Documentation must include notified body certificate and installation-specific risk analysis."
       }
     }
   ],
   "tags": {
     "es": [
-      "elevador cangilones",
-      "transporte vertical",
+      "elevador de cangilones",
       "elevador tipo Z",
-      "maquinaria industrial",
-      "transporte graneles",
-      "elevación cereales",
-      "transporte horizontal",
-      "cadena cangilones"
+      "transporte vertical",
+      "maquinaria alimentaria",
+      "elevación industrial",
+      "cangilones",
+      "transporte de sólidos",
+      "acero inoxidable"
     ],
     "en": [
       "bucket elevator",
-      "vertical transport",
       "z-type elevator",
-      "industrial machinery",
-      "bulk transport",
-      "grain elevation",
-      "horizontal transport",
-      "bucket chain"
+      "vertical transport",
+      "food machinery",
+      "industrial elevation",
+      "buckets",
+      "solids handling",
+      "stainless steel"
     ]
   }
 }
