@@ -74,14 +74,12 @@ Crear archivo `.env.local` para desarrollo. En producción, configurar en Vercel
 
 ```
 RESEND_API_KEY=re_xxxx
-CONTACT_EMAIL=jtoro@marobera.com
+CONTACT_EMAIL=jtoro@toromac.com
 GITHUB_TOKEN=ghp_xxxx        # Personal Access Token con permisos repo (write)
 GITHUB_REPO=usuario/toromac  # Reemplazar con el repo real
 PUBLISH_SECRET=xxxx          # Token Bearer para autenticar peticiones de n8n
 VITE_GA_ID=G-XXXXXXXXXX      # Google Analytics 4 Measurement ID
 ```
-
-> **CONTACT_EMAIL** es provisional. Se actualizará cuando Toromac tenga email propio.
 
 ---
 
