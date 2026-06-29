@@ -1,0 +1,549 @@
+{
+  "id": "tornillo-sin-fin-elevador",
+  "slug": {
+    "es": "tornillo-sin-fin-elevador",
+    "en": "screw-conveyor-elevator"
+  },
+  "publishedAt": "2026-06-29T13:04:46.170Z",
+  "updatedAt": "2026-06-29T13:04:46.170Z",
+  "author": "Equipo Toromac",
+  "category": "elevacion-transporte",
+  "relatedProduct": "elevador-sinfin",
+  "title": {
+    "es": "Tornillo sin fin elevador",
+    "en": "Screw conveyor elevator"
+  },
+  "metaDescription": {
+    "es": "Análisis técnico del tornillo sin fin elevador: principios de funcionamiento, configuraciones angulares, dimensionamiento y criterios de selección.",
+    "en": "Technical analysis of screw conveyor elevator: operating principles, angular configurations, sizing and selection criteria for industrial applications."
+  },
+  "heroImage": "/images/products/elevador-sinfin.jpg",
+  "heroImageAlt": {
+    "es": "Tornillo sin fin elevador industrial de acero inoxidable para transporte vertical de materiales",
+    "en": "Industrial stainless steel screw conveyor elevator for vertical material transport"
+  },
+  "seo": {
+    "es": {
+      "title": "Tornillo sin fin elevador: guía técnica completa",
+      "description": "Análisis técnico del tornillo sin fin elevador: principios de funcionamiento, configuraciones angulares, dimensionamiento y criterios de selección."
+    },
+    "en": {
+      "title": "Screw conveyor elevator: complete technical guide",
+      "description": "Technical analysis of screw conveyor elevator: operating principles, angular configurations, sizing and selection criteria for industrial applications."
+    }
+  },
+  "content": {
+    "es": [
+      {
+        "type": "p",
+        "text": "El tornillo sin fin elevador constituye un sistema de transporte mecánico diseñado para desplazar materiales sólidos a granel en trayectorias inclinadas o verticales mediante el movimiento rotatorio de un helicoide alojado en una carcasa tubular. A diferencia de los transportadores horizontales convencionales, este equipo opera en ángulos superiores a 30° respecto a la horizontal, alcanzando configuraciones verticales de hasta 90° según las características del material y los requisitos del proceso. Su aplicación abarca sectores industriales donde la elevación controlada de productos pulverulentos, granulares o en escamas resulta crítica para la continuidad operativa."
+      },
+      {
+        "type": "p",
+        "text": "La configuración inclinada introduce variables adicionales en el diseño respecto a los transportadores horizontales: la componente gravitacional genera fuerzas de retroceso sobre el material, la eficiencia de transporte disminuye proporcionalmente al ángulo de inclinación, y los requisitos de potencia se incrementan debido al trabajo contra la gravedad. Estos factores determinan la necesidad de cálculos específicos para garantizar el caudal nominal sin sobrecarga del sistema motriz ni degradación del material transportado."
+      },
+      {
+        "type": "h2",
+        "text": "Principio de funcionamiento y mecánica de elevación"
+      },
+      {
+        "type": "p",
+        "text": "El tornillo sin fin elevador opera mediante la rotación de un helicoide continuo que genera un movimiento ascendente del material contenido en los espacios entre espiras consecutivas. El material ingresa por la zona inferior a través de una tolva de alimentación y es impulsado hacia la descarga superior por la acción combinada de la fricción contra la superficie del helicoide y la pared de la carcasa. La velocidad de rotación, el paso del helicoide y el diámetro del tornillo determinan la capacidad teórica de transporte, que debe corregirse mediante factores que consideran el ángulo de inclinación, las propiedades del material y el factor de llenado."
+      },
+      {
+        "type": "p",
+        "text": "En configuraciones inclinadas, la eficiencia de transporte se reduce debido al deslizamiento del material hacia atrás entre las espiras. Este fenómeno se cuantifica mediante el coeficiente de reducción por inclinación, que varía desde 1.0 para transportadores horizontales hasta valores entre 0.3 y 0.5 para elevadores verticales, dependiendo de las características de flujo del material. Materiales con ángulo de reposo elevado y baja fluidez presentan mejor comportamiento en elevación vertical que productos de flujo libre, que tienden a retroceder con mayor facilidad."
+      },
+      {
+        "type": "p",
+        "text": "La potencia requerida para un tornillo sin fin elevador se calcula considerando tres componentes principales: la potencia necesaria para vencer la fricción del material contra las superficies de contacto, la potencia para elevar el material contra la gravedad, y las pérdidas mecánicas en transmisiones y rodamientos. La expresión general incorpora el caudal másico, la altura de elevación, el factor de fricción del material, y la eficiencia del conjunto motriz. Para un elevador vertical transportando 10 toneladas/hora a 6 metros de altura con un material de densidad aparente 0.6 t/m³ y factor de fricción 0.4, la potencia teórica se aproxima a 2.2 kW, requiriendo un motor de 3 kW considerando el factor de servicio y las pérdidas del sistema."
+      },
+      {
+        "type": "h2",
+        "text": "Configuraciones angulares y rangos de aplicación"
+      },
+      {
+        "type": "p",
+        "text": "Los tornillos sin fin elevadores se clasifican según su ángulo de inclinación en tres categorías principales: inclinados moderados (30-45°), inclinados pronunciados (45-75°), y verticales (75-90°). Cada rango presenta características operativas específicas que condicionan la selección del equipo. Los elevadores inclinados moderados mantienen capacidades de transporte entre 60% y 80% de la capacidad horizontal equivalente, resultan adecuados para materiales de flujo medio y permiten longitudes de transporte superiores a 15 metros. Esta configuración se emplea frecuentemente en instalaciones donde las restricciones de espacio no justifican la verticalidad completa."
+      },
+      {
+        "type": "p",
+        "text": "Los elevadores inclinados pronunciados reducen la capacidad al 40-60% del valor horizontal y requieren materiales con propiedades de flujo controladas para evitar el retroceso excesivo. La longitud práctica se limita a 10-12 metros debido al incremento no lineal de la potencia requerida. Los elevadores verticales, operando entre 75° y 90°, presentan las mayores exigencias: la capacidad se reduce al 30-50% del valor horizontal, la selección del material resulta crítica, y la altura práctica se limita a 8-10 metros en configuraciones estándar. Alturas superiores requieren diseños especiales con helicoides de paso variable o sistemas de alimentación forzada en la entrada."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Ángulo de inclinación",
+          "Factor de capacidad",
+          "Altura máxima práctica",
+          "Aplicación típica"
+        ],
+        "rows": [
+          [
+            "30-45°",
+            "0.60-0.80",
+            "15-20 m",
+            "Materiales granulares, densidad media"
+          ],
+          [
+            "45-60°",
+            "0.50-0.65",
+            "12-15 m",
+            "Harinas, polvos compactables"
+          ],
+          [
+            "60-75°",
+            "0.40-0.55",
+            "10-12 m",
+            "Pellets, granos secos"
+          ],
+          [
+            "75-90°",
+            "0.30-0.50",
+            "8-10 m",
+            "Productos no cohesivos, elevación vertical"
+          ],
+          [
+            "Vertical con paso variable",
+            "0.35-0.55",
+            "12-15 m",
+            "Aplicaciones especiales alta capacidad"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Componentes estructurales y materiales de construcción"
+      },
+      {
+        "type": "p",
+        "text": "La carcasa tubular constituye el elemento contenedor del sistema y se fabrica en acero al carbono para aplicaciones generales o acero inoxidable AISI 304/316 en industrias alimentaria, farmacéutica y química. El espesor de pared se dimensiona considerando la presión interna del material, las cargas estructurales y los requisitos de rigidez para evitar deflexiones que generen contacto entre helicoide y carcasa. Diámetros estándar abarcan desde 100 mm hasta 600 mm, con espesores típicos entre 3 y 6 mm según el diámetro y la aplicación. La carcasa incorpora bridas de conexión en extremos, registros de inspección en tramos intermedios, y soportes de anclaje distribuidos según la longitud total."
+      },
+      {
+        "type": "p",
+        "text": "El helicoide se construye mediante conformado de fleje continuo soldado a un eje central, o mediante segmentos helicoidales individuales en diseños modulares. El paso del helicoide varía típicamente entre 0.8 y 1.0 veces el diámetro exterior para aplicaciones estándar, reduciéndose a 0.6-0.8 veces el diámetro en elevadores verticales para mejorar la retención del material. El espesor del fleje se selecciona considerando la resistencia al desgaste abrasivo y las tensiones de flexión durante la operación. Materiales incluyen acero al carbono con tratamientos superficiales, acero inoxidable, o recubrimientos especiales como Hardox en aplicaciones con productos altamente abrasivos."
+      },
+      {
+        "type": "p",
+        "text": "El eje central transmite el par motor desde el accionamiento hasta el helicoide y debe dimensionarse para resistir la torsión sin deflexión excesiva. Diámetros típicos varían entre 40 mm y 150 mm según la longitud del elevador y la potencia transmitida. Los cojinetes de soporte se ubican en los extremos y, en elevadores de longitud superior a 6 metros, en posiciones intermedias mediante cojinetes colgantes que minimizan la deflexión. La selección del tipo de cojinete considera la carga radial, la velocidad de rotación y los requisitos de mantenimiento: rodamientos rígidos de bolas para aplicaciones ligeras, rodamientos de rodillos para cargas elevadas, o cojinetes autolubricados en ambientes con restricciones de contaminación."
+      },
+      {
+        "type": "h2",
+        "text": "Sistemas de accionamiento y transmisión de potencia"
+      },
+      {
+        "type": "p",
+        "text": "El grupo motriz de un tornillo sin fin elevador comprende el motor eléctrico, el reductor de velocidad y los elementos de acoplamiento. Los motores empleados son típicamente trifásicos asíncronos con potencias entre 0.75 kW y 15 kW para aplicaciones industriales estándar, seleccionados con un factor de servicio mínimo de 1.5 para absorber picos de carga durante el arranque y variaciones en las propiedades del material. La velocidad de rotación del helicoide se mantiene entre 60 y 120 rpm para materiales no abrasivos, reduciéndose a 40-80 rpm en productos abrasivos para minimizar el desgaste."
+      },
+      {
+        "type": "p",
+        "text": "Los reductores de velocidad empleados incluyen reductores de engranajes helicoidales para relaciones de reducción moderadas (hasta 30:1) y reductores de tornillo sin fin para reducciones elevadas (hasta 60:1) con la ventaja adicional de la irreversibilidad que previene el retroceso del material al detener el equipo. La selección considera el par de salida requerido, el factor de servicio de la aplicación y los requisitos de eficiencia energética. Reductores con eje hueco permiten montaje directo sobre el eje del transportador, eliminando acoplamientos y reduciendo la longitud total del conjunto."
+      },
+      {
+        "type": "callout",
+        "text": "Regla práctica de dimensionamiento: Para elevadores verticales, la potencia instalada (kW) se aproxima mediante la expresión P ≈ (Q × H × 0.004) / η, donde Q es el caudal en toneladas/hora, H la altura en metros, y η la eficiencia del sistema (típicamente 0.35-0.45 para elevadores verticales). Esta expresión proporciona una estimación inicial que debe verificarse mediante cálculo detallado."
+      },
+      {
+        "type": "h2",
+        "text": "Criterios de selección según propiedades del material"
+      },
+      {
+        "type": "p",
+        "text": "Las propiedades físicas del material determinan la viabilidad y el diseño del tornillo sin fin elevador. La densidad aparente, expresada en kg/m³ o t/m³, afecta directamente la capacidad másica y los requisitos de potencia. Materiales con densidades entre 400 y 800 kg/m³ (harinas, polvos alimentarios) presentan comportamiento favorable en elevación, mientras que productos de alta densidad (superiores a 1200 kg/m³) incrementan significativamente las cargas sobre el sistema motriz y estructural. La granulometría influye en el factor de llenado admisible: productos finos (< 0.5 mm) permiten factores de llenado del 30-40%, mientras que materiales granulares (2-10 mm) admiten 15-25% para evitar compactación."
+      },
+      {
+        "type": "p",
+        "text": "El ángulo de reposo caracteriza la tendencia del material a fluir y resulta crítico en elevadores inclinados. Materiales con ángulo de reposo inferior a 30° (granos secos, pellets) presentan alta fluidez y tendencia al retroceso en configuraciones verticales, requiriendo helicoides de paso reducido o sistemas de retención. Productos con ángulo de reposo entre 35° y 45° (harinas, azúcares) ofrecen comportamiento equilibrado. Materiales cohesivos con ángulo de reposo superior a 45° pueden generar problemas de adherencia a las superficies y formación de puentes en la tolva de alimentación."
+      },
+      {
+        "type": "p",
+        "text": "La abrasividad, cuantificada mediante índices como el de Mohs o ensayos específicos de desgaste, determina la selección de materiales constructivos y la vida útil esperada. Productos no abrasivos (harinas, azúcar, sal) permiten el uso de acero al carbono con vida útil superior a 10 años. Materiales moderadamente abrasivos (cereales, legumbres) requieren acero inoxidable o tratamientos superficiales con vida útil de 5-8 años. Productos altamente abrasivos (minerales, arenas, óxidos) exigen helicoides en acero endurecido o recubrimientos cerámicos, con vida útil de 2-4 años y necesidad de inspección periódica."
+      },
+      {
+        "type": "h2",
+        "text": "Dimensionamiento y cálculo de capacidad"
+      },
+      {
+        "type": "p",
+        "text": "La capacidad teórica de un tornillo sin fin elevador se calcula mediante la expresión Q = 47 × D² × S × N × C × ρ, donde Q es el caudal en kg/h, D el diámetro del helicoide en metros, S el paso en metros, N la velocidad de rotación en rpm, C el factor de llenado (adimensional), y ρ la densidad aparente en kg/m³. Esta capacidad teórica debe corregirse mediante el factor de inclinación para obtener la capacidad real. Para un elevador de 200 mm de diámetro, paso 180 mm, rotación 80 rpm, factor de llenado 0.30, densidad 600 kg/m³ e inclinación 75°, la capacidad teórica resulta 3050 kg/h, que corregida por el factor de inclinación 0.45 proporciona una capacidad real de 1370 kg/h o aproximadamente 1.4 t/h."
+      },
+      {
+        "type": "p",
+        "text": "El factor de llenado representa la fracción del volumen disponible entre espiras que se ocupa con material, y su valor óptimo depende del tipo de material y la configuración del elevador. Valores excesivos generan compactación, incremento de potencia y desgaste acelerado. Valores insuficientes reducen la eficiencia del transporte. Para elevadores verticales con materiales de flujo libre, el factor de llenado se limita a 0.15-0.25. Productos de flujo medio admiten 0.25-0.35, y materiales cohesivos pueden operar con 0.30-0.40 sin problemas de compactación."
+      },
+      {
+        "type": "p",
+        "text": "La longitud máxima práctica de un tornillo sin fin elevador viene determinada por las limitaciones de deflexión del eje, la potencia transmisible sin sobrecalentamiento, y la uniformidad del desgaste. Elevadores verticales se limitan típicamente a 8-10 metros en diseños estándar. Alturas superiores requieren configuraciones especiales: sistemas de alimentación intermedia que dividen la altura total en tramos independientes, helicoides de paso variable que incrementan la retención en la zona inferior, o diseños con doble helicoide que mejoran la capacidad de elevación. Estas soluciones incrementan la complejidad y el coste del equipo pero permiten alcanzar alturas de 15-20 metros en aplicaciones específicas."
+      },
+      {
+        "type": "h2",
+        "text": "Tolvas de alimentación y sistemas de descarga"
+      },
+      {
+        "type": "p",
+        "text": "La tolva de alimentación constituye el punto crítico de entrada del material al elevador y su diseño condiciona la uniformidad del flujo y la prevención de obstrucciones. Las tolvas se diseñan con ángulos de pared entre 50° y 70° respecto a la horizontal para garantizar el flujo gravitacional del material hacia la zona de captación del helicoide. El dimensionamiento considera el caudal nominal, las características de flujo del material y la necesidad de volumen de amortiguación para absorber variaciones en la alimentación. Tolvas de sección rectangular resultan adecuadas para instalaciones con restricciones de espacio, mientras que tolvas cilíndricas o cónicas ofrecen mejor comportamiento de flujo en materiales cohesivos."
+      },
+      {
+        "type": "p",
+        "text": "La conexión entre tolva y carcasa del elevador incorpora elementos de sellado para prevenir fugas de material y emisiones de polvo. Sistemas de brida con junta elástica proporcionan sellado efectivo en aplicaciones estándar. Ambientes con requisitos higiénicos estrictos emplean conexiones sanitarias con juntas de silicona o EPDM y acabados electropulidos. La tolva puede incorporar conexiones laterales para recuperación de líquidos en materiales húmedos, vibradores externos para prevenir formación de puentes en productos cohesivos, o sistemas de fluidización neumática en polvos de flujo difícil."
+      },
+      {
+        "type": "p",
+        "text": "El sistema de descarga en el extremo superior del elevador debe facilitar la evacuación completa del material sin retenciones ni segregación. Configuraciones típicas incluyen descarga tangencial mediante abertura lateral en la carcasa, adecuada para conexión directa a equipos receptores, y descarga axial mediante prolongación del helicoide más allá de la carcasa, empleada cuando se requiere proyección del material. La velocidad de salida del material depende de la velocidad periférica del helicoide y el ángulo de descarga. Para un helicoide de 200 mm de diámetro rotando a 80 rpm, la velocidad periférica resulta 0.84 m/s, generando una proyección horizontal de 0.3-0.5 metros en descarga axial, factor a considerar en el diseño del equipo receptor."
+      },
+      {
+        "type": "h2",
+        "text": "Mantenimiento preventivo y vida útil operativa"
+      },
+      {
+        "type": "p",
+        "text": "El programa de mantenimiento preventivo de un tornillo sin fin elevador se estructura en inspecciones periódicas, lubricación de elementos móviles y sustitución programada de componentes de desgaste. Las inspecciones semanales verifican la ausencia de ruidos anómalos, vibraciones excesivas y fugas de material en las juntas. Mensualmente se comprueba el estado de los cojinetes mediante medición de temperatura y análisis de vibraciones, se inspecciona visualmente el helicoide a través de los registros de acceso, y se verifica el correcto funcionamiento de los sistemas de protección eléctrica."
+      },
+      {
+        "type": "p",
+        "text": "La lubricación de cojinetes se realiza según las especificaciones del fabricante, típicamente cada 500-1000 horas de operación en cojinetes de rodamientos con engrase, o mediante sistemas de lubricación automática en instalaciones de operación continua. El reductor de velocidad requiere cambio de aceite cada 2000-4000 horas según el tipo y las condiciones de operación. La inspección del nivel y estado del aceite se realiza mensualmente mediante análisis visual y, en instalaciones críticas, mediante análisis de laboratorio que detecta contaminación y degradación."
+      },
+      {
+        "type": "p",
+        "text": "La vida útil del helicoide varía entre 2 y 15 años según la abrasividad del material, la velocidad de rotación y el material de construcción. El desgaste se concentra en la cara inferior del helicoide en elevadores inclinados, donde el material ejerce presión continua. La medición periódica del espesor del fleje mediante ultrasonidos permite programar la sustitución antes de que se produzca fallo por rotura. Helicoides en acero inoxidable transportando harina presentan desgastes inferiores a 0.1 mm/año, mientras que helicoides en acero al carbono transportando productos abrasivos pueden experimentar desgastes de 0.5-1.0 mm/año, requiriendo sustitución cada 2-3 años."
+      },
+      {
+        "type": "callout",
+        "text": "Indicador de desgaste crítico: La sustitución del helicoide debe programarse cuando el espesor del fleje se reduce al 60% del valor original, o cuando se detectan grietas en las soldaduras de unión al eje central. La operación más allá de este punto incrementa el riesgo de rotura durante el funcionamiento con consecuencias operativas y de seguridad."
+      },
+      {
+        "type": "h2",
+        "text": "Normativa aplicable y requisitos de seguridad"
+      },
+      {
+        "type": "p",
+        "text": "Los tornillos sin fin elevadores instalados en la Unión Europea deben cumplir la Directiva 2006/42/CE de Máquinas, que establece requisitos esenciales de seguridad y salud. El diseño debe incorporar protecciones que impidan el acceso a elementos móviles durante la operación, sistemas de parada de emergencia accesibles desde las zonas de operación, y dispositivos de bloqueo que prevengan el arranque durante tareas de mantenimiento. La evaluación de riesgos identifica peligros específicos: atrapamiento en la zona de alimentación, contacto con el helicoide durante inspección, proyección de material en la descarga, y riesgos eléctricos en el sistema de accionamiento."
+      },
+      {
+        "type": "p",
+        "text": "Las protecciones mecánicas incluyen rejillas o cubiertas en la tolva de alimentación que impiden la introducción de manos u objetos, registros de inspección con enclavamientos que detienen el equipo al abrirse, y guardas en acoplamientos y transmisiones. Los elevadores que transportan materiales combustibles en atmósferas con riesgo de explosión deben cumplir la Directiva ATEX 2014/34/UE, requiriendo diseño antideflagrante, conexiones equipotenciales, y sistemas de detección y supresión de explosiones en configuraciones de alto riesgo."
+      },
+      {
+        "type": "p",
+        "text": "En industria alimentaria, los elevadores deben cumplir el Reglamento (CE) 1935/2004 sobre materiales en contacto con alimentos, empleando aceros inoxidables de grado alimentario, acabados superficiales que faciliten la limpieza, y diseño higiénico que elimine zonas de retención de producto. La certificación según estándares como EHEDG o 3-A proporciona garantía de cumplimiento de requisitos higiénicos. Los protocolos de limpieza incluyen procedimientos CIP (cleaning in place) en instalaciones automatizadas o limpieza manual mediante desmontaje de secciones en equipos de menor escala."
+      },
+      {
+        "type": "h2",
+        "text": "Integración en líneas de proceso y automatización"
+      },
+      {
+        "type": "p",
+        "text": "La integración del tornillo sin fin elevador en líneas de proceso automatizadas requiere sistemas de control que coordinen su operación con equipos precedentes y posteriores. Los variadores de frecuencia permiten ajustar la velocidad de rotación según el caudal requerido, optimizando el consumo energético y adaptando la capacidad a variaciones en la demanda. La comunicación mediante protocolos industriales (Profibus, Modbus, Ethernet/IP) facilita la integración en sistemas SCADA que monitorizan parámetros operativos: corriente del motor, velocidad de rotación, horas de funcionamiento y alarmas de fallo."
+      },
+      {
+        "type": "p",
+        "text": "Los sensores de nivel instalados en la tolva de alimentación y en el equipo receptor regulan el arranque y parada del elevador, previniendo operación en vacío o desbordamiento. Detectores de nivel capacitivos resultan adecuados para materiales secos no conductores, mientras que detectores de paletas rotativas o de vibración ofrecen mayor fiabilidad en productos cohesivos o húmedos. La detección de obstrucción mediante monitorización de la corriente del motor permite identificar situaciones anómalas: incrementos superiores al 20% del valor nominal indican sobrecarga por obstrucción o desgaste excesivo del helicoide."
+      },
+      {
+        "type": "p",
+        "text": "El sistema de control incorpora funciones de protección que preservan la integridad del equipo: arranque suave mediante variador o arrancador estrella-triángulo que reduce el par de arranque, protección térmica del motor que previene sobrecalentamiento, y temporizadores que garantizan el vaciado completo del elevador antes de la parada. En instalaciones críticas, sistemas de monitorización de vibraciones detectan desalineaciones o desgaste de cojinetes antes de que se produzca fallo catastrófico, permitiendo mantenimiento predictivo que minimiza paradas no programadas."
+      },
+      {
+        "type": "p",
+        "text": "Toromac ofrece soluciones de <a href='/productos/elevador-sinfin'>elevadores de tornillo sin fin</a> diseñadas específicamente para las exigencias de cada aplicación industrial, con configuraciones desde 100 hasta 400 mm de diámetro y alturas de elevación hasta 12 metros en ejecuciones estándar. La experiencia acumulada en más de cuatro décadas permite optimizar el diseño considerando las propiedades específicas del material, los requisitos de capacidad y las condiciones ambientales de operación, garantizando fiabilidad operativa y vida útil prolongada."
+      }
+    ],
+    "en": [
+      {
+        "type": "p",
+        "text": "The screw conveyor elevator constitutes a mechanical transport system designed to move bulk solid materials along inclined or vertical paths through the rotary motion of a helicoid housed within a tubular casing. Unlike conventional horizontal conveyors, this equipment operates at angles exceeding 30° from horizontal, reaching vertical configurations up to 90° depending on material characteristics and process requirements. Its application spans industrial sectors where controlled elevation of powdered, granular or flaked products proves critical for operational continuity."
+      },
+      {
+        "type": "p",
+        "text": "The inclined configuration introduces additional design variables compared to horizontal conveyors: the gravitational component generates backward forces on the material, transport efficiency decreases proportionally to the inclination angle, and power requirements increase due to work against gravity. These factors determine the need for specific calculations to guarantee nominal flow rate without overloading the drive system or degrading the transported material."
+      },
+      {
+        "type": "h2",
+        "text": "Operating principle and elevation mechanics"
+      },
+      {
+        "type": "p",
+        "text": "The screw conveyor elevator operates through rotation of a continuous helicoid that generates upward material movement contained in spaces between consecutive flights. Material enters through the lower zone via a feed hopper and is propelled toward the upper discharge by the combined action of friction against the helicoid surface and casing wall. Rotation speed, helicoid pitch and screw diameter determine theoretical transport capacity, which must be corrected using factors considering inclination angle, material properties and fill factor."
+      },
+      {
+        "type": "p",
+        "text": "In inclined configurations, transport efficiency reduces due to material sliding backward between flights. This phenomenon is quantified through the inclination reduction coefficient, varying from 1.0 for horizontal conveyors to values between 0.3 and 0.5 for vertical elevators, depending on material flow characteristics. Materials with high angle of repose and low fluidity present better behavior in vertical elevation than free-flowing products, which tend to slide back more easily."
+      },
+      {
+        "type": "p",
+        "text": "Power required for a screw conveyor elevator is calculated considering three main components: power necessary to overcome material friction against contact surfaces, power to elevate material against gravity, and mechanical losses in transmissions and bearings. The general expression incorporates mass flow rate, elevation height, material friction factor, and drive assembly efficiency. For a vertical elevator transporting 10 tons/hour to 6 meters height with material bulk density 0.6 t/m³ and friction factor 0.4, theoretical power approximates 2.2 kW, requiring a 3 kW motor considering service factor and system losses."
+      },
+      {
+        "type": "h2",
+        "text": "Angular configurations and application ranges"
+      },
+      {
+        "type": "p",
+        "text": "Screw conveyor elevators are classified according to inclination angle into three main categories: moderate incline (30-45°), steep incline (45-75°), and vertical (75-90°). Each range presents specific operational characteristics that condition equipment selection. Moderate incline elevators maintain transport capacities between 60% and 80% of equivalent horizontal capacity, prove suitable for medium-flow materials and allow transport lengths exceeding 15 meters. This configuration is frequently employed in installations where space restrictions do not justify complete verticality."
+      },
+      {
+        "type": "p",
+        "text": "Steep incline elevators reduce capacity to 40-60% of horizontal value and require materials with controlled flow properties to avoid excessive backward sliding. Practical length is limited to 10-12 meters due to non-linear increase in required power. Vertical elevators, operating between 75° and 90°, present the highest demands: capacity reduces to 30-50% of horizontal value, material selection proves critical, and practical height is limited to 8-10 meters in standard configurations. Greater heights require special designs with variable pitch helicoids or forced feeding systems at the inlet."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Inclination angle",
+          "Capacity factor",
+          "Maximum practical height",
+          "Typical application"
+        ],
+        "rows": [
+          [
+            "30-45°",
+            "0.60-0.80",
+            "15-20 m",
+            "Granular materials, medium density"
+          ],
+          [
+            "45-60°",
+            "0.50-0.65",
+            "12-15 m",
+            "Flours, compactable powders"
+          ],
+          [
+            "60-75°",
+            "0.40-0.55",
+            "10-12 m",
+            "Pellets, dry grains"
+          ],
+          [
+            "75-90°",
+            "0.30-0.50",
+            "8-10 m",
+            "Non-cohesive products, vertical elevation"
+          ],
+          [
+            "Vertical with variable pitch",
+            "0.35-0.55",
+            "12-15 m",
+            "Special high-capacity applications"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Structural components and construction materials"
+      },
+      {
+        "type": "p",
+        "text": "The tubular casing constitutes the system's containment element and is manufactured in carbon steel for general applications or AISI 304/316 stainless steel in food, pharmaceutical and chemical industries. Wall thickness is sized considering internal material pressure, structural loads and stiffness requirements to avoid deflections generating contact between helicoid and casing. Standard diameters range from 100 mm to 600 mm, with typical thicknesses between 3 and 6 mm depending on diameter and application. The casing incorporates connection flanges at ends, inspection ports in intermediate sections, and anchoring supports distributed according to total length."
+      },
+      {
+        "type": "p",
+        "text": "The helicoid is constructed through forming of continuous strip welded to a central shaft, or through individual helical segments in modular designs. Helicoid pitch typically varies between 0.8 and 1.0 times the outer diameter for standard applications, reducing to 0.6-0.8 times diameter in vertical elevators to improve material retention. Strip thickness is selected considering abrasive wear resistance and bending stresses during operation. Materials include carbon steel with surface treatments, stainless steel, or special coatings like Hardox in applications with highly abrasive products."
+      },
+      {
+        "type": "p",
+        "text": "The central shaft transmits motor torque from drive to helicoid and must be sized to resist torsion without excessive deflection. Typical diameters vary between 40 mm and 150 mm depending on elevator length and transmitted power. Support bearings are located at ends and, in elevators exceeding 6 meters length, at intermediate positions through hanger bearings that minimize deflection. Bearing type selection considers radial load, rotation speed and maintenance requirements: rigid ball bearings for light applications, roller bearings for high loads, or self-lubricating bearings in environments with contamination restrictions."
+      },
+      {
+        "type": "h2",
+        "text": "Drive systems and power transmission"
+      },
+      {
+        "type": "p",
+        "text": "The drive group of a screw conveyor elevator comprises electric motor, speed reducer and coupling elements. Motors employed are typically three-phase asynchronous with powers between 0.75 kW and 15 kW for standard industrial applications, selected with minimum service factor of 1.5 to absorb load peaks during startup and variations in material properties. Helicoid rotation speed is maintained between 60 and 120 rpm for non-abrasive materials, reducing to 40-80 rpm in abrasive products to minimize wear."
+      },
+      {
+        "type": "p",
+        "text": "Speed reducers employed include helical gear reducers for moderate reduction ratios (up to 30:1) and worm gear reducers for high reductions (up to 60:1) with the additional advantage of irreversibility preventing material backflow when stopping the equipment. Selection considers required output torque, application service factor and energy efficiency requirements. Hollow shaft reducers allow direct mounting on conveyor shaft, eliminating couplings and reducing total assembly length."
+      },
+      {
+        "type": "callout",
+        "text": "Practical sizing rule: For vertical elevators, installed power (kW) is approximated through expression P ≈ (Q × H × 0.004) / η, where Q is flow rate in tons/hour, H is height in meters, and η is system efficiency (typically 0.35-0.45 for vertical elevators). This expression provides initial estimation that must be verified through detailed calculation."
+      },
+      {
+        "type": "h2",
+        "text": "Selection criteria according to material properties"
+      },
+      {
+        "type": "p",
+        "text": "Material physical properties determine screw conveyor elevator viability and design. Bulk density, expressed in kg/m³ or t/m³, directly affects mass capacity and power requirements. Materials with densities between 400 and 800 kg/m³ (flours, food powders) present favorable behavior in elevation, while high-density products (exceeding 1200 kg/m³) significantly increase loads on drive and structural system. Particle size influences admissible fill factor: fine products (< 0.5 mm) allow fill factors of 30-40%, while granular materials (2-10 mm) admit 15-25% to avoid compaction."
+      },
+      {
+        "type": "p",
+        "text": "Angle of repose characterizes material tendency to flow and proves critical in inclined elevators. Materials with angle of repose below 30° (dry grains, pellets) present high fluidity and backward sliding tendency in vertical configurations, requiring reduced pitch helicoids or retention systems. Products with angle of repose between 35° and 45° (flours, sugars) offer balanced behavior. Cohesive materials with angle of repose exceeding 45° may generate adhesion problems to surfaces and bridging formation in feed hopper."
+      },
+      {
+        "type": "p",
+        "text": "Abrasiveness, quantified through indices like Mohs or specific wear tests, determines construction material selection and expected service life. Non-abrasive products (flours, sugar, salt) allow carbon steel use with service life exceeding 10 years. Moderately abrasive materials (cereals, legumes) require stainless steel or surface treatments with 5-8 years service life. Highly abrasive products (minerals, sands, oxides) demand hardened steel helicoids or ceramic coatings, with 2-4 years service life and periodic inspection need."
+      },
+      {
+        "type": "h2",
+        "text": "Sizing and capacity calculation"
+      },
+      {
+        "type": "p",
+        "text": "Theoretical capacity of a screw conveyor elevator is calculated through expression Q = 47 × D² × S × N × C × ρ, where Q is flow rate in kg/h, D is helicoid diameter in meters, S is pitch in meters, N is rotation speed in rpm, C is fill factor (dimensionless), and ρ is bulk density in kg/m³. This theoretical capacity must be corrected through inclination factor to obtain real capacity. For a 200 mm diameter elevator, 180 mm pitch, 80 rpm rotation, 0.30 fill factor, 600 kg/m³ density and 75° inclination, theoretical capacity results 3050 kg/h, which corrected by inclination factor 0.45 provides real capacity of 1370 kg/h or approximately 1.4 t/h."
+      },
+      {
+        "type": "p",
+        "text": "Fill factor represents the fraction of available volume between flights occupied with material, and its optimal value depends on material type and elevator configuration. Excessive values generate compaction, power increase and accelerated wear. Insufficient values reduce transport efficiency. For vertical elevators with free-flowing materials, fill factor is limited to 0.15-0.25. Medium-flow products admit 0.25-0.35, and cohesive materials can operate with 0.30-0.40 without compaction problems."
+      },
+      {
+        "type": "p",
+        "text": "Maximum practical length of a screw conveyor elevator is determined by shaft deflection limitations, transmissible power without overheating, and wear uniformity. Vertical elevators are typically limited to 8-10 meters in standard designs. Greater heights require special configurations: intermediate feeding systems dividing total height into independent sections, variable pitch helicoids increasing retention in lower zone, or double helicoid designs improving elevation capacity. These solutions increase equipment complexity and cost but allow reaching heights of 15-20 meters in specific applications."
+      },
+      {
+        "type": "h2",
+        "text": "Feed hoppers and discharge systems"
+      },
+      {
+        "type": "p",
+        "text": "The feed hopper constitutes the critical material entry point to the elevator and its design conditions flow uniformity and obstruction prevention. Hoppers are designed with wall angles between 50° and 70° from horizontal to guarantee gravitational material flow toward helicoid capture zone. Sizing considers nominal flow rate, material flow characteristics and buffer volume need to absorb feeding variations. Rectangular section hoppers prove suitable for installations with space restrictions, while cylindrical or conical hoppers offer better flow behavior in cohesive materials."
+      },
+      {
+        "type": "p",
+        "text": "Connection between hopper and elevator casing incorporates sealing elements to prevent material leakage and dust emissions. Flange systems with elastic gasket provide effective sealing in standard applications. Environments with strict hygienic requirements employ sanitary connections with silicone or EPDM gaskets and electropolished finishes. The hopper may incorporate lateral connections for liquid recovery in wet materials, external vibrators to prevent bridging in cohesive products, or pneumatic fluidization systems in difficult-flow powders."
+      },
+      {
+        "type": "p",
+        "text": "The discharge system at elevator upper end must facilitate complete material evacuation without retention or segregation. Typical configurations include tangential discharge through lateral opening in casing, suitable for direct connection to receiving equipment, and axial discharge through helicoid extension beyond casing, employed when material projection is required. Material exit velocity depends on helicoid peripheral velocity and discharge angle. For a 200 mm diameter helicoid rotating at 80 rpm, peripheral velocity results 0.84 m/s, generating horizontal projection of 0.3-0.5 meters in axial discharge, factor to consider in receiving equipment design."
+      },
+      {
+        "type": "h2",
+        "text": "Preventive maintenance and operational service life"
+      },
+      {
+        "type": "p",
+        "text": "The preventive maintenance program for a screw conveyor elevator is structured in periodic inspections, lubrication of moving elements and scheduled replacement of wear components. Weekly inspections verify absence of abnormal noises, excessive vibrations and material leakage at joints. Monthly checks include bearing condition through temperature measurement and vibration analysis, visual helicoid inspection through access ports, and verification of correct electrical protection system operation."
+      },
+      {
+        "type": "p",
+        "text": "Bearing lubrication is performed according to manufacturer specifications, typically every 500-1000 operating hours in grease-lubricated rolling bearings, or through automatic lubrication systems in continuous operation installations. Speed reducer requires oil change every 2000-4000 hours depending on type and operating conditions. Oil level and condition inspection is performed monthly through visual analysis and, in critical installations, through laboratory analysis detecting contamination and degradation."
+      },
+      {
+        "type": "p",
+        "text": "Helicoid service life varies between 2 and 15 years depending on material abrasiveness, rotation speed and construction material. Wear concentrates on helicoid lower face in inclined elevators, where material exerts continuous pressure. Periodic strip thickness measurement through ultrasonics allows scheduling replacement before failure by breakage occurs. Stainless steel helicoids transporting flour present wear below 0.1 mm/year, while carbon steel helicoids transporting abrasive products may experience wear of 0.5-1.0 mm/year, requiring replacement every 2-3 years."
+      },
+      {
+        "type": "callout",
+        "text": "Critical wear indicator: Helicoid replacement must be scheduled when strip thickness reduces to 60% of original value, or when cracks are detected in welds joining to central shaft. Operation beyond this point increases risk of breakage during operation with operational and safety consequences."
+      },
+      {
+        "type": "h2",
+        "text": "Applicable regulations and safety requirements"
+      },
+      {
+        "type": "p",
+        "text": "Screw conveyor elevators installed in the European Union must comply with Machinery Directive 2006/42/EC, establishing essential health and safety requirements. Design must incorporate guards preventing access to moving elements during operation, emergency stop systems accessible from operating zones, and locking devices preventing startup during maintenance tasks. Risk assessment identifies specific hazards: entrapment in feeding zone, contact with helicoid during inspection, material projection at discharge, and electrical risks in drive system."
+      },
+      {
+        "type": "p",
+        "text": "Mechanical guards include grids or covers on feed hopper preventing introduction of hands or objects, inspection ports with interlocks stopping equipment when opened, and guards on couplings and transmissions. Elevators transporting combustible materials in atmospheres with explosion risk must comply with ATEX Directive 2014/34/EU, requiring explosion-proof design, equipotential connections, and explosion detection and suppression systems in high-risk configurations."
+      },
+      {
+        "type": "p",
+        "text": "In food industry, elevators must comply with Regulation (EC) 1935/2004 on materials in contact with food, employing food-grade stainless steels, surface finishes facilitating cleaning, and hygienic design eliminating product retention zones. Certification according to standards like EHEDG or 3-A provides guarantee of hygienic requirements compliance. Cleaning protocols include CIP (cleaning in place) procedures in automated installations or manual cleaning through section disassembly in smaller-scale equipment."
+      },
+      {
+        "type": "h2",
+        "text": "Process line integration and automation"
+      },
+      {
+        "type": "p",
+        "text": "Integration of screw conveyor elevator in automated process lines requires control systems coordinating its operation with preceding and subsequent equipment. Variable frequency drives allow adjusting rotation speed according to required flow rate, optimizing energy consumption and adapting capacity to demand variations. Communication through industrial protocols (Profibus, Modbus, Ethernet/IP) facilitates integration in SCADA systems monitoring operational parameters: motor current, rotation speed, operating hours and failure alarms."
+      },
+      {
+        "type": "p",
+        "text": "Level sensors installed in feed hopper and receiving equipment regulate elevator startup and stop, preventing empty operation or overflow. Capacitive level detectors prove suitable for dry non-conductive materials, while rotating paddle or vibration detectors offer greater reliability in cohesive or wet products. Obstruction detection through motor current monitoring allows identifying abnormal situations: increases exceeding 20% of nominal value indicate overload by obstruction or excessive helicoid wear."
+      },
+      {
+        "type": "p",
+        "text": "Control system incorporates protection functions preserving equipment integrity: soft start through drive or star-delta starter reducing startup torque, motor thermal protection preventing overheating, and timers guaranteeing complete elevator emptying before stop. In critical installations, vibration monitoring systems detect misalignments or bearing wear before catastrophic failure occurs, allowing predictive maintenance minimizing unscheduled stops."
+      },
+      {
+        "type": "p",
+        "text": "Toromac offers <a href='/productos/elevador-sinfin'>screw conveyor elevator</a> solutions designed specifically for each industrial application demands, with configurations from 100 to 400 mm diameter and elevation heights up to 12 meters in standard executions. Experience accumulated over more than four decades allows optimizing design considering specific material properties, capacity requirements and operational environmental conditions, guaranteeing operational reliability and extended service life."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": {
+        "es": "¿Cuál es la diferencia entre un transportador de tornillo horizontal y un elevador de tornillo sin fin?",
+        "en": "What is the difference between a horizontal screw conveyor and a screw conveyor elevator?"
+      },
+      "answer": {
+        "es": "La diferencia fundamental radica en el ángulo de operación y sus consecuencias en el diseño. Los transportadores horizontales operan entre 0° y 20° de inclinación, mantienen eficiencias del 90-95% y permiten factores de llenado de 30-45%. Los elevadores operan entre 30° y 90°, presentan eficiencias reducidas al 30-80% según el ángulo, y requieren factores de llenado inferiores (15-40%) para evitar compactación. La potencia requerida en elevadores incluye el componente gravitacional, incrementándose significativamente respecto a configuraciones horizontales. Los elevadores requieren además diseño estructural reforzado para soportar cargas axiales y sistemas de retención del material para prevenir retroceso.",
+        "en": "The fundamental difference lies in operating angle and its design consequences. Horizontal conveyors operate between 0° and 20° inclination, maintain 90-95% efficiencies and allow 30-45% fill factors. Elevators operate between 30° and 90°, present reduced efficiencies of 30-80% depending on angle, and require lower fill factors (15-40%) to avoid compaction. Power required in elevators includes gravitational component, increasing significantly compared to horizontal configurations. Elevators additionally require reinforced structural design to support axial loads and material retention systems to prevent backflow."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué materiales son adecuados para transporte en elevadores verticales de tornillo sin fin?",
+        "en": "What materials are suitable for transport in vertical screw conveyor elevators?"
+      },
+      "answer": {
+        "es": "Los materiales más adecuados presentan ángulo de reposo entre 35° y 50°, densidad aparente de 400-900 kg/m³, granulometría uniforme entre 0.5 y 8 mm, y abrasividad baja a moderada. Ejemplos incluyen harinas, azúcares, sales, cereales, pellets alimentarios y productos químicos en polvo. Materiales de flujo muy libre (ángulo de reposo < 30°) como arenas finas o granos esféricos requieren helicoides de paso reducido. Productos cohesivos (ángulo de reposo > 50°) pueden generar adherencias y requieren sistemas de vibración o fluidización. Materiales fibrosos, pegajosos o con tendencia a compactación no resultan adecuados para elevación vertical mediante tornillo sin fin.",
+        "en": "Most suitable materials present angle of repose between 35° and 50°, bulk density of 400-900 kg/m³, uniform particle size between 0.5 and 8 mm, and low to moderate abrasiveness. Examples include flours, sugars, salts, cereals, food pellets and chemical powders. Very free-flowing materials (angle of repose < 30°) like fine sands or spherical grains require reduced pitch helicoids. Cohesive products (angle of repose > 50°) may generate adhesions and require vibration or fluidization systems. Fibrous, sticky or compaction-prone materials are not suitable for vertical elevation through screw conveyor."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cómo se calcula la potencia necesaria para un elevador de tornillo sin fin vertical?",
+        "en": "How is the required power calculated for a vertical screw conveyor elevator?"
+      },
+      "answer": {
+        "es": "La potencia se calcula mediante P = (Q × H × g / 3600 + Q × L × f / 3600) / η, donde Q es el caudal másico en kg/h, H la altura de elevación en metros, g la aceleración gravitacional (9.81 m/s²), L la longitud desarrollada del transportador, f el factor de fricción del material (0.3-0.6 según tipo), y η la eficiencia del sistema (0.35-0.45 para verticales). Para 5000 kg/h a 8 metros de altura con f=0.4 y η=0.40, resulta P ≈ 3.2 kW, requiriendo motor de 4 kW. Este cálculo debe incrementarse un 20-30% para considerar arranques, variaciones de carga y factor de servicio del motor.",
+        "en": "Power is calculated through P = (Q × H × g / 3600 + Q × L × f / 3600) / η, where Q is mass flow rate in kg/h, H is elevation height in meters, g is gravitational acceleration (9.81 m/s²), L is developed conveyor length, f is material friction factor (0.3-0.6 depending on type), and η is system efficiency (0.35-0.45 for verticals). For 5000 kg/h at 8 meters height with f=0.4 and η=0.40, results P ≈ 3.2 kW, requiring 4 kW motor. This calculation must be increased 20-30% to consider startups, load variations and motor service factor."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cuál es la vida útil esperada de un elevador de tornillo sin fin y qué componentes requieren sustitución?",
+        "en": "What is the expected service life of a screw conveyor elevator and which components require replacement?"
+      },
+      "answer": {
+        "es": "La estructura y carcasa presentan vida útil superior a 20 años con mantenimiento adecuado. El helicoide constituye el componente de desgaste principal, con vida útil de 2-4 años en materiales abrasivos, 5-8 años en productos moderadamente abrasivos, y 10-15 años en materiales no abrasivos. Los cojinetes requieren sustitución cada 15000-30000 horas de operación según tipo y condiciones. El reductor de velocidad presenta vida útil de 10-15 años con mantenimiento correcto. Los elementos de sellado (juntas, retenes) requieren sustitución cada 2-3 años. La inspección periódica mediante medición de espesores y análisis de vibraciones permite programar sustituciones antes de fallo.",
+        "en": "Structure and casing present service life exceeding 20 years with adequate maintenance. Helicoid constitutes main wear component, with service life of 2-4 years in abrasive materials, 5-8 years in moderately abrasive products, and 10-15 years in non-abrasive materials. Bearings require replacement every 15000-30000 operating hours depending on type and conditions. Speed reducer presents 10-15 years service life with correct maintenance. Sealing elements (gaskets, seals) require replacement every 2-3 years. Periodic inspection through thickness measurement and vibration analysis allows scheduling replacements before failure."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué ventajas presenta el acero inoxidable frente al acero al carbono en elevadores de tornillo sin fin?",
+        "en": "What advantages does stainless steel present versus carbon steel in screw conveyor elevators?"
+      },
+      "answer": {
+        "es": "El acero inoxidable AISI 304 o 316 presenta resistencia superior a la corrosión en ambientes húmedos o con productos químicos agresivos, eliminando riesgos de contaminación del producto por oxidación. Cumple requisitos higiénicos de industria alimentaria y farmacéutica, facilita protocolos de limpieza CIP, y presenta acabados superficiales que minimizan adherencias. La vida útil en ambientes corrosivos se multiplica por 5-10 respecto al acero al carbono. El coste inicial superior (2.5-3.5 veces) se compensa en aplicaciones con requisitos higiénicos estrictos, productos corrosivos, o ambientes con humedad elevada. En aplicaciones industriales generales con materiales secos no corrosivos, el acero al carbono con recubrimientos resulta más económico.",
+        "en": "AISI 304 or 316 stainless steel presents superior corrosion resistance in humid environments or with aggressive chemical products, eliminating product contamination risks by oxidation. Complies with food and pharmaceutical industry hygienic requirements, facilitates CIP cleaning protocols, and presents surface finishes minimizing adhesions. Service life in corrosive environments multiplies by 5-10 compared to carbon steel. Higher initial cost (2.5-3.5 times) is compensated in applications with strict hygienic requirements, corrosive products, or high-humidity environments. In general industrial applications with dry non-corrosive materials, carbon steel with coatings proves more economical."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué sistemas de control y automatización son recomendables en elevadores de tornillo sin fin industriales?",
+        "en": "What control and automation systems are recommended in industrial screw conveyor elevators?"
+      },
+      "answer": {
+        "es": "Los sistemas básicos incluyen arrancador directo o estrella-triángulo con protección térmica y control manual. Instalaciones industriales requieren variador de frecuencia que permite arranque suave, ajuste de velocidad según demanda, y protección por sobrecorriente. Sensores de nivel capacitivos o de paletas en tolva de alimentación y equipo receptor automatizan arranque/parada. La monitorización de corriente del motor detecta obstrucciones y desgaste. Sistemas avanzados incorporan comunicación industrial (Profibus, Modbus) para integración en SCADA, registro de parámetros operativos, y mantenimiento predictivo mediante análisis de vibraciones. La selección depende del nivel de automatización de la planta y la criticidad del proceso.",
+        "en": "Basic systems include direct or star-delta starter with thermal protection and manual control. Industrial installations require variable frequency drive allowing soft start, speed adjustment according to demand, and overcurrent protection. Capacitive or paddle level sensors in feed hopper and receiving equipment automate start/stop. Motor current monitoring detects obstructions and wear. Advanced systems incorporate industrial communication (Profibus, Modbus) for SCADA integration, operational parameter recording, and predictive maintenance through vibration analysis. Selection depends on plant automation level and process criticality."
+      }
+    }
+  ],
+  "tags": {
+    "es": [
+      "tornillo sin fin",
+      "elevador vertical",
+      "transporte de sólidos",
+      "elevación de materiales",
+      "transportador helicoidal",
+      "maquinaria industrial",
+      "ingeniería de procesos"
+    ],
+    "en": [
+      "screw conveyor",
+      "vertical elevator",
+      "solids handling",
+      "material elevation",
+      "helical conveyor",
+      "industrial machinery",
+      "process engineering"
+    ]
+  }
+}
