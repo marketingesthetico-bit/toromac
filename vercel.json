@@ -1,6 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/novedades/elevador-cangilones-tipo-z-guia-tecnica", "destination": "/novedades/elevador-cangilones-tipo-z-seleccion", "permanent": true },
+    { "source": "/novedades/elevador-cangilones-tipo-z-guia-tecnica-completa", "destination": "/novedades/elevador-cangilones-tipo-z-seleccion", "permanent": true },
+    { "source": "/en/news/z-type-bucket-elevator-technical-guide", "destination": "/en/news/z-type-bucket-elevator-selection", "permanent": true },
+    { "source": "/en/news/z-type-bucket-elevator-complete-technical-guide", "destination": "/en/news/z-type-bucket-elevator-selection", "permanent": true },
+    { "source": "/novedades/cinta-transportadora-industrial-guia-tecnica", "destination": "/novedades/cinta-transportadora-industrial-tipos", "permanent": true },
+    { "source": "/en/news/industrial-conveyor-belt-technical-guide", "destination": "/en/news/industrial-conveyor-belt-types", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/((?!api).*)", "destination": "/index.html" }
   ],
