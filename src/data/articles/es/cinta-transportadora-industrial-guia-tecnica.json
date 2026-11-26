@@ -4,8 +4,8 @@
     "es": "cinta-transportadora-industrial-guia-tecnica",
     "en": "industrial-conveyor-belt-technical-guide"
   },
-  "publishedAt": "2026-11-23T08:03:43.671Z",
-  "updatedAt": "2026-11-23T08:03:43.671Z",
+  "publishedAt": "2026-11-26T08:04:23.375Z",
+  "updatedAt": "2026-11-26T08:04:23.375Z",
   "author": "Equipo Toromac",
   "category": "elevacion-transporte",
   "relatedProduct": "",
@@ -14,471 +14,507 @@
     "en": "Industrial conveyor belt: technical specifications and selection criteria"
   },
   "metaDescription": {
-    "es": "Análisis técnico de cintas transportadoras industriales: tipos, componentes, capacidades de carga, materiales y criterios de dimensionamiento.",
-    "en": "Technical analysis of industrial conveyor belts: types, components, load capacities, materials and sizing criteria for industrial applications."
+    "es": "Análisis técnico de cintas transportadoras industriales: tipologías, parámetros de diseño, materiales y criterios de dimensionamiento para aplicaciones industriales.",
+    "en": "Technical analysis of industrial conveyor belts: typologies, design parameters, materials and sizing criteria for industrial applications."
   },
   "heroImage": "/images/products/cinta-transportadora-industrial.jpg",
   "heroImageAlt": {
-    "es": "Cinta transportadora industrial modular en instalación de procesado alimentario",
-    "en": "Modular industrial conveyor belt in food processing installation"
+    "es": "Cinta transportadora industrial en instalación de procesado alimentario",
+    "en": "Industrial conveyor belt in food processing facility"
   },
   "seo": {
     "es": {
-      "title": "Cinta transportadora industrial | Guía técnica Toromac",
-      "description": "Análisis técnico de cintas transportadoras industriales: tipos, componentes, capacidades de carga, materiales y criterios de dimensionamiento."
+      "title": "Cinta Transportadora Industrial | Guía Técnica Toromac",
+      "description": "Especificaciones técnicas de cintas transportadoras industriales: tipologías, materiales, dimensionamiento y criterios de selección para aplicaciones industriales."
     },
     "en": {
-      "title": "Industrial conveyor belt | Technical guide Toromac",
-      "description": "Technical analysis of industrial conveyor belts: types, components, load capacities, materials and sizing criteria for industrial applications."
+      "title": "Industrial Conveyor Belt | Technical Guide Toromac",
+      "description": "Technical specifications for industrial conveyor belts: typologies, materials, sizing and selection criteria for industrial applications."
     }
   },
   "content": {
     "es": [
       {
         "type": "p",
-        "text": "La cinta transportadora industrial constituye un sistema mecánico de transporte continuo diseñado para desplazar materiales a granel, productos envasados o componentes entre puntos de un proceso productivo. Su arquitectura básica integra una banda flexible tensada sobre tambores de accionamiento y retorno, soportada por una estructura de rodillos o superficie deslizante, con motorización dimensionada según carga y velocidad requeridas. La selección técnica de estos equipos requiere análisis de parámetros operativos específicos: capacidad volumétrica o másica, características del material transportado, distancia de transporte, altura de elevación, condiciones ambientales y requisitos normativos del sector industrial de aplicación."
+        "text": "La cinta transportadora industrial constituye un sistema de transporte continuo basado en el desplazamiento de una banda flexible sobre rodillos o superficie deslizante, accionada por un grupo motriz que genera el movimiento mediante fricción. Este equipo representa la solución predominante para el traslado horizontal, inclinado o combinado de materiales a granel, productos envasados y piezas manufacturadas en instalaciones de producción, almacenamiento y distribución. La selección adecuada de una cinta transportadora requiere el análisis de múltiples parámetros técnicos que determinan su capacidad operativa, durabilidad y compatibilidad con el proceso productivo."
       },
       {
         "type": "h2",
-        "text": "Arquitectura y componentes funcionales de cintas transportadoras"
+        "text": "Principio de funcionamiento y componentes estructurales"
       },
       {
         "type": "p",
-        "text": "El sistema de cinta transportadora industrial se estructura en cinco subsistemas principales. El elemento de tracción consiste en una banda continua fabricada en elastómeros, termoplásticos o materiales compuestos, cuyo espesor y refuerzo interno se dimensionan según tensión de trabajo. El sistema de accionamiento incluye motorreductor con transmisión directa o mediante poleas, dimensionado según potencia requerida calculada mediante la fórmula P = (F × v) / η, donde F representa la fuerza tangencial total, v la velocidad lineal de banda y η el rendimiento del conjunto motriz."
+        "text": "El sistema de cinta transportadora opera mediante la transmisión de potencia desde un motor eléctrico o hidráulico hacia un tambor motriz que, por adherencia con la banda, genera el desplazamiento del conjunto. La banda circula en configuración cerrada entre el tambor motriz y el tambor de retorno, soportada en su tramo superior por rodillos portantes o superficie de deslizamiento que absorben el peso del material transportado. El tramo inferior retorna vacío, soportado por rodillos de retorno espaciados a mayor distancia."
       },
       {
         "type": "p",
-        "text": "La estructura portante comprende bastidor metálico con rodillos de soporte espaciados según carga unitaria, típicamente entre 100-500 mm en ramal superior y 200-1000 mm en ramal inferior. Los tambores terminales, de accionamiento y retorno, presentan diámetros calculados según espesor de banda y radio mínimo de curvatura del material. El sistema de tensado, mediante husillo o contrapeso, mantiene la tensión operativa necesaria para transmisión de potencia sin deslizamiento, generalmente entre 1-3% de elongación respecto a longitud nominal."
+        "text": "Los componentes estructurales principales incluyen el bastidor o estructura portante, fabricado habitualmente en acero perfilado con tratamiento anticorrosivo, que proporciona rigidez al conjunto y permite el anclaje de los elementos funcionales. El sistema de tensado, ubicado generalmente en el tambor de cola, mantiene la tensión adecuada de la banda mediante dispositivos de husillo, contrapeso o tensores hidráulicos. La estación de accionamiento integra el grupo motorreductor, acoplamiento y tambor motriz, dimensionados según la potencia requerida y el par de arranque."
       },
       {
         "type": "h2",
-        "text": "Tipologías constructivas según aplicación industrial"
+        "text": "Tipologías de banda según construcción y material"
       },
       {
         "type": "p",
-        "text": "Las cintas transportadoras de banda lisa constituyen la configuración estándar para productos envasados, cajas y materiales unitarios. La banda presenta superficie continua sin relieve, fabricada en PVC, poliuretano o caucho, con coeficientes de fricción entre 0.3-0.8 según acabado superficial. Estas unidades operan con inclinaciones máximas de 15-18° para productos con base estable, limitadas por el ángulo de reposo del material transportado."
+        "text": "Las bandas transportadoras se clasifican según su estructura constructiva en bandas monolíticas, fabricadas en elastómeros homogéneos sin refuerzo interno, adecuadas para aplicaciones ligeras con distancias cortas y cargas reducidas. Las bandas con carcasa textil incorporan capas de refuerzo en poliéster, poliamida o algodón embebidas en la matriz elastomérica, proporcionando resistencia a la tracción entre 100 y 630 N/mm según el número de capas y tipo de tejido. Las bandas con carcasa metálica utilizan cables de acero longitudinales para aplicaciones de alta resistencia, alcanzando valores de 1000 a 5000 N/mm en instalaciones de gran longitud o elevadas cargas."
       },
       {
         "type": "p",
-        "text": "Las cintas de banda rugosa o con tacos incorporan elementos transversales de retención que permiten inclinaciones de 25-35°, incrementando la capacidad de elevación sin aumentar la huella de instalación. La altura de taco se dimensiona según tamaño de partícula o producto, típicamente entre 10-50 mm. Las cintas modulares emplean segmentos de banda articulados mediante pasadores, fabricados en polipropileno, polietileno o acetal, ofreciendo ventajas en mantenimiento y limpieza para aplicaciones alimentarias e higiénicas."
-      },
-      {
-        "type": "p",
-        "text": "Las cintas de malla metálica, construidas en acero inoxidable AISI 304 o 316, permiten operación en hornos, túneles de enfriamiento o lavado, con resistencia térmica hasta 400-1100°C según aleación. Las cintas de banda modular de plástico con perforaciones facilitan drenaje en procesos de lavado o escurrido, con áreas abiertas del 15-45% según configuración de módulo."
+        "text": "El material de recubrimiento determina las propiedades superficiales y la compatibilidad con el producto transportado. El PVC (policloruro de vinilo) ofrece resistencia química moderada, facilidad de limpieza y coste reducido, siendo apropiado para aplicaciones generales en industria no alimentaria. El PU (poliuretano) presenta mayor resistencia a la abrasión, flexibilidad a bajas temperaturas y cumplimiento de normativas alimentarias FDA y UE 10/2011, resultando preferible en procesado de alimentos. El caucho natural o sintético proporciona resistencia térmica hasta 120-150°C, absorción de impactos y adherencia en transportes inclinados, aplicándose en industria pesada y manipulación de materiales abrasivos."
       },
       {
         "type": "h2",
-        "text": "Materiales de banda: propiedades y criterios de selección"
+        "text": "Parámetros de dimensionamiento y cálculo de capacidad"
       },
       {
         "type": "p",
-        "text": "El policloruro de vinilo (PVC) representa el material más empleado en aplicaciones generales, con densidades de 1.2-1.4 g/cm³, resistencia a tracción de 8-15 N/mm de ancho y rango térmico operativo de -10°C a +80°C. Las formulaciones específicas incorporan aditivos para resistencia a aceites, antiestática o detección por rayos X en industria alimentaria. El espesor de banda varía entre 1.5-6 mm según carga y configuración de rodillos."
+        "text": "El dimensionamiento de una cinta transportadora requiere la determinación de la capacidad volumétrica necesaria, expresada en m³/h o t/h según el material. La capacidad teórica se calcula mediante la fórmula Q = 3600 × A × v × ρ, donde Q representa la capacidad en kg/h, A el área de la sección transversal de material en m², v la velocidad de la banda en m/s y ρ la densidad aparente del material en kg/m³. La sección transversal depende del ancho de banda, ángulo de artesa de los rodillos portantes y ángulo de reposo del material."
       },
       {
         "type": "p",
-        "text": "El poliuretano (PU) ofrece resistencia superior a abrasión, corte y grasas, con dureza Shore A entre 85-95, indicado para industria cárnica, pescado y aplicaciones con contacto alimentario directo. Su coeficiente de fricción elevado (0.6-0.9) permite inclinaciones mayores. El caucho natural o sintético (SBR, NBR) se emplea en transporte de materiales a granel con temperaturas hasta 120-150°C, disponible con refuerzos textiles (poliéster, poliamida) o metálicos (cables de acero) según tensión de trabajo."
+        "text": "La velocidad de transporte se selecciona en función del tipo de material y aplicación. Materiales finos y ligeros admiten velocidades de 0.5 a 1.5 m/s, productos envasados operan entre 0.3 y 0.8 m/s, mientras que materiales a granel de granulometría gruesa pueden transportarse a 1.5-3.5 m/s. Velocidades excesivas incrementan el desgaste, generan segregación en mezclas y dificultan la carga y descarga. El ancho de banda se determina añadiendo un margen de seguridad del 10-20% al ancho teórico calculado según el tamaño máximo de partícula o dimensión del producto."
+      },
+      {
+        "type": "callout",
+        "text": "Regla práctica: Para materiales a granel, el ancho de banda debe ser al menos 2.5 veces el tamaño máximo de partícula. En productos envasados, añadir 100-150 mm al ancho del producto para evitar descentrados."
+      },
+      {
+        "type": "h2",
+        "text": "Cálculo de potencia y selección del grupo motriz"
+      },
+      {
+        "type": "p",
+        "text": "La potencia requerida se calcula considerando las resistencias al movimiento que debe vencer el sistema: resistencia principal por fricción en rodillos y banda, resistencia secundaria por flexión de la banda, resistencia por elevación del material en transportes inclinados y resistencias especiales por dispositivos de limpieza o condiciones ambientales. La potencia en el tambor motriz se expresa como P = (F × v) / 1000, donde P es la potencia en kW, F la fuerza tangencial total en N y v la velocidad en m/s."
+      },
+      {
+        "type": "p",
+        "text": "La fuerza tangencial total incluye la componente horizontal F_h = f × L × g × (q_b + q_r + q_m), donde f es el coeficiente de fricción (0.02-0.04 para rodillos de bolas, 0.03-0.05 para rodillos estándar), L la longitud horizontal en m, g la aceleración gravitatoria, q_b la masa lineal de la banda en kg/m, q_r la masa lineal de los rodillos giratorios en kg/m y q_m la carga de material en kg/m. En transportes inclinados se añade la componente F_v = H × g × q_m, donde H representa la altura de elevación en m."
+      },
+      {
+        "type": "p",
+        "text": "Ejemplo numérico: Para una cinta de 10 m de longitud, 500 mm de ancho, velocidad 0.8 m/s, transportando 50 kg/m de producto con elevación de 2 m, considerando q_b = 8 kg/m, q_r = 12 kg/m y f = 0.035: F_h = 0.035 × 10 × 9.81 × (8 + 12 + 50) = 240 N; F_v = 2 × 9.81 × 50 = 981 N; F_total = 1221 N; P = (1221 × 0.8) / 1000 = 0.98 kW. Aplicando un factor de servicio de 1.3-1.5, se seleccionaría un motor de 1.5 kW."
+      },
+      {
+        "type": "h2",
+        "text": "Configuraciones de rodillos y sistemas de soporte"
+      },
+      {
+        "type": "p",
+        "text": "Los rodillos portantes se disponen en configuraciones planas, en artesa de 2 rodillos (20°-30°) o en artesa de 3 rodillos (20°-45°) según los requerimientos de capacidad y contención del material. La configuración plana se emplea para productos unitarios, paquetes y aplicaciones donde se requiere superficie horizontal. Las artesas de 2 rodillos proporcionan incremento de capacidad del 15-25% respecto a la configuración plana, mientras que las artesas de 3 rodillos a 35° aumentan la capacidad en 50-75%."
+      },
+      {
+        "type": "p",
+        "text": "El espaciamiento entre rodillos portantes se determina según el ancho de banda y la carga transportada, variando típicamente entre 0.8 y 1.5 m para el tramo superior. Cargas elevadas o materiales de alta densidad requieren espaciamientos reducidos para limitar la flecha de la banda entre rodillos, evitando derrames y desgaste prematuro. Los rodillos de retorno se espacian a 2-3 m. Los rodillos de impacto, con anillos de goma amortiguadores, se instalan en la zona de carga para absorber el impacto del material y proteger la banda."
       },
       {
         "type": "table",
         "headers": [
-          "Material banda",
-          "Rango térmico (°C)",
-          "Resistencia tracción (N/mm)",
-          "Aplicaciones principales"
+          "Parámetro",
+          "Rango típico",
+          "Aplicación",
+          "Observaciones"
         ],
         "rows": [
           [
-            "PVC estándar",
-            "-10 a +80",
-            "8-15",
-            "Envasado, logística, industria general"
+            "Ancho de banda",
+            "300-2000 mm",
+            "Según capacidad requerida",
+            "Anchos normalizados: 400, 500, 650, 800, 1000, 1200 mm"
           ],
           [
-            "Poliuretano (PU)",
-            "-20 a +90",
-            "12-20",
-            "Alimentación, farmacia, contacto directo"
+            "Velocidad",
+            "0.3-3.5 m/s",
+            "Función del material",
+            "Alimentación: 0.3-0.8 m/s; Granel: 1.5-3.5 m/s"
           ],
           [
-            "Caucho con refuerzo textil",
-            "-25 a +120",
-            "15-25",
-            "Graneles, minerales, agricultura"
+            "Ángulo de inclinación",
+            "0-30°",
+            "Transporte inclinado",
+            "Máximo según coef. fricción material-banda"
           ],
           [
-            "Caucho con refuerzo metálico",
-            "-40 a +150",
-            "50-250",
-            "Minería, canteras, cargas pesadas"
+            "Espesor banda",
+            "2-15 mm",
+            "Según resistencia mecánica",
+            "Alimentaria: 2-4 mm; Industrial: 4-8 mm; Pesada: 8-15 mm"
           ],
           [
-            "Silicona",
-            "-50 a +200",
-            "10-18",
-            "Panadería, procesos térmicos"
+            "Temperatura operación",
+            "-20 a +150°C",
+            "Según material banda",
+            "PVC: -10/+80°C; PU: -30/+90°C; Caucho: -20/+150°C"
           ],
           [
-            "Malla metálica AISI 304",
-            "-40 a +400",
-            "Variable",
-            "Hornos, túneles térmicos, lavado"
+            "Espaciado rodillos carga",
+            "0.8-1.5 m",
+            "Tramo superior",
+            "Reducir con cargas elevadas o materiales densos"
+          ],
+          [
+            "Potencia específica",
+            "0.015-0.035 kW/m",
+            "Por metro de longitud",
+            "Orientativo para predimensionamiento rápido"
           ]
         ]
       },
       {
         "type": "h2",
-        "text": "Dimensionamiento de capacidad y potencia motriz"
+        "text": "Sistemas de accionamiento y control de velocidad"
       },
       {
         "type": "p",
-        "text": "La capacidad de transporte volumétrica en cintas con perfil plano se calcula mediante Q = 3600 × A × v × ρ × k, donde Q representa capacidad en kg/h, A el área de sección transversal de material en m², v la velocidad de banda en m/s, ρ la densidad aparente del material en kg/m³ y k un factor de llenado (0.6-0.9). Para una cinta de 500 mm de ancho transportando cereal con densidad 750 kg/m³ a velocidad de 0.8 m/s y altura de capa de 80 mm, la capacidad resulta: Q = 3600 × (0.5 × 0.08) × 0.8 × 750 × 0.85 = 7344 kg/h."
+        "text": "El accionamiento eléctrico mediante motor asíncrono trifásico representa la solución estándar, ofreciendo fiabilidad, bajo mantenimiento y eficiencia energética. Los motores se dimensionan según la potencia calculada, aplicando factores de servicio de 1.3-1.5 para considerar picos de arranque y condiciones de operación. El grupo motorreductor integra el motor y reductor de velocidad en configuración coaxial o con ejes paralelos, proporcionando la reducción necesaria para alcanzar la velocidad de banda requerida."
       },
       {
         "type": "p",
-        "text": "El cálculo de potencia motriz integra resistencias principales y secundarias. La resistencia principal F₁ = f × L × g × (qB + qG), donde f es el coeficiente de fricción de rodillos (0.02-0.04), L la longitud de transporte en m, g la aceleración gravitatoria, qB la masa lineal de banda en kg/m y qG la carga de material en kg/m. Las resistencias secundarias incluyen fricción en tambores, flexión de banda y resistencia aerodinámica. Para transporte horizontal, la potencia aproximada se estima mediante P = (C × L × v) / 367, donde C es la capacidad en t/h, L la longitud en m y v la velocidad en m/s, resultando potencia en kW."
+        "text": "Los variadores de frecuencia permiten el control continuo de velocidad, ajustando el flujo de material según las necesidades del proceso, sincronizando múltiples cintas en líneas de producción y reduciendo el consumo energético en operación a carga parcial. El arranque progresivo mediante variador o arrancador suave limita las corrientes de arranque y reduce los esfuerzos mecánicos sobre la banda y estructura. En aplicaciones con requerimientos de higiene estrictos, los motores con protección IP66 o IP69K resisten lavados a presión y ambientes húmedos."
+      },
+      {
+        "type": "p",
+        "text": "El accionamiento hidráulico se emplea en entornos con riesgo de explosión o donde se requiere control preciso del par a bajas velocidades. Los motores hidráulicos proporcionan alta densidad de potencia y capacidad de sobrecarga, aunque requieren central hidráulica y mantenimiento más intensivo. El accionamiento por tambor motorizado integra el motor eléctrico dentro del tambor, simplificando la instalación y reduciendo el espacio requerido, siendo apropiado para cintas de longitud reducida y potencias hasta 2-3 kW."
+      },
+      {
+        "type": "h2",
+        "text": "Criterios de selección según sector industrial"
+      },
+      {
+        "type": "p",
+        "text": "En la industria alimentaria, las cintas transportadoras deben cumplir normativas de contacto alimentario (Reglamento UE 10/2011, FDA CFR 21), fabricarse con materiales aptos para contacto directo o indirecto con alimentos y permitir limpieza efectiva mediante protocolos CIP o lavado manual. Las bandas de PU o PE con superficie lisa, sin textura que retenga residuos, facilitan la higienización. El diseño debe minimizar zonas de acumulación de producto, incorporar bandejas de recogida de derrames y permitir desmontaje rápido para limpieza profunda. Las estructuras en acero inoxidable AISI 304 o 316 resisten la corrosión por productos ácidos, salinos o lavados frecuentes."
+      },
+      {
+        "type": "p",
+        "text": "La industria farmacéutica requiere cumplimiento de normativas GMP (Good Manufacturing Practices), trazabilidad de materiales, validación de procesos de limpieza y cualificación de equipos (IQ/OQ/PQ). Las cintas operan frecuentemente en salas blancas clase ISO 7-8, requiriendo materiales que no generen partículas, acabados superficiales pulidos y diseño que evite acumulación de polvo. El control de velocidad preciso mediante variadores con realimentación tacométrica asegura la sincronización con equipos de dosificación, llenado o inspección. Los sistemas de detección de metales o rayos X se integran en línea para control de calidad."
+      },
+      {
+        "type": "p",
+        "text": "En nutrición animal, las cintas transportan materias primas (cereales, harinas, subproductos), productos intermedios (mezclas, granulados) y producto terminado (piensos envasados). Los materiales abrasivos como minerales o cereales con alto contenido en sílice requieren bandas con recubrimiento de caucho de alta resistencia a la abrasión. Las instalaciones con riesgo de atmósferas explosivas por polvo orgánico (directiva ATEX) necesitan equipos con certificación para zona 20, 21 o 22, incluyendo motores antideflagrantes, eliminación de puntos de ignición y conexiones equipotenciales para descarga electrostática."
+      },
+      {
+        "type": "h2",
+        "text": "Mantenimiento preventivo y vida útil operativa"
+      },
+      {
+        "type": "p",
+        "text": "El programa de mantenimiento preventivo incluye inspección diaria del estado de la banda (cortes, desgaste, desalineación), verificación de tensión mediante medición de flecha en tramo superior, comprobación de ruidos anormales en rodillos y cojinetes, y limpieza de acumulaciones de material. La tensión correcta se verifica midiendo la flecha en el punto medio entre rodillos, que debe situarse entre el 1% y 2% del espaciamiento. Tensión insuficiente provoca deslizamiento en el tambor motriz y desalineación, mientras que tensión excesiva acelera el desgaste de banda, rodillos y cojinetes."
+      },
+      {
+        "type": "p",
+        "text": "La alineación de la banda se ajusta mediante el desplazamiento lateral de los tambores de cola o cabeza, actuando sobre los tornillos de regulación. Una banda correctamente alineada circula centrada sobre los rodillos sin contacto con los laterales de la estructura. El mantenimiento mensual incluye lubricación de cojinetes de rodillos (si no son sellados), verificación de apriete de tornillería, inspección de uniones de banda y comprobación de desgaste de tambores motrices. El reemplazo de rodillos se realiza cuando presentan gripaje, desgaste excéntrico o daños en el recubrimiento."
+      },
+      {
+        "type": "p",
+        "text": "La vida útil de la banda varía entre 15000 y 50000 horas de operación según las condiciones de trabajo, tipo de material transportado, mantenimiento aplicado y calidad de la banda. Factores que reducen la vida útil incluyen sobrecarga, desalineación persistente, tensión incorrecta, impacto excesivo en zona de carga, contacto con materiales cortantes o abrasivos, y exposición a temperaturas o productos químicos fuera de especificación. El seguimiento del espesor de recubrimiento mediante mediciones periódicas permite planificar el reemplazo antes del fallo."
       },
       {
         "type": "callout",
-        "text": "Regla práctica de dimensionamiento: Para transporte horizontal de productos envasados, estimar 0.015-0.025 kW por metro de longitud y por 100 kg de carga. En elevación, añadir 0.27 kW por cada 100 kg elevados 1 metro de altura. Aplicar factor de servicio 1.2-1.5 según frecuencia de arranques."
+        "text": "Regla práctica: La vida útil de una banda transportadora se reduce aproximadamente un 50% por cada 10°C de incremento de temperatura de operación por encima de la especificación, y un 30-40% cuando opera continuamente al 90-100% de su capacidad nominal sin períodos de descarga."
       },
       {
         "type": "h2",
-        "text": "Velocidades operativas según tipo de material"
+        "text": "Normativa aplicable y certificaciones requeridas"
       },
       {
         "type": "p",
-        "text": "La velocidad de banda se selecciona según características del material y requisitos de proceso. Para productos envasados y cajas, velocidades de 0.2-0.5 m/s permiten manipulación manual y acumulación controlada. En líneas automatizadas de envasado, velocidades de 0.5-1.2 m/s optimizan productividad manteniendo estabilidad de producto. Materiales a granel ligeros (cereales, pellets) operan entre 0.8-2.0 m/s, mientras materiales abrasivos o de alta densidad requieren velocidades reducidas de 0.5-1.5 m/s para minimizar desgaste."
+        "text": "Las cintas transportadoras instaladas en la Unión Europea deben cumplir la Directiva de Máquinas 2006/42/CE, incorporando marcado CE, declaración de conformidad y manual de instrucciones en el idioma del país de instalación. El diseño debe eliminar o minimizar riesgos mediante la aplicación de principios de seguridad integrada: protección de elementos móviles (tambores, transmisiones, zonas de atrapamiento), dispositivos de parada de emergencia accesibles, señalización de riesgos residuales y procedimientos de bloqueo para mantenimiento seguro (LOTO - Lockout/Tagout)."
       },
       {
         "type": "p",
-        "text": "La aceleración en arranque se limita a 0.3-0.5 m/s² para evitar deslizamiento de productos. Sistemas con variador de frecuencia permiten arranque progresivo y ajuste de velocidad según demanda de proceso, reduciendo consumo energético hasta 30-40% respecto a motores de velocidad fija. La velocidad máxima práctica en cintas industriales se establece en 3-4 m/s por limitaciones de estabilidad dinámica y desgaste de componentes."
+        "text": "La Directiva ATEX 2014/34/UE aplica a equipos destinados a operar en atmósferas potencialmente explosivas, requiriendo evaluación del riesgo de ignición, clasificación de zonas según la probabilidad de presencia de atmósfera explosiva y selección de equipos con categoría adecuada (1, 2 o 3 para gases; 20, 21 o 22 para polvos). Los componentes eléctricos deben certificarse según normas IECEx o ATEX, y el diseño mecánico debe evitar chispas por fricción, acumulación de cargas electrostáticas y superficies calientes que superen la temperatura de ignición del polvo o gas presente."
+      },
+      {
+        "type": "p",
+        "text": "En aplicaciones alimentarias, las bandas deben certificarse según FDA 21 CFR 177.2600 (caucho) o 177.1520 (poliolefinas) para mercado estadounidense, o cumplir el Reglamento UE 10/2011 sobre materiales plásticos en contacto con alimentos para mercado europeo. Las certificaciones específicas incluyen conformidad con normas ISO 9001 para sistemas de gestión de calidad, ISO 14001 para gestión ambiental en fabricantes comprometidos con sostenibilidad, y certificación HACCP para equipos integrados en sistemas de seguridad alimentaria. La trazabilidad de materiales mediante declaraciones de conformidad del fabricante documenta el cumplimiento normativo."
       },
       {
         "type": "h2",
-        "text": "Configuraciones de trazado y transferencias"
+        "text": "Innovaciones tecnológicas y tendencias del sector"
       },
       {
         "type": "p",
-        "text": "Las cintas transportadoras se configuran en trazados horizontales, inclinados o combinados según layout de instalación. Los tramos horizontales presentan menor complejidad constructiva y consumo energético. Las cintas inclinadas requieren análisis del ángulo de reposo del material: productos envasados estables admiten 15-18°, materiales granulares con banda rugosa hasta 25-30°, y configuraciones con tacos o cangilones hasta 45-60°. La longitud de transición entre tramos horizontales e inclinados debe ser mínimo 2-3 veces el ancho de banda para evitar derrame."
+        "text": "La integración de sensores IoT (Internet of Things) en cintas transportadoras permite la monitorización en tiempo real de parámetros operativos: velocidad, temperatura de rodamientos, vibración, consumo energético y horas de operación. Los datos se transmiten a sistemas SCADA o plataformas cloud para análisis predictivo, detectando patrones que anticipan fallos (mantenimiento predictivo) y optimizando la planificación de intervenciones. Los algoritmos de machine learning identifican desviaciones respecto a patrones normales de operación, generando alertas antes de que se produzcan paradas no planificadas."
       },
       {
         "type": "p",
-        "text": "Las transferencias entre cintas requieren diseño específico según material. Para productos unitarios, la separación entre bandas se mantiene en 5-20 mm con velocidad de banda receptora igual o 5-10% superior a la alimentadora. En materiales a granel, se emplean tolvas de transferencia con ángulo de pared mínimo 10° superior al ángulo de reposo del material. Las guías laterales en zonas de transferencia presentan altura mínima de 1.5 veces la altura de producto o capa de material."
-      },
-      {
-        "type": "h2",
-        "text": "Requisitos normativos y certificaciones sectoriales"
+        "text": "Los motores síncronos de imanes permanentes con variadores de frecuencia de última generación alcanzan eficiencias del 92-96%, reduciendo el consumo energético en 15-30% respecto a motores asíncronos convencionales. La recuperación de energía en transportes descendentes mediante frenado regenerativo devuelve energía a la red eléctrica, mejorando el balance energético global de la instalación. Los sistemas de iluminación LED integrados en la estructura mejoran la visibilidad del producto transportado para inspección visual o sistemas de visión artificial, consumiendo un 70-80% menos que iluminación fluorescente."
       },
       {
         "type": "p",
-        "text": "Las cintas transportadoras industriales deben cumplir Directiva de Máquinas 2006/42/CE, requiriendo marcado CE, declaración de conformidad y documentación técnica. La norma EN 619 establece requisitos de seguridad específicos para transportadores continuos, incluyendo protecciones en puntos de atrapamiento, sistemas de parada de emergencia accesibles cada 10-15 m, y dispositivos contra marcha inversa en cintas inclinadas. Los motores y componentes eléctricos deben cumplir directivas de compatibilidad electromagnética (EMC) y baja tensión."
-      },
-      {
-        "type": "p",
-        "text": "En aplicaciones alimentarias, los materiales en contacto con producto requieren certificación FDA 21 CFR 177 o Reglamento UE 10/2011 para materiales plásticos. Las cintas deben permitir limpieza según protocolos HACCP, con superficies sin retención de residuos y resistencia a agentes de limpieza (pH 2-12). La industria farmacéutica exige cumplimiento de GMP (Good Manufacturing Practices) con materiales validados y trazabilidad documental. En atmósferas explosivas (ATEX), se requieren bandas antiestáticas con resistencia superficial <10⁸ Ω y componentes certificados según zona de clasificación."
-      },
-      {
-        "type": "h2",
-        "text": "Mantenimiento predictivo y vida útil operativa"
-      },
-      {
-        "type": "p",
-        "text": "El mantenimiento de cintas transportadoras integra inspecciones periódicas y acciones preventivas programadas. La tensión de banda requiere verificación mensual mediante medición de flecha en tramo central, ajustando sistema de tensado para mantener deflexión de 1-2% de la distancia entre rodillos. El desgaste de banda se monitoriza mediante medición de espesor residual, estableciendo reemplazo cuando alcanza 70% del espesor nominal o aparecen daños estructurales en refuerzos."
-      },
-      {
-        "type": "p",
-        "text": "Los rodillos portantes requieren inspección de rotación libre y ausencia de ruidos anómalos, con sustitución ante bloqueo o desgaste de rodamientos. La vida útil típica de rodillos en aplicaciones estándar alcanza 20000-40000 horas. El alineamiento de banda se verifica visualmente, corrigiendo mediante ajuste de tambores o posición de rodillos guía. Los sistemas de accionamiento requieren verificación trimestral de tensión de correas o cadenas de transmisión, lubricación de reductores según especificaciones de fabricante y análisis termográfico de motores en instalaciones críticas."
-      },
-      {
-        "type": "callout",
-        "text": "Indicador de mantenimiento: La vida útil de banda transportadora en aplicaciones alimentarias estándar oscila entre 15000-30000 horas operativas. Factores que reducen vida útil incluyen: sobrecargas (reducción 30-40%), desalineamiento persistente (reducción 40-50%), velocidad excesiva (reducción 20-30%) y contacto con productos abrasivos o temperaturas extremas (reducción 30-60%)."
-      },
-      {
-        "type": "h2",
-        "text": "Criterios de selección técnica según sector industrial"
-      },
-      {
-        "type": "p",
-        "text": "En industria alimentaria, la selección prioriza materiales aptos para contacto alimentario, facilidad de limpieza y resistencia a humedad. Las bandas de poliuretano o PVC con superficie lisa y bordes sellados minimizan retención bacteriana. La construcción modular facilita desmontaje para limpieza CIP (Clean In Place). Los bastidores en acero inoxidable AISI 304 cumplen requisitos higiénicos, con diseño sin zonas de acumulación de residuos. La velocidad se ajusta según cadencia de línea, típicamente 0.3-0.8 m/s en envasado manual y 0.8-1.5 m/s en líneas automatizadas."
-      },
-      {
-        "type": "p",
-        "text": "En sector farmacéutico, se requieren bandas blancas o azules para detección visual de fragmentos, materiales validados con certificados de conformidad y construcción que minimice generación de partículas. Los sistemas de aspiración integrados eliminan polvo en transferencias. En industria química, la resistencia a productos corrosivos determina la selección de elastómeros específicos (NBR para aceites, EPDM para ácidos/bases, FKM para solventes). Las instalaciones en zonas clasificadas ATEX requieren bandas conductivas y componentes certificados Ex."
-      },
-      {
-        "type": "p",
-        "text": "Para nutrición animal y procesado de piensos, las cintas operan con materiales abrasivos y cargas elevadas, requiriendo bandas de caucho con refuerzo textil de alta resistencia. El diseño incorpora sistemas de limpieza de banda mediante rascadores para evitar acumulación de producto. En logística y distribución, se priorizan sistemas modulares de fácil reconfiguración, con posibilidad de integración de curvas, desviadores y mesas de acumulación. Las cintas de rodillos motorizados ofrecen alternativa para cargas unitarias pesadas (>20 kg/unidad) con menor consumo energético."
-      },
-      {
-        "type": "h2",
-        "text": "Integración en líneas automatizadas y control de proceso"
-      },
-      {
-        "type": "p",
-        "text": "La integración de cintas transportadoras en sistemas automatizados requiere interfaces de control compatibles con arquitecturas industriales. Los variadores de frecuencia permiten control de velocidad mediante señal analógica 4-20 mA o digital Profibus/Profinet, sincronizando velocidad con equipos upstream y downstream. Los sensores de presencia fotoeléctricos o inductivos detectan producto para activación de actuadores, desviadores o sistemas de etiquetado. La comunicación mediante protocolos industriales (Modbus RTU, EtherCAT, OPC-UA) facilita integración en sistemas SCADA para monitorización y registro de parámetros operativos."
-      },
-      {
-        "type": "p",
-        "text": "Los sistemas de pesaje dinámico integrados en cinta permiten control de peso individual o acumulado sin detener flujo de producto, con precisiones de ±0.1-0.5% según velocidad y estabilidad mecánica. Las células de carga se instalan en sección de banda soportada por bastidor independiente, con longitud mínima de 1.5-2 veces la dimensión mayor del producto. Los sistemas de visión artificial integrados realizan inspección de calidad, verificación de presencia/ausencia o lectura de códigos, procesando imágenes a velocidades de hasta 2-3 m/s según resolución requerida."
-      },
-      {
-        "type": "p",
-        "text": "Toromac desarrolla soluciones de transporte y elevación integradas en líneas completas de procesado, con ingeniería específica según requisitos de proceso y espacio disponible. La experiencia acumulada en sectores alimentario, farmacéutico y nutrición animal permite optimizar configuraciones de transporte para máxima eficiencia operativa y cumplimiento normativo."
+        "text": "Las bandas modulares de plástico, formadas por módulos entrelazados en lugar de banda continua, facilitan el reemplazo de secciones dañadas sin necesidad de desmontar el conjunto completo, reduciendo los tiempos de parada. Los materiales compuestos con fibras de carbono o aramida proporcionan alta resistencia mecánica con peso reducido, disminuyendo la potencia requerida y permitiendo mayores longitudes de transporte. Los recubrimientos antimicrobianos con iones de plata o compuestos de cobre inhiben el crecimiento bacteriano en superficies de contacto con alimentos, complementando los protocolos de limpieza."
       }
     ],
     "en": [
       {
         "type": "p",
-        "text": "The industrial conveyor belt constitutes a continuous mechanical transport system designed to move bulk materials, packaged products or components between points in a production process. Its basic architecture integrates a flexible belt tensioned over drive and return drums, supported by a roller structure or sliding surface, with motorization dimensioned according to required load and speed. Technical selection of this equipment requires analysis of specific operational parameters: volumetric or mass capacity, characteristics of transported material, transport distance, elevation height, environmental conditions and regulatory requirements of the industrial application sector."
+        "text": "The industrial conveyor belt constitutes a continuous transport system based on the displacement of a flexible band over rollers or sliding surface, driven by a power unit that generates movement through friction. This equipment represents the predominant solution for horizontal, inclined or combined transfer of bulk materials, packaged products and manufactured parts in production, storage and distribution facilities. Proper selection of a conveyor belt requires analysis of multiple technical parameters that determine its operational capacity, durability and compatibility with the production process."
       },
       {
         "type": "h2",
-        "text": "Architecture and functional components of conveyor belts"
+        "text": "Operating principle and structural components"
       },
       {
         "type": "p",
-        "text": "The industrial conveyor belt system is structured in five main subsystems. The traction element consists of a continuous belt manufactured in elastomers, thermoplastics or composite materials, whose thickness and internal reinforcement are dimensioned according to working tension. The drive system includes geared motor with direct transmission or via pulleys, dimensioned according to required power calculated using the formula P = (F × v) / η, where F represents total tangential force, v linear belt speed and η efficiency of the drive assembly."
+        "text": "The conveyor belt system operates through power transmission from an electric or hydraulic motor to a drive drum that, by adherence with the belt, generates displacement of the assembly. The belt circulates in closed configuration between the drive drum and return drum, supported on its upper run by carrying rollers or sliding surface that absorb the weight of transported material. The lower run returns empty, supported by return rollers spaced at greater distance."
       },
       {
         "type": "p",
-        "text": "The supporting structure comprises metal frame with support rollers spaced according to unit load, typically between 100-500 mm on upper strand and 200-1000 mm on lower strand. Terminal drums, drive and return, present diameters calculated according to belt thickness and minimum curvature radius of material. The tensioning system, by screw or counterweight, maintains necessary operating tension for power transmission without slippage, generally between 1-3% elongation relative to nominal length."
+        "text": "Main structural components include the frame or supporting structure, usually manufactured in profiled steel with anticorrosive treatment, which provides rigidity to the assembly and allows anchoring of functional elements. The tensioning system, generally located at the tail drum, maintains adequate belt tension through screw devices, counterweight or hydraulic tensioners. The drive station integrates the gearmotor unit, coupling and drive drum, sized according to required power and starting torque."
       },
       {
         "type": "h2",
-        "text": "Constructive typologies according to industrial application"
+        "text": "Belt typologies by construction and material"
       },
       {
         "type": "p",
-        "text": "Smooth belt conveyors constitute the standard configuration for packaged products, boxes and unit materials. The belt presents continuous surface without relief, manufactured in PVC, polyurethane or rubber, with friction coefficients between 0.3-0.8 according to surface finish. These units operate with maximum inclinations of 15-18° for products with stable base, limited by angle of repose of transported material."
+        "text": "Conveyor belts are classified according to their constructive structure into monolithic belts, manufactured in homogeneous elastomers without internal reinforcement, suitable for light applications with short distances and reduced loads. Textile carcass belts incorporate reinforcement layers in polyester, polyamide or cotton embedded in the elastomeric matrix, providing tensile strength between 100 and 630 N/mm depending on number of plies and fabric type. Metal carcass belts use longitudinal steel cables for high-strength applications, reaching values of 1000 to 5000 N/mm in long-distance installations or high loads."
       },
       {
         "type": "p",
-        "text": "Rough belt or cleated conveyors incorporate transverse retention elements that allow inclinations of 25-35°, increasing elevation capacity without increasing installation footprint. Cleat height is dimensioned according to particle or product size, typically between 10-50 mm. Modular belts employ articulated belt segments via pins, manufactured in polypropylene, polyethylene or acetal, offering advantages in maintenance and cleaning for food and hygienic applications."
-      },
-      {
-        "type": "p",
-        "text": "Wire mesh belts, constructed in AISI 304 or 316 stainless steel, allow operation in ovens, cooling or washing tunnels, with thermal resistance up to 400-1100°C according to alloy. Plastic modular belts with perforations facilitate drainage in washing or draining processes, with open areas of 15-45% according to module configuration."
+        "text": "The cover material determines surface properties and compatibility with transported product. PVC (polyvinyl chloride) offers moderate chemical resistance, ease of cleaning and reduced cost, being appropriate for general applications in non-food industry. PU (polyurethane) presents higher abrasion resistance, flexibility at low temperatures and compliance with FDA and EU 10/2011 food regulations, being preferable in food processing. Natural or synthetic rubber provides thermal resistance up to 120-150°C, impact absorption and adherence on inclined conveyors, being applied in heavy industry and handling of abrasive materials."
       },
       {
         "type": "h2",
-        "text": "Belt materials: properties and selection criteria"
+        "text": "Sizing parameters and capacity calculation"
       },
       {
         "type": "p",
-        "text": "Polyvinyl chloride (PVC) represents the most employed material in general applications, with densities of 1.2-1.4 g/cm³, tensile strength of 8-15 N/mm width and operative thermal range from -10°C to +80°C. Specific formulations incorporate additives for oil resistance, antistatic or X-ray detection in food industry. Belt thickness varies between 1.5-6 mm according to load and roller configuration."
+        "text": "Sizing of a conveyor belt requires determination of necessary volumetric capacity, expressed in m³/h or t/h depending on material. Theoretical capacity is calculated through formula Q = 3600 × A × v × ρ, where Q represents capacity in kg/h, A the cross-sectional area of material in m², v the belt speed in m/s and ρ the bulk density of material in kg/m³. Cross-sectional area depends on belt width, trough angle of carrying rollers and material angle of repose."
       },
       {
         "type": "p",
-        "text": "Polyurethane (PU) offers superior resistance to abrasion, cutting and fats, with Shore A hardness between 85-95, indicated for meat, fish industry and applications with direct food contact. Its high friction coefficient (0.6-0.9) allows greater inclinations. Natural or synthetic rubber (SBR, NBR) is employed in bulk material transport with temperatures up to 120-150°C, available with textile reinforcements (polyester, polyamide) or metallic (steel cables) according to working tension."
+        "text": "Transport speed is selected according to material type and application. Fine and light materials admit speeds of 0.5 to 1.5 m/s, packaged products operate between 0.3 and 0.8 m/s, while bulk materials of coarse granulometry can be transported at 1.5-3.5 m/s. Excessive speeds increase wear, generate segregation in mixtures and hinder loading and unloading. Belt width is determined by adding a safety margin of 10-20% to theoretical width calculated according to maximum particle size or product dimension."
+      },
+      {
+        "type": "callout",
+        "text": "Practical rule: For bulk materials, belt width should be at least 2.5 times the maximum particle size. For packaged products, add 100-150 mm to product width to avoid misalignment."
+      },
+      {
+        "type": "h2",
+        "text": "Power calculation and drive unit selection"
+      },
+      {
+        "type": "p",
+        "text": "Required power is calculated considering movement resistances that the system must overcome: main resistance by friction in rollers and belt, secondary resistance by belt flexure, resistance by material elevation on inclined conveyors and special resistances by cleaning devices or environmental conditions. Power at drive drum is expressed as P = (F × v) / 1000, where P is power in kW, F the total tangential force in N and v the speed in m/s."
+      },
+      {
+        "type": "p",
+        "text": "Total tangential force includes horizontal component F_h = f × L × g × (q_b + q_r + q_m), where f is friction coefficient (0.02-0.04 for ball bearing rollers, 0.03-0.05 for standard rollers), L the horizontal length in m, g gravitational acceleration, q_b the linear mass of belt in kg/m, q_r the linear mass of rotating rollers in kg/m and q_m the material load in kg/m. On inclined conveyors, component F_v = H × g × q_m is added, where H represents elevation height in m."
+      },
+      {
+        "type": "p",
+        "text": "Numerical example: For a 10 m length conveyor, 500 mm width, speed 0.8 m/s, transporting 50 kg/m of product with 2 m elevation, considering q_b = 8 kg/m, q_r = 12 kg/m and f = 0.035: F_h = 0.035 × 10 × 9.81 × (8 + 12 + 50) = 240 N; F_v = 2 × 9.81 × 50 = 981 N; F_total = 1221 N; P = (1221 × 0.8) / 1000 = 0.98 kW. Applying a service factor of 1.3-1.5, a 1.5 kW motor would be selected."
+      },
+      {
+        "type": "h2",
+        "text": "Roller configurations and support systems"
+      },
+      {
+        "type": "p",
+        "text": "Carrying rollers are arranged in flat configurations, 2-roller trough (20°-30°) or 3-roller trough (20°-45°) according to capacity and material containment requirements. Flat configuration is used for unit products, packages and applications requiring horizontal surface. 2-roller troughs provide capacity increase of 15-25% compared to flat configuration, while 3-roller troughs at 35° increase capacity by 50-75%."
+      },
+      {
+        "type": "p",
+        "text": "Spacing between carrying rollers is determined according to belt width and transported load, typically varying between 0.8 and 1.5 m for upper run. High loads or high-density materials require reduced spacing to limit belt sag between rollers, avoiding spillage and premature wear. Return rollers are spaced at 2-3 m. Impact rollers, with rubber damping rings, are installed in loading zone to absorb material impact and protect the belt."
       },
       {
         "type": "table",
         "headers": [
-          "Belt material",
-          "Thermal range (°C)",
-          "Tensile strength (N/mm)",
-          "Main applications"
+          "Parameter",
+          "Typical range",
+          "Application",
+          "Observations"
         ],
         "rows": [
           [
-            "Standard PVC",
-            "-10 to +80",
-            "8-15",
-            "Packaging, logistics, general industry"
+            "Belt width",
+            "300-2000 mm",
+            "According to required capacity",
+            "Standardized widths: 400, 500, 650, 800, 1000, 1200 mm"
           ],
           [
-            "Polyurethane (PU)",
-            "-20 to +90",
-            "12-20",
-            "Food, pharma, direct contact"
+            "Speed",
+            "0.3-3.5 m/s",
+            "Material dependent",
+            "Food: 0.3-0.8 m/s; Bulk: 1.5-3.5 m/s"
           ],
           [
-            "Rubber with textile reinforcement",
-            "-25 to +120",
-            "15-25",
-            "Bulk materials, minerals, agriculture"
+            "Inclination angle",
+            "0-30°",
+            "Inclined transport",
+            "Maximum according to material-belt friction coefficient"
           ],
           [
-            "Rubber with metallic reinforcement",
-            "-40 to +150",
-            "50-250",
-            "Mining, quarries, heavy loads"
+            "Belt thickness",
+            "2-15 mm",
+            "According to mechanical strength",
+            "Food: 2-4 mm; Industrial: 4-8 mm; Heavy: 8-15 mm"
           ],
           [
-            "Silicone",
-            "-50 to +200",
-            "10-18",
-            "Bakery, thermal processes"
+            "Operating temperature",
+            "-20 to +150°C",
+            "According to belt material",
+            "PVC: -10/+80°C; PU: -30/+90°C; Rubber: -20/+150°C"
           ],
           [
-            "Wire mesh AISI 304",
-            "-40 to +400",
-            "Variable",
-            "Ovens, thermal tunnels, washing"
+            "Carrying roller spacing",
+            "0.8-1.5 m",
+            "Upper run",
+            "Reduce with high loads or dense materials"
+          ],
+          [
+            "Specific power",
+            "0.015-0.035 kW/m",
+            "Per meter of length",
+            "Indicative for rapid pre-sizing"
           ]
         ]
       },
       {
         "type": "h2",
-        "text": "Capacity and motor power dimensioning"
+        "text": "Drive systems and speed control"
       },
       {
         "type": "p",
-        "text": "Volumetric transport capacity in flat profile belts is calculated using Q = 3600 × A × v × ρ × k, where Q represents capacity in kg/h, A the cross-sectional area of material in m², v belt speed in m/s, ρ apparent density of material in kg/m³ and k a filling factor (0.6-0.9). For a 500 mm wide belt transporting cereal with density 750 kg/m³ at speed of 0.8 m/s and layer height of 80 mm, capacity results: Q = 3600 × (0.5 × 0.08) × 0.8 × 750 × 0.85 = 7344 kg/h."
+        "text": "Electric drive through three-phase asynchronous motor represents the standard solution, offering reliability, low maintenance and energy efficiency. Motors are sized according to calculated power, applying service factors of 1.3-1.5 to consider starting peaks and operating conditions. The gearmotor unit integrates motor and speed reducer in coaxial configuration or with parallel shafts, providing necessary reduction to achieve required belt speed."
       },
       {
         "type": "p",
-        "text": "Motor power calculation integrates main and secondary resistances. Main resistance F₁ = f × L × g × (qB + qG), where f is roller friction coefficient (0.02-0.04), L transport length in m, g gravitational acceleration, qB linear belt mass in kg/m and qG material load in kg/m. Secondary resistances include drum friction, belt flexing and aerodynamic resistance. For horizontal transport, approximate power is estimated by P = (C × L × v) / 367, where C is capacity in t/h, L length in m and v speed in m/s, resulting power in kW."
+        "text": "Frequency inverters allow continuous speed control, adjusting material flow according to process needs, synchronizing multiple belts in production lines and reducing energy consumption in partial load operation. Progressive starting through inverter or soft starter limits starting currents and reduces mechanical stresses on belt and structure. In applications with strict hygiene requirements, motors with IP66 or IP69K protection resist pressure washing and humid environments."
+      },
+      {
+        "type": "p",
+        "text": "Hydraulic drive is used in environments with explosion risk or where precise torque control at low speeds is required. Hydraulic motors provide high power density and overload capacity, although they require hydraulic power unit and more intensive maintenance. Motorized drum drive integrates electric motor inside the drum, simplifying installation and reducing required space, being appropriate for short-length conveyors and powers up to 2-3 kW."
+      },
+      {
+        "type": "h2",
+        "text": "Selection criteria by industrial sector"
+      },
+      {
+        "type": "p",
+        "text": "In food industry, conveyor belts must comply with food contact regulations (EU Regulation 10/2011, FDA CFR 21), be manufactured with materials suitable for direct or indirect food contact and allow effective cleaning through CIP protocols or manual washing. PU or PE belts with smooth surface, without texture that retains residues, facilitate sanitization. Design must minimize product accumulation zones, incorporate spillage collection trays and allow quick disassembly for deep cleaning. Structures in AISI 304 or 316 stainless steel resist corrosion by acidic, saline products or frequent washing."
+      },
+      {
+        "type": "p",
+        "text": "Pharmaceutical industry requires compliance with GMP (Good Manufacturing Practices) regulations, material traceability, cleaning process validation and equipment qualification (IQ/OQ/PQ). Belts frequently operate in cleanrooms class ISO 7-8, requiring materials that do not generate particles, polished surface finishes and design that avoids dust accumulation. Precise speed control through inverters with tachometric feedback ensures synchronization with dosing, filling or inspection equipment. Metal detection or X-ray systems are integrated in-line for quality control."
+      },
+      {
+        "type": "p",
+        "text": "In animal nutrition, belts transport raw materials (cereals, flours, by-products), intermediate products (mixtures, pellets) and finished product (packaged feed). Abrasive materials such as minerals or cereals with high silica content require belts with high abrasion resistance rubber cover. Installations with risk of explosive atmospheres by organic dust (ATEX directive) need equipment with certification for zone 20, 21 or 22, including explosion-proof motors, elimination of ignition points and equipotential connections for electrostatic discharge."
+      },
+      {
+        "type": "h2",
+        "text": "Preventive maintenance and operational lifespan"
+      },
+      {
+        "type": "p",
+        "text": "Preventive maintenance program includes daily inspection of belt condition (cuts, wear, misalignment), tension verification through sag measurement on upper run, checking abnormal noises in rollers and bearings, and cleaning of material accumulations. Correct tension is verified by measuring sag at midpoint between rollers, which should be between 1% and 2% of spacing. Insufficient tension causes slippage on drive drum and misalignment, while excessive tension accelerates wear of belt, rollers and bearings."
+      },
+      {
+        "type": "p",
+        "text": "Belt alignment is adjusted through lateral displacement of tail or head drums, acting on adjustment screws. A correctly aligned belt runs centered on rollers without contact with structure sides. Monthly maintenance includes lubrication of roller bearings (if not sealed), verification of bolt tightening, inspection of belt splices and checking wear of drive drums. Roller replacement is performed when they present seizure, eccentric wear or coating damage."
+      },
+      {
+        "type": "p",
+        "text": "Belt lifespan varies between 15000 and 50000 operating hours according to working conditions, type of transported material, applied maintenance and belt quality. Factors that reduce lifespan include overload, persistent misalignment, incorrect tension, excessive impact in loading zone, contact with cutting or abrasive materials, and exposure to temperatures or chemicals outside specification. Monitoring of cover thickness through periodic measurements allows planning replacement before failure."
       },
       {
         "type": "callout",
-        "text": "Practical dimensioning rule: For horizontal transport of packaged products, estimate 0.015-0.025 kW per meter of length and per 100 kg of load. In elevation, add 0.27 kW for each 100 kg elevated 1 meter in height. Apply service factor 1.2-1.5 according to start frequency."
+        "text": "Practical rule: Conveyor belt lifespan is reduced approximately 50% for each 10°C temperature increase above specification, and 30-40% when operating continuously at 90-100% of nominal capacity without unloading periods."
       },
       {
         "type": "h2",
-        "text": "Operating speeds according to material type"
+        "text": "Applicable regulations and required certifications"
       },
       {
         "type": "p",
-        "text": "Belt speed is selected according to material characteristics and process requirements. For packaged products and boxes, speeds of 0.2-0.5 m/s allow manual handling and controlled accumulation. In automated packaging lines, speeds of 0.5-1.2 m/s optimize productivity maintaining product stability. Light bulk materials (cereals, pellets) operate between 0.8-2.0 m/s, while abrasive or high-density materials require reduced speeds of 0.5-1.5 m/s to minimize wear."
+        "text": "Conveyor belts installed in European Union must comply with Machinery Directive 2006/42/EC, incorporating CE marking, declaration of conformity and instruction manual in country language. Design must eliminate or minimize risks through application of integrated safety principles: protection of moving elements (drums, transmissions, entrapment zones), accessible emergency stop devices, residual risk signaling and lockout procedures for safe maintenance (LOTO - Lockout/Tagout)."
       },
       {
         "type": "p",
-        "text": "Start acceleration is limited to 0.3-0.5 m/s² to avoid product slippage. Systems with frequency drive allow progressive start and speed adjustment according to process demand, reducing energy consumption up to 30-40% compared to fixed speed motors. Maximum practical speed in industrial belts is established at 3-4 m/s due to dynamic stability limitations and component wear."
+        "text": "ATEX Directive 2014/34/EU applies to equipment intended to operate in potentially explosive atmospheres, requiring ignition risk assessment, zone classification according to probability of explosive atmosphere presence and selection of equipment with adequate category (1, 2 or 3 for gases; 20, 21 or 22 for dusts). Electrical components must be certified according to IECEx or ATEX standards, and mechanical design must avoid sparks by friction, electrostatic charge accumulation and hot surfaces exceeding ignition temperature of present dust or gas."
+      },
+      {
+        "type": "p",
+        "text": "In food applications, belts must be certified according to FDA 21 CFR 177.2600 (rubber) or 177.1520 (polyolefins) for US market, or comply with EU Regulation 10/2011 on plastic materials in food contact for European market. Specific certifications include conformity with ISO 9001 standards for quality management systems, ISO 14001 for environmental management in manufacturers committed to sustainability, and HACCP certification for equipment integrated in food safety systems. Material traceability through manufacturer's declarations of conformity documents regulatory compliance."
       },
       {
         "type": "h2",
-        "text": "Layout configurations and transfers"
+        "text": "Technological innovations and sector trends"
       },
       {
         "type": "p",
-        "text": "Conveyor belts are configured in horizontal, inclined or combined layouts according to installation layout. Horizontal sections present lower constructive complexity and energy consumption. Inclined belts require analysis of material angle of repose: stable packaged products admit 15-18°, granular materials with rough belt up to 25-30°, and configurations with cleats or buckets up to 45-60°. Transition length between horizontal and inclined sections must be minimum 2-3 times belt width to avoid spillage."
+        "text": "Integration of IoT (Internet of Things) sensors in conveyor belts allows real-time monitoring of operational parameters: speed, bearing temperature, vibration, energy consumption and operating hours. Data is transmitted to SCADA systems or cloud platforms for predictive analysis, detecting patterns that anticipate failures (predictive maintenance) and optimizing intervention planning. Machine learning algorithms identify deviations from normal operation patterns, generating alerts before unplanned stops occur."
       },
       {
         "type": "p",
-        "text": "Transfers between belts require specific design according to material. For unit products, separation between belts is maintained at 5-20 mm with receiving belt speed equal or 5-10% higher than feeding belt. In bulk materials, transfer hoppers are employed with wall angle minimum 10° higher than material angle of repose. Side guides in transfer zones present minimum height of 1.5 times product height or material layer."
-      },
-      {
-        "type": "h2",
-        "text": "Regulatory requirements and sectoral certifications"
+        "text": "Permanent magnet synchronous motors with latest generation frequency inverters achieve efficiencies of 92-96%, reducing energy consumption by 15-30% compared to conventional asynchronous motors. Energy recovery on descending conveyors through regenerative braking returns energy to electrical grid, improving overall energy balance of installation. LED lighting systems integrated in structure improve visibility of transported product for visual inspection or machine vision systems, consuming 70-80% less than fluorescent lighting."
       },
       {
         "type": "p",
-        "text": "Industrial conveyor belts must comply with Machinery Directive 2006/42/EC, requiring CE marking, declaration of conformity and technical documentation. Standard EN 619 establishes specific safety requirements for continuous conveyors, including protections at trapping points, emergency stop systems accessible every 10-15 m, and devices against reverse motion on inclined belts. Motors and electrical components must comply with electromagnetic compatibility (EMC) and low voltage directives."
-      },
-      {
-        "type": "p",
-        "text": "In food applications, materials in contact with product require FDA 21 CFR 177 certification or EU Regulation 10/2011 for plastic materials. Belts must allow cleaning according to HACCP protocols, with surfaces without residue retention and resistance to cleaning agents (pH 2-12). Pharmaceutical industry requires GMP (Good Manufacturing Practices) compliance with validated materials and documentary traceability. In explosive atmospheres (ATEX), antistatic belts with surface resistance <10⁸ Ω and components certified according to classification zone are required."
-      },
-      {
-        "type": "h2",
-        "text": "Predictive maintenance and operational service life"
-      },
-      {
-        "type": "p",
-        "text": "Conveyor belt maintenance integrates periodic inspections and scheduled preventive actions. Belt tension requires monthly verification by measuring sag in central section, adjusting tensioning system to maintain deflection of 1-2% of distance between rollers. Belt wear is monitored by measuring residual thickness, establishing replacement when reaching 70% of nominal thickness or structural damage appears in reinforcements."
-      },
-      {
-        "type": "p",
-        "text": "Carrying rollers require inspection of free rotation and absence of abnormal noises, with replacement upon blockage or bearing wear. Typical service life of rollers in standard applications reaches 20000-40000 hours. Belt alignment is verified visually, correcting by adjusting drums or guide roller position. Drive systems require quarterly verification of belt or chain transmission tension, reducer lubrication according to manufacturer specifications and thermographic analysis of motors in critical installations."
-      },
-      {
-        "type": "callout",
-        "text": "Maintenance indicator: Conveyor belt service life in standard food applications ranges between 15000-30000 operating hours. Factors reducing service life include: overloads (30-40% reduction), persistent misalignment (40-50% reduction), excessive speed (20-30% reduction) and contact with abrasive products or extreme temperatures (30-60% reduction)."
-      },
-      {
-        "type": "h2",
-        "text": "Technical selection criteria according to industrial sector"
-      },
-      {
-        "type": "p",
-        "text": "In food industry, selection prioritizes materials suitable for food contact, ease of cleaning and moisture resistance. Polyurethane or PVC belts with smooth surface and sealed edges minimize bacterial retention. Modular construction facilitates disassembly for CIP (Clean In Place) cleaning. Frames in AISI 304 stainless steel comply with hygienic requirements, with design without residue accumulation zones. Speed is adjusted according to line cadence, typically 0.3-0.8 m/s in manual packaging and 0.8-1.5 m/s in automated lines."
-      },
-      {
-        "type": "p",
-        "text": "In pharmaceutical sector, white or blue belts are required for visual fragment detection, validated materials with certificates of conformity and construction minimizing particle generation. Integrated aspiration systems eliminate dust in transfers. In chemical industry, resistance to corrosive products determines selection of specific elastomers (NBR for oils, EPDM for acids/bases, FKM for solvents). Installations in ATEX classified zones require conductive belts and Ex certified components."
-      },
-      {
-        "type": "p",
-        "text": "For animal nutrition and feed processing, belts operate with abrasive materials and high loads, requiring rubber belts with high-strength textile reinforcement. Design incorporates belt cleaning systems using scrapers to avoid product accumulation. In logistics and distribution, modular systems of easy reconfiguration are prioritized, with possibility of integrating curves, diverters and accumulation tables. Motorized roller conveyors offer alternative for heavy unit loads (>20 kg/unit) with lower energy consumption."
-      },
-      {
-        "type": "h2",
-        "text": "Integration in automated lines and process control"
-      },
-      {
-        "type": "p",
-        "text": "Integration of conveyor belts in automated systems requires control interfaces compatible with industrial architectures. Frequency drives allow speed control via analog signal 4-20 mA or digital Profibus/Profinet, synchronizing speed with upstream and downstream equipment. Photoelectric or inductive presence sensors detect product for actuator activation, diverters or labeling systems. Communication via industrial protocols (Modbus RTU, EtherCAT, OPC-UA) facilitates integration in SCADA systems for monitoring and recording operational parameters."
-      },
-      {
-        "type": "p",
-        "text": "Dynamic weighing systems integrated in belt allow individual or accumulated weight control without stopping product flow, with accuracies of ±0.1-0.5% according to speed and mechanical stability. Load cells are installed in belt section supported by independent frame, with minimum length of 1.5-2 times the largest product dimension. Integrated machine vision systems perform quality inspection, presence/absence verification or code reading, processing images at speeds up to 2-3 m/s according to required resolution."
-      },
-      {
-        "type": "p",
-        "text": "Toromac develops integrated transport and elevation solutions in complete processing lines, with specific engineering according to process requirements and available space. Accumulated experience in food, pharmaceutical and animal nutrition sectors allows optimizing transport configurations for maximum operational efficiency and regulatory compliance."
+        "text": "Modular plastic belts, formed by interlocked modules instead of continuous belt, facilitate replacement of damaged sections without need to disassemble complete assembly, reducing downtime. Composite materials with carbon or aramid fibers provide high mechanical strength with reduced weight, decreasing required power and allowing greater transport lengths. Antimicrobial coatings with silver ions or copper compounds inhibit bacterial growth on food contact surfaces, complementing cleaning protocols."
       }
     ]
   },
   "faq": [
     {
       "question": {
-        "es": "¿Cómo se calcula la potencia necesaria del motor para una cinta transportadora industrial?",
-        "en": "How is the necessary motor power calculated for an industrial conveyor belt?"
+        "es": "¿Cómo se calcula la capacidad de transporte de una cinta transportadora industrial?",
+        "en": "How is the transport capacity of an industrial conveyor belt calculated?"
       },
       "answer": {
-        "es": "La potencia motriz se calcula integrando resistencias principales (fricción en rodillos, masa de banda y carga) y secundarias (tambores, flexión, aerodinámica). La fórmula simplificada para transporte horizontal es P = (C × L × v) / 367, donde C es capacidad en t/h, L longitud en m y v velocidad en m/s. Para elevación se añade componente gravitatorio P_elev = (Q × H × g) / (3600 × η), donde Q es caudal másico, H altura de elevación y η rendimiento. Se aplica factor de servicio 1.2-1.5 según condiciones operativas y frecuencia de arranques.",
-        "en": "Motor power is calculated integrating main resistances (roller friction, belt mass and load) and secondary resistances (drums, flexing, aerodynamic). Simplified formula for horizontal transport is P = (C × L × v) / 367, where C is capacity in t/h, L length in m and v speed in m/s. For elevation, gravitational component is added P_elev = (Q × H × g) / (3600 × η), where Q is mass flow, H elevation height and η efficiency. Service factor 1.2-1.5 is applied according to operating conditions and start frequency."
+        "es": "La capacidad se calcula mediante Q = 3600 × A × v × ρ, donde A es el área de sección transversal del material (m²), v la velocidad de banda (m/s) y ρ la densidad aparente (kg/m³). El área depende del ancho de banda, ángulo de artesa y ángulo de reposo del material. Para banda de 500 mm, artesa 35°, material con ángulo reposo 30°, el área típica es 0.012 m². A velocidad 1 m/s y densidad 800 kg/m³, la capacidad resulta 34.5 t/h. Se aplica factor de reducción 0.85-0.95 por condiciones reales de operación.",
+        "en": "Capacity is calculated through Q = 3600 × A × v × ρ, where A is material cross-sectional area (m²), v belt speed (m/s) and ρ bulk density (kg/m³). Area depends on belt width, trough angle and material angle of repose. For 500 mm belt, 35° trough, material with 30° repose angle, typical area is 0.012 m². At 1 m/s speed and 800 kg/m³ density, capacity results 34.5 t/h. Reduction factor 0.85-0.95 is applied for actual operating conditions."
       }
     },
     {
       "question": {
-        "es": "¿Qué material de banda es más adecuado para contacto directo con alimentos?",
-        "en": "What belt material is most suitable for direct food contact?"
+        "es": "¿Qué diferencias existen entre bandas de PVC, PU y caucho para aplicaciones industriales?",
+        "en": "What differences exist between PVC, PU and rubber belts for industrial applications?"
       },
       "answer": {
-        "es": "El poliuretano (PU) representa la opción óptima para contacto alimentario directo, cumpliendo FDA 21 CFR 177.2600 y Reglamento UE 10/2011. Presenta superficie no porosa que minimiza retención bacteriana, resistencia a grasas animales y vegetales, facilidad de limpieza y ausencia de migración de componentes. Para aplicaciones específicas, PVC apto alimentario ofrece alternativa económica en productos secos. Ambos materiales requieren certificación del fabricante y validación según protocolos HACCP. La superficie debe permitir limpieza con agentes alcalinos (pH 11-12) y desinfectantes sin degradación.",
-        "en": "Polyurethane (PU) represents the optimal option for direct food contact, complying with FDA 21 CFR 177.2600 and EU Regulation 10/2011. It presents non-porous surface minimizing bacterial retention, resistance to animal and vegetable fats, ease of cleaning and absence of component migration. For specific applications, food-grade PVC offers economical alternative in dry products. Both materials require manufacturer certification and validation according to HACCP protocols. Surface must allow cleaning with alkaline agents (pH 11-12) and disinfectants without degradation."
+        "es": "El PVC ofrece coste reducido, resistencia química moderada y rango térmico -10/+80°C, apropiado para industria general no alimentaria. El PU proporciona mayor resistencia a abrasión, flexibilidad a -30°C, cumplimiento FDA/UE 10/2011 y facilidad de limpieza, siendo preferible en alimentación. El caucho presenta resistencia térmica hasta 150°C, absorción de impactos superior y adherencia en inclinados, aplicándose en industria pesada y materiales abrasivos. La selección depende de temperatura operativa, contacto con alimentos, abrasividad del material y requerimientos de higiene.",
+        "en": "PVC offers reduced cost, moderate chemical resistance and thermal range -10/+80°C, appropriate for general non-food industry. PU provides higher abrasion resistance, flexibility at -30°C, FDA/EU 10/2011 compliance and ease of cleaning, being preferable in food processing. Rubber presents thermal resistance up to 150°C, superior impact absorption and adherence on inclines, being applied in heavy industry and abrasive materials. Selection depends on operating temperature, food contact, material abrasiveness and hygiene requirements."
       }
     },
     {
       "question": {
-        "es": "¿Cuál es la vida útil esperada de una cinta transportadora en operación continua?",
-        "en": "What is the expected service life of a conveyor belt in continuous operation?"
+        "es": "¿Cuál es el ángulo máximo de inclinación para una cinta transportadora?",
+        "en": "What is the maximum inclination angle for a conveyor belt?"
       },
       "answer": {
-        "es": "La vida útil típica oscila entre 15000-30000 horas operativas (2-4 años en operación continua) en aplicaciones estándar alimentarias. Factores determinantes incluyen: tipo de material transportado (abrasivos reducen vida 40-60%), carga aplicada respecto a nominal (sobrecargas reducen 30-40%), mantenimiento de alineamiento (desalineación persistente reduce 40-50%), velocidad operativa (velocidades excesivas reducen 20-30%) y condiciones ambientales (temperaturas extremas, humedad, químicos). Implementación de mantenimiento predictivo con inspecciones programadas puede extender vida útil 25-35% respecto a mantenimiento correctivo.",
-        "en": "Typical service life ranges between 15000-30000 operating hours (2-4 years in continuous operation) in standard food applications. Determining factors include: type of transported material (abrasives reduce life 40-60%), applied load relative to nominal (overloads reduce 30-40%), alignment maintenance (persistent misalignment reduces 40-50%), operating speed (excessive speeds reduce 20-30%) and environmental conditions (extreme temperatures, humidity, chemicals). Implementation of predictive maintenance with scheduled inspections can extend service life 25-35% compared to corrective maintenance."
+        "es": "El ángulo máximo depende del coeficiente de fricción entre material y banda. Para materiales granulares secos sobre banda lisa, el límite es 15-18°. Bandas rugosas o con tacos permiten 20-25°. Materiales cohesivos alcanzan 25-30°. El ángulo debe ser inferior al ángulo de fricción material-banda menos un margen de seguridad de 5-8°. Para ángulos superiores se emplean bandas con tacos, chevrones o sistemas de cangilones. La velocidad debe reducirse en transportes inclinados para evitar retroceso del material durante arranque y parada.",
+        "en": "Maximum angle depends on friction coefficient between material and belt. For dry granular materials on smooth belt, limit is 15-18°. Rough or cleated belts allow 20-25°. Cohesive materials reach 25-30°. Angle must be lower than material-belt friction angle minus safety margin of 5-8°. For higher angles, cleated belts, chevrons or bucket elevator systems are used. Speed must be reduced on inclined conveyors to avoid material backsliding during start and stop."
       }
     },
     {
       "question": {
-        "es": "¿Qué inclinación máxima admite una cinta transportadora según el tipo de producto?",
-        "en": "What maximum inclination does a conveyor belt admit according to product type?"
+        "es": "¿Qué mantenimiento requiere una cinta transportadora industrial?",
+        "en": "What maintenance does an industrial conveyor belt require?"
       },
       "answer": {
-        "es": "La inclinación máxima depende del ángulo de reposo del material y tipo de banda. Productos envasados con base estable: 15-18° con banda lisa. Materiales granulares de flujo libre (cereales, pellets): 18-22° con banda lisa, 25-30° con banda rugosa. Productos cohesivos o húmedos: 25-35° con tacos transversales de altura 15-40 mm. Materiales pegajosos o muy finos: hasta 45-60° con cangilones o tacos altos (>40 mm). La velocidad debe reducirse proporcionalmente al incremento de inclinación para mantener estabilidad. Transiciones entre tramos requieren longitud mínima de 2-3 veces ancho de banda.",
-        "en": "Maximum inclination depends on material angle of repose and belt type. Packaged products with stable base: 15-18° with smooth belt. Free-flowing granular materials (cereals, pellets): 18-22° with smooth belt, 25-30° with rough belt. Cohesive or wet products: 25-35° with transverse cleats of height 15-40 mm. Sticky or very fine materials: up to 45-60° with buckets or high cleats (>40 mm). Speed must be reduced proportionally to inclination increase to maintain stability. Transitions between sections require minimum length of 2-3 times belt width."
+        "es": "El mantenimiento diario incluye inspección visual de banda (cortes, desgaste), verificación de tensión (flecha 1-2% del espaciado entre rodillos), comprobación de alineación y limpieza de derrames. Semanalmente se verifica el estado de rodillos, ruidos anormales y temperatura de cojinetes. Mensualmente se lubrican cojinetes no sellados, se comprueba apriete de tornillería y se inspeccionan uniones de banda. Trimestralmente se mide espesor de recubrimiento, se verifica desgaste de tambores y se comprueban dispositivos de seguridad. El registro de intervenciones permite análisis de tendencias y planificación de reemplazos.",
+        "en": "Daily maintenance includes visual inspection of belt (cuts, wear), tension verification (sag 1-2% of roller spacing), alignment checking and spillage cleaning. Weekly verification of roller condition, abnormal noises and bearing temperature. Monthly lubrication of non-sealed bearings, bolt tightening check and belt splice inspection. Quarterly measurement of cover thickness, drum wear verification and safety device checking. Intervention logging allows trend analysis and replacement planning."
       }
     },
     {
       "question": {
-        "es": "¿Qué normativa de seguridad deben cumplir las cintas transportadoras industriales?",
-        "en": "What safety regulations must industrial conveyor belts comply with?"
+        "es": "¿Cómo se dimensiona la potencia del motor para una cinta transportadora?",
+        "en": "How is motor power sized for a conveyor belt?"
       },
       "answer": {
-        "es": "Las cintas transportadoras requieren cumplimiento de Directiva de Máquinas 2006/42/CE con marcado CE obligatorio. Norma EN 619 establece requisitos específicos: protecciones en puntos de atrapamiento (tambores, rodillos, transmisiones), sistemas de parada de emergencia accesibles cada 10-15 m, dispositivos contra marcha inversa en inclinadas, señalización de zonas peligrosas y enclavamientos en protecciones móviles. Componentes eléctricos deben cumplir directivas EMC y baja tensión. En atmósferas explosivas se requiere certificación ATEX. Sectores regulados (alimentación, farma) añaden requisitos específicos de materiales, limpiabilidad y trazabilidad documental según GMP o HACCP.",
-        "en": "Conveyor belts require compliance with Machinery Directive 2006/42/EC with mandatory CE marking. Standard EN 619 establishes specific requirements: protections at trapping points (drums, rollers, transmissions), emergency stop systems accessible every 10-15 m, devices against reverse motion on inclines, hazardous zone signaling and interlocks on mobile protections. Electrical components must comply with EMC and low voltage directives. In explosive atmospheres ATEX certification is required. Regulated sectors (food, pharma) add specific requirements for materials, cleanability and documentary traceability according to GMP or HACCP."
+        "es": "La potencia se calcula como P = (F × v) / 1000, donde F es la fuerza tangencial total (N) y v la velocidad (m/s). F incluye resistencia por fricción F_h = f × L × g × (q_b + q_r + q_m), con f coeficiente de fricción 0.02-0.05, L longitud, q_b masa de banda, q_r masa de rodillos, q_m carga de material. En transportes inclinados se añade F_v = H × g × q_m. Se aplica factor de servicio 1.3-1.5 para considerar arranque y condiciones operativas. Para cinta de 15 m, 650 mm, 1.2 m/s, 80 kg/m de carga, elevación 3 m, la potencia típica es 3-4 kW.",
+        "en": "Power is calculated as P = (F × v) / 1000, where F is total tangential force (N) and v speed (m/s). F includes friction resistance F_h = f × L × g × (q_b + q_r + q_m), with f friction coefficient 0.02-0.05, L length, q_b belt mass, q_r roller mass, q_m material load. On inclined conveyors F_v = H × g × q_m is added. Service factor 1.3-1.5 is applied to consider starting and operating conditions. For 15 m conveyor, 650 mm, 1.2 m/s, 80 kg/m load, 3 m elevation, typical power is 3-4 kW."
       }
     },
     {
       "question": {
-        "es": "¿Cómo se dimensiona el espaciado entre rodillos portantes en una cinta transportadora?",
-        "en": "How is the spacing between carrying rollers dimensioned in a conveyor belt?"
+        "es": "¿Qué normativas deben cumplir las cintas transportadoras en la industria alimentaria?",
+        "en": "What regulations must conveyor belts comply with in food industry?"
       },
       "answer": {
-        "es": "El espaciado entre rodillos se calcula según carga lineal y características de banda. Para productos unitarios ligeros (<10 kg/m): espaciado 200-400 mm. Cargas medias (10-50 kg/m): 150-250 mm. Cargas pesadas (>50 kg/m): 100-150 mm. La flecha máxima admisible de banda entre rodillos es 2-3% de la distancia entre ejes para evitar derrame de material. Ramal inferior admite espaciados 2-3 veces superiores al ramal superior. Materiales abrasivos o cortantes requieren reducción de espaciado 20-30% para minimizar desgaste localizado. En zonas de carga se duplica densidad de rodillos en longitud de 2-3 m.",
-        "en": "Roller spacing is calculated according to linear load and belt characteristics. For light unit products (<10 kg/m): spacing 200-400 mm. Medium loads (10-50 kg/m): 150-250 mm. Heavy loads (>50 kg/m): 100-150 mm. Maximum admissible belt sag between rollers is 2-3% of center distance to avoid material spillage. Lower strand admits spacings 2-3 times higher than upper strand. Abrasive or cutting materials require 20-30% spacing reduction to minimize localized wear. In loading zones roller density is doubled over 2-3 m length."
+        "es": "En la UE deben cumplir el Reglamento 10/2011 sobre materiales plásticos en contacto con alimentos y el Reglamento 1935/2004 marco general. En EE.UU. aplica FDA 21 CFR 177.2600 (caucho) o 177.1520 (poliolefinas). Adicionalmente, la Directiva de Máquinas 2006/42/CE requiere marcado CE, diseño higiénico según EHEDG, facilidad de limpieza y ausencia de zonas de acumulación. Las instalaciones deben implementar HACCP, con trazabilidad de materiales mediante declaraciones de conformidad. Las estructuras en contacto con alimentos requieren acero inoxidable AISI 304 o 316 según agresividad del producto.",
+        "en": "In EU must comply with Regulation 10/2011 on plastic materials in food contact and Regulation 1935/2004 general framework. In USA applies FDA 21 CFR 177.2600 (rubber) or 177.1520 (polyolefins). Additionally, Machinery Directive 2006/42/EC requires CE marking, hygienic design according to EHEDG, ease of cleaning and absence of accumulation zones. Installations must implement HACCP, with material traceability through declarations of conformity. Structures in food contact require AISI 304 or 316 stainless steel according to product aggressiveness."
       }
     }
   ],
@@ -487,19 +523,21 @@
       "cinta transportadora",
       "banda transportadora",
       "transporte industrial",
-      "elevación de materiales",
+      "manipulación materiales",
+      "elevación transporte",
       "maquinaria industrial",
-      "logística interna",
-      "automatización industrial"
+      "procesado alimentario",
+      "logística interna"
     ],
     "en": [
       "conveyor belt",
-      "industrial transport",
+      "industrial conveyor",
       "material handling",
-      "belt conveyor",
+      "bulk transport",
+      "elevation transport",
       "industrial machinery",
-      "internal logistics",
-      "industrial automation"
+      "food processing",
+      "internal logistics"
     ]
   }
 }
